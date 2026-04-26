@@ -23,7 +23,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pandas 'xlrd<2.0'
+        run: pip install 'xlrd<2.0'
 
       - name: Update stock list
         run: python update_stock_list.py
