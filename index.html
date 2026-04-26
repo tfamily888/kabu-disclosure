@@ -259,6 +259,12 @@
         }
         .breakout-info h3 { font-size: 14px; font-weight: 700; line-height: 1.4; }
         .breakout-info .code { color: var(--text-dim); font-size: 12px; margin-right: 6px; }
+        /* 株探リンク (銘柄コード/名をクリックで kabutan.jp へ) */
+        .kabutan-link { color: inherit; text-decoration: none; cursor: pointer; }
+        .kabutan-link:hover { color: var(--blue); text-decoration: underline; }
+        .kabutan-link::after { content: " ↗"; font-size: 0.85em; opacity: 0.55; }
+        a.kabutan-block { display: contents; color: inherit; text-decoration: none; }
+        a.kabutan-block:hover .pc-name { color: var(--blue); text-decoration: underline; }
         .breakout-stats {
             display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
         }
@@ -400,7 +406,7 @@
             <div class="scan-header">
                 <div>
                     <h2>75日移動平均線 突破銘柄（当日）</h2>
-                    <p style="color:var(--text-dim); font-size:13px; margin-top:4px;">東証上場880銘柄を対象に、日足で当日75日線を上抜けた銘柄を検出します</p>
+                    <p style="color:var(--text-dim); font-size:13px; margin-top:4px;">東証プライム/スタンダード/グロース全約3,600銘柄を対象に、日足で当日75日線を上抜けた銘柄を検出します</p>
                 </div>
                 <button class="scan-btn" id="scanBtn" onclick="runScan()">スキャン実行</button>
             </div>
@@ -487,7 +493,7 @@
                 <span class="card-badge badge-${d.category}">${d.category}</span>
                 <div class="card-info">
                     <div class="card-company-row">
-                        <span class="card-code">${d.code}</span>
+                        <a href="https://kabutan.jp/stock/?code=${d.code}" target="_blank" rel="noopener" class="card-code kabutan-link" onclick="event.stopPropagation()" title="株探で${d.code} ${d.company}を見る">${d.code}</a>
                         <span class="card-company">${d.company}</span>
                         <span class="card-market">${d.market}</span>
                     </div>
@@ -714,7 +720,7 @@
         btn.textContent = 'スキャン中...';
         const msg = forceRefresh
             ? '【強制更新】キャッシュをクリアして再スキャン中...（約1分）'
-            : '東証上場880銘柄をスキャン中です（30並列）。Yahoo Finance から株価データを取得しています...（約1分）';
+            : '東証上場全約3,600銘柄をスキャン中です（30並列）。Yahoo Finance から株価データを取得しています...（約30秒〜1分）';
         status.textContent = msg;
         list.innerHTML = `<div class="loading"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>`;
 
@@ -759,7 +765,7 @@
                 <div class="breakout-card">
                     <div class="breakout-header">
                         <div class="breakout-info">
-                            <h3><span class="code">${b.code}</span>${b.name}
+                            <h3><a href="https://kabutan.jp/stock/?code=${b.code}" target="_blank" rel="noopener" class="kabutan-link" title="株探で${b.code} ${b.name}を見る"><span class="code">${b.code}</span>${b.name}</a>
                                 <span style="margin-left:8px; font-size:10px; padding:2px 7px; border-radius:10px; background:${dayColor}; color:white; font-weight:600;">${dayLabel}</span>
                             </h3>
                         </div>
@@ -823,8 +829,9 @@
                 const changeCls = item.changeRate >= 0 ? 'up' : 'down';
                 const sign = item.changeRate >= 0 ? '+' : '';
                 return `
+                <a href="https://kabutan.jp/stock/?code=${item.code}" target="_blank" rel="noopener" class="kabutan-block" title="株探で${item.code} ${item.name}を見る">
                 <div class="price-card">
-                    <div class="pc-code">${item.code}</div>
+                    <div class="pc-code">${item.code} <span style="opacity:0.5;font-size:10px;">↗</span></div>
                     <div class="pc-name">${item.name}</div>
                     <div>
                         <div class="pc-price">${item.close.toLocaleString()}円</div>
@@ -835,7 +842,8 @@
                         <div style="color:var(--text);">${refVal}</div>
                     </div>
                     <div class="pc-change ${changeCls}">${sign}${item.changeRate}%</div>
-                </div>`;
+                </div>
+                </a>`;
             }).join('');
     }
 
