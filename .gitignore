@@ -1,0 +1,19 @@
+# Sensitive config files (managed via GitHub Secrets in Actions)
+analysis_rules.json
+scan_stocks.json
+
+# Runtime / local-only files
+current_port.txt
+fetch_log.txt
+
+# Debug / dev scripts
+debug_ma.ps1
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+.claude/

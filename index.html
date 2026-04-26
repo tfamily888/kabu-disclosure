@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>株式開示ダイジェスト</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <style>
+        :root {
+            --bg: #0f1117;
+            --surface: #1a1d27;
+            --surface2: #232733;
+            --border: #2d3142;
+            --text: #e4e6ed;
+            --text-dim: #8b8fa3;
+            --accent: #6c8cff;
+            --accent-light: #8ba4ff;
+            --green: #34d399;
+            --green-bg: rgba(52, 211, 153, 0.1);
+            --red: #f87171;
+            --red-bg: rgba(248, 113, 113, 0.1);
+            --yellow: #fbbf24;
+            --yellow-bg: rgba(251, 191, 36, 0.1);
+            --orange: #fb923c;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .header {
+            background: linear-gradient(135deg, #1a1d27 0%, #232733 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(20px);
+        }
+        .header-inner {
+            max-width: 1200px; margin: 0 auto; padding: 0 24px;
+            display: flex; justify-content: space-between; align-items: center;
+            flex-wrap: wrap; gap: 16px;
+        }
+        .logo { display: flex; align-items: center; gap: 12px; }
+        .logo-icon {
+            width: 40px; height: 40px;
+            background: linear-gradient(135deg, var(--accent), #a78bfa);
+            border-radius: 10px; display: flex; align-items: center; justify-content: center;
+            font-size: 20px; font-weight: bold; color: white;
+        }
+        .logo h1 { font-size: 20px; font-weight: 700; letter-spacing: -0.5px; }
+        .logo .subtitle { font-size: 12px; color: var(--text-dim); font-weight: 400; }
+        .header-meta { display: flex; align-items: center; gap: 16px; font-size: 13px; color: var(--text-dim); }
+        .date-display {
+            background: var(--surface); padding: 8px 16px; border-radius: 8px;
+            border: 1px solid var(--border); font-weight: 600; color: var(--text);
+        }
+        .date-nav { display: flex; gap: 8px; align-items: center; }
+        .date-nav button {
+            background: var(--surface); border: 1px solid var(--border); color: var(--text);
+            padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 13px;
+            font-family: inherit; transition: all 0.2s;
+        }
+        .date-nav button:hover { border-color: var(--accent); color: var(--accent); }
+
+        /* Tab Navigation */
+        .tab-nav {
+            max-width: 1200px; margin: 0 auto; padding: 16px 24px 0;
+            display: flex; gap: 4px; border-bottom: 1px solid var(--border);
+        }
+        .tab-btn {
+            padding: 10px 24px; border: none; background: transparent;
+            color: var(--text-dim); font-size: 14px; font-weight: 600;
+            cursor: pointer; border-bottom: 2px solid transparent;
+            font-family: inherit; transition: all 0.2s;
+        }
+        .tab-btn:hover { color: var(--text); }
+        .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+        .tab-btn .tab-badge {
+            display: inline-block; background: var(--accent); color: white;
+            font-size: 11px; padding: 1px 7px; border-radius: 10px; margin-left: 6px;
+        }
+        .tab-btn.ma75-tab .tab-badge { background: var(--orange); }
+        .tab-btn.positive-tab .tab-badge { background: var(--green); color: #064e3b; }
+        .tab-btn.negative-tab .tab-badge { background: var(--red); color: white; }
+        .tab-btn.positive-tab.active { color: var(--green); border-bottom-color: var(--green); }
+        .tab-btn.negative-tab.active { color: var(--red); border-bottom-color: var(--red); }
+        .tab-btn.highs-tab .tab-badge { background: #ec4899; color: white; }
+        .tab-btn.lows-tab .tab-badge { background: #3b82f6; color: white; }
+        .tab-btn.highs-tab.active { color: #ec4899; border-bottom-color: #ec4899; }
+        .tab-btn.lows-tab.active { color: #3b82f6; border-bottom-color: #3b82f6; }
+
+        .price-card {
+            display: grid; grid-template-columns: 60px 1fr auto auto auto;
+            gap: 14px; align-items: center;
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 10px; padding: 12px 16px; margin-bottom: 8px;
+            transition: all 0.15s;
+        }
+        .price-card:hover { border-color: var(--accent); transform: translateX(2px); }
+        .price-card .pc-code { font-size: 13px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+        .price-card .pc-name { font-size: 14px; font-weight: 600; }
+        .price-card .pc-price { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+        .price-card .pc-meta { font-size: 11px; color: var(--text-dim); text-align: right; }
+        .price-card .pc-change { font-size: 13px; font-weight: 600; font-variant-numeric: tabular-nums; text-align: right; min-width: 70px; }
+        .price-card .pc-change.up { color: var(--green); }
+        .price-card .pc-change.down { color: var(--red); }
+        @media (max-width: 600px) {
+            .price-card { grid-template-columns: 50px 1fr auto; }
+            .price-card .pc-meta, .price-card .pc-price { display: none; }
+        }
+
+        /* Filters */
+        .filters {
+            max-width: 1200px; margin: 0 auto; padding: 12px 24px;
+            display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+        }
+        .filter-btn {
+            padding: 5px 14px; border-radius: 20px; border: 1px solid var(--border);
+            background: transparent; color: var(--text-dim); font-size: 12px;
+            cursor: pointer; transition: all 0.2s; font-family: inherit;
+        }
+        .filter-btn:hover { border-color: var(--accent); color: var(--accent); }
+        .filter-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+        .stats-bar { margin-left: auto; display: flex; gap: 16px; font-size: 13px; }
+        .stat-item { color: var(--text-dim); }
+        .stat-item strong { color: var(--text); }
+
+        /* Main */
+        .main { max-width: 1200px; margin: 0 auto; padding: 0 24px 40px; }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        /* Disclosure Card */
+        .card {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 12px; margin-bottom: 10px; overflow: hidden; transition: all 0.2s;
+        }
+        .card:hover { border-color: var(--accent); transform: translateY(-1px); box-shadow: 0 4px 24px rgba(108,140,255,0.08); }
+        .card-header { padding: 14px 18px; display: flex; align-items: flex-start; gap: 12px; cursor: pointer; }
+        .card-time { font-size: 13px; color: var(--text-dim); min-width: 42px; padding-top: 2px; font-variant-numeric: tabular-nums; }
+        .card-badge { padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: 600; white-space: nowrap; }
+        .badge-決算 { background: var(--accent); color: white; }
+        .badge-業績修正 { background: var(--orange); color: white; }
+        .badge-自社株買い { background: var(--green); color: #064e3b; }
+        .badge-配当 { background: var(--yellow); color: #78350f; }
+        .badge-M\&A・組織再編 { background: #c084fc; color: #3b0764; }
+        .badge-業務提携・新製品 { background: #22d3ee; color: #083344; }
+        .badge-特別損失 { background: var(--red); color: white; }
+        .badge-新サービス { background: #2dd4bf; color: #042f2e; }
+        .badge-不祥事 { background: #ef4444; color: white; }
+        .badge-その�� { background: #6b7280; color: white; }
+        .badge-株式分割 { background: #a78bfa; color: #1e1b4b; }
+        .badge-新規上場 { background: #f472b6; color: #500724; }
+        .card-info { flex: 1; min-width: 0; }
+        .card-company-row { display: flex; align-items: center; gap: 8px; margin-bottom: 3px; }
+        .card-code { font-size: 12px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+        .card-company { font-size: 14px; font-weight: 600; }
+        .card-market { font-size: 11px; color: var(--text-dim); background: var(--surface2); padding: 1px 6px; border-radius: 3px; }
+        .card-title { font-size: 12px; color: var(--text-dim); margin-bottom: 6px; line-height: 1.4; }
+
+        /* Sentiment / Analysis */
+        .card-analysis {
+            font-size: 13px; line-height: 1.6; padding: 8px 12px;
+            border-radius: 6px; margin-top: 6px;
+        }
+        .analysis-positive { background: var(--green-bg); border-left: 3px solid var(--green); }
+        .analysis-negative { background: var(--red-bg); border-left: 3px solid var(--red); }
+        .analysis-neutral { background: var(--yellow-bg); border-left: 3px solid var(--yellow); }
+        .sentiment-icon { font-weight: 700; margin-right: 6px; }
+        .sentiment-positive .sentiment-icon { color: var(--green); }
+        .sentiment-negative .sentiment-icon { color: var(--red); }
+        .sentiment-neutral .sentiment-icon { color: var(--yellow); }
+
+        .card-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+        .importance-dot { width: 8px; height: 8px; border-radius: 50%; }
+        .importance-高 { background: var(--red); box-shadow: 0 0 8px rgba(248,113,113,0.5); }
+        .importance-中 { background: var(--yellow); box-shadow: 0 0 8px rgba(251,191,36,0.5); }
+        .importance-低 { background: var(--green); }
+        .pdf-link {
+            display: inline-flex; align-items: center; gap: 4px;
+            padding: 5px 10px; border-radius: 6px; background: var(--surface2);
+            color: var(--accent-light); text-decoration: none; font-size: 12px;
+            font-weight: 500; border: 1px solid var(--border); transition: all 0.2s; white-space: nowrap;
+        }
+        .pdf-link:hover { background: var(--accent); color: white; border-color: var(--accent); }
+        .expand-icon { color: var(--text-dim); font-size: 18px; transition: transform 0.3s; cursor: pointer; }
+        .card.expanded .expand-icon { transform: rotate(180deg); }
+
+        /* Earnings Panel */
+        .earnings-panel { display: none; padding: 0 18px 16px; border-top: 1px solid var(--border); }
+        .card.expanded .earnings-panel { display: block; }
+        .earnings-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 14px; }
+        .earnings-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        .earnings-table th { text-align: left; padding: 6px 10px; background: var(--surface2); color: var(--text-dim); font-weight: 600; font-size: 11px; }
+        .earnings-table td { padding: 6px 10px; border-bottom: 1px solid var(--border); font-variant-numeric: tabular-nums; }
+        .earnings-table tr:last-child td { border-bottom: none; }
+        .yoy-positive { color: var(--green); font-weight: 600; }
+        .yoy-negative { color: var(--red); font-weight: 600; }
+        .progress-section { background: var(--surface2); border-radius: 10px; padding: 14px; }
+        .progress-section h4 { font-size: 12px; color: var(--text-dim); margin-bottom: 10px; font-weight: 600; }
+        .progress-item { margin-bottom: 10px; }
+        .progress-item:last-child { margin-bottom: 0; }
+        .progress-label { display: flex; justify-content: space-between; font-size: 12px; margin-bottom: 3px; }
+        .progress-label span:first-child { color: var(--text-dim); }
+        .progress-label span:last-child { font-weight: 700; }
+        .progress-bar { height: 8px; background: var(--bg); border-radius: 4px; overflow: hidden; position: relative; }
+        .progress-fill { height: 100%; border-radius: 4px; transition: width 0.8s ease; }
+        .progress-fill.good { background: linear-gradient(90deg, var(--green), #6ee7b7); }
+        .progress-fill.normal { background: linear-gradient(90deg, var(--accent), var(--accent-light)); }
+        .progress-fill.warning { background: linear-gradient(90deg, var(--yellow), #fcd34d); }
+        .progress-fill.danger { background: linear-gradient(90deg, var(--red), #fca5a5); }
+        .progress-marker { position: absolute; top: -3px; width: 2px; height: 14px; background: var(--text); opacity: 0.5; }
+        .qoq-section { background: var(--surface2); border-radius: 10px; padding: 14px; }
+        .qoq-section h4 { font-size: 12px; color: var(--text-dim); margin-bottom: 10px; font-weight: 600; }
+        .bar-chart { display: flex; align-items: flex-end; gap: 12px; height: 100px; padding: 0 8px; }
+        .bar-group { flex: 1; display: flex; flex-direction: column; align-items: center; height: 100%; justify-content: flex-end; }
+        .bar-value { font-size: 11px; font-weight: 600; margin-bottom: 3px; }
+        .bar { width: 100%; max-width: 48px; border-radius: 4px 4px 0 0; min-height: 4px; }
+        .bar.prev { background: linear-gradient(180deg, #6b7280, #4b5563); }
+        .bar.current { background: linear-gradient(180deg, var(--accent), #818cf8); }
+        .bar-label { font-size: 10px; color: var(--text-dim); margin-top: 4px; text-align: center; }
+
+        /* 75MA Section */
+        .scan-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 16px; padding: 16px 0;
+        }
+        .scan-header h2 { font-size: 18px; }
+        .scan-btn {
+            padding: 10px 24px; border-radius: 8px; border: none;
+            background: linear-gradient(135deg, var(--orange), #f97316);
+            color: white; font-size: 14px; font-weight: 600; cursor: pointer;
+            font-family: inherit; transition: all 0.2s;
+        }
+        .scan-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 16px rgba(251,146,60,0.3); }
+        .scan-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+        .scan-status { font-size: 13px; color: var(--text-dim); margin-top: 8px; }
+
+        .breakout-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 14px;
+        }
+        @media (max-width: 900px) {
+            .breakout-grid { grid-template-columns: 1fr; }
+        }
+        .breakout-card {
+            background: var(--surface); border: 1px solid var(--border);
+            border-radius: 12px; padding: 16px; overflow: hidden;
+        }
+        .breakout-card:hover { border-color: var(--orange); }
+        .breakout-header {
+            display: flex; flex-direction: column; gap: 10px; margin-bottom: 10px;
+        }
+        .breakout-info h3 { font-size: 14px; font-weight: 700; line-height: 1.4; }
+        .breakout-info .code { color: var(--text-dim); font-size: 12px; margin-right: 6px; }
+        .breakout-stats {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px;
+        }
+        .breakout-stat { text-align: center; }
+        .breakout-stat .label { font-size: 10px; color: var(--text-dim); }
+        .breakout-stat .value { font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
+        .breakout-stat .positive { color: var(--green); }
+        .breakout-stat .negative { color: var(--red); }
+        .chart-container { height: 180px; margin-top: 8px; }
+
+        /* Loading */
+        .loading { display: flex; justify-content: center; padding: 40px; }
+        .loading-dot {
+            width: 8px; height: 8px; border-radius: 50%; background: var(--accent);
+            margin: 0 4px; animation: bounce 1.4s infinite ease-in-out both;
+        }
+        .loading-dot:nth-child(1) { animation-delay: -0.32s; }
+        .loading-dot:nth-child(2) { animation-delay: -0.16s; }
+        @keyframes bounce { 0%, 80%, 100% { transform: scale(0); } 40% { transform: scale(1); } }
+
+        .empty-state { text-align: center; padding: 60px 20px; color: var(--text-dim); }
+        .empty-state .icon { font-size: 48px; margin-bottom: 16px; opacity: 0.5; }
+
+        .scroll-top {
+            position: fixed; bottom: 24px; right: 24px; width: 44px; height: 44px;
+            border-radius: 50%; background: var(--accent); color: white; border: none;
+            cursor: pointer; font-size: 20px; display: none; align-items: center;
+            justify-content: center; box-shadow: 0 4px 12px rgba(108,140,255,0.3);
+            transition: all 0.2s; z-index: 50;
+        }
+        .scroll-top:hover { transform: scale(1.1); }
+        .scroll-top.visible { display: flex; }
+
+        @media (max-width: 768px) {
+            .earnings-grid { grid-template-columns: 1fr; }
+            .header-inner { flex-direction: column; align-items: flex-start; }
+            .card-header { flex-direction: column; gap: 8px; }
+            .card-actions { align-self: flex-end; }
+            .stats-bar { margin-left: 0; }
+            .breakout-header { flex-direction: column; gap: 12px; }
+            .tab-btn { padding: 8px 14px; font-size: 13px; }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <div class="logo">
+                <div class="logo-icon">開</div>
+                <div>
+                    <h1>株式開示ダイジェスト</h1>
+                    <div class="subtitle">重要適時開示の分析・一覧</div>
+                </div>
+            </div>
+            <div class="header-meta">
+                <div class="date-nav">
+                    <button onclick="changeDate(-1)">◀ 前日</button>
+                    <div class="date-display" id="currentDate">-</div>
+                    <button onclick="changeDate(1)">翌日 ▶</button>
+                </div>
+                <button onclick="forceRefresh()" title="開示情報を再取得（強制更新）"
+                    style="background:linear-gradient(135deg,var(--accent),#a78bfa);border:none;color:white;padding:8px 14px;border-radius:8px;cursor:pointer;font-size:13px;font-weight:600;font-family:inherit;">
+                    🔄 更新
+                </button>
+                <div id="updateTime" style="font-size:12px">最終更新: -</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="tab-nav">
+        <button class="tab-btn active" data-tab="disclosures" onclick="switchTab('disclosures')">
+            開示情報 <span class="tab-badge" id="disclosureBadge">-</span>
+        </button>
+        <button class="tab-btn positive-tab" data-tab="positive" onclick="switchTab('positive')">
+            ▲ ポジティブ <span class="tab-badge" id="positiveBadge">-</span>
+        </button>
+        <button class="tab-btn negative-tab" data-tab="negative" onclick="switchTab('negative')">
+            ▼ ネガティブ <span class="tab-badge" id="negativeBadge">-</span>
+        </button>
+        <button class="tab-btn ma75-tab" data-tab="ma75" onclick="switchTab('ma75')">
+            75日線突破 <span class="tab-badge" id="ma75Badge">-</span>
+        </button>
+        <button class="tab-btn highs-tab" data-tab="highs" onclick="switchTab('highs')">
+            🔺 新高値 <span class="tab-badge" id="highsBadge">-</span>
+        </button>
+        <button class="tab-btn lows-tab" data-tab="lows" onclick="switchTab('lows')">
+            🔻 新安値 <span class="tab-badge" id="lowsBadge">-</span>
+        </button>
+    </div>
+
+    <!-- Disclosure Tab -->
+    <div class="tab-content active" id="tab-disclosures">
+        <div class="filters" id="filters">
+            <button class="filter-btn active" data-filter="all">すべて</button>
+            <button class="filter-btn" data-filter="決算">決算</button>
+            <button class="filter-btn" data-filter="業績修正">業績修正</button>
+            <button class="filter-btn" data-filter="配当">配当</button>
+            <button class="filter-btn" data-filter="自社株買い">自社株買い</button>
+            <button class="filter-btn" data-filter="M&A・組織再編">M&A</button>
+            <button class="filter-btn" data-filter="業務提携・新製品">新製品</button>
+            <button class="filter-btn" data-filter="特別損失">特損</button>
+            <button class="filter-btn" data-filter="不祥事">不祥事</button>
+            <button class="filter-btn" data-filter="その他">その他</button>
+            <div class="stats-bar">
+                <span class="stat-item">表示: <strong id="totalCount">-</strong></span>
+                <span class="stat-item">決算: <strong id="earningsCount">-</strong></span>
+            </div>
+        </div>
+        <main class="main" id="disclosureList">
+            <div class="loading"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>
+        </main>
+    </div>
+
+    <!-- Positive Tab -->
+    <div class="tab-content" id="tab-positive">
+        <div class="main" style="padding-top:20px;">
+            <div style="background:var(--green-bg); border-left:4px solid var(--green); padding:14px 18px; border-radius:8px; margin-bottom:20px;">
+                <h2 style="font-size:17px; color:var(--green);">▲ ポジティブな開示</h2>
+                <p style="color:var(--text-dim); font-size:13px; margin-top:4px;">株価にプラスインパクトが期待される開示（上方修正・増配・自社株買い・承認取得など）</p>
+            </div>
+            <div id="positiveList"></div>
+        </div>
+    </div>
+
+    <!-- Negative Tab -->
+    <div class="tab-content" id="tab-negative">
+        <div class="main" style="padding-top:20px;">
+            <div style="background:var(--red-bg); border-left:4px solid var(--red); padding:14px 18px; border-radius:8px; margin-bottom:20px;">
+                <h2 style="font-size:17px; color:var(--red);">▼ ネガティブな開示</h2>
+                <p style="color:var(--text-dim); font-size:13px; margin-top:4px;">株価にマイナスインパクトが懸念される開示（下方修正・減損・不祥事・訴訟など）</p>
+            </div>
+            <div id="negativeList"></div>
+        </div>
+    </div>
+
+    <!-- 75MA Tab -->
+    <div class="tab-content" id="tab-ma75">
+        <div class="main">
+            <div class="scan-header">
+                <div>
+                    <h2>75日移動平均線 突破銘柄（当日）</h2>
+                    <p style="color:var(--text-dim); font-size:13px; margin-top:4px;">東証上場880銘柄を対象に、日足で当日75日線を上抜けた銘柄を検出します</p>
+                </div>
+                <button class="scan-btn" id="scanBtn" onclick="runScan()">スキャン実行</button>
+            </div>
+            <div id="scanStatus" class="scan-status"></div>
+            <div id="breakoutList"></div>
+        </div>
+    </div>
+
+    <!-- New Highs Tab -->
+    <div class="tab-content" id="tab-highs">
+        <div class="main" style="padding-top:20px;">
+            <div style="background:rgba(236,72,153,0.1); border-left:4px solid #ec4899; padding:14px 18px; border-radius:8px; margin-bottom:20px;">
+                <h2 style="font-size:17px; color:#ec4899;">🔺 本日の新高値銘柄（52週高値更新）</h2>
+                <p style="color:var(--text-dim); font-size:13px; margin-top:4px;">過去1年の高値を本日更新した銘柄。強い上昇トレンドのサイン。</p>
+            </div>
+            <div id="highsList"><div class="empty-state"><div class="icon">📈</div><p>「75日線突破」タブでスキャン実行するとここにも表示されます</p></div></div>
+        </div>
+    </div>
+
+    <!-- New Lows Tab -->
+    <div class="tab-content" id="tab-lows">
+        <div class="main" style="padding-top:20px;">
+            <div style="background:rgba(59,130,246,0.1); border-left:4px solid #3b82f6; padding:14px 18px; border-radius:8px; margin-bottom:20px;">
+                <h2 style="font-size:17px; color:#3b82f6;">🔻 本日の新安値銘柄（52週安値更新）</h2>
+                <p style="color:var(--text-dim); font-size:13px; margin-top:4px;">過去1年の安値を本日更新した銘柄。下落トレンドが継続中のサイン。</p>
+            </div>
+            <div id="lowsList"><div class="empty-state"><div class="icon">📉</div><p>「75日線突破」タブでスキャン実行するとここにも表示されます</p></div></div>
+        </div>
+    </div>
+
+    <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+    <script>
+    let disclosures = [];
+    let activeFilter = 'all';
+    let chartInstances = {};
+
+    // ==================== Utility ====================
+    function formatMillions(num) {
+        if (num == null) return '-';
+        if (num >= 10000000) return (num / 10000000).toFixed(2) + '兆円';
+        if (num >= 10000) return (num / 10000).toFixed(0).replace(/\B(?=(\d{3})+(?!\d))/g, ',') + '億円';
+        return num.toLocaleString() + '百���円';
+    }
+    function formatCompact(num) {
+        if (num == null) return '-';
+        if (num >= 10000000) return (num / 10000000).toFixed(1) + '兆';
+        if (num >= 10000) return (num / 10000).toFixed(0).toLocaleString() + '億';
+        return num.toLocaleString();
+    }
+    function yoyClass(val) { return val >= 0 ? 'yoy-positive' : 'yoy-negative'; }
+    function yoySign(val) { return val >= 0 ? '+' + val.toFixed(1) + '%' : val.toFixed(1) + '%'; }
+
+    // ==================== Tab Switch ====================
+    function switchTab(tab) {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+        document.querySelector(`[data-tab="${tab}"]`).classList.add('active');
+        document.getElementById(`tab-${tab}`).classList.add('active');
+    }
+
+    // ==================== Sentiment Display ====================
+    function sentimentHtml(d) {
+        if (!d.sentiment && !d.analysis) return '';
+        const s = d.sentiment || 'neutral';
+        const icons = { positive: '▲ ポジティブ', negative: '▼ ネガティブ', neutral: '― ニュートラル' };
+        const comment = d.analysis || '';
+        return `
+        <div class="card-analysis analysis-${s} sentiment-${s}">
+            <span class="sentiment-icon">${icons[s]}</span>
+            ${comment ? `<span>${comment}</span>` : ''}
+        </div>`;
+    }
+
+    // ==================== Render Cards ====================
+    function renderCard(d) {
+        const hasEarnings = d.earnings !== null;
+        const earningsHtml = hasEarnings ? renderEarningsPanel(d.earnings) : '';
+
+        return `
+        <div class="card" data-category="${d.category}" data-id="${d.id}">
+            <div class="card-header" onclick="toggleCard(this)">
+                <div class="card-time">${d.time}</div>
+                <span class="card-badge badge-${d.category}">${d.category}</span>
+                <div class="card-info">
+                    <div class="card-company-row">
+                        <span class="card-code">${d.code}</span>
+                        <span class="card-company">${d.company}</span>
+                        <span class="card-market">${d.market}</span>
+                    </div>
+                    <div class="card-title">${d.title}</div>
+                    ${sentimentHtml(d)}
+                </div>
+                <div class="card-actions">
+                    <div class="importance-dot importance-${d.importance}" title="重要度: ${d.importance}"></div>
+                    <a href="${d.pdfUrl}" target="_blank" rel="noopener" class="pdf-link" onclick="event.stopPropagation()">PDF ↗</a>
+                    ${hasEarnings ? '<span class="expand-icon">▼</span>' : ''}
+                </div>
+            </div>
+            ${earningsHtml}
+        </div>`;
+    }
+
+    function renderEarningsPanel(e) {
+        if (!e) return '';
+        const progress = (field) => {
+            if (!e.forecast?.[field] || !e.current?.[field]) return 0;
+            return ((e.current[field] / e.forecast[field]) * 100).toFixed(1);
+        };
+        const progressClass = (pct) => {
+            const p = parseFloat(pct);
+            const expected = e.quarter === 'Q3' ? 75 : e.quarter === 'Q2' ? 50 : 25;
+            if (p >= expected + 5) return 'good';
+            if (p >= expected - 3) return 'normal';
+            if (p >= expected - 10) return 'warning';
+            return 'danger';
+        };
+        const expectedPct = e.quarter === 'Q3' ? 75 : e.quarter === 'Q2' ? 50 : e.quarter === 'Q1' ? 25 : 100;
+        const prevQ = e.previousQuarter;
+        const curQ = e.currentQuarterOnly;
+        const maxRev = Math.max(prevQ?.revenue || 0, curQ?.revenue || 0);
+        const maxProf = Math.max(prevQ?.operatingProfit || 0, curQ?.operatingProfit || 0);
+
+        return `
+        <div class="earnings-panel">
+            <div class="earnings-grid">
+                <div>
+                    <table class="earnings-table">
+                        <thead><tr><th>項目</th><th>当期累計</th><th>前年同期</th><th>前年比</th></tr></thead>
+                        <tbody>
+                            <tr><td>売上高</td><td>${formatMillions(e.current.revenue)}</td><td>${formatMillions(e.previousYear.revenue)}</td><td class="${yoyClass(e.yoyChange.revenue)}">${yoySign(e.yoyChange.revenue)}</td></tr>
+                            <tr><td>営業利益</td><td>${formatMillions(e.current.operatingProfit)}</td><td>${formatMillions(e.previousYear.operatingProfit)}</td><td class="${yoyClass(e.yoyChange.operatingProfit)}">${yoySign(e.yoyChange.operatingProfit)}</td></tr>
+                            <tr><td>経常利益</td><td>${formatMillions(e.current.ordinaryProfit)}</td><td>${formatMillions(e.previousYear.ordinaryProfit)}</td><td class="${yoyClass(e.yoyChange.ordinaryProfit)}">${yoySign(e.yoyChange.ordinaryProfit)}</td></tr>
+                            <tr><td>純利益</td><td>${formatMillions(e.current.netProfit)}</td><td>${formatMillions(e.previousYear.netProfit)}</td><td class="${yoyClass(e.yoyChange.netProfit)}">${yoySign(e.yoyChange.netProfit)}</td></tr>
+                            <tr><td>EPS</td><td>${e.current.eps?.toFixed(1)||'-'}円</td><td>${e.previousYear.eps?.toFixed(1)||'-'}円</td>
+                                <td class="${yoyClass(((e.current.eps-e.previousYear.eps)/e.previousYear.eps)*100)}">${yoySign(((e.current.eps-e.previousYear.eps)/e.previousYear.eps)*100)}</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <div class="progress-section" style="margin-bottom:14px;">
+                        <h4>通期予想 進捗率（${e.quarter}時点）</h4>
+                        ${['revenue','operatingProfit','netProfit'].map(f => {
+                            const pct = progress(f);
+                            const label = f==='revenue'?'売上高':f==='operatingProfit'?'営業利益':'純利益';
+                            return `<div class="progress-item"><div class="progress-label"><span>${label}</span><span class="${parseFloat(pct)>=expectedPct?'yoy-positive':'yoy-negative'}">${pct}%</span></div><div class="progress-bar"><div class="progress-fill ${progressClass(pct)}" style="width:${Math.min(pct,100)}%"></div><div class="progress-marker" style="left:${expectedPct}%"></div></div></div>`;
+                        }).join('')}
+                        <div style="font-size:11px;color:var(--text-dim);margin-top:6px;">※ 白線 = ${expectedPct}%ライン</div>
+                    </div>
+                    ${prevQ && curQ ? `
+                    <div class="qoq-section">
+                        <h4>四半期比較（前Q → 当Q）</h4>
+                        <div class="bar-chart">
+                            <div class="bar-group"><div class="bar-value">${formatCompact(prevQ.revenue)}</div><div class="bar prev" style="height:${(prevQ.revenue/maxRev)*70}px"></div><div class="bar-label">前Q 売上</div></div>
+                            <div class="bar-group"><div class="bar-value" style="color:var(--accent-light)">${formatCompact(curQ.revenue)}</div><div class="bar current" style="height:${(curQ.revenue/maxRev)*70}px"></div><div class="bar-label">当Q 売上</div></div>
+                            <div class="bar-group"><div class="bar-value">${formatCompact(prevQ.operatingProfit)}</div><div class="bar prev" style="height:${(prevQ.operatingProfit/maxProf)*70}px"></div><div class="bar-label">前Q 営利</div></div>
+                            <div class="bar-group"><div class="bar-value" style="color:var(--accent-light)">${formatCompact(curQ.operatingProfit)}</div><div class="bar current" style="height:${(curQ.operatingProfit/maxProf)*70}px"></div><div class="bar-label">当Q 営利</div></div>
+                        </div>
+                        <div style="font-size:11px;color:var(--text-dim);margin-top:6px;text-align:center;">売上${((curQ.revenue/prevQ.revenue-1)*100).toFixed(1)}% / 営利${((curQ.operatingProfit/prevQ.operatingProfit-1)*100).toFixed(1)}%（QoQ）</div>
+                    </div>` : ''}
+                </div>
+            </div>
+        </div>`;
+    }
+
+    function renderAll() {
+        const list = document.getElementById('disclosureList');
+        const filtered = activeFilter === 'all' ? disclosures : disclosures.filter(d => d.category === activeFilter);
+        if (filtered.length === 0) {
+            list.innerHTML = `<div class="empty-state"><div class="icon">📭</div><p>該当する開示情報がありません</p></div>`;
+        } else {
+            list.innerHTML = filtered.map(renderCard).join('');
+        }
+
+        // Positive / Negative lists
+        const positives = disclosures.filter(d => d.sentiment === 'positive');
+        const negatives = disclosures.filter(d => d.sentiment === 'negative');
+
+        const posList = document.getElementById('positiveList');
+        if (posList) {
+            posList.innerHTML = positives.length
+                ? positives.map(renderCard).join('')
+                : `<div class="empty-state"><div class="icon">🌱</div><p>本日ポジティブな開示はありません</p></div>`;
+        }
+        const negList = document.getElementById('negativeList');
+        if (negList) {
+            negList.innerHTML = negatives.length
+                ? negatives.map(renderCard).join('')
+                : `<div class="empty-state"><div class="icon">🛡️</div><p>本日ネガティブな開示はありません</p></div>`;
+        }
+
+        // Update badges
+        const pBadge = document.getElementById('positiveBadge');
+        const nBadge = document.getElementById('negativeBadge');
+        if (pBadge) pBadge.textContent = positives.length;
+        if (nBadge) nBadge.textContent = negatives.length;
+
+        document.getElementById('totalCount').textContent = filtered.length;
+        document.getElementById('earningsCount').textContent = disclosures.filter(d => d.category === '決算').length;
+    }
+
+    function toggleCard(headerEl) {
+        const card = headerEl.closest('.card');
+        if (card?.querySelector('.earnings-panel')) card.classList.toggle('expanded');
+    }
+
+    // ==================== Date Nav ====================
+    function forceRefresh() {
+        // Reload disclosure data fresh
+        loadData();
+        // Also clear scan cache server-side and re-scan if user is on 75MA tab
+        const isMaTab = document.querySelector('[data-tab="ma75"].active');
+        if (isMaTab) {
+            runScan(true);
+        } else {
+            // Reset badges to indicate stale
+            ['ma75Badge', 'highsBadge', 'lowsBadge'].forEach(id => {
+                const el = document.getElementById(id);
+                if (el) el.textContent = '-';
+            });
+        }
+    }
+
+    function changeDate(offset) {
+        const dateEl = document.getElementById('currentDate');
+        const current = new Date(dateEl.dataset.date || new Date().toISOString().slice(0,10));
+        current.setDate(current.getDate() + offset);
+        const y = current.getFullYear();
+        const m = String(current.getMonth()+1).padStart(2,'0');
+        const d = String(current.getDate()).padStart(2,'0');
+        const days = ['日','月','火','水','木','金','土'];
+        dateEl.textContent = `${y}/${m}/${d}（${days[current.getDay()]}）`;
+        dateEl.dataset.date = `${y}-${m}-${d}`;
+        loadData(`${y}${m}${d}`);
+    }
+
+    // ==================== Filters ====================
+    document.getElementById('filters').addEventListener('click', (e) => {
+        if (!e.target.classList.contains('filter-btn')) return;
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        e.target.classList.add('active');
+        activeFilter = e.target.dataset.filter;
+        renderAll();
+    });
+
+    // ==================== Scroll to Top ====================
+    window.addEventListener('scroll', () => {
+        document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 300);
+    });
+
+    // ==================== Data Loading ====================
+    async function loadData(dateYYYYMMDD) {
+        const list = document.getElementById('disclosureList');
+        list.innerHTML = `<div class="loading"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>`;
+
+        if (!dateYYYYMMDD) {
+            const now = new Date();
+            dateYYYYMMDD = `${now.getFullYear()}${String(now.getMonth()+1).padStart(2,'0')}${String(now.getDate()).padStart(2,'0')}`;
+        }
+        dateYYYYMMDD = dateYYYYMMDD.replace(/-/g, '');
+
+        try {
+            const res = await fetch(`/api/tdnet?date=${dateYYYYMMDD}&t=${Date.now()}`);
+            if (!res.ok) throw new Error('API error');
+            const data = await res.json();
+            disclosures = data.disclosures || [];
+
+            const dateStr = data.date || `${dateYYYYMMDD.slice(0,4)}-${dateYYYYMMDD.slice(4,6)}-${dateYYYYMMDD.slice(6,8)}`;
+            const d = new Date(dateStr + 'T00:00:00');
+            const days = ['日','月','火','水','木','金','土'];
+            const dateEl = document.getElementById('currentDate');
+            dateEl.textContent = `${d.getFullYear()}/${String(d.getMonth()+1).padStart(2,'0')}/${String(d.getDate()).padStart(2,'0')}（${days[d.getDay()]}）`;
+            dateEl.dataset.date = dateStr;
+
+            if (data.lastUpdated) {
+                const ut = new Date(data.lastUpdated);
+                document.getElementById('updateTime').textContent = `最終更新: ${ut.getHours()}:${String(ut.getMinutes()).padStart(2,'0')}`;
+            }
+            if (data.totalRaw) {
+                document.getElementById('updateTime').textContent += ` / 全${data.totalRaw}件中 ${disclosures.length}件を表示`;
+            }
+            document.getElementById('disclosureBadge').textContent = disclosures.length;
+            renderAll();
+        } catch (err) {
+            try {
+                const res2 = await fetch(`data/disclosures.json?t=${Date.now()}`);
+                if (!res2.ok) throw new Error('No data');
+                const data2 = await res2.json();
+                disclosures = data2.disclosures || [];
+                const dateEl = document.getElementById('currentDate');
+                const d2 = new Date(data2.date + 'T00:00:00');
+                const days = ['日','月','火','水','木','金','土'];
+                dateEl.textContent = `${d2.getFullYear()}/${String(d2.getMonth()+1).padStart(2,'0')}/${String(d2.getDate()).padStart(2,'0')}（${days[d2.getDay()]}）`;
+                dateEl.dataset.date = data2.date;
+                document.getElementById('updateTime').textContent = 'サンプルデータ';
+                document.getElementById('disclosureBadge').textContent = disclosures.length;
+                renderAll();
+            } catch {
+                list.innerHTML = `<div class="empty-state"><div class="icon">📡</div><p>データを読み込めませんでした。start.bat でサーバーを起動してください。</p></div>`;
+            }
+        }
+    }
+
+    // ==================== 75MA Breakout Scanner ====================
+    async function runScan(forceRefresh = false) {
+        const btn = document.getElementById('scanBtn');
+        const status = document.getElementById('scanStatus');
+        const list = document.getElementById('breakoutList');
+
+        btn.disabled = true;
+        btn.textContent = 'スキャン中...';
+        const msg = forceRefresh
+            ? '【強制更新】キャッシュをクリアして再スキャン中...（約1分）'
+            : '東証上場880銘柄をスキャン中です（30並列）。Yahoo Finance から株価データを取得しています...（約1分）';
+        status.textContent = msg;
+        list.innerHTML = `<div class="loading"><div class="loading-dot"></div><div class="loading-dot"></div><div class="loading-dot"></div></div>`;
+
+        try {
+            const url = forceRefresh
+                ? `/api/scan75ma?force=1&t=${Date.now()}`
+                : `/api/scan75ma?t=${Date.now()}`;
+            let data;
+            try {
+                const res = await fetch(url);
+                if (!res.ok) throw new Error('Scan API not available');
+                data = await res.json();
+            } catch (apiErr) {
+                // Fallback to static JSON (GitHub Pages mode)
+                const res2 = await fetch(`data/scan75ma.json?t=${Date.now()}`);
+                if (!res2.ok) throw new Error('No scan data');
+                data = await res2.json();
+                status.textContent = `（静的データ表示中）最終更新: ${data.lastUpdated || '不明'}`;
+            }
+
+            btn.disabled = false;
+            btn.textContent = 'スキャン実行';
+            document.getElementById('ma75Badge').textContent = data.count;
+            document.getElementById('highsBadge').textContent = data.highCount || 0;
+            document.getElementById('lowsBadge').textContent = data.lowCount || 0;
+
+            // Render new highs / new lows
+            renderPriceList('highsList', data.newHighs || [], 'high');
+            renderPriceList('lowsList', data.newLows || [], 'low');
+
+            status.textContent = `スキャン完了（${data.elapsedSec || '?'}秒） - 75日線突破${data.count} / 新高値${data.highCount||0} / 新安値${data.lowCount||0}`;
+
+            if (data.count === 0) {
+                list.innerHTML = `<div class="empty-state"><div class="icon">📊</div><p>本日75日線を上抜けた銘柄はありませんでした。「🔺 新高値」「🔻 新安値」タブもご確認ください。</p></div>`;
+                return;
+            }
+
+            list.innerHTML = '<div class="breakout-grid">' + data.breakouts.map((b, i) => {
+                const dayLabel = b.breakoutDay === 0 ? '本日突破' : b.breakoutDay === 1 ? '1日前突破' : b.breakoutDay === 2 ? '2日前突破' : '';
+                const dayColor = b.breakoutDay === 0 ? '#f97316' : b.breakoutDay === 1 ? '#fbbf24' : '#a78bfa';
+                return `
+                <div class="breakout-card">
+                    <div class="breakout-header">
+                        <div class="breakout-info">
+                            <h3><span class="code">${b.code}</span>${b.name}
+                                <span style="margin-left:8px; font-size:10px; padding:2px 7px; border-radius:10px; background:${dayColor}; color:white; font-weight:600;">${dayLabel}</span>
+                            </h3>
+                        </div>
+                        <div class="breakout-stats">
+                            <div class="breakout-stat">
+                                <div class="label">終値</div>
+                                <div class="value">${b.close.toLocaleString()}</div>
+                            </div>
+                            <div class="breakout-stat">
+                                <div class="label">75MA</div>
+                                <div class="value" style="color:var(--orange)">${b.ma75.toLocaleString()}</div>
+                            </div>
+                            <div class="breakout-stat">
+                                <div class="label">前日比</div>
+                                <div class="value ${b.changeRate >= 0 ? 'positive' : 'negative'}">${b.changeRate >= 0 ? '+' : ''}${b.changeRate}%</div>
+                            </div>
+                            <div class="breakout-stat">
+                                <div class="label">MA乖離</div>
+                                <div class="value positive">+${b.aboveMaRate}%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chart-${i}"></canvas>
+                    </div>
+                </div>
+            `;}).join('') + '</div>';
+
+            // Render charts
+            data.breakouts.forEach((b, i) => {
+                renderBreakoutChart(`chart-${i}`, b);
+            });
+
+        } catch (err) {
+            btn.disabled = false;
+            btn.textContent = 'スキャン実行';
+            status.textContent = 'スキャンに失敗しました。サーバーが起動しているか確認してください。';
+            list.innerHTML = '';
+        }
+    }
+
+    function renderPriceList(targetId, items, type) {
+        const el = document.getElementById(targetId);
+        if (!el) return;
+        if (items.length === 0) {
+            const msg = type === 'high' ? '本日新高値を更新した銘柄はありません' : '本日新安値を更新した銘柄はありません';
+            const icon = type === 'high' ? '📈' : '📉';
+            el.innerHTML = `<div class="empty-state"><div class="icon">${icon}</div><p>${msg}</p></div>`;
+            return;
+        }
+        // Sort by change rate descending (for highs) or ascending (for lows)
+        const sorted = [...items].sort((a, b) =>
+            type === 'high' ? b.changeRate - a.changeRate : a.changeRate - b.changeRate
+        );
+        el.innerHTML = `<div style="font-size:12px;color:var(--text-dim);margin-bottom:8px;">${items.length}件（${type==='high'?'上昇率':'下落率'}順）</div>` +
+            sorted.map(item => {
+                const refLabel = type === 'high' ? '前高値' : '前安値';
+                const refVal = (type === 'high' ? item.prevHigh : item.prevLow).toLocaleString();
+                const curVal = (type === 'high' ? item.high : item.low).toLocaleString();
+                const curLabel = type === 'high' ? '本日高値' : '本日安値';
+                const changeCls = item.changeRate >= 0 ? 'up' : 'down';
+                const sign = item.changeRate >= 0 ? '+' : '';
+                return `
+                <div class="price-card">
+                    <div class="pc-code">${item.code}</div>
+                    <div class="pc-name">${item.name}</div>
+                    <div>
+                        <div class="pc-price">${item.close.toLocaleString()}円</div>
+                        <div class="pc-meta">${curLabel} ${curVal}</div>
+                    </div>
+                    <div class="pc-meta">
+                        <div>${refLabel}</div>
+                        <div style="color:var(--text);">${refVal}</div>
+                    </div>
+                    <div class="pc-change ${changeCls}">${sign}${item.changeRate}%</div>
+                </div>`;
+            }).join('');
+    }
+
+    function renderBreakoutChart(canvasId, data) {
+        const ctx = document.getElementById(canvasId).getContext('2d');
+
+        if (chartInstances[canvasId]) {
+            chartInstances[canvasId].destroy();
+        }
+
+        const dates = data.chart.dates;
+        const closes = data.chart.closes;
+        const ma75 = data.chart.ma75;
+        const ma25 = data.chart.ma25;
+
+        chartInstances[canvasId] = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: dates,
+                datasets: [
+                    {
+                        label: '終値',
+                        data: closes,
+                        borderColor: '#6c8cff',
+                        backgroundColor: 'rgba(108,140,255,0.05)',
+                        borderWidth: 2,
+                        pointRadius: 0,
+                        pointHoverRadius: 4,
+                        fill: true,
+                        tension: 0.1,
+                        order: 1
+                    },
+                    {
+                        label: '75日線',
+                        data: ma75,
+                        borderColor: '#fb923c',
+                        borderWidth: 2,
+                        borderDash: [6, 3],
+                        pointRadius: 0,
+                        fill: false,
+                        tension: 0.3,
+                        order: 2
+                    },
+                    {
+                        label: '25日線',
+                        data: ma25,
+                        borderColor: '#34d399',
+                        borderWidth: 1.5,
+                        borderDash: [4, 2],
+                        pointRadius: 0,
+                        fill: false,
+                        tension: 0.3,
+                        order: 3
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: { mode: 'index', intersect: false },
+                plugins: {
+                    legend: {
+                        labels: { color: '#8b8fa3', font: { size: 11 }, usePointStyle: true, pointStyle: 'line' }
+                    },
+                    tooltip: {
+                        backgroundColor: '#1a1d27',
+                        titleColor: '#e4e6ed',
+                        bodyColor: '#e4e6ed',
+                        borderColor: '#2d3142',
+                        borderWidth: 1,
+                        callbacks: {
+                            label: (ctx) => `${ctx.dataset.label}: ${ctx.parsed.y?.toLocaleString() || '-'}円`
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        ticks: { color: '#8b8fa3', font: { size: 10 }, maxTicksLimit: 12 },
+                        grid: { color: 'rgba(45,49,66,0.5)' }
+                    },
+                    y: {
+                        ticks: {
+                            color: '#8b8fa3', font: { size: 10 },
+                            callback: (v) => v.toLocaleString()
+                        },
+                        grid: { color: 'rgba(45,49,66,0.5)' }
+                    }
+                }
+            }
+        });
+    }
+
+    // ==================== Init ====================
+    loadData();
+    </script>
+</body>
+</html>

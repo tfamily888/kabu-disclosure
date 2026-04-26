@@ -1,0 +1,61 @@
+name: Fetch TDnet Disclosures
+
+on:
+  schedule:
+    # 平日 (JST=UTC+9): 7:00 / 12:00 / 15:30 / 18:00 JST
+    - cron: '0 22 * * 0,1,2,3,4'   # 07:00 JST (Mon-Fri)
+    - cron: '0 3 * * 1,2,3,4,5'    # 12:00 JST
+    - cron: '30 6 * * 1,2,3,4,5'   # 15:30 JST
+    - cron: '0 9 * * 1,2,3,4,5'    # 18:00 JST
+  workflow_dispatch:
+    inputs:
+      date:
+        description: '取得日 (YYYYMMDD, 空欄は今日)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore secret config files
+        env:
+          ANALYSIS_RULES_JSON: ${{ secrets.ANALYSIS_RULES_JSON }}
+        run: |
+          if [ -z "$ANALYSIS_RULES_JSON" ]; then
+            echo "ERROR: ANALYSIS_RULES_JSON secret is not set"
+            exit 1
+          fi
+          printf '%s' "$ANALYSIS_RULES_JSON" > analysis_rules.json
+          echo "analysis_rules.json size: $(wc -c < analysis_rules.json) bytes"
+
+      - name: Set TZ to JST
+        run: echo "TZ=Asia/Tokyo" >> $GITHUB_ENV
+
+      - name: Fetch disclosures
+        shell: pwsh
+        run: |
+          $dateArg = "${{ github.event.inputs.date }}"
+          if ($dateArg) {
+            ./fetch_disclosures.ps1 -Date $dateArg
+          } else {
+            ./fetch_disclosures.ps1
+          }
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/disclosures.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto: update disclosures $(TZ=Asia/Tokyo date +%Y-%m-%d_%H:%M)"
+            git push
+          fi

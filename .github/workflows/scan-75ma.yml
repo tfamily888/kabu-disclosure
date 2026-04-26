@@ -1,0 +1,45 @@
+name: Scan 75MA Breakouts
+
+on:
+  schedule:
+    # 平日 16:00 JST (大引け後 = 07:00 UTC)
+    - cron: '0 7 * * 1,2,3,4,5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Restore secret config files
+        env:
+          SCAN_STOCKS_JSON: ${{ secrets.SCAN_STOCKS_JSON }}
+        run: |
+          if [ -z "$SCAN_STOCKS_JSON" ]; then
+            echo "ERROR: SCAN_STOCKS_JSON secret is not set"
+            exit 1
+          fi
+          printf '%s' "$SCAN_STOCKS_JSON" > scan_stocks.json
+          echo "scan_stocks.json size: $(wc -c < scan_stocks.json) bytes"
+
+      - name: Run scanner
+        shell: pwsh
+        run: ./scan_75ma.ps1
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/scan75ma.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "auto: update 75MA scan $(TZ=Asia/Tokyo date +%Y-%m-%d_%H:%M)"
+            git push
+          fi
