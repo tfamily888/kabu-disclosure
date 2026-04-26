@@ -1,6 +1,5 @@
 # Sensitive config files (managed via GitHub Secrets in Actions)
 analysis_rules.json
-scan_stocks.json
 
 # Runtime / local-only files
 current_port.txt

@@ -17,17 +17,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Restore secret config files
-        env:
-          SCAN_STOCKS_JSON: ${{ secrets.SCAN_STOCKS_JSON }}
-        run: |
-          if [ -z "$SCAN_STOCKS_JSON" ]; then
-            echo "ERROR: SCAN_STOCKS_JSON secret is not set"
-            exit 1
-          fi
-          printf '%s' "$SCAN_STOCKS_JSON" > scan_stocks.json
-          echo "scan_stocks.json size: $(wc -c < scan_stocks.json) bytes"
-
       - name: Run scanner
         shell: pwsh
         run: ./scan_75ma.ps1
