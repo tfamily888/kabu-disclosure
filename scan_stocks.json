@@ -1,7 +1,7 @@
 {
   "description": "東証上場銘柄一覧（プライム/スタンダード/グロース・内国株式）",
   "source": "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls",
-  "lastUpdated": "2026-04-26T10:53:54.342743+09:00",
+  "lastUpdated": "2026-05-01T16:53:27.062132+09:00",
   "count": 3589,
   "stocks": [
     {
