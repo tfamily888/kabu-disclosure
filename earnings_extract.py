@@ -53,9 +53,13 @@ def fetch_pdf(url):
 
 
 def normalize_number(s):
+    """数値 or '－'(プレースホルダ) を float | None に変換。"""
     if s is None:
         return None
     s = str(s).strip()
+    # 「－」「―」「−」単独はYoY算出不能 → None
+    if s in {"-", "－", "―", "−"}:
+        return None
     s = s.replace(",", "").replace("，", "")
     s = s.replace("△", "-").replace("▲", "-").replace("−", "-").replace("－", "-")
     if not s or s == "-":
@@ -67,7 +71,10 @@ def normalize_number(s):
 
 
 YEAR_RE = re.compile(r"\d{4}\s*年\s*\d{1,2}\s*月期")
-NUM_RE = re.compile(r"[△▲\-－−]?[\d,，]+\.\d+|[△▲\-－−]?[\d,，]+")
+# 数値 or 「－」(YoY算出不能のプレースホルダ)
+NUM_RE = re.compile(r"[△▲\-－−]?[\d,，]+\.\d+|[△▲\-－−]?[\d,，]+|[－―−]")
+# 「第X四半期」「（中間期）」「中間連結」など期種接尾辞
+QUARTER_PREFIX_RE = re.compile(r"^\s*(第[０-９0-9]+四半期|中間連結|中間|（中間期）|\(中間期\))\s*")
 
 # 見出し行（実データ行ではない）を識別するキーワード
 HEADER_HINTS = [
@@ -114,12 +121,15 @@ def parse_summary_table(text):
             continue
         if not is_data_row(line, m):
             continue
-        nums = NUM_RE.findall(line)
+        # 年度プレフィックス以降のテキストだけを対象に
+        rest = line[m.end():]
+        # 「第X四半期」「中間期」などの期種接尾辞を除去
+        rest = QUARTER_PREFIX_RE.sub("", rest)
+        nums = NUM_RE.findall(rest)
         parsed = [normalize_number(n) for n in nums]
-        # ノイズの可能性あるNoneを削除
-        parsed = [p for p in parsed if p is not None]
+        # 位置を保持 (None も列構造のため残す)
 
-        # データ行は最低6個 (3列構造)、最大12個程度の数値
+        # データ行は最低6個 (3列構造)、最大12個程度の数値+ダッシュ
         if len(parsed) < 6 or len(parsed) > 14:
             continue
         candidates.append((line, parsed))
@@ -130,9 +140,9 @@ def parse_summary_table(text):
     # 候補が複数あれば最初(=最新期、通常2026年X月期)を採用
     best_line, parsed = candidates[0]
 
-    # 想定パターン:
-    #   8個: 売上, 売上%, 営業利益, 営業利益%, 経常利益, 経常利益%, 純利益, 純利益%
-    #   6個: 売上, 売上%, 営業利益, 営業利益%, 純利益, 純利益% (経常利益省略=IFRS等)
+    # 想定カラム順 (年度プレフィックス除去済):
+    #   8個 (4列): 売上, 売上%, 営業利益, 営業利益%, 経常利益, 経常利益%, 純利益, 純利益%
+    #   6個 (3列): 売上, 売上%, 営業利益, 営業利益%, 純利益, 純利益% (経常利益省略=IFRS一部)
     op_pct = None
     ord_pct = None
 
@@ -141,25 +151,15 @@ def parse_summary_table(text):
         ord_pct = parsed[5]
     elif len(parsed) >= 6:
         op_pct = parsed[3]
-        # 経常利益なし
 
-    # サニティチェック
     def sane_pct(v):
         if v is None:
             return None
-        if abs(v) > 1000:
+        if abs(v) > 1000:  # 異常値は除外
             return None
         return v
 
-    op_pct = sane_pct(op_pct)
-    ord_pct = sane_pct(ord_pct)
-
-    # 営業利益値(parsed[2])が極端に小さい場合 → 見出しを誤認した可能性
-    if len(parsed) >= 3 and parsed[2] is not None and abs(parsed[2]) < 10:
-        # 単位が百万円なら最低でも10以上のはず
-        return None, None, best_line[:60]
-
-    return op_pct, ord_pct, best_line[:60]
+    return sane_pct(op_pct), sane_pct(ord_pct), best_line[:60]
 
 
 def classify(op_pct, ord_pct):
