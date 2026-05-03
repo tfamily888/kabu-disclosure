@@ -150,7 +150,7 @@ def main():
         print(f"Not found: {DATA_PATH}", flush=True)
         return
 
-    with open(DATA_PATH, "r", encoding="utf-8") as f:
+    with open(DATA_PATH, "r", encoding="utf-8-sig") as f:
         data = json.load(f)
 
     disclosures = data.get("disclosures", [])
