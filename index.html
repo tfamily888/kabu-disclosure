@@ -510,8 +510,37 @@
         </div>`;
     }
 
+    function renderEarningsPanelSimple(e) {
+        const op = e.operatingProfitYoYPct;
+        const ord = e.ordinaryProfitYoYPct;
+        const fmt = (v) => (v === null || v === undefined) ? '<span style="color:var(--text-dim)">N/A</span>' : `${v >= 0 ? '+' : ''}${v.toFixed(1)}%`;
+        const cls = (v) => {
+            if (v === null || v === undefined) return '';
+            if (v >= 20) return 'yoy-positive';
+            if (v <= -20) return 'yoy-negative';
+            return '';
+        };
+        return `
+        <div class="earnings-panel" style="padding:10px 14px;">
+            <div style="font-size:11px;color:var(--text-dim);margin-bottom:6px;">前年同期比 (PDFサマリから自動抽出)</div>
+            <table class="earnings-table" style="width:auto;">
+                <tbody>
+                    <tr><td style="padding-right:24px;">営業利益YoY</td><td class="${cls(op)}" style="font-weight:700;font-size:14px;">${fmt(op)}</td></tr>
+                    <tr><td style="padding-right:24px;">経常利益YoY</td><td class="${cls(ord)}" style="font-weight:700;font-size:14px;">${fmt(ord)}</td></tr>
+                </tbody>
+            </table>
+            ${e.period ? `<div style="font-size:10px;color:var(--text-dim);margin-top:6px;">参照行: ${e.period.slice(0, 70)}</div>` : ''}
+        </div>`;
+    }
+
     function renderEarningsPanel(e) {
         if (!e) return '';
+        // 新フォーマット (YoY%のみ) → シンプル表示
+        if (!e.current && (e.operatingProfitYoYPct !== undefined || e.ordinaryProfitYoYPct !== undefined)) {
+            return renderEarningsPanelSimple(e);
+        }
+        // 旧フォーマットだが詳細データなし → 表示しない
+        if (!e.current) return '';
         const progress = (field) => {
             if (!e.forecast?.[field] || !e.current?.[field]) return 0;
             return ((e.current[field] / e.forecast[field]) * 100).toFixed(1);
