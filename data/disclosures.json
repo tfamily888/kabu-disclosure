@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T10:06:55+09:00",
+  "lastUpdated": "2026-05-03T10:17:56+09:00",
   "date": "2026-05-01",
   "totalRaw": 391,
   "disclosures": [
@@ -121,8 +121,8 @@
       "summary": "ＩＴＭ - 2026年３月期 決算短信〔ＩＦＲＳ〕（連結）",
       "earnings": {
         "period": "2026年３月期 8,311 2.6 1,931 △8.7 1,765 △13.0 1,801 △13.7 1,191 ",
-        "operatingProfitYoYPct": 2.6,
-        "ordinaryProfitYoYPct": -8.7
+        "operatingProfitYoYPct": -8.7,
+        "ordinaryProfitYoYPct": -13.0
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -170,8 +170,8 @@
       "summary": "旭情報 - 2026年3月期　決算短信〔日本基準〕（非連結）",
       "earnings": {
         "period": "2026年３月期 16,548 4.6 1,645 3.8 1,702 5.6 1,276 7.3",
-        "operatingProfitYoYPct": 4.6,
-        "ordinaryProfitYoYPct": 3.8
+        "operatingProfitYoYPct": 3.8,
+        "ordinaryProfitYoYPct": 5.6
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -249,11 +249,11 @@
       "summary": "マルサンアイ - 2026年９月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
       "earnings": {
         "period": "2026年９月期中間期 16,121 0.1 467 22.8 591 62.0 488 68.6",
-        "operatingProfitYoYPct": 0.1,
-        "ordinaryProfitYoYPct": 22.8
+        "operatingProfitYoYPct": 22.8,
+        "ordinaryProfitYoYPct": 62.0
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +22.8% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0017",
@@ -373,8 +373,8 @@
       "summary": "ガリレイ - 2026年３月期決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年３月期 138,616 6.1 17,078 3.1 17,943 4.5 12,294 2.4",
-        "operatingProfitYoYPct": 6.1,
-        "ordinaryProfitYoYPct": 3.1
+        "operatingProfitYoYPct": 3.1,
+        "ordinaryProfitYoYPct": 4.5
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -527,8 +527,8 @@
       "summary": "ハチバン - 2026年３月期 決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年3月期 8,644 5.0 7,730 4.8 4 △98.2 207 △55.2 60 △74.5",
-        "operatingProfitYoYPct": 5.0,
-        "ordinaryProfitYoYPct": 4.8
+        "operatingProfitYoYPct": 4.8,
+        "ordinaryProfitYoYPct": -98.2
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -561,8 +561,8 @@
       "summary": "ＪＶＣＫＷ - 2026年３月期 決算短信〔IFRS〕（連結）",
       "earnings": {
         "period": "2026年３月期 356,865 △3.6 20,880 △17.5 20,540 △5.7 21,660 △7.8 1",
-        "operatingProfitYoYPct": -3.6,
-        "ordinaryProfitYoYPct": -17.5
+        "operatingProfitYoYPct": -17.5,
+        "ordinaryProfitYoYPct": -5.7
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -595,8 +595,8 @@
       "summary": "アイカ工 - 2026年３月期 決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年３月期 251,764 1.2 29,143 6.3 30,136 5.1 18,533 9.7",
-        "operatingProfitYoYPct": 1.2,
-        "ordinaryProfitYoYPct": 6.3
+        "operatingProfitYoYPct": 6.3,
+        "ordinaryProfitYoYPct": 5.1
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -704,11 +704,11 @@
       "summary": "エムスリー - 2026年３月期 決算短信 [IFRS]（連結）",
       "earnings": {
         "period": "2026年３月期 351,363 23.3 73,547 16.8 76,276 17.7 54,046 21.9 49",
-        "operatingProfitYoYPct": 23.3,
-        "ordinaryProfitYoYPct": 16.8
+        "operatingProfitYoYPct": 16.8,
+        "ordinaryProfitYoYPct": 17.7
       },
-      "sentiment": "positive",
-      "analysis": "営業利益が前年同期比 +23.3% の大幅増益。決算はポジティブサプライズ。"
+      "sentiment": "neutral",
+      "analysis": ""
     },
     {
       "id": "d0046",
@@ -768,8 +768,8 @@
       "summary": "シスロケ - 2026年３月期 決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年３月期 1,733 4.0 604 12.7 639 8.6 297 △10.2",
-        "operatingProfitYoYPct": 4.0,
-        "ordinaryProfitYoYPct": 12.7
+        "operatingProfitYoYPct": 12.7,
+        "ordinaryProfitYoYPct": 8.6
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -1072,8 +1072,8 @@
       "summary": "伊勢化 - 2026年12月期 第1四半期決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年12月期第１四半期 8,813 7.0 1,959 △2.0 1,908 △1.4 1,326 △2.7",
-        "operatingProfitYoYPct": null,
-        "ordinaryProfitYoYPct": null
+        "operatingProfitYoYPct": -2.0,
+        "ordinaryProfitYoYPct": -1.4
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -1185,11 +1185,11 @@
       "summary": "ニッカトー - 2026年3月期 決算短信〔日本基準〕（非連結）",
       "earnings": {
         "period": "2026年３月期 11,341 12.5 1,071 67.9 1,146 59.2 776 54.0",
-        "operatingProfitYoYPct": 12.5,
-        "ordinaryProfitYoYPct": 67.9
+        "operatingProfitYoYPct": 67.9,
+        "ordinaryProfitYoYPct": 59.2
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +67.9% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0077",
@@ -1234,11 +1234,11 @@
       "summary": "ＡＲＥＨＤ - 2026年３月期 決算短信〔ＩＦＲＳ〕（連結）",
       "earnings": {
         "period": "2026年３月期 569,992 12.6 37,088 85.6 34,706 69.4 24,411 70.6 24",
-        "operatingProfitYoYPct": 12.6,
-        "ordinaryProfitYoYPct": 85.6
+        "operatingProfitYoYPct": 85.6,
+        "ordinaryProfitYoYPct": 69.4
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +85.6% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0080",
@@ -1253,11 +1253,11 @@
       "summary": "エムケー精工 - 2026年３月期決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年3月期 29,788 5.4 2,723 36.6 2,921 38.4 2,354 76.4",
-        "operatingProfitYoYPct": 5.4,
-        "ordinaryProfitYoYPct": 36.6
+        "operatingProfitYoYPct": 36.6,
+        "ordinaryProfitYoYPct": 38.4
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +36.6% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0081",
@@ -1272,8 +1272,8 @@
       "summary": "アルインコ - 2026年３月期 決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年３月期 62,632 1.7 2,212 0.8 2,777 3.7 1,753 △10.5",
-        "operatingProfitYoYPct": 1.7,
-        "ordinaryProfitYoYPct": 0.8
+        "operatingProfitYoYPct": 0.8,
+        "ordinaryProfitYoYPct": 3.7
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -1396,11 +1396,11 @@
       "summary": "エラン - 2026年12月期第1四半期決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年12月期第1四半期 14,762 9.9 1,441 21.9 1,410 20.0 949 18.7",
-        "operatingProfitYoYPct": null,
-        "ordinaryProfitYoYPct": null
+        "operatingProfitYoYPct": 21.9,
+        "ordinaryProfitYoYPct": 20.0
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +21.9% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0090",
@@ -1430,11 +1430,11 @@
       "summary": "ＤＭＧ森精機 - 2026年12月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
       "earnings": {
         "period": "2026年12月期第１四半期 135,531 18.9 3,417 88.0 1,968 426.6 1,327 474",
-        "operatingProfitYoYPct": null,
-        "ordinaryProfitYoYPct": null
+        "operatingProfitYoYPct": 88.0,
+        "ordinaryProfitYoYPct": 426.6
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +88.0% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0092",
@@ -1554,8 +1554,8 @@
       "summary": "エプソン - 2026年３月期 決算短信〔ＩＦＲＳ〕（連結）",
       "earnings": {
         "period": "2026年３月期 1,413,251 3.7 83,788 △6.5 49,558 △34.0 50,023 △36.2",
-        "operatingProfitYoYPct": 3.7,
-        "ordinaryProfitYoYPct": -6.5
+        "operatingProfitYoYPct": -6.5,
+        "ordinaryProfitYoYPct": -34.0
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -1723,11 +1723,11 @@
       "summary": "東北化学 - 2026年９月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
       "earnings": {
         "period": "2026年９月期中間期 18,942 6.4 530 63.2 564 59.0 395 47.3",
-        "operatingProfitYoYPct": 6.4,
-        "ordinaryProfitYoYPct": 63.2
+        "operatingProfitYoYPct": 63.2,
+        "ordinaryProfitYoYPct": 59.0
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +63.2% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0111",
@@ -1757,8 +1757,8 @@
       "summary": "Ｐ－北海道歯科産業 - 2026年３月期　決算短信〔日本基準〕(非連結)",
       "earnings": {
         "period": "2026年３月期 4,763 4.7 57 12.8 76 16.6 63 △21.3",
-        "operatingProfitYoYPct": 4.7,
-        "ordinaryProfitYoYPct": 12.8
+        "operatingProfitYoYPct": 12.8,
+        "ordinaryProfitYoYPct": 16.6
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -1776,8 +1776,8 @@
       "summary": "タムロン - 2026年12月期 第１四半期決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年12月期第１四半期 18,485 △5.0 3,441 △18.7 3,363 △20.6 2,712 △4.",
-        "operatingProfitYoYPct": null,
-        "ordinaryProfitYoYPct": null
+        "operatingProfitYoYPct": -18.7,
+        "ordinaryProfitYoYPct": -20.6
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -2039,8 +2039,8 @@
       "summary": "イチネンＨＤ - 2026年３月期　決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年３月期 162,254 4.7 10,926 6.3 10,998 6.6 7,652 14.9",
-        "operatingProfitYoYPct": 4.7,
-        "ordinaryProfitYoYPct": 6.3
+        "operatingProfitYoYPct": 6.3,
+        "ordinaryProfitYoYPct": 6.6
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -2103,8 +2103,8 @@
       "summary": "ＤＴＳ - 2026年３月期　決算短信〔日本基準〕(連結)",
       "earnings": {
         "period": "2026年３月期 135,213 7.4 16,434 13.4 16,940 9.6 11,644 9.5",
-        "operatingProfitYoYPct": 7.4,
-        "ordinaryProfitYoYPct": 13.4
+        "operatingProfitYoYPct": 13.4,
+        "ordinaryProfitYoYPct": 9.6
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -2261,7 +2261,7 @@
       "summary": "ニチダイ - 2026年３月期　決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年３月期 10,992 △5.3 △408 ― △446 ― △754 ―",
-        "operatingProfitYoYPct": -5.3,
+        "operatingProfitYoYPct": null,
         "ordinaryProfitYoYPct": null
       },
       "sentiment": "neutral",
@@ -2355,11 +2355,11 @@
       "summary": "ちゅうぎんＦＧ - 2026年３月期決算短信〔日本基準〕(連結)",
       "earnings": {
         "period": "2026年３月期 249,074 17.6 56,038 46.2 39,705 44.7",
-        "operatingProfitYoYPct": 17.6,
-        "ordinaryProfitYoYPct": 46.2
+        "operatingProfitYoYPct": 46.2,
+        "ordinaryProfitYoYPct": null
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +46.2% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0151",
@@ -2419,11 +2419,11 @@
       "summary": "三菱商事 - 2026年3月期 決算短信〔ＩＦＲＳ〕(連結)",
       "earnings": {
         "period": "2026年3月期 18,915,995 1.6 1,096,094 △21.3 916,726 △14.8 800,46",
-        "operatingProfitYoYPct": 1.6,
-        "ordinaryProfitYoYPct": -21.3
+        "operatingProfitYoYPct": -21.3,
+        "ordinaryProfitYoYPct": -14.8
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -21.3% の大幅減益。要警戒。"
     },
     {
       "id": "d0155",
@@ -2468,8 +2468,8 @@
       "summary": "フジ住宅 - 2026年３月期　決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年３月期 138,332 11.6 8,294 5.1 6,995 0.1 4,757 △0.1",
-        "operatingProfitYoYPct": 11.6,
-        "ordinaryProfitYoYPct": 5.1
+        "operatingProfitYoYPct": 5.1,
+        "ordinaryProfitYoYPct": 0.1
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -2502,11 +2502,11 @@
       "summary": "Ｇ－ＳＭ　ＥＮＴＥＲ - 2026年12月期 第１四半期決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年12月期第１四半期 3,204 47.0 235 452.6 268 463.3 262 533.2",
-        "operatingProfitYoYPct": null,
-        "ordinaryProfitYoYPct": null
+        "operatingProfitYoYPct": 452.6,
+        "ordinaryProfitYoYPct": 463.3
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +452.6% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0160",
@@ -2581,8 +2581,8 @@
       "summary": "伊藤忠 - 2026年3月期　決算短信〔IFRS〕（連結）",
       "earnings": {
         "period": "2026年3月期 14,823,087 0.7 701,888 2.6 1,199,466 3.8 937,458 0.",
-        "operatingProfitYoYPct": 0.7,
-        "ordinaryProfitYoYPct": 2.6
+        "operatingProfitYoYPct": 2.6,
+        "ordinaryProfitYoYPct": 3.8
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -2600,8 +2600,8 @@
       "summary": "住友商 - 2026年3月期決算短信〔IFRS〕(連結)",
       "earnings": {
         "period": "2026年3月期 7,337,259 0.6 701,998 0.9 650,281 6.8 600,334 6.8 1",
-        "operatingProfitYoYPct": 0.6,
-        "ordinaryProfitYoYPct": 0.9
+        "operatingProfitYoYPct": 0.9,
+        "ordinaryProfitYoYPct": 6.8
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -2679,8 +2679,8 @@
       "summary": "双日 - 2026年3月期 決算短信[IFRS会計基準](連結)",
       "earnings": {
         "period": "2026年3月期 2,757,350 9.9 115,630 △14.5 107,647 △5.7 103,611 △6",
-        "operatingProfitYoYPct": 9.9,
-        "ordinaryProfitYoYPct": -14.5
+        "operatingProfitYoYPct": -14.5,
+        "ordinaryProfitYoYPct": -5.7
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -2728,11 +2728,11 @@
       "summary": "伊藤ハム米久ＨＤ - 2026年3月期 決算短信〔日本基準〕(連結)",
       "earnings": {
         "period": "2026年３月期 1,071,381 8.4 28,456 45.4 30,395 46.5 20,225 54.4",
-        "operatingProfitYoYPct": 8.4,
-        "ordinaryProfitYoYPct": 45.4
+        "operatingProfitYoYPct": 45.4,
+        "ordinaryProfitYoYPct": 46.5
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +45.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0174",
@@ -2762,8 +2762,8 @@
       "summary": "三井物産 - 2026年3月期 決算短信〔ＩＦＲＳ〕（連結）",
       "earnings": {
         "period": "2026年3月期 13,995,222 △4.6 1,087,056 △4.2 864,321 △6.2 833,971",
-        "operatingProfitYoYPct": -4.6,
-        "ordinaryProfitYoYPct": -4.2
+        "operatingProfitYoYPct": -4.2,
+        "ordinaryProfitYoYPct": -6.2
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -2841,8 +2841,8 @@
       "summary": "丸紅 - 2026年3月期 決算短信〔ＩＦＲＳ〕（連結）",
       "earnings": {
         "period": "2026年3月期 8,265,841 6.1 256,670 △5.7 664,457 5.6 559,165 8.6 ",
-        "operatingProfitYoYPct": 6.1,
-        "ordinaryProfitYoYPct": -5.7
+        "operatingProfitYoYPct": -5.7,
+        "ordinaryProfitYoYPct": 5.6
       },
       "sentiment": "neutral",
       "analysis": ""
@@ -2905,11 +2905,11 @@
       "summary": "鶴弥 - 2026年３月期決算短信〔日本基準〕(非連結)",
       "earnings": {
         "period": "2026年３月期 6,505 △4.5 146 △20.9 302 △33.7 373 208.0",
-        "operatingProfitYoYPct": -4.5,
-        "ordinaryProfitYoYPct": -20.9
+        "operatingProfitYoYPct": -20.9,
+        "ordinaryProfitYoYPct": -33.7
       },
-      "sentiment": "neutral",
-      "analysis": ""
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -20.9% の大幅減益。要警戒。"
     },
     {
       "id": "d0185",
@@ -2939,7 +2939,7 @@
       "summary": "Ｇ－Ｊ・ＴＥＣ - 2026年３月期 決算短信〔日本基準〕（非連結）",
       "earnings": {
         "period": "2026年３月期 2,182 △11.1 △549 － △537 － △734 －",
-        "operatingProfitYoYPct": -11.1,
+        "operatingProfitYoYPct": null,
         "ordinaryProfitYoYPct": null
       },
       "sentiment": "neutral",
@@ -2988,11 +2988,11 @@
       "summary": "ＳＢＩ - 2026年３月期 決算短信〔ＩＦＲＳ〕（連結）",
       "earnings": {
         "period": "2026年３月期 1,896,607 31.4 516,667 83.0 430,542 127.6 427,577 1",
-        "operatingProfitYoYPct": 31.4,
-        "ordinaryProfitYoYPct": 83.0
+        "operatingProfitYoYPct": 83.0,
+        "ordinaryProfitYoYPct": 127.6
       },
       "sentiment": "positive",
-      "analysis": "営業利益が前年同期比 +31.4% の大幅増益。決算はポジティブサプライズ。"
+      "analysis": "営業利益が前年同期比 +83.0% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0190",
@@ -3067,11 +3067,11 @@
       "summary": "ＳＢＩ新生銀行 - 2026年３月期 決算短信〔日本基準〕（連結）",
       "earnings": {
         "period": "2026年３月期 774,058 26.1 123,382 58.6 113,415 34.2",
-        "operatingProfitYoYPct": 26.1,
-        "ordinaryProfitYoYPct": 58.6
+        "operatingProfitYoYPct": 58.6,
+        "ordinaryProfitYoYPct": null
       },
       "sentiment": "positive",
-      "analysis": "営業利益が前年同期比 +26.1% の大幅増益。決算はポジティブサプライズ。"
+      "analysis": "営業利益が前年同期比 +58.6% の大幅増益。決算はポジティブサプライズ。"
     },
     {
       "id": "d0195",
