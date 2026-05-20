@@ -1,10 +1,1055 @@
 {
-  "lastUpdated": "2026-05-20T15:46:43+09:00",
+  "lastUpdated": "2026-05-20T18:59:14+09:00",
   "date": "2026-05-20",
-  "totalRaw": 200,
+  "totalRaw": 342,
   "disclosures": [
     {
       "id": "d0001",
+      "time": "18:50",
+      "code": "8771",
+      "company": "Ｅギャランティ",
+      "title": "2026年3月期通期 決算説明会 書き起こし",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542568.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｅギャランティ - 2026年3月期通期 決算説明会 書き起こし",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0002",
+      "time": "18:50",
+      "code": "8771",
+      "company": "Ｅギャランティ",
+      "title": "2026年３月期 通期決算説明会 質疑応答の要約",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542573.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｅギャランティ - 2026年３月期 通期決算説明会 質疑応答の要約",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0003",
+      "time": "18:40",
+      "code": "7201",
+      "company": "日産自",
+      "title": "株主提案に対する当社取締役会意見に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541683.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "日産自 - 株主提案に対する当社取締役会意見に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0004",
+      "time": "18:30",
+      "code": "9913",
+      "company": "日邦産業",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542492.pdf",
+      "market": "東名",
+      "category": "配当",
+      "importance": "低",
+      "summary": "日邦産業 - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0005",
+      "time": "18:00",
+      "code": "9537",
+      "company": "北陸瓦斯",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542650.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "北陸瓦斯 - 主要株主の異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0006",
+      "time": "17:40",
+      "code": "2673",
+      "company": "夢みつけ隊",
+      "title": "令和8年3月期　決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260518539591.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "夢みつけ隊 - 令和8年3月期　決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0007",
+      "time": "17:30",
+      "code": "2130",
+      "company": "メンバーズ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541114.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "メンバーズ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0008",
+      "time": "17:30",
+      "code": "4956",
+      "company": "コニシ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542100.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "コニシ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0009",
+      "time": "17:30",
+      "code": "8897",
+      "company": "ミラースＨＤ",
+      "title": "2026年３月期 決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542412.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ミラースＨＤ - 2026年３月期 決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0010",
+      "time": "17:20",
+      "code": "6343",
+      "company": "フリージアマク",
+      "title": "令和８年３月期 決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260516539185.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "フリージアマク - 令和８年３月期 決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0011",
+      "time": "17:10",
+      "code": "1443",
+      "company": "技研ホールディングス",
+      "title": "2026年３月期 決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260518539693.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "技研ホールディングス - 2026年３月期 決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2026年3月期 4,675 △4.7 701 12.5 892 15.9 613 24.7",
+        "operatingProfitYoYPct": 12.5,
+        "ordinaryProfitYoYPct": 15.9
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0012",
+      "time": "17:00",
+      "code": "3237",
+      "company": "Ｇ－イントランス",
+      "title": "（訂正）「第28回定時株主総会の開催及び付議議案の決定に関するお知らせ」の 一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542554.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－イントランス - （訂正）「第28回定時株主総会の開催及び付議議案の決定に関するお知らせ」の 一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0013",
+      "time": "17:00",
+      "code": "3681",
+      "company": "ブイキューブ",
+      "title": "（変更）「臨時株主総会の招集及び付議議案等の決定に関するお知らせ」の一部変更について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542322.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ブイキューブ - （変更）「臨時株主総会の招集及び付議議案等の決定に関するお知らせ」の一部変更について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0014",
+      "time": "17:00",
+      "code": "3768",
+      "company": "リスクモンスター",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542463.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "リスクモンスター - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0015",
+      "time": "17:00",
+      "code": "3768",
+      "company": "リスクモンスター",
+      "title": "役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542470.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "リスクモンスター - 役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0016",
+      "time": "17:00",
+      "code": "3768",
+      "company": "リスクモンスター",
+      "title": "2026年3月期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541955.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "リスクモンスター - 2026年3月期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0017",
+      "time": "17:00",
+      "code": "6181",
+      "company": "Ｇ－タメニー",
+      "title": "定時株主総会の付議議案に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541791.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－タメニー - 定時株主総会の付議議案に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0018",
+      "time": "17:00",
+      "code": "8593",
+      "company": "三菱ＨＣキャピタル",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542086.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "三菱ＨＣキャピタル - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0019",
+      "time": "16:50",
+      "code": "5016",
+      "company": "ＪＸ金属",
+      "title": "自己株式の公開買付け開始に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541995.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "ＪＸ金属 - 自己株式の公開買付け開始に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
+    },
+    {
+      "id": "d0020",
+      "time": "16:50",
+      "code": "6743",
+      "company": "大同信号",
+      "title": "剰余金の配当（増配）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542581.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "大同信号 - 剰余金の配当（増配）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
+    },
+    {
+      "id": "d0021",
+      "time": "16:45",
+      "code": "4171",
+      "company": "グローバルＩ",
+      "title": "株式会社ユーザベースによる株式会社グローバルインフォメーション（証券コード：4171）の株券等に対する公開買付けの開始に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542553.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "グローバルＩ - 株式会社ユーザベースによる株式会社グローバルインフォメーション（証券コード：4171）の株券等に対する公開買付けの開始に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
+    },
+    {
+      "id": "d0022",
+      "time": "16:45",
+      "code": "4171",
+      "company": "グローバルＩ",
+      "title": "株式会社ユーザベースによる当社株券等に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542556.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "グローバルＩ - 株式会社ユーザベースによる当社株券等に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
+    },
+    {
+      "id": "d0023",
+      "time": "16:45",
+      "code": "4171",
+      "company": "グローバルＩ",
+      "title": "2026年12月期の中間配当及び期末配当予想の修正（無配）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542298.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "グローバルＩ - 2026年12月期の中間配当及び期末配当予想の修正（無配）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "無配への転落は財務状況の厳しさを示す。復配の見通しと業績回復のシナリオを確認すべき。"
+    },
+    {
+      "id": "d0024",
+      "time": "16:30",
+      "code": "1822",
+      "company": "大豊建",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542447.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "大豊建 - 自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0025",
+      "time": "16:30",
+      "code": "2204",
+      "company": "中村屋",
+      "title": "役員人事のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542037.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "中村屋 - 役員人事のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0026",
+      "time": "16:30",
+      "code": "2340",
+      "company": "極楽湯ＨＤ",
+      "title": "2026年３月期 決算説明",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542451.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "極楽湯ＨＤ - 2026年３月期 決算説明",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0027",
+      "time": "16:30",
+      "code": "4676",
+      "company": "フジＨＤ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519540941.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "フジＨＤ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0028",
+      "time": "16:30",
+      "code": "4755",
+      "company": "楽天グループ",
+      "title": "楽天銀行株式会社の株式交付による楽天カード株式会社、楽天証券ホールディングス株式会社の子会社化等による楽天銀行を含む楽天グループのフィンテック事業再編",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542154.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "楽天グループ - 楽天銀行株式会社の株式交付による楽天カード株式会社、楽天証券ホールディングス株式会社の子会社化等による楽天銀行を含む楽天グループのフィンテック事業再編",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0029",
+      "time": "16:30",
+      "code": "5838",
+      "company": "楽天銀行",
+      "title": "楽天銀行株式会社の株式交付による楽天カード株式会社、楽天証券ホールディングス株式会社の子会社化等による楽天銀行を含む楽天グループのフィンテック事業再編",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541675.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "楽天銀行 - 楽天銀行株式会社の株式交付による楽天カード株式会社、楽天証券ホールディングス株式会社の子会社化等による楽天銀行を含む楽天グループのフィンテック事業再編",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0030",
+      "time": "16:30",
+      "code": "5838",
+      "company": "楽天銀行",
+      "title": "みずほ銀行及び楽天銀行による戦略的な資本業務提携及び楽天銀行の主要株主の異動（見込み）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541703.pdf",
+      "market": "東",
+      "category": "業務提携・新製品",
+      "importance": "中",
+      "summary": "楽天銀行 - みずほ銀行及び楽天銀行による戦略的な資本業務提携及び楽天銀行の主要株主の異動（見込み）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "資本業務提携はシナジー効果による成長加速が期待される。提携先の規模と提携内容の具体性が重要。"
+    },
+    {
+      "id": "d0031",
+      "time": "16:30",
+      "code": "5838",
+      "company": "楽天銀行",
+      "title": "役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541525.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "楽天銀行 - 役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0032",
+      "time": "16:30",
+      "code": "6905",
+      "company": "コーセル",
+      "title": "連結子会社の異動（株式譲渡）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542141.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "低",
+      "summary": "コーセル - 連結子会社の異動（株式譲渡）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "子会社の異動はグループ戦略の見直しを示唆。連結への影響と事業ポートフォリオの変化を確認。"
+    },
+    {
+      "id": "d0033",
+      "time": "16:30",
+      "code": "6997",
+      "company": "日ケミコン",
+      "title": "Ｂ種種類株主によるＢ種種類株式の普通株式を対価とする取得請求権の行使に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542126.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "日ケミコン - Ｂ種種類株主によるＢ種種類株式の普通株式を対価とする取得請求権の行使に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0034",
+      "time": "16:30",
+      "code": "8411",
+      "company": "みずほ",
+      "title": "みずほ銀行及び楽天銀行による戦略的な資本業務提携及び楽天銀行の主要株主の異動（見込み）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541543.pdf",
+      "market": "東",
+      "category": "業務提携・新製品",
+      "importance": "中",
+      "summary": "みずほ - みずほ銀行及び楽天銀行による戦略的な資本業務提携及び楽天銀行の主要株主の異動（見込み）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "資本業務提携はシナジー効果による成長加速が期待される。提携先の規模と提携内容の具体性が重要。"
+    },
+    {
+      "id": "d0035",
+      "time": "16:30",
+      "code": "8630",
+      "company": "ＳＯＭＰＯＨＤ",
+      "title": "2026年3月期決算短信〔ＩＦＲＳ〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519540591.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＳＯＭＰＯＨＤ - 2026年3月期決算短信〔ＩＦＲＳ〕(連結)",
+      "earnings": {
+        "period": "2026年3月期 5,372,921 6.1 843,226 155.3 642,955 162.2 640,086 1",
+        "operatingProfitYoYPct": 155.3,
+        "ordinaryProfitYoYPct": 162.2
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +155.3% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0036",
+      "time": "16:30",
+      "code": "8630",
+      "company": "ＳＯＭＰＯＨＤ",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541115.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "ＳＯＭＰＯＨＤ - 自己株式取得に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0037",
+      "time": "16:10",
+      "code": "5891",
+      "company": "魁力屋",
+      "title": "（追加情報）株主優待制度の利用店舗拡充に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542439.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "魁力屋 - （追加情報）株主優待制度の利用店舗拡充に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0038",
+      "time": "16:10",
+      "code": "7814",
+      "company": "日本創発Ｇ",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260513529234.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "日本創発Ｇ - 自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0039",
+      "time": "16:00",
+      "code": "2296",
+      "company": "伊藤ハム米久ＨＤ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541477.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "伊藤ハム米久ＨＤ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0040",
+      "time": "16:00",
+      "code": "2296",
+      "company": "伊藤ハム米久ＨＤ",
+      "title": "少数株主利益保護への対応について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541492.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "伊藤ハム米久ＨＤ - 少数株主利益保護への対応について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0041",
+      "time": "16:00",
+      "code": "2937",
+      "company": "Ｇ－サンクゼール",
+      "title": "株主優待制度の変更に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542379.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－サンクゼール - 株主優待制度の変更に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0042",
+      "time": "16:00",
+      "code": "3849",
+      "company": "Ａ－ＮＴＬ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541920.pdf",
+      "market": "札",
+      "category": "配当",
+      "importance": "低",
+      "summary": "Ａ－ＮＴＬ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0043",
+      "time": "16:00",
+      "code": "3858",
+      "company": "ユビキタスＡＩ",
+      "title": "2026年3月期 決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519540943.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ユビキタスＡＩ - 2026年3月期 決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年３月期 3,924 △5.2 △201 － △213 － △518 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0044",
+      "time": "16:00",
+      "code": "4287",
+      "company": "ジャストプラ",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541638.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "ジャストプラ - 自己株式取得に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0045",
+      "time": "16:00",
+      "code": "4526",
+      "company": "理研ビタミン",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542152.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "理研ビタミン - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0046",
+      "time": "16:00",
+      "code": "4720",
+      "company": "城南進研",
+      "title": "役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519540483.pdf",
+      "market": "東札",
+      "category": "その他",
+      "importance": "中",
+      "summary": "城南進研 - 役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0047",
+      "time": "16:00",
+      "code": "4720",
+      "company": "城南進研",
+      "title": "有限会社吉祥の株式取得（子会社化）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519540464.pdf",
+      "market": "東札",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "城南進研 - 有限会社吉祥の株式取得（子会社化）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0048",
+      "time": "16:00",
+      "code": "4720",
+      "company": "城南進研",
+      "title": "2026年３月期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260518540081.pdf",
+      "market": "東札",
+      "category": "決算",
+      "importance": "高",
+      "summary": "城南進研 - 2026年３月期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年３月期 5,621 △0.1 77 ― 80 ― 4 ―",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0049",
+      "time": "16:00",
+      "code": "4918",
+      "company": "アイビー",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541207.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "アイビー - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0050",
+      "time": "16:00",
+      "code": "4918",
+      "company": "アイビー",
+      "title": "役員人事内定および人事異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541228.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "アイビー - 役員人事内定および人事異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0051",
+      "time": "16:00",
+      "code": "4925",
+      "company": "ＨＡＢＡ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541634.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "ＨＡＢＡ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0052",
+      "time": "16:00",
+      "code": "5208",
+      "company": "有沢製",
+      "title": "剰余金の配当（期末配当）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519540372.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "有沢製 - 剰余金の配当（期末配当）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0053",
+      "time": "16:00",
+      "code": "5208",
+      "company": "有沢製",
+      "title": "役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519540626.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "有沢製 - 役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0054",
+      "time": "16:00",
+      "code": "6549",
+      "company": "ディーエムソリュ",
+      "title": "2026年３月期 決算説明会資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542327.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ディーエムソリュ - 2026年３月期 決算説明会資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0055",
+      "time": "16:00",
+      "code": "6576",
+      "company": "Ｐ－揚工舎",
+      "title": "2026年３月期　決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541556.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｐ－揚工舎 - 2026年３月期　決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2026年３月期 3,638 17.9 42 △65.9 74 △46.8 44 △46.5",
+        "operatingProfitYoYPct": -65.9,
+        "ordinaryProfitYoYPct": -46.8
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -65.9% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0056",
+      "time": "16:00",
+      "code": "6616",
+      "company": "トレックスセミ",
+      "title": "2026年3月期　通期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542450.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "トレックスセミ - 2026年3月期　通期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0057",
+      "time": "16:00",
+      "code": "6743",
+      "company": "大同信号",
+      "title": "2026年3月期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260518539271.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "大同信号 - 2026年3月期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年３月期 25,695 17.3 2,187 89.8 2,347 86.0 1,791 16.1",
+        "operatingProfitYoYPct": 89.8,
+        "ordinaryProfitYoYPct": 86.0
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +89.8% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0058",
+      "time": "16:00",
+      "code": "7979",
+      "company": "松風",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541318.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "松風 - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0059",
+      "time": "16:00",
+      "code": "8421",
+      "company": "Ｙ－信中金",
+      "title": "2026年３月期 決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541953.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｙ－信中金 - 2026年３月期 決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年３月期 662,624 37.3 56,156 △4.1 43,006 1.3",
+        "operatingProfitYoYPct": -4.1,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0060",
+      "time": "16:00",
+      "code": "8616",
+      "company": "東海東京",
+      "title": "(訂正・数値データ訂正）「2026年３月期 決算短信〔日本基準〕(連結)」の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519540719.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東海東京 - (訂正・数値データ訂正）「2026年３月期 決算短信〔日本基準〕(連結)」の一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0061",
+      "time": "16:00",
+      "code": "8616",
+      "company": "東海東京",
+      "title": "（訂正）「2026年3月期 決算説明資料」の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519540730.pdf",
+      "market": "東名",
+      "category": "その他",
+      "importance": "中",
+      "summary": "東海東京 - （訂正）「2026年3月期 決算説明資料」の一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0062",
+      "time": "16:00",
+      "code": "8708",
+      "company": "アイザワ証Ｇ",
+      "title": "剰余金の配当（期末配当）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541800.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "アイザワ証Ｇ - 剰余金の配当（期末配当）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0063",
+      "time": "16:00",
+      "code": "8766",
+      "company": "東京海上",
+      "title": "2026年３月期  決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541455.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東京海上 - 2026年３月期  決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年３月期 8,872,277 5.1 1,348,630 △7.6 980,428 △7.1",
+        "operatingProfitYoYPct": -7.6,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0064",
+      "time": "16:00",
+      "code": "8766",
+      "company": "東京海上",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541474.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "東京海上 - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0065",
+      "time": "16:00",
+      "code": "8766",
+      "company": "東京海上",
+      "title": "自己株式の取得に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519541478.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "高",
+      "summary": "東京海上 - 自己株式の取得に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "自社株買いは1株当たり価値の向上につながる。取得規模と発行済株式数に対する比率を確認。"
+    },
+    {
+      "id": "d0066",
+      "time": "16:00",
+      "code": "9247",
+      "company": "ＴＲＥＨＤ",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542097.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＴＲＥＨＤ - 主要株主の異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0067",
+      "time": "16:00",
+      "code": "9684",
+      "company": "スクエニＨＤ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520541909.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "スクエニＨＤ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0068",
       "time": "15:45",
       "code": "2292",
       "company": "Ｓ　ＦＯＯＤＳ",
@@ -19,7 +1064,7 @@
       "analysis": ""
     },
     {
-      "id": "d0002",
+      "id": "d0069",
       "time": "15:40",
       "code": "4960",
       "company": "ケミプロ化成",
@@ -34,7 +1079,7 @@
       "analysis": ""
     },
     {
-      "id": "d0003",
+      "id": "d0070",
       "time": "15:40",
       "code": "9564",
       "company": "ＦＣＥ",
@@ -49,7 +1094,7 @@
       "analysis": ""
     },
     {
-      "id": "d0004",
+      "id": "d0071",
       "time": "15:40",
       "code": "9564",
       "company": "ＦＣＥ",
@@ -64,7 +1109,7 @@
       "analysis": ""
     },
     {
-      "id": "d0005",
+      "id": "d0072",
       "time": "15:30",
       "code": "2340",
       "company": "極楽湯ＨＤ",
@@ -83,7 +1128,7 @@
       "analysis": ""
     },
     {
-      "id": "d0006",
+      "id": "d0073",
       "time": "15:30",
       "code": "2340",
       "company": "極楽湯ＨＤ",
@@ -98,7 +1143,7 @@
       "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
     },
     {
-      "id": "d0007",
+      "id": "d0074",
       "time": "15:30",
       "code": "2340",
       "company": "極楽湯ＨＤ",
@@ -113,7 +1158,7 @@
       "analysis": "無配からの復配は業績回復の象徴。財務体質の改善が進んでいるか、今後の配当方針に注目。"
     },
     {
-      "id": "d0008",
+      "id": "d0075",
       "time": "15:30",
       "code": "2340",
       "company": "極楽湯ＨＤ",
@@ -128,7 +1173,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0009",
+      "id": "d0076",
       "time": "15:30",
       "code": "3224",
       "company": "Ｇ－Ｇオイスター",
@@ -143,7 +1188,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0010",
+      "id": "d0077",
       "time": "15:30",
       "code": "3626",
       "company": "ＴＩＳ",
@@ -158,7 +1203,7 @@
       "analysis": ""
     },
     {
-      "id": "d0011",
+      "id": "d0078",
       "time": "15:30",
       "code": "3673",
       "company": "ブロドリーフ",
@@ -173,7 +1218,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0012",
+      "id": "d0079",
       "time": "15:30",
       "code": "3753",
       "company": "フライト",
@@ -192,7 +1237,7 @@
       "analysis": ""
     },
     {
-      "id": "d0013",
+      "id": "d0080",
       "time": "15:30",
       "code": "3753",
       "company": "フライト",
@@ -207,7 +1252,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0014",
+      "id": "d0081",
       "time": "15:30",
       "code": "3753",
       "company": "フライト",
@@ -222,7 +1267,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0015",
+      "id": "d0082",
       "time": "15:30",
       "code": "3918",
       "company": "ＰＣＩＨＤ",
@@ -237,7 +1282,7 @@
       "analysis": ""
     },
     {
-      "id": "d0016",
+      "id": "d0083",
       "time": "15:30",
       "code": "3918",
       "company": "ＰＣＩＨＤ",
@@ -252,7 +1297,7 @@
       "analysis": ""
     },
     {
-      "id": "d0017",
+      "id": "d0084",
       "time": "15:30",
       "code": "4063",
       "company": "信越化",
@@ -267,7 +1312,7 @@
       "analysis": ""
     },
     {
-      "id": "d0018",
+      "id": "d0085",
       "time": "15:30",
       "code": "4063",
       "company": "信越化",
@@ -282,7 +1327,7 @@
       "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
     },
     {
-      "id": "d0019",
+      "id": "d0086",
       "time": "15:30",
       "code": "4260",
       "company": "Ｇ－ハイブリッドテク",
@@ -297,7 +1342,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0020",
+      "id": "d0087",
       "time": "15:30",
       "code": "4386",
       "company": "ＳＩＧグループ",
@@ -312,7 +1357,7 @@
       "analysis": ""
     },
     {
-      "id": "d0021",
+      "id": "d0088",
       "time": "15:30",
       "code": "4569",
       "company": "杏林製薬",
@@ -327,7 +1372,7 @@
       "analysis": ""
     },
     {
-      "id": "d0022",
+      "id": "d0089",
       "time": "15:30",
       "code": "4667",
       "company": "アイサンテクノロ",
@@ -342,7 +1387,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0023",
+      "id": "d0090",
       "time": "15:30",
       "code": "4667",
       "company": "アイサンテクノロ",
@@ -357,7 +1402,7 @@
       "analysis": ""
     },
     {
-      "id": "d0024",
+      "id": "d0091",
       "time": "15:30",
       "code": "4882",
       "company": "Ｇ－ペルセウス",
@@ -372,7 +1417,7 @@
       "analysis": ""
     },
     {
-      "id": "d0025",
+      "id": "d0092",
       "time": "15:30",
       "code": "4882",
       "company": "Ｇ－ペルセウス",
@@ -387,7 +1432,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0026",
+      "id": "d0093",
       "time": "15:30",
       "code": "4888",
       "company": "Ｇ－ステラファーマ",
@@ -402,7 +1447,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0027",
+      "id": "d0094",
       "time": "15:30",
       "code": "4890",
       "company": "Ｇ－坪田ラボ",
@@ -417,7 +1462,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0028",
+      "id": "d0095",
       "time": "15:30",
       "code": "5033",
       "company": "Ｇ－ヌーラボ",
@@ -432,7 +1477,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0029",
+      "id": "d0096",
       "time": "15:30",
       "code": "5406",
       "company": "神戸鋼",
@@ -447,7 +1492,7 @@
       "analysis": ""
     },
     {
-      "id": "d0030",
+      "id": "d0097",
       "time": "15:30",
       "code": "5909",
       "company": "コロナ",
@@ -462,7 +1507,7 @@
       "analysis": ""
     },
     {
-      "id": "d0031",
+      "id": "d0098",
       "time": "15:30",
       "code": "6050",
       "company": "Ｅガーディアン",
@@ -477,7 +1522,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0032",
+      "id": "d0099",
       "time": "15:30",
       "code": "6254",
       "company": "野村マイクロ",
@@ -492,7 +1537,7 @@
       "analysis": ""
     },
     {
-      "id": "d0033",
+      "id": "d0100",
       "time": "15:30",
       "code": "6335",
       "company": "東京機",
@@ -507,7 +1552,7 @@
       "analysis": ""
     },
     {
-      "id": "d0034",
+      "id": "d0101",
       "time": "15:30",
       "code": "6584",
       "company": "三桜工",
@@ -522,7 +1567,7 @@
       "analysis": ""
     },
     {
-      "id": "d0035",
+      "id": "d0102",
       "time": "15:30",
       "code": "6675",
       "company": "サクサ",
@@ -537,7 +1582,7 @@
       "analysis": ""
     },
     {
-      "id": "d0036",
+      "id": "d0103",
       "time": "15:30",
       "code": "6727",
       "company": "ワコム",
@@ -552,7 +1597,7 @@
       "analysis": ""
     },
     {
-      "id": "d0037",
+      "id": "d0104",
       "time": "15:30",
       "code": "6875",
       "company": "メガチップス",
@@ -567,7 +1612,7 @@
       "analysis": ""
     },
     {
-      "id": "d0038",
+      "id": "d0105",
       "time": "15:30",
       "code": "6894",
       "company": "パルステック",
@@ -582,7 +1627,7 @@
       "analysis": ""
     },
     {
-      "id": "d0039",
+      "id": "d0106",
       "time": "15:30",
       "code": "6923",
       "company": "スタンレー電",
@@ -597,7 +1642,7 @@
       "analysis": ""
     },
     {
-      "id": "d0040",
+      "id": "d0107",
       "time": "15:30",
       "code": "7066",
       "company": "Ｇ－ピアズ",
@@ -612,7 +1657,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0041",
+      "id": "d0108",
       "time": "15:30",
       "code": "7111",
       "company": "ＩＮＥＳＴ",
@@ -631,7 +1676,7 @@
       "analysis": "営業利益が前年同期比 +22.2% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0042",
+      "id": "d0109",
       "time": "15:30",
       "code": "7409",
       "company": "Ｇ－ＡｅｒｏＥｄｇｅ",
@@ -646,7 +1691,7 @@
       "analysis": ""
     },
     {
-      "id": "d0043",
+      "id": "d0110",
       "time": "15:30",
       "code": "7409",
       "company": "Ｇ－ＡｅｒｏＥｄｇｅ",
@@ -661,7 +1706,7 @@
       "analysis": ""
     },
     {
-      "id": "d0044",
+      "id": "d0111",
       "time": "15:30",
       "code": "7481",
       "company": "尾家産",
@@ -676,7 +1721,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0045",
+      "id": "d0112",
       "time": "15:30",
       "code": "7893",
       "company": "プロネクサス",
@@ -691,7 +1736,7 @@
       "analysis": ""
     },
     {
-      "id": "d0046",
+      "id": "d0113",
       "time": "15:30",
       "code": "8207",
       "company": "テンアライド",
@@ -706,7 +1751,7 @@
       "analysis": ""
     },
     {
-      "id": "d0047",
+      "id": "d0114",
       "time": "15:30",
       "code": "8725",
       "company": "ＭＳ＆ＡＤ",
@@ -725,7 +1770,7 @@
       "analysis": "営業利益が前年同期比 +20.6% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0048",
+      "id": "d0115",
       "time": "15:30",
       "code": "8725",
       "company": "ＭＳ＆ＡＤ",
@@ -740,7 +1785,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0049",
+      "id": "d0116",
       "time": "15:30",
       "code": "8725",
       "company": "ＭＳ＆ＡＤ",
@@ -755,7 +1800,7 @@
       "analysis": ""
     },
     {
-      "id": "d0050",
+      "id": "d0117",
       "time": "15:30",
       "code": "8725",
       "company": "ＭＳ＆ＡＤ",
@@ -770,7 +1815,7 @@
       "analysis": ""
     },
     {
-      "id": "d0051",
+      "id": "d0118",
       "time": "15:30",
       "code": "8844",
       "company": "コスモスイニシア",
@@ -785,7 +1830,7 @@
       "analysis": ""
     },
     {
-      "id": "d0052",
+      "id": "d0119",
       "time": "15:30",
       "code": "9025",
       "company": "鴻池運輸",
@@ -800,7 +1845,7 @@
       "analysis": ""
     },
     {
-      "id": "d0053",
+      "id": "d0120",
       "time": "15:30",
       "code": "9081",
       "company": "神奈中交",
@@ -815,7 +1860,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0054",
+      "id": "d0121",
       "time": "15:30",
       "code": "9948",
       "company": "アークス",
@@ -830,7 +1875,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0055",
+      "id": "d0122",
       "time": "15:00",
       "code": "3066",
       "company": "ＪＢイレブン",
@@ -845,7 +1890,7 @@
       "analysis": ""
     },
     {
-      "id": "d0056",
+      "id": "d0123",
       "time": "15:00",
       "code": "4188",
       "company": "三菱ケミカルグループ",
@@ -860,7 +1905,7 @@
       "analysis": ""
     },
     {
-      "id": "d0057",
+      "id": "d0124",
       "time": "15:00",
       "code": "4471",
       "company": "三洋化成",
@@ -875,7 +1920,7 @@
       "analysis": ""
     },
     {
-      "id": "d0058",
+      "id": "d0125",
       "time": "15:00",
       "code": "5852",
       "company": "アーレスティ",
@@ -894,7 +1939,7 @@
       "analysis": ""
     },
     {
-      "id": "d0059",
+      "id": "d0126",
       "time": "15:00",
       "code": "5852",
       "company": "アーレスティ",
@@ -909,7 +1954,7 @@
       "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
     },
     {
-      "id": "d0060",
+      "id": "d0127",
       "time": "15:00",
       "code": "5852",
       "company": "アーレスティ",
@@ -924,7 +1969,7 @@
       "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
     },
     {
-      "id": "d0061",
+      "id": "d0128",
       "time": "15:00",
       "code": "6262",
       "company": "ＰＥＧＡＳＵＳ",
@@ -939,7 +1984,7 @@
       "analysis": ""
     },
     {
-      "id": "d0062",
+      "id": "d0129",
       "time": "15:00",
       "code": "6590",
       "company": "芝浦",
@@ -954,7 +1999,7 @@
       "analysis": ""
     },
     {
-      "id": "d0063",
+      "id": "d0130",
       "time": "15:00",
       "code": "8123",
       "company": "川辺",
@@ -969,7 +2014,7 @@
       "analysis": ""
     },
     {
-      "id": "d0064",
+      "id": "d0131",
       "time": "14:00",
       "code": "5458",
       "company": "高砂鉄",
@@ -984,7 +2029,7 @@
       "analysis": ""
     },
     {
-      "id": "d0065",
+      "id": "d0132",
       "time": "14:00",
       "code": "5966",
       "company": "京都機械工具",
@@ -999,7 +2044,7 @@
       "analysis": ""
     },
     {
-      "id": "d0066",
+      "id": "d0133",
       "time": "14:00",
       "code": "9444",
       "company": "トーシンＨＤ",
@@ -1014,7 +2059,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0067",
+      "id": "d0134",
       "time": "13:45",
       "code": "8746",
       "company": "ｕｎｂａｎｋｅｄ",
@@ -1029,7 +2074,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0068",
+      "id": "d0135",
       "time": "13:30",
       "code": "1332",
       "company": "ニッスイ",
@@ -1044,7 +2089,7 @@
       "analysis": ""
     },
     {
-      "id": "d0069",
+      "id": "d0136",
       "time": "13:30",
       "code": "1332",
       "company": "ニッスイ",
@@ -1059,7 +2104,7 @@
       "analysis": ""
     },
     {
-      "id": "d0070",
+      "id": "d0137",
       "time": "13:00",
       "code": "3237",
       "company": "Ｇ－イントランス",
@@ -1074,7 +2119,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0071",
+      "id": "d0138",
       "time": "13:00",
       "code": "3433",
       "company": "トーカロ",
@@ -1089,7 +2134,7 @@
       "analysis": ""
     },
     {
-      "id": "d0072",
+      "id": "d0139",
       "time": "11:35",
       "code": "6573",
       "company": "Ｇ－ＣＲＡＶＩＡ",
@@ -1104,7 +2149,7 @@
       "analysis": ""
     },
     {
-      "id": "d0073",
+      "id": "d0140",
       "time": "11:30",
       "code": "8887",
       "company": "シーラＨＤ",
@@ -1119,7 +2164,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0074",
+      "id": "d0141",
       "time": "11:00",
       "code": "1966",
       "company": "高田工業所",
@@ -1134,7 +2179,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0075",
+      "id": "d0142",
       "time": "11:00",
       "code": "3450",
       "company": "Ｐ－サトウ産業",
@@ -1149,7 +2194,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0076",
+      "id": "d0143",
       "time": "10:30",
       "code": "3798",
       "company": "ＵＬＳグループ",
@@ -1164,7 +2209,7 @@
       "analysis": ""
     },
     {
-      "id": "d0077",
+      "id": "d0144",
       "time": "10:00",
       "code": "1720",
       "company": "東急建設",
@@ -1179,7 +2224,7 @@
       "analysis": ""
     },
     {
-      "id": "d0078",
+      "id": "d0145",
       "time": "10:00",
       "code": "4240",
       "company": "クラスターＴ",
@@ -1194,7 +2239,7 @@
       "analysis": ""
     },
     {
-      "id": "d0079",
+      "id": "d0146",
       "time": "10:00",
       "code": "6525",
       "company": "ＫＯＫＵＳＡＩ",
@@ -1209,7 +2254,7 @@
       "analysis": ""
     },
     {
-      "id": "d0080",
+      "id": "d0147",
       "time": "10:00",
       "code": "7610",
       "company": "テイツー",
@@ -1224,7 +2269,7 @@
       "analysis": ""
     },
     {
-      "id": "d0081",
+      "id": "d0148",
       "time": "10:00",
       "code": "8219",
       "company": "青山商",
@@ -1239,7 +2284,7 @@
       "analysis": ""
     },
     {
-      "id": "d0082",
+      "id": "d0149",
       "time": "08:30",
       "code": "4208",
       "company": "ＵＢＥ",
