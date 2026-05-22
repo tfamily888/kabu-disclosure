@@ -1,10 +1,850 @@
 {
-  "lastUpdated": "2026-05-22T15:47:44+09:00",
+  "lastUpdated": "2026-05-22T18:55:14+09:00",
   "date": "2026-05-22",
-  "totalRaw": 277,
+  "totalRaw": 397,
   "disclosures": [
     {
       "id": "d0001",
+      "time": "17:30",
+      "code": "7578",
+      "company": "ニチリョク",
+      "title": "(訂正・数値データ訂正)「2025年３月期 第１四半期決算短信〔日本基準〕（非連結）」の一部訂正のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260515539013.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ニチリョク - (訂正・数値データ訂正)「2025年３月期 第１四半期決算短信〔日本基準〕（非連結）」の一部訂正のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0002",
+      "time": "17:30",
+      "code": "7578",
+      "company": "ニチリョク",
+      "title": "(訂正・数値データ訂正)「2025年３月期 第３四半期決算短信〔日本基準〕（非連結）」の一部訂正 のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260519540652.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ニチリョク - (訂正・数値データ訂正)「2025年３月期 第３四半期決算短信〔日本基準〕（非連結）」の一部訂正 のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0003",
+      "time": "17:30",
+      "code": "7578",
+      "company": "ニチリョク",
+      "title": "(訂正・数値データ訂正)「2025年３月期 決算短信〔日本基準〕（非連結）」の一部訂正のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260515538715.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ニチリョク - (訂正・数値データ訂正)「2025年３月期 決算短信〔日本基準〕（非連結）」の一部訂正のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0004",
+      "time": "17:30",
+      "code": "7578",
+      "company": "ニチリョク",
+      "title": "(訂正・数値データ訂正)「2026年３月期 第１四半期決算短信〔日本基準〕（非連結）」の一部訂正 のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260515538180.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ニチリョク - (訂正・数値データ訂正)「2026年３月期 第１四半期決算短信〔日本基準〕（非連結）」の一部訂正 のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0005",
+      "time": "17:30",
+      "code": "7578",
+      "company": "ニチリョク",
+      "title": "(訂正・数値データ訂正)「2026年３月期 第２四半期（中間期）決算短信〔日本基準〕（非連結）」 の一部訂正のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260515538006.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ニチリョク - (訂正・数値データ訂正)「2026年３月期 第２四半期（中間期）決算短信〔日本基準〕（非連結）」 の一部訂正のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0006",
+      "time": "17:30",
+      "code": "7578",
+      "company": "ニチリョク",
+      "title": "(訂正・数値データ訂正)「2026年３月期 第３四半期決算短信〔日本基準〕（非連結）」の一部訂正 のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260515537716.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ニチリョク - (訂正・数値データ訂正)「2026年３月期 第３四半期決算短信〔日本基準〕（非連結）」の一部訂正 のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0007",
+      "time": "17:30",
+      "code": "9439",
+      "company": "ＭＨグループ",
+      "title": "第三者割当による新株式発行及び第２回新株予約権の発行並びに主要株主及びその他の関係会社の異動（見込み）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545047.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＭＨグループ - 第三者割当による新株式発行及び第２回新株予約権の発行並びに主要株主及びその他の関係会社の異動（見込み）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "新株予約権の発行は将来的な希薄化リスクを伴う。発行条件と行使価格、資金使途を確認すべき。"
+    },
+    {
+      "id": "d0008",
+      "time": "17:30",
+      "code": "9439",
+      "company": "ＭＨグループ",
+      "title": "臨時株主総会の開催日及び付議議案の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545124.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＭＨグループ - 臨時株主総会の開催日及び付議議案の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0009",
+      "time": "17:30",
+      "code": "9439",
+      "company": "ＭＨグループ",
+      "title": "役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545075.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＭＨグループ - 役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0010",
+      "time": "17:30",
+      "code": "9439",
+      "company": "ＭＨグループ",
+      "title": "第三者割当による新株式発行及び第２回新株予約権の発行並びに主要株主及びその他の関連会社の異動（見込み）に関するお知らせの補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545526.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＭＨグループ - 第三者割当による新株式発行及び第２回新株予約権の発行並びに主要株主及びその他の関連会社の異動（見込み）に関するお知らせの補足説明資料",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "新株予約権の発行は将来的な希薄化リスクを伴う。発行条件と行使価格、資金使途を確認すべき。"
+    },
+    {
+      "id": "d0011",
+      "time": "17:15",
+      "code": "4390",
+      "company": "ｉｐｓ",
+      "title": "役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544551.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ｉｐｓ - 役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0012",
+      "time": "17:00",
+      "code": "3137",
+      "company": "ファンデリー",
+      "title": "役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544255.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ファンデリー - 役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0013",
+      "time": "17:00",
+      "code": "4078",
+      "company": "堺化学",
+      "title": "2026年3月期本決算説明会スライド",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544943.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "堺化学 - 2026年3月期本決算説明会スライド",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0014",
+      "time": "17:00",
+      "code": "5391",
+      "company": "Ａ＆Ａマテリアル",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545228.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "Ａ＆Ａマテリアル - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0015",
+      "time": "17:00",
+      "code": "7172",
+      "company": "ＪＩＡ",
+      "title": "双日株式会社との資本業務提携、第三者割当による自己株式処分及び新株式発行、株式の売出し他に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544312.pdf",
+      "market": "東",
+      "category": "業務提携・新製品",
+      "importance": "中",
+      "summary": "ＪＩＡ - 双日株式会社との資本業務提携、第三者割当による自己株式処分及び新株式発行、株式の売出し他に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "資本業務提携はシナジー効果による成長加速が期待される。提携先の規模と提携内容の具体性が重要。"
+    },
+    {
+      "id": "d0016",
+      "time": "17:00",
+      "code": "7270",
+      "company": "ＳＵＢＡＲＵ",
+      "title": "（訂正）「自己株式取得に係る事項の決定及び自己株式の消却に関するお知らせ」の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545359.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "ＳＵＢＡＲＵ - （訂正）「自己株式取得に係る事項の決定及び自己株式の消却に関するお知らせ」の一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0017",
+      "time": "17:00",
+      "code": "9790",
+      "company": "福井コンピ",
+      "title": "（変更）「合併に伴う代表取締役の異動（追加選任）に関するお知らせ」の一部変更について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545193.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "福井コンピ - （変更）「合併に伴う代表取締役の異動（追加選任）に関するお知らせ」の一部変更について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "代表取締役の交代は経営方針の変化につながる可能性がある。後任の経歴と経営ビジョンに注目。"
+    },
+    {
+      "id": "d0018",
+      "time": "16:30",
+      "code": "3079",
+      "company": "ＤＶｘ",
+      "title": "代表取締役の異動（追加選定）および役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545407.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＤＶｘ - 代表取締役の異動（追加選定）および役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "代表取締役の交代は経営方針の変化につながる可能性がある。後任の経歴と経営ビジョンに注目。"
+    },
+    {
+      "id": "d0019",
+      "time": "16:30",
+      "code": "3320",
+      "company": "クロスプラス",
+      "title": "株式会社シャルズの株式取得（子会社化）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260521543233.pdf",
+      "market": "東名",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "クロスプラス - 株式会社シャルズの株式取得（子会社化）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0020",
+      "time": "16:30",
+      "code": "4635",
+      "company": "東インキ",
+      "title": "（訂正・数値データ）「2026年３月期 決算短信〔日本基準〕（連結）」",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542829.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東インキ - （訂正・数値データ）「2026年３月期 決算短信〔日本基準〕（連結）」",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0021",
+      "time": "16:30",
+      "code": "5970",
+      "company": "ジーテクト",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544326.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "ジーテクト - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0022",
+      "time": "16:30",
+      "code": "5970",
+      "company": "ジーテクト",
+      "title": "支配株主等に関する事項について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544368.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ジーテクト - 支配株主等に関する事項について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
+    },
+    {
+      "id": "d0023",
+      "time": "16:30",
+      "code": "6173",
+      "company": "Ｇ－アクアライン",
+      "title": "上場廃止後の当社株式の取り扱いに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545374.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "高",
+      "summary": "Ｇ－アクアライン - 上場廃止後の当社株式の取り扱いに関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "上場廃止は株式の流動性が失われる重大事象。整理銘柄指定後の売却機会は限られるため注意が必要。"
+    },
+    {
+      "id": "d0024",
+      "time": "16:30",
+      "code": "6721",
+      "company": "ウインテスト",
+      "title": "支配株主（親会社）等に関する事項について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545317.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ウインテスト - 支配株主（親会社）等に関する事項について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
+    },
+    {
+      "id": "d0025",
+      "time": "16:30",
+      "code": "8707",
+      "company": "岩井コスモ",
+      "title": "役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260521543144.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "岩井コスモ - 役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0026",
+      "time": "16:30",
+      "code": "8707",
+      "company": "岩井コスモ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260521543163.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "岩井コスモ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0027",
+      "time": "16:30",
+      "code": "9799",
+      "company": "旭情報",
+      "title": "機関投資家・アナリスト向け決算説明会資料の公開に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260520542701.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "旭情報 - 機関投資家・アナリスト向け決算説明会資料の公開に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0028",
+      "time": "16:00",
+      "code": "1418",
+      "company": "インターライフ",
+      "title": "支配株主等に関する事項について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260521543979.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "インターライフ - 支配株主等に関する事項について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
+    },
+    {
+      "id": "d0029",
+      "time": "16:00",
+      "code": "1848",
+      "company": "富士ピー・エス",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544231.pdf",
+      "market": "東福",
+      "category": "配当",
+      "importance": "低",
+      "summary": "富士ピー・エス - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0030",
+      "time": "16:00",
+      "code": "2162",
+      "company": "ｎｍｓ　ＨＤ",
+      "title": "連結子会社における構造改革の実施及び特別損失の計上に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545021.pdf",
+      "market": "東",
+      "category": "特別損失",
+      "importance": "高",
+      "summary": "ｎｍｓ　ＨＤ - 連結子会社における構造改革の実施及び特別損失の計上に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
+    },
+    {
+      "id": "d0031",
+      "time": "16:00",
+      "code": "2338",
+      "company": "クオンタムＳ",
+      "title": "持分法適用関連会社の完全子会社化に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544476.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "クオンタムＳ - 持分法適用関連会社の完全子会社化に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0032",
+      "time": "16:00",
+      "code": "3222",
+      "company": "Ｕ．Ｓ．Ｍ．Ｈ",
+      "title": "支配株主等に関する事項について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260521544092.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｕ．Ｓ．Ｍ．Ｈ - 支配株主等に関する事項について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
+    },
+    {
+      "id": "d0033",
+      "time": "16:00",
+      "code": "3571",
+      "company": "ソトー",
+      "title": "（訂正・数値データ訂正) 「2026 年３月期 決算短信〔日本基準〕（連結）」の一部訂正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545194.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ソトー - （訂正・数値データ訂正) 「2026 年３月期 決算短信〔日本基準〕（連結）」の一部訂正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0034",
+      "time": "16:00",
+      "code": "3676",
+      "company": "デジハＨＤ",
+      "title": "監査等委員会設置会社への移行及び役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544944.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "デジハＨＤ - 監査等委員会設置会社への移行及び役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0035",
+      "time": "16:00",
+      "code": "4493",
+      "company": "Ｇ－サイバーセキュリ",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545116.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "Ｇ－サイバーセキュリ - 自己株式取得に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0036",
+      "time": "16:00",
+      "code": "4691",
+      "company": "ワシントンホテル",
+      "title": "代表取締役の異動（退任）及び役員候補者選任に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260518539691.pdf",
+      "market": "東名",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ワシントンホテル - 代表取締役の異動（退任）及び役員候補者選任に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "代表取締役の交代は経営方針の変化につながる可能性がある。後任の経歴と経営ビジョンに注目。"
+    },
+    {
+      "id": "d0037",
+      "time": "16:00",
+      "code": "5131",
+      "company": "Ｇ－リンカーズ",
+      "title": "2026年７月期通期業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260521543647.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "Ｇ－リンカーズ - 2026年７月期通期業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0038",
+      "time": "16:00",
+      "code": "5189",
+      "company": "桜ゴム",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545162.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "桜ゴム - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0039",
+      "time": "16:00",
+      "code": "5284",
+      "company": "ヤマウＨＤ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544353.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "ヤマウＨＤ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0040",
+      "time": "16:00",
+      "code": "6157",
+      "company": "日進工具",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545001.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "日進工具 - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0041",
+      "time": "16:00",
+      "code": "6240",
+      "company": "ヤマシンフィルタ",
+      "title": "2026年３月期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260521543836.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ヤマシンフィルタ - 2026年３月期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0042",
+      "time": "16:00",
+      "code": "6334",
+      "company": "明治機",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544581.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "明治機 - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0043",
+      "time": "16:00",
+      "code": "6555",
+      "company": "ＭＳコンサル",
+      "title": "代表取締役の異動及び役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545041.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＭＳコンサル - 代表取締役の異動及び役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "代表取締役の交代は経営方針の変化につながる可能性がある。後任の経歴と経営ビジョンに注目。"
+    },
+    {
+      "id": "d0044",
+      "time": "16:00",
+      "code": "6800",
+      "company": "ヨコオ",
+      "title": "（訂正・数値データ訂正）  「2026年3月期 決算短信〔日本基準〕（連結）」の一部訂正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260521543508.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ヨコオ - （訂正・数値データ訂正）  「2026年3月期 決算短信〔日本基準〕（連結）」の一部訂正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0045",
+      "time": "16:00",
+      "code": "6800",
+      "company": "ヨコオ",
+      "title": "（訂正）適時開示書類「剰余金の配当（期末配当）に関するお知らせ」  の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260521543929.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "ヨコオ - （訂正）適時開示書類「剰余金の配当（期末配当）に関するお知らせ」  の一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0046",
+      "time": "16:00",
+      "code": "6908",
+      "company": "イリソ電子工業",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260514535133.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "イリソ電子工業 - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0047",
+      "time": "16:00",
+      "code": "6908",
+      "company": "イリソ電子工業",
+      "title": "第60回定時株主総会の継続会の開催方針に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260514535140.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "イリソ電子工業 - 第60回定時株主総会の継続会の開催方針に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0048",
+      "time": "16:00",
+      "code": "7057",
+      "company": "エヌ・シー・エヌ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544440.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "エヌ・シー・エヌ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0049",
+      "time": "16:00",
+      "code": "7057",
+      "company": "エヌ・シー・エヌ",
+      "title": "株式会社エヌ・シー・エヌ（証券コード 7057）に対する公開買付けに準ずる行為として政令で定める買集め行為に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545305.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "エヌ・シー・エヌ - 株式会社エヌ・シー・エヌ（証券コード 7057）に対する公開買付けに準ずる行為として政令で定める買集め行為に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
+    },
+    {
+      "id": "d0050",
+      "time": "16:00",
+      "code": "7460",
+      "company": "ヤギ",
+      "title": "(訂正・数値データ訂正)「2026年3月期 決算短信〔日本基準〕(連結)」及び「2026年3月期決算補足説明資料」の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260518540286.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ヤギ - (訂正・数値データ訂正)「2026年3月期 決算短信〔日本基準〕(連結)」及び「2026年3月期決算補足説明資料」の一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0051",
+      "time": "16:00",
+      "code": "7460",
+      "company": "ヤギ",
+      "title": "剰余金の配当（期末配当）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544320.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "ヤギ - 剰余金の配当（期末配当）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0052",
+      "time": "16:00",
+      "code": "7946",
+      "company": "光陽社",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522545031.pdf",
+      "market": "東名",
+      "category": "配当",
+      "importance": "低",
+      "summary": "光陽社 - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0053",
+      "time": "16:00",
+      "code": "8076",
+      "company": "カノークス",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544333.pdf",
+      "market": "東名",
+      "category": "配当",
+      "importance": "低",
+      "summary": "カノークス - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0054",
+      "time": "16:00",
+      "code": "9385",
+      "company": "ショーエイコーポ",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544802.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "ショーエイコーポ - 剰余金の配当に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0055",
+      "time": "16:00",
+      "code": "9513",
+      "company": "Ｊパワー",
+      "title": "（開示事項の経過）株主提案に対する当社取締役会意見に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544771.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｊパワー - （開示事項の経過）株主提案に対する当社取締役会意見に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0056",
+      "time": "16:00",
+      "code": "9692",
+      "company": "シーイーシー",
+      "title": "2027年1月期第2四半期（中間期）の連結業績予想の修正（上方修正）および中間配当予想の修正（増配）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260522544270.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "シーイーシー - 2027年1月期第2四半期（中間期）の連結業績予想の修正（上方修正）および中間配当予想の修正（増配）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "業績の上方修正はポジティブサプライズ。修正幅と修正理由に注目し、一過性か構造的改善かを見極めたい。"
+    },
+    {
+      "id": "d0057",
       "time": "15:45",
       "code": "2819",
       "company": "エバラ食品工業",
@@ -19,7 +859,7 @@
       "analysis": ""
     },
     {
-      "id": "d0002",
+      "id": "d0058",
       "time": "15:40",
       "code": "7709",
       "company": "クボテック",
@@ -34,7 +874,7 @@
       "analysis": ""
     },
     {
-      "id": "d0003",
+      "id": "d0059",
       "time": "15:40",
       "code": "9878",
       "company": "セキド",
@@ -49,7 +889,7 @@
       "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
     },
     {
-      "id": "d0004",
+      "id": "d0060",
       "time": "15:31",
       "code": "3932",
       "company": "アカツキ",
@@ -64,7 +904,7 @@
       "analysis": ""
     },
     {
-      "id": "d0005",
+      "id": "d0061",
       "time": "15:30",
       "code": "1429",
       "company": "日本アクア",
@@ -79,7 +919,7 @@
       "analysis": ""
     },
     {
-      "id": "d0006",
+      "id": "d0062",
       "time": "15:30",
       "code": "2315",
       "company": "ＣＡＩＣＡ　Ｄ",
@@ -94,7 +934,7 @@
       "analysis": ""
     },
     {
-      "id": "d0007",
+      "id": "d0063",
       "time": "15:30",
       "code": "2469",
       "company": "ヒビノ",
@@ -109,7 +949,7 @@
       "analysis": ""
     },
     {
-      "id": "d0008",
+      "id": "d0064",
       "time": "15:30",
       "code": "2469",
       "company": "ヒビノ",
@@ -124,7 +964,7 @@
       "analysis": ""
     },
     {
-      "id": "d0009",
+      "id": "d0065",
       "time": "15:30",
       "code": "2668",
       "company": "タビオ",
@@ -139,7 +979,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0010",
+      "id": "d0066",
       "time": "15:30",
       "code": "2689",
       "company": "オルバヘルスケアＨＤ",
@@ -154,7 +994,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0011",
+      "id": "d0067",
       "time": "15:30",
       "code": "2875",
       "company": "東洋水産",
@@ -169,7 +1009,7 @@
       "analysis": ""
     },
     {
-      "id": "d0012",
+      "id": "d0068",
       "time": "15:30",
       "code": "3079",
       "company": "ＤＶｘ",
@@ -184,7 +1024,7 @@
       "analysis": ""
     },
     {
-      "id": "d0013",
+      "id": "d0069",
       "time": "15:30",
       "code": "3224",
       "company": "Ｇ－Ｇオイスター",
@@ -199,7 +1039,7 @@
       "analysis": ""
     },
     {
-      "id": "d0014",
+      "id": "d0070",
       "time": "15:30",
       "code": "3544",
       "company": "サツドラＨＤ",
@@ -214,7 +1054,7 @@
       "analysis": "調査委員会の設置はガバナンス上の問題が深刻であることを示唆。調査結果の公表時期と影響範囲に注意。"
     },
     {
-      "id": "d0015",
+      "id": "d0071",
       "time": "15:30",
       "code": "3692",
       "company": "Ｇ－ＦＦＲＩ",
@@ -229,7 +1069,7 @@
       "analysis": ""
     },
     {
-      "id": "d0016",
+      "id": "d0072",
       "time": "15:30",
       "code": "3694",
       "company": "オプティム",
@@ -244,7 +1084,7 @@
       "analysis": ""
     },
     {
-      "id": "d0017",
+      "id": "d0073",
       "time": "15:30",
       "code": "3844",
       "company": "コムチュア",
@@ -259,7 +1099,7 @@
       "analysis": "代表取締役の交代は経営方針の変化につながる可能性がある。後任の経歴と経営ビジョンに注目。"
     },
     {
-      "id": "d0018",
+      "id": "d0074",
       "time": "15:30",
       "code": "3927",
       "company": "フーバーブレイン",
@@ -274,7 +1114,7 @@
       "analysis": ""
     },
     {
-      "id": "d0019",
+      "id": "d0075",
       "time": "15:30",
       "code": "3976",
       "company": "Ｇ－シャノン",
@@ -289,7 +1129,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0020",
+      "id": "d0076",
       "time": "15:30",
       "code": "3976",
       "company": "Ｇ－シャノン",
@@ -304,7 +1144,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0021",
+      "id": "d0077",
       "time": "15:30",
       "code": "4017",
       "company": "Ｇ－クリーマ",
@@ -319,7 +1159,7 @@
       "analysis": ""
     },
     {
-      "id": "d0022",
+      "id": "d0078",
       "time": "15:30",
       "code": "4017",
       "company": "Ｇ－クリーマ",
@@ -334,7 +1174,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0023",
+      "id": "d0079",
       "time": "15:30",
       "code": "4041",
       "company": "日曹達",
@@ -349,7 +1189,7 @@
       "analysis": ""
     },
     {
-      "id": "d0024",
+      "id": "d0080",
       "time": "15:30",
       "code": "4100",
       "company": "戸田工",
@@ -364,7 +1204,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0025",
+      "id": "d0081",
       "time": "15:30",
       "code": "4343",
       "company": "イオンファン",
@@ -379,7 +1219,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0026",
+      "id": "d0082",
       "time": "15:30",
       "code": "4417",
       "company": "Ｇ－グローバルセキュ",
@@ -394,7 +1234,7 @@
       "analysis": ""
     },
     {
-      "id": "d0027",
+      "id": "d0083",
       "time": "15:30",
       "code": "4436",
       "company": "Ｇ－ミンカブ",
@@ -409,7 +1249,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0028",
+      "id": "d0084",
       "time": "15:30",
       "code": "4449",
       "company": "ギフティ",
@@ -424,7 +1264,7 @@
       "analysis": "資本業務提携はシナジー効果による成長加速が期待される。提携先の規模と提携内容の具体性が重要。"
     },
     {
-      "id": "d0029",
+      "id": "d0085",
       "time": "15:30",
       "code": "4544",
       "company": "ＨＵグループＨＤ",
@@ -439,7 +1279,7 @@
       "analysis": ""
     },
     {
-      "id": "d0030",
+      "id": "d0086",
       "time": "15:30",
       "code": "4809",
       "company": "パラカ",
@@ -454,7 +1294,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0031",
+      "id": "d0087",
       "time": "15:30",
       "code": "4832",
       "company": "ＪＦＥ－ＳＩ",
@@ -469,7 +1309,7 @@
       "analysis": ""
     },
     {
-      "id": "d0032",
+      "id": "d0088",
       "time": "15:30",
       "code": "4887",
       "company": "サワイグループＨＤ",
@@ -484,7 +1324,7 @@
       "analysis": ""
     },
     {
-      "id": "d0033",
+      "id": "d0089",
       "time": "15:30",
       "code": "4973",
       "company": "高純度化",
@@ -499,7 +1339,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0034",
+      "id": "d0090",
       "time": "15:30",
       "code": "4973",
       "company": "高純度化",
@@ -514,7 +1354,7 @@
       "analysis": ""
     },
     {
-      "id": "d0035",
+      "id": "d0091",
       "time": "15:30",
       "code": "6050",
       "company": "Ｅガーディアン",
@@ -529,7 +1369,7 @@
       "analysis": ""
     },
     {
-      "id": "d0036",
+      "id": "d0092",
       "time": "15:30",
       "code": "6166",
       "company": "Ｇ－中村超硬",
@@ -544,7 +1384,7 @@
       "analysis": "代表取締役の交代は経営方針の変化につながる可能性がある。後任の経歴と経営ビジョンに注目。"
     },
     {
-      "id": "d0037",
+      "id": "d0093",
       "time": "15:30",
       "code": "6250",
       "company": "やまびこ",
@@ -559,7 +1399,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0038",
+      "id": "d0094",
       "time": "15:30",
       "code": "6810",
       "company": "マクセル",
@@ -574,7 +1414,7 @@
       "analysis": ""
     },
     {
-      "id": "d0039",
+      "id": "d0095",
       "time": "15:30",
       "code": "6810",
       "company": "マクセル",
@@ -589,7 +1429,7 @@
       "analysis": ""
     },
     {
-      "id": "d0040",
+      "id": "d0096",
       "time": "15:30",
       "code": "6820",
       "company": "アイコム",
@@ -604,7 +1444,7 @@
       "analysis": ""
     },
     {
-      "id": "d0041",
+      "id": "d0097",
       "time": "15:30",
       "code": "6905",
       "company": "コーセル",
@@ -619,7 +1459,7 @@
       "analysis": "子会社の異動はグループ戦略の見直しを示唆。連結への影響と事業ポートフォリオの変化を確認。"
     },
     {
-      "id": "d0042",
+      "id": "d0098",
       "time": "15:30",
       "code": "7031",
       "company": "Ｇ－インバウンド",
@@ -634,7 +1474,7 @@
       "analysis": ""
     },
     {
-      "id": "d0043",
+      "id": "d0099",
       "time": "15:30",
       "code": "7031",
       "company": "Ｇ－インバウンド",
@@ -649,7 +1489,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0044",
+      "id": "d0100",
       "time": "15:30",
       "code": "7094",
       "company": "Ｇ－ＮｅｘＴｏｎｅ",
@@ -664,7 +1504,7 @@
       "analysis": ""
     },
     {
-      "id": "d0045",
+      "id": "d0101",
       "time": "15:30",
       "code": "7215",
       "company": "ファルテック",
@@ -679,7 +1519,7 @@
       "analysis": "無配への転落は財務状況の厳しさを示す。復配の見通しと業績回復のシナリオを確認すべき。"
     },
     {
-      "id": "d0046",
+      "id": "d0102",
       "time": "15:30",
       "code": "7282",
       "company": "豊田合",
@@ -694,7 +1534,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0047",
+      "id": "d0103",
       "time": "15:30",
       "code": "7578",
       "company": "ニチリョク",
@@ -709,7 +1549,7 @@
       "analysis": ""
     },
     {
-      "id": "d0048",
+      "id": "d0104",
       "time": "15:30",
       "code": "7603",
       "company": "ジーイエット",
@@ -724,7 +1564,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0049",
+      "id": "d0105",
       "time": "15:30",
       "code": "7603",
       "company": "ジーイエット",
@@ -739,7 +1579,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0050",
+      "id": "d0106",
       "time": "15:30",
       "code": "7679",
       "company": "薬王堂ＨＤ",
@@ -754,7 +1594,7 @@
       "analysis": "代表取締役の交代は経営方針の変化につながる可能性がある。後任の経歴と経営ビジョンに注目。"
     },
     {
-      "id": "d0051",
+      "id": "d0107",
       "time": "15:30",
       "code": "7715",
       "company": "長野計器",
@@ -769,7 +1609,7 @@
       "analysis": ""
     },
     {
-      "id": "d0052",
+      "id": "d0108",
       "time": "15:30",
       "code": "8060",
       "company": "キヤノンＭＪ",
@@ -784,7 +1624,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0053",
+      "id": "d0109",
       "time": "15:30",
       "code": "8093",
       "company": "極東貿易",
@@ -799,7 +1639,7 @@
       "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
     },
     {
-      "id": "d0054",
+      "id": "d0110",
       "time": "15:30",
       "code": "8698",
       "company": "マネックスＧ",
@@ -814,7 +1654,7 @@
       "analysis": ""
     },
     {
-      "id": "d0055",
+      "id": "d0111",
       "time": "15:30",
       "code": "8700",
       "company": "丸八証券",
@@ -829,7 +1669,7 @@
       "analysis": ""
     },
     {
-      "id": "d0056",
+      "id": "d0112",
       "time": "15:30",
       "code": "8704",
       "company": "トレイダーズＨＤ",
@@ -844,7 +1684,7 @@
       "analysis": ""
     },
     {
-      "id": "d0057",
+      "id": "d0113",
       "time": "15:30",
       "code": "8793",
       "company": "ＮＥＣキャピ",
@@ -859,7 +1699,7 @@
       "analysis": ""
     },
     {
-      "id": "d0058",
+      "id": "d0114",
       "time": "15:30",
       "code": "8848",
       "company": "レオパレス２１",
@@ -874,7 +1714,7 @@
       "analysis": ""
     },
     {
-      "id": "d0059",
+      "id": "d0115",
       "time": "15:30",
       "code": "8869",
       "company": "明和地所",
@@ -889,7 +1729,7 @@
       "analysis": ""
     },
     {
-      "id": "d0060",
+      "id": "d0116",
       "time": "15:30",
       "code": "8869",
       "company": "明和地所",
@@ -904,7 +1744,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0061",
+      "id": "d0117",
       "time": "15:30",
       "code": "8999",
       "company": "グランディ",
@@ -919,7 +1759,7 @@
       "analysis": ""
     },
     {
-      "id": "d0062",
+      "id": "d0118",
       "time": "15:30",
       "code": "9165",
       "company": "Ｇ－クオルテック",
@@ -934,7 +1774,7 @@
       "analysis": ""
     },
     {
-      "id": "d0063",
+      "id": "d0119",
       "time": "15:30",
       "code": "9257",
       "company": "Ｇ－ＹＣＰ",
@@ -949,7 +1789,7 @@
       "analysis": ""
     },
     {
-      "id": "d0064",
+      "id": "d0120",
       "time": "15:30",
       "code": "9330",
       "company": "Ｇ－揚羽",
@@ -964,7 +1804,7 @@
       "analysis": ""
     },
     {
-      "id": "d0065",
+      "id": "d0121",
       "time": "15:30",
       "code": "9416",
       "company": "ビジョン",
@@ -979,7 +1819,7 @@
       "analysis": ""
     },
     {
-      "id": "d0066",
+      "id": "d0122",
       "time": "15:30",
       "code": "9419",
       "company": "ワイヤレスゲート",
@@ -994,7 +1834,7 @@
       "analysis": ""
     },
     {
-      "id": "d0067",
+      "id": "d0123",
       "time": "15:30",
       "code": "9564",
       "company": "ＦＣＥ",
@@ -1009,7 +1849,7 @@
       "analysis": ""
     },
     {
-      "id": "d0068",
+      "id": "d0124",
       "time": "15:00",
       "code": "1951",
       "company": "エクシオグループ",
@@ -1024,7 +1864,7 @@
       "analysis": ""
     },
     {
-      "id": "d0069",
+      "id": "d0125",
       "time": "15:00",
       "code": "3431",
       "company": "宮地エンジ",
@@ -1039,7 +1879,7 @@
       "analysis": ""
     },
     {
-      "id": "d0070",
+      "id": "d0126",
       "time": "15:00",
       "code": "4202",
       "company": "ダイセル",
@@ -1054,7 +1894,7 @@
       "analysis": ""
     },
     {
-      "id": "d0071",
+      "id": "d0127",
       "time": "15:00",
       "code": "7291",
       "company": "日本プラスト",
@@ -1069,7 +1909,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0072",
+      "id": "d0128",
       "time": "15:00",
       "code": "7291",
       "company": "日本プラスト",
@@ -1084,7 +1924,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0073",
+      "id": "d0129",
       "time": "15:00",
       "code": "7820",
       "company": "ニホンフラッシュ",
@@ -1099,7 +1939,7 @@
       "analysis": ""
     },
     {
-      "id": "d0074",
+      "id": "d0130",
       "time": "15:00",
       "code": "7908",
       "company": "ＫＩＭＯＴＯ",
@@ -1114,7 +1954,7 @@
       "analysis": ""
     },
     {
-      "id": "d0075",
+      "id": "d0131",
       "time": "15:00",
       "code": "9035",
       "company": "第一交通",
@@ -1129,7 +1969,7 @@
       "analysis": ""
     },
     {
-      "id": "d0076",
+      "id": "d0132",
       "time": "15:00",
       "code": "9428",
       "company": "クロップス",
@@ -1144,7 +1984,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0077",
+      "id": "d0133",
       "time": "14:30",
       "code": "1720",
       "company": "東急建設",
@@ -1159,7 +1999,7 @@
       "analysis": ""
     },
     {
-      "id": "d0078",
+      "id": "d0134",
       "time": "14:30",
       "code": "5713",
       "company": "住友鉱",
@@ -1174,7 +2014,7 @@
       "analysis": ""
     },
     {
-      "id": "d0079",
+      "id": "d0135",
       "time": "14:30",
       "code": "9110",
       "company": "ユナイテド海",
@@ -1189,7 +2029,7 @@
       "analysis": ""
     },
     {
-      "id": "d0080",
+      "id": "d0136",
       "time": "14:00",
       "code": "2676",
       "company": "高千穂交",
@@ -1204,7 +2044,7 @@
       "analysis": ""
     },
     {
-      "id": "d0081",
+      "id": "d0137",
       "time": "14:00",
       "code": "3878",
       "company": "巴川コーポ",
@@ -1219,7 +2059,7 @@
       "analysis": ""
     },
     {
-      "id": "d0082",
+      "id": "d0138",
       "time": "14:00",
       "code": "4709",
       "company": "ＩＤホールディングス",
@@ -1234,7 +2074,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0083",
+      "id": "d0139",
       "time": "14:00",
       "code": "5269",
       "company": "日コンクリ",
@@ -1249,7 +2089,7 @@
       "analysis": ""
     },
     {
-      "id": "d0084",
+      "id": "d0140",
       "time": "14:00",
       "code": "5269",
       "company": "日コンクリ",
@@ -1264,7 +2104,7 @@
       "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
     },
     {
-      "id": "d0085",
+      "id": "d0141",
       "time": "14:00",
       "code": "5832",
       "company": "ちゅうぎんＦＧ",
@@ -1279,7 +2119,7 @@
       "analysis": ""
     },
     {
-      "id": "d0086",
+      "id": "d0142",
       "time": "14:00",
       "code": "7476",
       "company": "アズワン",
@@ -1294,7 +2134,7 @@
       "analysis": ""
     },
     {
-      "id": "d0087",
+      "id": "d0143",
       "time": "14:00",
       "code": "7937",
       "company": "ツツミ",
@@ -1309,7 +2149,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0088",
+      "id": "d0144",
       "time": "14:00",
       "code": "8061",
       "company": "西華産",
@@ -1324,7 +2164,7 @@
       "analysis": ""
     },
     {
-      "id": "d0089",
+      "id": "d0145",
       "time": "14:00",
       "code": "9304",
       "company": "渋沢倉",
@@ -1339,7 +2179,7 @@
       "analysis": ""
     },
     {
-      "id": "d0090",
+      "id": "d0146",
       "time": "13:20",
       "code": "9305",
       "company": "ヤマタネ",
@@ -1354,7 +2194,7 @@
       "analysis": ""
     },
     {
-      "id": "d0091",
+      "id": "d0147",
       "time": "13:20",
       "code": "9941",
       "company": "太洋物産",
@@ -1369,7 +2209,7 @@
       "analysis": ""
     },
     {
-      "id": "d0092",
+      "id": "d0148",
       "time": "13:00",
       "code": "2117",
       "company": "ウェルネオシュガー",
@@ -1384,7 +2224,7 @@
       "analysis": ""
     },
     {
-      "id": "d0093",
+      "id": "d0149",
       "time": "13:00",
       "code": "2117",
       "company": "ウェルネオシュガー",
@@ -1399,7 +2239,7 @@
       "analysis": ""
     },
     {
-      "id": "d0094",
+      "id": "d0150",
       "time": "13:00",
       "code": "4998",
       "company": "フマキラー",
@@ -1414,7 +2254,7 @@
       "analysis": ""
     },
     {
-      "id": "d0095",
+      "id": "d0151",
       "time": "13:00",
       "code": "7381",
       "company": "ＣＣＩグループ",
@@ -1429,7 +2269,7 @@
       "analysis": ""
     },
     {
-      "id": "d0096",
+      "id": "d0152",
       "time": "13:00",
       "code": "7896",
       "company": "セブン工",
@@ -1444,7 +2284,7 @@
       "analysis": ""
     },
     {
-      "id": "d0097",
+      "id": "d0153",
       "time": "13:00",
       "code": "8075",
       "company": "神鋼商",
@@ -1459,7 +2299,7 @@
       "analysis": ""
     },
     {
-      "id": "d0098",
+      "id": "d0154",
       "time": "13:00",
       "code": "8075",
       "company": "神鋼商",
@@ -1474,7 +2314,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0099",
+      "id": "d0155",
       "time": "13:00",
       "code": "9823",
       "company": "マミーマートＨＤ",
@@ -1489,7 +2329,7 @@
       "analysis": ""
     },
     {
-      "id": "d0100",
+      "id": "d0156",
       "time": "12:50",
       "code": "7794",
       "company": "Ｇ－イーディーピー",
@@ -1504,7 +2344,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0101",
+      "id": "d0157",
       "time": "12:30",
       "code": "3001",
       "company": "片倉",
@@ -1519,7 +2359,7 @@
       "analysis": ""
     },
     {
-      "id": "d0102",
+      "id": "d0158",
       "time": "12:00",
       "code": "2750",
       "company": "石光商事",
@@ -1534,7 +2374,7 @@
       "analysis": ""
     },
     {
-      "id": "d0103",
+      "id": "d0159",
       "time": "11:30",
       "code": "2502",
       "company": "アサヒ",
@@ -1549,7 +2389,7 @@
       "analysis": ""
     },
     {
-      "id": "d0104",
+      "id": "d0160",
       "time": "11:30",
       "code": "8958",
       "company": "Ｒ－グロバル",
@@ -1564,7 +2404,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0105",
+      "id": "d0161",
       "time": "10:30",
       "code": "3121",
       "company": "マーチャント",
@@ -1579,7 +2419,7 @@
       "analysis": ""
     },
     {
-      "id": "d0106",
+      "id": "d0162",
       "time": "10:30",
       "code": "3675",
       "company": "クロスマーケティング",
@@ -1594,7 +2434,7 @@
       "analysis": ""
     },
     {
-      "id": "d0107",
+      "id": "d0163",
       "time": "10:30",
       "code": "7255",
       "company": "桜井製作",
@@ -1609,7 +2449,7 @@
       "analysis": ""
     },
     {
-      "id": "d0108",
+      "id": "d0164",
       "time": "10:10",
       "code": "1595",
       "company": "ＮＺＡＭ　Ｊリート",
@@ -1628,7 +2468,7 @@
       "analysis": ""
     },
     {
-      "id": "d0109",
+      "id": "d0165",
       "time": "10:10",
       "code": "2086",
       "company": "ＮＺＡＭ　ＳＰ５Ｈ",
@@ -1647,7 +2487,7 @@
       "analysis": ""
     },
     {
-      "id": "d0110",
+      "id": "d0166",
       "time": "10:10",
       "code": "2087",
       "company": "ＮＺＡＭ　ＮＱ１Ｈ",
@@ -1666,7 +2506,7 @@
       "analysis": ""
     },
     {
-      "id": "d0111",
+      "id": "d0167",
       "time": "10:10",
       "code": "2088",
       "company": "ＮＺＡＭ　ＤｏｗＨ",
@@ -1685,7 +2525,7 @@
       "analysis": ""
     },
     {
-      "id": "d0112",
+      "id": "d0168",
       "time": "10:00",
       "code": "1379",
       "company": "ホクト",
@@ -1700,7 +2540,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0113",
+      "id": "d0169",
       "time": "10:00",
       "code": "2623",
       "company": "ｉＳユロＩＧ社債ヘジ",
@@ -1719,7 +2559,7 @@
       "analysis": ""
     },
     {
-      "id": "d0114",
+      "id": "d0170",
       "time": "10:00",
       "code": "5579",
       "company": "ＧＳＩ",
@@ -1734,7 +2574,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0115",
+      "id": "d0171",
       "time": "10:00",
       "code": "7538",
       "company": "大水",
@@ -1749,7 +2589,7 @@
       "analysis": ""
     },
     {
-      "id": "d0116",
+      "id": "d0172",
       "time": "09:30",
       "code": "4091",
       "company": "日本酸素ＨＤ",
@@ -1764,7 +2604,7 @@
       "analysis": ""
     },
     {
-      "id": "d0117",
+      "id": "d0173",
       "time": "09:05",
       "code": "3042",
       "company": "セキュアヴェイル",
@@ -1779,7 +2619,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0118",
+      "id": "d0174",
       "time": "08:30",
       "code": "7073",
       "company": "Ｇ－ジェイック",
