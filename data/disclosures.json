@@ -1,10 +1,526 @@
 {
-  "lastUpdated": "2026-07-08T14:47:52+09:00",
+  "lastUpdated": "2026-07-08T18:05:04+09:00",
   "date": "2026-07-08",
-  "totalRaw": 82,
+  "totalRaw": 172,
   "disclosures": [
     {
       "id": "d0001",
+      "time": "17:30",
+      "code": "3905",
+      "company": "Ｇ－データセクション",
+      "title": "支配株主等に関する事項について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589961.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－データセクション - 支配株主等に関する事項について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
+    },
+    {
+      "id": "d0002",
+      "time": "17:00",
+      "code": "2928",
+      "company": "Ａ－ＲＩＺＡＰ　Ｇ",
+      "title": "2027年３月期 第１四半期決算発表に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260707589281.pdf",
+      "market": "札",
+      "category": "決算",
+      "importance": "低",
+      "summary": "Ａ－ＲＩＺＡＰ　Ｇ - 2027年３月期 第１四半期決算発表に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0003",
+      "time": "16:30",
+      "code": "3768",
+      "company": "リスクモンスター",
+      "title": "自己株式の取得状況及び取得終了並びに自己株式の一部消却に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589855.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "リスクモンスター - 自己株式の取得状況及び取得終了並びに自己株式の一部消却に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0004",
+      "time": "16:30",
+      "code": "9861",
+      "company": "吉野家ＨＤ",
+      "title": "2027年2月期第1四半期決算補足資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589385.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "吉野家ＨＤ - 2027年2月期第1四半期決算補足資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0005",
+      "time": "16:00",
+      "code": "2751",
+      "company": "テンポスＨＤ",
+      "title": "株式会社テンポスホールディングスによる株式会社トミ美容室（現特例有限会社トミ美容室）の完全子会社化に関する株式交換（簡易株式交換）のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589870.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "テンポスＨＤ - 株式会社テンポスホールディングスによる株式会社トミ美容室（現特例有限会社トミ美容室）の完全子会社化に関する株式交換（簡易株式交換）のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0006",
+      "time": "16:00",
+      "code": "3490",
+      "company": "アズ企画設計",
+      "title": "2027年2月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589784.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "アズ企画設計 - 2027年2月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年２月期第１四半期 4,426 101.1 530 175.7 414 272.9 284 352.6",
+        "operatingProfitYoYPct": 175.7,
+        "ordinaryProfitYoYPct": 272.9
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +175.7% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0007",
+      "time": "16:00",
+      "code": "5337",
+      "company": "ダントーＨＤ",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589810.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ダントーＨＤ - 主要株主の異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0008",
+      "time": "16:00",
+      "code": "6925",
+      "company": "ウシオ電",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589383.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ウシオ電 - 主要株主の異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0009",
+      "time": "16:00",
+      "code": "9861",
+      "company": "吉野家ＨＤ",
+      "title": "2027年2月期第1四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260707589069.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "吉野家ＨＤ - 2027年2月期第1四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年2月期第1四半期 58,771 12.5 2,544 140.8 2,793 125.0 1,814 144.",
+        "operatingProfitYoYPct": 140.8,
+        "ordinaryProfitYoYPct": 125.0
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +140.8% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0010",
+      "time": "16:00",
+      "code": "9861",
+      "company": "吉野家ＨＤ",
+      "title": "吸収合併に伴う特別利益の計上（個別）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260707589066.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "吉野家ＨＤ - 吸収合併に伴う特別利益の計上（個別）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0011",
+      "time": "15:40",
+      "code": "2124",
+      "company": "ＪＡＣ",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589648.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＪＡＣ - 主要株主の異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0012",
+      "time": "15:40",
+      "code": "5216",
+      "company": "倉元",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589738.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "倉元 - 主要株主の異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0013",
+      "time": "15:30",
+      "code": "2588",
+      "company": "プレミアムウォーター",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260707589261.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "プレミアムウォーター - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0014",
+      "time": "15:30",
+      "code": "2670",
+      "company": "ＡＢＣマート",
+      "title": "2027年２月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589428.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＡＢＣマート - 2027年２月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年２月期第１四半期 105,483 8.0 20,316 8.3 21,030 10.3 14,296 10.4",
+        "operatingProfitYoYPct": 8.3,
+        "ordinaryProfitYoYPct": 10.3
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0015",
+      "time": "15:30",
+      "code": "3391",
+      "company": "ツルハＨＤ",
+      "title": "2027年２月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260707589226.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ツルハＨＤ - 2027年２月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年２月期第１四半期 636,886 133.7 39,480 131.6 24,229 94.3 24,390 ",
+        "operatingProfitYoYPct": 131.6,
+        "ordinaryProfitYoYPct": 94.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +131.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0016",
+      "time": "15:30",
+      "code": "6183",
+      "company": "ベル２４ＨＤ",
+      "title": "2027年２月期第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589607.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ベル２４ＨＤ - 2027年２月期第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年２月期第１四半期 36,701 0.3 3,213 11.2 3,090 10.9 2,318 24.6 2,",
+        "operatingProfitYoYPct": 11.2,
+        "ordinaryProfitYoYPct": 10.9
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0017",
+      "time": "15:30",
+      "code": "6183",
+      "company": "ベル２４ＨＤ",
+      "title": "2027年2月期（2026年度）第1四半期決算補足資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589612.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "ベル２４ＨＤ - 2027年2月期（2026年度）第1四半期決算補足資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0018",
+      "time": "15:30",
+      "code": "7459",
+      "company": "メディパル",
+      "title": "株式会社ＰＡＬＴＡＣ株式（証券コード：8283）に対する公開買付けの結果に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589791.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "メディパル - 株式会社ＰＡＬＴＡＣ株式（証券コード：8283）に対する公開買付けの結果に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
+    },
+    {
+      "id": "d0019",
+      "time": "15:30",
+      "code": "7940",
+      "company": "ウェーブロックＨＤ",
+      "title": "当社株式の上場廃止に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589427.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "高",
+      "summary": "ウェーブロックＨＤ - 当社株式の上場廃止に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "上場廃止は株式の流動性が失われる重大事象。整理銘柄指定後の売却機会は限られるため注意が必要。"
+    },
+    {
+      "id": "d0020",
+      "time": "15:30",
+      "code": "8166",
+      "company": "タカキュー",
+      "title": "2027年2月期 第一四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589760.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "タカキュー - 2027年2月期 第一四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0021",
+      "time": "15:30",
+      "code": "8166",
+      "company": "タカキュー",
+      "title": "2027年2月期　第1四半期決算短信〔日本基準〕（非連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260629583268.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "タカキュー - 2027年2月期　第1四半期決算短信〔日本基準〕（非連結）",
+      "earnings": {
+        "period": "2027年2月期第1四半期 2,195 △8.9 56 △62.3 74 △59.3 45 △74.1",
+        "operatingProfitYoYPct": -62.3,
+        "ordinaryProfitYoYPct": -59.3
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -62.3% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0022",
+      "time": "15:30",
+      "code": "8283",
+      "company": "ＰＡＬＴＡＣ",
+      "title": "当社親会社である株式会社メディパルホールディングスによる当社株式に対する公開買付けの結果に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589649.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "ＰＡＬＴＡＣ - 当社親会社である株式会社メディパルホールディングスによる当社株式に対する公開買付けの結果に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
+    },
+    {
+      "id": "d0023",
+      "time": "15:30",
+      "code": "9201",
+      "company": "ＪＡＬ",
+      "title": "(開示事項の経過)当社持分法適用会社の株主構成変更に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589664.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＪＡＬ - (開示事項の経過)当社持分法適用会社の株主構成変更に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0024",
+      "time": "15:30",
+      "code": "9619",
+      "company": "イチネンＨＤ",
+      "title": "配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260702587167.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "イチネンＨＤ - 配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0025",
+      "time": "15:30",
+      "code": "9720",
+      "company": "ニューグランド",
+      "title": "業績予想の修正及び特別利益の計上に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260706588007.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "ニューグランド - 業績予想の修正及び特別利益の計上に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0026",
+      "time": "15:30",
+      "code": "9846",
+      "company": "天満屋ス",
+      "title": "2027年2月期　第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260707588738.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "天満屋ス - 2027年2月期　第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年２月期第１四半期 14,701 2.3 563 △6.0 569 △7.3 384 47.8",
+        "operatingProfitYoYPct": -6.0,
+        "ordinaryProfitYoYPct": -7.3
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0027",
+      "time": "15:30",
+      "code": "9946",
+      "company": "ミニストップ",
+      "title": "2027年２月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260707588749.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ミニストップ - 2027年２月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年２月期第１四半期 24,913 5.0 △2,015 － △1,898 － △2,308 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0028",
+      "time": "15:30",
+      "code": "9946",
+      "company": "ミニストップ",
+      "title": "2027年2月期第１四半期決算短信補足",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260707588782.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ミニストップ - 2027年2月期第１四半期決算短信補足",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0029",
+      "time": "15:00",
+      "code": "3843",
+      "company": "フリービット",
+      "title": "（訂正）「剰余金の配当に関するお知らせ」の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260706588078.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "フリービット - （訂正）「剰余金の配当に関するお知らせ」の一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0030",
+      "time": "15:00",
+      "code": "7921",
+      "company": "ＴＡＫＡＲＡ＆ＣＯ",
+      "title": "2026年５月期　決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260707589312.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＴＡＫＡＲＡ＆ＣＯ - 2026年５月期　決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年５月期 31,154 5.0 4,420 9.2 4,584 8.1 3,382 △17.0",
+        "operatingProfitYoYPct": 9.2,
+        "ordinaryProfitYoYPct": 8.1
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0031",
+      "time": "15:00",
+      "code": "7921",
+      "company": "ＴＡＫＡＲＡ＆ＣＯ",
+      "title": "代表取締役の異動および取締役人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589705.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＴＡＫＡＲＡ＆ＣＯ - 代表取締役の異動および取締役人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "代表取締役の交代は経営方針の変化につながる可能性がある。後任の経歴と経営ビジョンに注目。"
+    },
+    {
+      "id": "d0032",
+      "time": "15:00",
+      "code": "7921",
+      "company": "ＴＡＫＡＲＡ＆ＣＯ",
+      "title": "配当方針の変更、株主優待制度の再開および2027年5月期（次期）配当予想に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260708589711.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＴＡＫＡＲＡ＆ＣＯ - 配当方針の変更、株主優待制度の再開および2027年5月期（次期）配当予想に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0033",
       "time": "14:00",
       "code": "7441",
       "company": "Ｍｉｓｕｍｉ",
@@ -19,7 +535,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0002",
+      "id": "d0034",
       "time": "14:00",
       "code": "8154",
       "company": "加賀電子",
@@ -34,7 +550,7 @@
       "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
     },
     {
-      "id": "d0003",
+      "id": "d0035",
       "time": "13:30",
       "code": "1447",
       "company": "Ｇ－ＳＡＡＦＨＤ",
@@ -49,7 +565,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0004",
+      "id": "d0036",
       "time": "13:00",
       "code": "7841",
       "company": "遠藤製作",
@@ -64,7 +580,7 @@
       "analysis": ""
     },
     {
-      "id": "d0005",
+      "id": "d0037",
       "time": "13:00",
       "code": "9475",
       "company": "昭文社ＨＤ",
@@ -79,7 +595,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0006",
+      "id": "d0038",
       "time": "12:00",
       "code": "4417",
       "company": "Ｇ－グローバルセキュ",
@@ -94,7 +610,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0007",
+      "id": "d0039",
       "time": "11:40",
       "code": "2371",
       "company": "カカクコム",
@@ -109,7 +625,7 @@
       "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
     },
     {
-      "id": "d0008",
+      "id": "d0040",
       "time": "11:30",
       "code": "2502",
       "company": "アサヒ",
@@ -128,7 +644,7 @@
       "analysis": ""
     },
     {
-      "id": "d0009",
+      "id": "d0041",
       "time": "11:30",
       "code": "2502",
       "company": "アサヒ",
@@ -143,7 +659,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0010",
+      "id": "d0042",
       "time": "11:30",
       "code": "8194",
       "company": "ライフコーポ",
@@ -162,7 +678,7 @@
       "analysis": ""
     },
     {
-      "id": "d0011",
+      "id": "d0043",
       "time": "11:00",
       "code": "2015",
       "company": "ｉＦ米国債７１０Ｈ無",
@@ -181,7 +697,7 @@
       "analysis": ""
     },
     {
-      "id": "d0012",
+      "id": "d0044",
       "time": "11:00",
       "code": "2016",
       "company": "ｉＦ米国債７１０Ｈ有",
@@ -200,7 +716,7 @@
       "analysis": ""
     },
     {
-      "id": "d0013",
+      "id": "d0045",
       "time": "11:00",
       "code": "2095",
       "company": "ＧＸＵＳ配当貴族ヘ",
@@ -219,7 +735,7 @@
       "analysis": ""
     },
     {
-      "id": "d0014",
+      "id": "d0046",
       "time": "11:00",
       "code": "2236",
       "company": "ＧＸＵＳ配当貴族",
@@ -238,7 +754,7 @@
       "analysis": ""
     },
     {
-      "id": "d0015",
+      "id": "d0047",
       "time": "10:30",
       "code": "9651",
       "company": "日プロ",
@@ -253,7 +769,7 @@
       "analysis": ""
     },
     {
-      "id": "d0016",
+      "id": "d0048",
       "time": "10:00",
       "code": "6859",
       "company": "エスペック",
@@ -268,7 +784,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0017",
+      "id": "d0049",
       "time": "09:30",
       "code": "7745",
       "company": "Ａ＆ＤホロンＨＤ",
