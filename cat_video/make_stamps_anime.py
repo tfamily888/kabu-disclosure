@@ -1,14 +1,19 @@
 #!/usr/bin/env python3
-"""うちの猫たちのLINEスタンプ (完全アニメ描き起こし版).
+"""うちの猫たちのLINEスタンプ (かわいいアニメ描き起こし版 v2).
 
-写真を参照に、3匹のちびキャラ(太い輪郭線・フラット塗り・大きな瞳)を
-ベクター風に描画する。出力は LINE 規格 (370x320, main 240x240, tab 96x74)。
+かわいさの設計:
+- 低頭身 (顔でか・体ちんまり)、まん丸フェイス
+- 大きな瞳を顔の低い位置に。虹彩は縦グラデーション + 大粒ハイライト
+- 輪郭線は黒ではなく毛色に合わせたソフトカラー
+- もこもこ毛並みは波打つポリゴンシルエットで表現
+- 各スタンプに淡いパステルの丸バッジ背景
 
 使い方: python3 make_stamps_anime.py  →  stamps_anime/ + stamps_anime_preview.png
 """
 import math
 import os
 
+import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -17,353 +22,394 @@ os.makedirs(OUT, exist_ok=True)
 
 FONT = "/usr/share/fonts/truetype/fonts-japanese-gothic.ttf"
 STAMP_W, STAMP_H = 370, 320
-SS = 2                      # スーパーサンプリング倍率
+SS = 2
 W2, H2 = STAMP_W * SS, STAMP_H * SS
+LW = 8          # 基本線幅 (2x)
+INK = (88, 62, 54, 255)   # 顔パーツ用のソフトインク
 
-INK = (72, 52, 46, 255)     # 輪郭線
-LW = 9                      # 線の太さ (2x)
+TORA = dict(body=(252, 182, 108), shade=(240, 156, 82), stripe=(224, 132, 62),
+            belly=(255, 246, 232), outline=(206, 118, 58),
+            ear=(255, 186, 178), fluffy=0.0, blaze=False,
+            iris_top=(154, 94, 34), iris_bot=(244, 190, 96))
+FUWA = dict(body=(250, 234, 208), shade=(240, 218, 184), stripe=(232, 206, 166),
+            belly=(255, 252, 244), outline=(202, 164, 118),
+            ear=(255, 196, 190), fluffy=0.055, blaze=False,
+            iris_top=(160, 104, 40), iris_bot=(248, 202, 108))
+KURO = dict(body=(88, 70, 66), shade=(72, 56, 52), stripe=None,
+            belly=(255, 252, 248), outline=(52, 40, 36),
+            ear=(255, 178, 172), fluffy=0.05, blaze=True,
+            iris_top=(158, 120, 52), iris_bot=(240, 202, 116), eye_scale=1.14)
 
-TORA = dict(body=(247, 168, 92), stripe=(215, 122, 48), belly=(255, 241, 224),
-            ear=(255, 176, 168), iris=(186, 118, 38), fluffy=False, blaze=False)
-FUWA = dict(body=(246, 226, 194), stripe=(224, 192, 148), belly=(255, 249, 238),
-            ear=(255, 188, 186), iris=(196, 134, 52), fluffy=True, blaze=False)
-KURO = dict(body=(70, 54, 50), stripe=None, belly=(255, 252, 248),
-            ear=(255, 170, 165), iris=(184, 146, 82), fluffy=True, blaze=True)
-
-PINK = (255, 148, 150, 255)
-PAD = (255, 170, 172, 255)
+PINK = (255, 150, 152, 255)
+PAD = (255, 176, 178, 255)
+BLUSH = (255, 158, 158, 105)
 
 
 # ------------------------------------------------------------ primitives ----
-def ell(d, box, fill, outline=INK, w=LW):
+def fluffy_pts(cx, cy, rx, ry, amp=0.0, bumps=14, phase=0.0, n=240):
+    """毛並みの波打ちつき楕円ポリゴン。amp=0 でなめらか。"""
+    pts = []
+    for i in range(n):
+        th = 2 * math.pi * i / n
+        wob = 1 + amp * abs(math.sin(bumps * th / 2 + phase))
+        pts.append((cx + rx * wob * math.cos(th), cy + ry * wob * math.sin(th)))
+    return pts
+
+
+def shape(d, pts, fill, outline=None, w=LW):
+    d.polygon(pts, fill=fill, outline=outline, width=w)
+
+
+def ell(d, box, fill, outline=None, w=LW):
     d.ellipse(box, fill=fill, outline=outline, width=w)
 
 
+def rr(d, box, radius, fill, outline=None, w=LW):
+    d.rounded_rectangle(box, radius=radius, fill=fill, outline=outline, width=w)
+
+
+def arc_line(d, cx, cy, r, a0, a1, color, w, n=24):
+    pts = [(cx + r * math.cos(math.radians(a0 + (a1 - a0) * i / n)),
+            cy + r * math.sin(math.radians(a0 + (a1 - a0) * i / n)))
+           for i in range(n + 1)]
+    d.line(pts, fill=color, width=w, joint="curve")
+    for x, y in (pts[0], pts[-1]):
+        d.ellipse((x - w / 2, y - w / 2, x + w / 2, y + w / 2), fill=color)
+
+
+def bezier(p0, p1, p2, n=20):
+    return [((1 - t) ** 2 * p0[0] + 2 * (1 - t) * t * p1[0] + t * t * p2[0],
+             (1 - t) ** 2 * p0[1] + 2 * (1 - t) * t * p1[1] + t * t * p2[1])
+            for t in (i / n for i in range(n + 1))]
+
+
 def blob_shadow(d, cx, cy, rx):
-    d.ellipse((cx - rx, cy - rx * 0.22, cx + rx, cy + rx * 0.22),
-              fill=(90, 80, 90, 45))
+    d.ellipse((cx - rx, cy - rx * 0.20, cx + rx, cy + rx * 0.20),
+              fill=(120, 100, 120, 38))
 
 
-def capsule(d, x0, y0, x1, y1, r, fill, outline=INK, w=LW):
-    d.rounded_rectangle((x0, y0, x1, y1), radius=r, fill=fill,
-                        outline=outline, width=w)
+def tail(d, pts, color, outline, w=30):
+    d.line(pts, fill=outline, width=w + LW * 2, joint="curve")
+    for x, y in (pts[0], pts[-1]):
+        d.ellipse((x - w / 2 - LW, y - w / 2 - LW, x + w / 2 + LW, y + w / 2 + LW),
+                  fill=outline)
+    d.line(pts, fill=color, width=w, joint="curve")
+    for x, y in (pts[0], pts[-1]):
+        d.ellipse((x - w / 2, y - w / 2, x + w / 2, y + w / 2), fill=color)
 
 
-# ---------------------------------------------------------------- head ------
-def head_layer(r, pal, expr="open", look=(0, 0)):
-    """頭のレイヤー (サイズ 4r x 4r、中心 2r,2r) を返す。"""
-    size = int(r * 4)
-    im = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+# ------------------------------------------------------------------ eyes ----
+def eye_img(w, h, pal):
+    """縦グラデーション虹彩 + 大粒ハイライトの瞳。"""
+    top, bot = pal["iris_top"], pal["iris_bot"]
+    grad = np.zeros((h, w, 4), np.uint8)
+    for y in range(h):
+        t = y / max(1, h - 1)
+        grad[y, :, 0] = int(top[0] + (bot[0] - top[0]) * t)
+        grad[y, :, 1] = int(top[1] + (bot[1] - top[1]) * t)
+        grad[y, :, 2] = int(top[2] + (bot[2] - top[2]) * t)
+        grad[y, :, 3] = 255
+    im = Image.fromarray(grad)
+    mask = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(mask).ellipse((0, 0, w - 1, h - 1), fill=255)
+    im.putalpha(mask)
     d = ImageDraw.Draw(im)
-    cx = cy = size / 2
-
-    # 耳
-    for s in (-1, 1):
-        pts = [(cx + s * r * 0.88, cy - r * 0.42),
-               (cx + s * r * 0.72, cy - r * 1.28),
-               (cx + s * r * 0.18, cy - r * 0.86)]
-        d.polygon(pts, fill=pal["body"], outline=INK, width=LW)
-        ipts = [(cx + s * r * 0.72, cy - r * 0.52),
-               (cx + s * r * 0.62, cy - r * 1.05),
-               (cx + s * r * 0.28, cy - r * 0.76)]
-        d.polygon(ipts, fill=pal["ear"])
-
-    # 顔のふわ毛 (頬のとがり)
-    if pal["fluffy"]:
-        for s in (-1, 1):
-            d.polygon([(cx + s * r * 0.96, cy + r * 0.05),
-                       (cx + s * r * 1.28, cy + r * 0.22),
-                       (cx + s * r * 0.92, cy + r * 0.38)],
-                      fill=pal["body"], outline=INK, width=LW - 3)
-            d.polygon([(cx + s * r * 0.94, cy + r * 0.40),
-                       (cx + s * r * 1.22, cy + r * 0.60),
-                       (cx + s * r * 0.84, cy + r * 0.66)],
-                      fill=pal["body"], outline=INK, width=LW - 3)
-
-    # 頭 (少し横長)
-    ell(d, (cx - r * 1.04, cy - r * 0.96, cx + r * 1.04, cy + r * 0.96),
-        pal["body"])
-
-    # ハチワレ (くろ): 白いブレーズ
-    if pal["blaze"]:
-        d.polygon([(cx - r * 0.34, cy + r * 0.94), (cx - r * 0.16, cy - r * 0.1),
-                   (cx, cy - r * 0.32), (cx + r * 0.16, cy - r * 0.1),
-                   (cx + r * 0.34, cy + r * 0.94),
-                   (cx, cy + r * 0.96)], fill=pal["belly"])
-
-    # おでこの縞
-    if pal["stripe"]:
-        for k in (-1, 0, 1):
-            x = cx + k * r * 0.30
-            d.rounded_rectangle((x - r * 0.055, cy - r * 0.95 + abs(k) * r * 0.06,
-                                 x + r * 0.055, cy - r * 0.52),
-                                radius=r * 0.05, fill=pal["stripe"])
-
-    # マズル (口周りの白)
-    ell(d, (cx - r * 0.46, cy + r * 0.18, cx + r * 0.46, cy + r * 0.78),
-        pal["belly"], outline=None, w=0)
-
-    # 目
-    ex, ey = r * 0.46, r * 0.02
-    lx, ly = look
-    if expr == "open":
-        for s in (-1, 1):
-            x, y = cx + s * ex + lx * r, cy + ey + ly * r
-            ew, eh = r * 0.30, r * 0.40
-            ell(d, (x - ew, y - eh, x + ew, y + eh), (255, 255, 255, 255),
-                outline=INK, w=LW - 2)
-            ir = r * 0.23
-            d.ellipse((x - ir + lx * 14, y - ir + ly * 14,
-                       x + ir + lx * 14, y + ir + ly * 14), fill=pal["iris"])
-            pr = r * 0.13
-            d.ellipse((x - pr + lx * 18, y - pr + ly * 18,
-                       x + pr + lx * 18, y + pr + ly * 18), fill=(40, 28, 26))
-            d.ellipse((x - r * 0.13, y - r * 0.20, x + r * 0.01, y - r * 0.06),
-                      fill=(255, 255, 255, 240))
-            d.ellipse((x + r * 0.04, y + r * 0.05, x + r * 0.11, y + r * 0.12),
-                      fill=(255, 255, 255, 200))
-    elif expr == "happy":   # ∩ の笑い目
-        for s in (-1, 1):
-            x = cx + s * ex
-            d.arc((x - r * 0.26, cy - r * 0.20, x + r * 0.26, cy + r * 0.24),
-                  200, 340, fill=INK, width=LW)
-    else:                   # sleep: ︶
-        for s in (-1, 1):
-            x = cx + s * ex
-            d.arc((x - r * 0.26, cy - r * 0.16, x + r * 0.26, cy + r * 0.22),
-                  20, 160, fill=INK, width=LW)
-
-    # 鼻・口 (ω)
-    ny = cy + r * 0.30
-    d.polygon([(cx - r * 0.075, ny), (cx + r * 0.075, ny),
-               (cx, ny + r * 0.09)], fill=PINK, outline=INK, width=3)
-    mw = r * 0.16
-    d.arc((cx - mw, ny + r * 0.02, cx, ny + r * 0.26), 0, 180, fill=INK, width=LW - 3)
-    d.arc((cx, ny + r * 0.02, cx + mw, ny + r * 0.26), 0, 180, fill=INK, width=LW - 3)
-
-    # ほっぺ
-    blush = (255, 150, 150, 80)
-    for s in (-1, 1):
-        d.ellipse((cx + s * r * 0.78 - r * 0.16, cy + r * 0.30 - r * 0.10,
-                   cx + s * r * 0.78 + r * 0.16, cy + r * 0.30 + r * 0.10),
-                  fill=blush)
-
-    # ひげ
-    wc = (250, 250, 250, 230) if pal["blaze"] else (140, 108, 92, 200)
-    for s in (-1, 1):
-        for k in (-1, 0, 1):
-            x0 = cx + s * r * 0.80
-            y0 = cy + r * 0.28 + k * r * 0.10
-            d.line((x0, y0, x0 + s * r * 0.45, y0 + k * r * 0.14 - r * 0.02),
-                   fill=wc, width=4)
+    # 瞳孔
+    d.ellipse((w * 0.28, h * 0.26, w * 0.72, h * 0.80), fill=(54, 38, 32, 255))
+    # 下のうるうる反射
+    d.ellipse((w * 0.24, h * 0.62, w * 0.76, h * 0.94),
+              fill=(255, 226, 160, 110))
+    # 大粒ハイライト
+    d.ellipse((w * 0.12, h * 0.08, w * 0.54, h * 0.46), fill=(255, 255, 255, 245))
+    d.ellipse((w * 0.60, h * 0.56, w * 0.80, h * 0.74), fill=(255, 255, 255, 215))
+    # 輪郭
+    d.ellipse((0, 0, w - 1, h - 1), outline=(70, 48, 40, 255),
+              width=max(3, w // 14))
     return im
 
 
-def paste_head(cv, cx, cy, r, pal, expr="open", tilt=0.0, look=(0, 0)):
+# ------------------------------------------------------------------ head ----
+def head_layer(r, pal, expr="open", look=(0.0, 0.0)):
+    size = int(r * 4.2)
+    im = Image.new("RGBA", (size, size), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    cx = cy = size / 2
+    out = pal["outline"]
+
+    # --- 耳 (ベジェで丸みのある三角) ---
+    for s in (-1, 1):
+        base_in = (cx + s * r * 0.30, cy - r * 0.78)
+        base_out = (cx + s * r * 0.94, cy - r * 0.28)
+        tip = (cx + s * r * 0.86, cy - r * 1.30)
+        pts = bezier(base_in, (cx + s * r * 0.46, cy - r * 1.32), tip) + \
+            bezier(tip, (cx + s * r * 1.06, cy - r * 0.86), base_out)
+        shape(d, pts, pal["body"], out, LW)
+        ipts = bezier((cx + s * r * 0.42, cy - r * 0.74),
+                      (cx + s * r * 0.52, cy - r * 1.12),
+                      (cx + s * r * 0.76, cy - r * 1.10)) + \
+            bezier((cx + s * r * 0.76, cy - r * 1.10),
+                   (cx + s * r * 0.88, cy - r * 0.66),
+                   (cx + s * r * 0.78, cy - r * 0.46))
+        shape(d, ipts, pal["ear"])
+
+    # --- 顔 (まん丸、長毛はもこもこ) ---
+    face = fluffy_pts(cx, cy, r * 1.10, r * 1.00, amp=pal["fluffy"], bumps=13,
+                      phase=0.6)
+    shape(d, face, pal["body"], out, LW)
+
+    # ハチワレの白ブレーズ (なめらかな曲線・あごまで白く)
+    if pal["blaze"]:
+        left = bezier((cx - r * 0.74, cy + r * 0.90), (cx - r * 0.58, cy + r * 0.02),
+                      (cx - r * 0.16, cy - r * 0.14))
+        top = bezier((cx - r * 0.16, cy - r * 0.14), (cx, cy - r * 0.28),
+                     (cx + r * 0.16, cy - r * 0.14))
+        right = bezier((cx + r * 0.16, cy - r * 0.14), (cx + r * 0.58, cy + r * 0.02),
+                       (cx + r * 0.74, cy + r * 0.90))
+        bottom = bezier((cx + r * 0.74, cy + r * 0.90), (cx, cy + r * 1.30),
+                        (cx - r * 0.74, cy + r * 0.90))
+        shape(d, left + top + right + bottom, pal["belly"])
+
+    # おでこの縞 (先すぼみの葉っぱ形)
+    if pal["stripe"]:
+        for k in (-1, 0, 1):
+            x = cx + k * r * 0.28
+            y0 = cy - r * 0.92 + abs(k) * r * 0.07
+            y1 = cy - r * 0.50 + abs(k) * r * 0.04
+            shape(d, [(x - r * 0.07, y0), (x + r * 0.07, y0), (x, y1)],
+                  pal["stripe"])
+
+    # --- 目 (大きく、低めに) ---
+    ex, ey = r * 0.50, cy + r * 0.12
+    lx, ly = look
+    if expr == "open":
+        es = pal.get("eye_scale", 1.0)
+        ew, eh = int(r * 0.46 * es), int(r * 0.60 * es)
+        e = eye_img(ew, eh, pal)
+        for s in (-1, 1):
+            im.alpha_composite(e, (int(cx + s * ex - ew / 2 + lx * r),
+                                   int(ey - eh / 2 + ly * r)))
+    elif expr == "happy":
+        for s in (-1, 1):
+            arc_line(d, cx + s * ex, ey + r * 0.02, r * 0.22, 195, 345,
+                     INK, LW + 1)
+    else:  # sleep
+        for s in (-1, 1):
+            arc_line(d, cx + s * ex, ey - r * 0.04, r * 0.22, 15, 165,
+                     INK, LW + 1)
+
+    # --- 鼻・口 ---
+    ny = cy + r * 0.44
+    d.polygon([(cx - r * 0.065, ny), (cx + r * 0.065, ny), (cx, ny + r * 0.075)],
+              fill=PINK)
+    arc_line(d, cx - r * 0.085, ny + r * 0.13, r * 0.085, 25, 155, INK, LW - 3)
+    arc_line(d, cx + r * 0.085, ny + r * 0.13, r * 0.085, 25, 155, INK, LW - 3)
+
+    # --- ほっぺ (ハチワレは白い部分の上に) ---
+    bx = r * 0.52 if pal["blaze"] else r * 0.72
+    bc = (255, 152, 152, 150) if pal["blaze"] else BLUSH
+    for s in (-1, 1):
+        ell(d, (cx + s * bx - r * 0.16, cy + r * 0.44 - r * 0.10,
+                cx + s * bx + r * 0.16, cy + r * 0.44 + r * 0.10), bc)
+
+    # --- ひげ (短く控えめ) ---
+    wc = (255, 255, 255, 190) if pal["blaze"] else (188, 148, 118, 160)
+    wl = r * 0.20 if pal["blaze"] else r * 0.30
+    for s in (-1, 1):
+        for k in (-1, 1):
+            x0 = cx + s * r * 0.94
+            y0 = cy + r * 0.34 + k * r * 0.09
+            d.line((x0, y0, x0 + s * wl, y0 + k * r * 0.10), fill=wc, width=3)
+    return im
+
+
+def paste_head(cv, cx, cy, r, pal, expr="open", tilt=0.0, look=(0.0, 0.0)):
     h = head_layer(r, pal, expr, look)
     if tilt:
         h = h.rotate(tilt, expand=False, resample=Image.BICUBIC)
     cv.alpha_composite(h, (int(cx - h.width / 2), int(cy - h.height / 2)))
 
 
-def toe_lines(d, x, y, w, direction=90):
-    """足先のスリット。direction=deg (指先が向く方向)"""
-    a = math.radians(direction)
-    for k in (-1, 1):
-        px, py = x + k * w * 0.33, y
-        d.line((px, py, px + w * 0.28 * math.cos(a), py + w * 0.28 * math.sin(a)),
-               fill=INK, width=LW - 3)
-
-
 def paw_pads(d, cx, cy, w):
-    """肉球 (見せポーズ用)。"""
-    d.ellipse((cx - w * 0.30, cy - w * 0.10, cx + w * 0.30, cy + w * 0.42),
+    d.ellipse((cx - w * 0.28, cy - w * 0.06, cx + w * 0.28, cy + w * 0.40),
               fill=PAD)
-    for i, ang in enumerate((-50, 0, 50)):
+    for ang in (-48, 0, 48):
         a = math.radians(ang - 90)
-        px, py = cx + w * 0.42 * math.cos(a), cy + w * 0.05 + w * 0.42 * math.sin(a)
-        rr = w * 0.13
-        d.ellipse((px - rr, py - rr, px + rr, py + rr), fill=PAD)
+        px, py = cx + w * 0.40 * math.cos(a), cy + w * 0.06 + w * 0.40 * math.sin(a)
+        rr_ = w * 0.12
+        d.ellipse((px - rr_, py - rr_, px + rr_, py + rr_), fill=PAD)
 
 
-def tail(d, pts, color, w=26):
-    d.line(pts, fill=INK, width=w + LW * 2, joint="curve")
-    d.line(pts, fill=color, width=w, joint="curve")
-    # 先端を丸く
-    x, y = pts[-1]
-    d.ellipse((x - w / 2 - LW, y - w / 2 - LW, x + w / 2 + LW, y + w / 2 + LW),
-              fill=INK)
-    d.ellipse((x - w / 2, y - w / 2, x + w / 2, y + w / 2), fill=color)
+def toe_slits(d, x, y, w, color):
+    for k in (-1, 1):
+        d.line((x + k * w * 0.18, y, x + k * w * 0.18, y + w * 0.22),
+               fill=color, width=LW - 3)
 
 
-def body_stripes(d, cx, cy, rx, ry, pal, n=3):
-    if not pal["stripe"]:
-        return
-    for k in range(n):
-        t = -0.5 + k / (n - 1) if n > 1 else 0
-        x = cx + t * rx * 1.1
-        d.arc((x - rx * 0.22, cy - ry * 0.95, x + rx * 0.22, cy - ry * 0.1),
-              200, 340, fill=pal["stripe"], width=int(LW * 1.4))
+# ------------------------------------------------------------------ badge ---
+def badge(d, color, ring, deco=True):
+    ell(d, (370 - 258, 372 - 246, 370 + 258, 372 + 246), color)
+    if deco:
+        for i in range(10):
+            a = math.radians(36 * i + 12)
+            x = 370 + 236 * math.cos(a)
+            y = 372 + 226 * math.sin(a)
+            r_ = 7 + (i % 3) * 3
+            d.ellipse((x - r_, y - r_, x + r_, y + r_), fill=ring)
 
 
-# ---------------------------------------------------------------- poses -----
-def pose_bowl():
+# ------------------------------------------------------------------ poses ---
+def canvas():
     cv = Image.new("RGBA", (W2, H2), (0, 0, 0, 0))
-    d = ImageDraw.Draw(cv)
-    blob_shadow(d, 370, 560, 265)
-    # 木の鉢
-    wood, wood_hi = (232, 195, 122, 255), (243, 214, 152, 255)
-    d.rounded_rectangle((130, 300, 610, 560), radius=95, fill=wood,
-                        outline=INK, width=LW)
-    d.ellipse((150, 268, 590, 372), fill=(206, 206, 200, 255),
-              outline=INK, width=LW)   # 内側 (グレー)
-    # 前面の肉球焼き印
-    for px, py, pr in ((300, 460, 20), (368, 492, 16), (436, 462, 20)):
-        pd = ImageDraw.Draw(cv)
-        pd.ellipse((px - pr * 0.6, py - pr * 0.3, px + pr * 0.6, py + pr * 0.8),
-                   fill=(176, 138, 70, 255))
-        for ang in (-45, 0, 45):
+    return cv, ImageDraw.Draw(cv)
+
+
+def pose_bowl():
+    cv, d = canvas()
+    badge(d, (255, 236, 212, 255), (255, 214, 170, 255))
+    blob_shadow(d, 370, 580, 240)
+    wood = (240, 205, 138, 255)
+    wout = (204, 160, 92, 255)
+    rr(d, (160, 372, 580, 585), 85, wood, wout, LW)
+    ell(d, (185, 338, 555, 425), (218, 214, 206, 255), wout, LW)
+    # 肉球焼き印
+    for px, py, pr in ((295, 495, 17), (370, 522, 14), (445, 497, 17)):
+        d.ellipse((px - pr * 0.62, py - pr * 0.35, px + pr * 0.62, py + pr * 0.78),
+                  fill=(196, 152, 88, 255))
+        for ang in (-46, 0, 46):
             a = math.radians(ang - 90)
-            qx, qy = px + pr * 1.05 * math.cos(a), py + pr * 0.15 + pr * 1.05 * math.sin(a)
-            pd.ellipse((qx - pr * 0.28, qy - pr * 0.28, qx + pr * 0.28, qy + pr * 0.28),
-                       fill=(176, 138, 70, 255))
-    # 頭 (縁から見上げ)
-    paste_head(cv, 370, 265, 118, TORA, expr="open", look=(0, 0.05))
-    # 縁にかけた前足
+            qx, qy = px + pr * 1.02 * math.cos(a), py + pr * 0.1 + pr * 1.02 * math.sin(a)
+            d.ellipse((qx - pr * 0.26, qy - pr * 0.26, qx + pr * 0.26, qy + pr * 0.26),
+                      fill=(196, 152, 88, 255))
+    paste_head(cv, 370, 292, 122, TORA, expr="open", look=(0, 0.03))
     d = ImageDraw.Draw(cv)
     for sx in (-1, 1):
-        x = 370 + sx * 62
-        capsule(d, x - 34, 300, x + 34, 402, 32, TORA["body"])
-        toe_lines(d, x, 384, 62, 90)
+        x = 370 + sx * 64
+        rr(d, (x - 33, 358, x + 33, 452), 33, TORA["body"], TORA["outline"], LW)
+        toe_slits(d, x, 428, 62, TORA["outline"])
     return cv
 
 
 def pose_upside():
-    cv = Image.new("RGBA", (W2, H2), (0, 0, 0, 0))
-    d = ImageDraw.Draw(cv)
-    blob_shadow(d, 380, 585, 255)
-    # 仰向けの胴体 (おなか見せ)
-    ell(d, (250, 380, 620, 590), TORA["body"])
-    ell(d, (300, 415, 570, 575), TORA["belly"], outline=None, w=0)
-    body_stripes(d, 500, 470, 110, 90, TORA, 2)
-    # しっぽ (くるんと巻く)
-    tail(d, [(595, 515), (648, 478), (642, 420), (600, 400)], TORA["stripe"], 24)
-    # 上げた前足 x2 (肉球見せ)
-    for x, ang in ((440, -8), (525, 8)):
-        layer = Image.new("RGBA", (140, 220), (0, 0, 0, 0))
+    cv, d = canvas()
+    badge(d, (255, 228, 236, 255), (255, 198, 214, 255))
+    blob_shadow(d, 385, 575, 235)
+    # 仰向けボディ
+    shape(d, fluffy_pts(430, 480, 185, 105, 0.0), TORA["body"], TORA["outline"], LW)
+    ell(d, (330, 415, 545, 545), TORA["belly"])
+    # 縞
+    for x in (505, 560):
+        arc_line(d, x, 500, 52, 240, 300, TORA["stripe"], LW + 2)
+    # しっぽ くるん
+    tail(d, [(590, 500), (642, 462), (636, 404), (592, 390)], TORA["body"],
+         TORA["outline"], 24)
+    # 上げた前足 (肉球)
+    for x, ang in ((432, -10), (516, 10)):
+        layer = Image.new("RGBA", (150, 220), (0, 0, 0, 0))
         ld = ImageDraw.Draw(layer)
-        capsule(ld, 35, 20, 105, 200, 34, TORA["body"])
-        paw_pads(ld, 70, 52, 58)
+        rr(ld, (42, 18, 108, 200), 33, TORA["body"], TORA["outline"], LW)
+        paw_pads(ld, 75, 50, 56)
         layer = layer.rotate(ang, expand=True, resample=Image.BICUBIC)
-        cv.alpha_composite(layer, (x - layer.width // 2, 290))
-    # 頭 (横倒し気味)
-    paste_head(cv, 235, 430, 112, TORA, expr="open", tilt=18, look=(0.03, 0))
+        cv.alpha_composite(layer, (x - layer.width // 2, 300))
+    paste_head(cv, 245, 435, 116, TORA, expr="open", tilt=16, look=(0.02, 0))
     return cv
 
 
 def pose_boxcurl():
-    cv = Image.new("RGBA", (W2, H2), (0, 0, 0, 0))
+    cv, d = canvas()
+    badge(d, (224, 236, 252, 255), (196, 216, 244, 255))
+    box, box_dark, box_out = (228, 192, 142, 255), (206, 168, 118, 255), (188, 148, 98, 255)
+    d.polygon([(185, 350), (555, 350), (532, 430), (208, 430)],
+              fill=box_dark, outline=box_out, width=LW)
+    # まるまる猫
+    shape(d, fluffy_pts(370, 425, 155, 130, 0.0), TORA["body"], TORA["outline"], LW)
+    for x in (300, 370, 440):
+        arc_line(d, x, 348, 40, 200, 340, TORA["stripe"], LW + 2)
+    tail(d, [(255, 480), (330, 520), (430, 515), (478, 486)], TORA["stripe"],
+         TORA["outline"], 28)
+    paste_head(cv, 435, 385, 98, TORA, expr="sleep", tilt=-8)
     d = ImageDraw.Draw(cv)
-    # 段ボール箱 (奥板)
-    box, box_dark = (221, 184, 134, 255), (198, 160, 110, 255)
-    d.polygon([(150, 330), (590, 330), (560, 420), (180, 420)],
-              fill=box_dark, outline=INK, width=LW)
-    # 丸くなった猫
-    ell(d, (215, 300, 525, 560), TORA["body"])
-    body_stripes(d, 370, 430, 150, 130, TORA, 3)
-    # しっぽを体に巻く
-    tail(d, [(255, 500), (330, 545), (430, 540), (490, 505)], TORA["stripe"], 30)
-    # 頭 (目を閉じて)
-    paste_head(cv, 435, 380, 96, TORA, expr="sleep", tilt=-10)
-    # 箱の前板 (猫の下半分を隠す)
-    d = ImageDraw.Draw(cv)
-    d.rounded_rectangle((150, 470, 590, 620), radius=18, fill=box,
-                        outline=INK, width=LW)
-    d.line((150, 505, 590, 505), fill=box_dark, width=6)
+    rr(d, (172, 468, 568, 608), 16, box, box_out, LW)
+    d.line((172, 502, 568, 502), fill=box_out, width=5)
     return cv
 
 
 def pose_sleep():
-    cv = Image.new("RGBA", (W2, H2), (0, 0, 0, 0))
-    d = ImageDraw.Draw(cv)
-    blob_shadow(d, 370, 585, 260)
-    # ふわふわの胴体
-    ell(d, (190, 400, 610, 585), FUWA["body"])
-    # 前足をそろえて
-    capsule(d, 255, 505, 345, 570, 30, FUWA["belly"])
-    capsule(d, 330, 510, 420, 572, 30, FUWA["belly"])
-    # しっぽ
-    tail(d, [(590, 520), (650, 560), (620, 600)], FUWA["body"], 30)
-    # 頭 (すやすや)
-    paste_head(cv, 320, 400, 108, FUWA, expr="sleep", tilt=6)
+    cv, d = canvas()
+    badge(d, (234, 228, 250, 255), (214, 202, 244, 255))
+    blob_shadow(d, 375, 580, 240)
+    shape(d, fluffy_pts(390, 490, 195, 100, FUWA["fluffy"], 16),
+          FUWA["body"], FUWA["outline"], LW)
+    # 前足そろえて
+    for x0 in (285, 360):
+        rr(d, (x0, 512, x0 + 82, 570), 27, FUWA["belly"], FUWA["outline"], LW - 2)
+    tail(d, [(558, 515), (600, 536), (622, 566), (610, 590)],
+         FUWA["body"], FUWA["outline"], 32)
+    paste_head(cv, 315, 408, 114, FUWA, expr="sleep", tilt=5)
     return cv
 
 
-def pose_sit(pal, wave=False, expr="open", look=(0, 0)):
-    cv = Image.new("RGBA", (W2, H2), (0, 0, 0, 0))
-    d = ImageDraw.Draw(cv)
-    blob_shadow(d, 370, 600, 210)
-    # 座った体 (洋ナシ型)
-    d.polygon([(370, 330), (255, 420), (225, 545), (285, 600), (455, 600),
-               (515, 545), (485, 420)], fill=pal["body"], outline=INK, width=LW)
-    ell(d, (240, 400, 500, 605), pal["body"], outline=None, w=0)
-    d = ImageDraw.Draw(cv)
-    # 胸の白
-    ell(d, (300, 420, 440, 590), pal["belly"], outline=None, w=0)
-    body_stripes(d, 370, 500, 120, 100, pal, 2)
-    # しっぽ
-    tail(d, [(495, 560), (585, 545), (620, 480)], pal["body"], 30)
-    # 前足
-    capsule(d, 300, 480, 356, 600, 28, pal["body"])
-    toe_lines(d, 328, 580, 52, 90)
+def pose_sit(pal, wave=False, expr="open", look=(0.0, 0.0)):
+    cv, d = canvas()
     if wave:
-        layer = Image.new("RGBA", (150, 230), (0, 0, 0, 0))
-        ld = ImageDraw.Draw(layer)
-        capsule(ld, 40, 20, 110, 210, 35, pal["body"])
-        paw_pads(ld, 75, 55, 60)
-        layer = layer.rotate(-30, expand=True, resample=Image.BICUBIC)
-        cv.alpha_composite(layer, (420, 300))
+        badge(d, (222, 244, 232, 255), (192, 228, 208, 255))
     else:
-        capsule(d, 384, 480, 440, 600, 28, pal["body"])
-        toe_lines(d, 412, 580, 52, 90)
-    # 頭
-    paste_head(cv, 370, 300, 112, pal, expr=expr, look=look)
+        badge(d, (255, 246, 212, 255), (255, 228, 160, 255))
+    blob_shadow(d, 370, 595, 195)
+    # ちんまり座り体
+    shape(d, fluffy_pts(370, 490, 130, 118, pal["fluffy"], 12),
+          pal["body"], pal["outline"], LW)
+    ell(d, (312, 440, 428, 592), pal["belly"])
+    # 前足
+    rr(d, (312, 470, 362, 596), 25, pal["body"], pal["outline"], LW)
+    toe_slits(d, 337, 574, 46, pal["outline"])
+    if wave:
+        layer = Image.new("RGBA", (150, 210), (0, 0, 0, 0))
+        ld = ImageDraw.Draw(layer)
+        rr(ld, (44, 16, 106, 194), 31, pal["body"], pal["outline"], LW)
+        paw_pads(ld, 75, 46, 52)
+        layer = layer.rotate(-38, expand=True, resample=Image.BICUBIC)
+        cv.alpha_composite(layer, (448, 272))
+        d = ImageDraw.Draw(cv)
+    else:
+        rr(d, (378, 470, 428, 596), 25, pal["body"], pal["outline"], LW)
+        toe_slits(d, 403, 574, 46, pal["outline"])
+    tail(d, [(485, 555), (562, 540), (596, 478)], pal["body"], pal["outline"], 28)
+    paste_head(cv, 370, 302, 124, pal, expr=expr, look=look)
     return cv
 
 
 def pose_kuro():
-    cv = Image.new("RGBA", (W2, H2), (0, 0, 0, 0))
-    d = ImageDraw.Draw(cv)
-    blob_shadow(d, 380, 595, 250)
-    # 香箱座りの胴体
-    ell(d, (215, 400, 610, 590), KURO["body"])
-    # 白いおなか/前足
-    for x0, x1 in ((255, 350), (360, 455)):
-        capsule(d, x0, 505, x1, 585, 34, KURO["belly"])
-        toe_lines(d, (x0 + x1) / 2, 566, 60, 90)
-    # ふさふさしっぽ (上向きにゆらり)、先だけ白
-    tail(d, [(580, 490), (640, 420), (615, 335)], KURO["body"], 40)
-    ell(d, (615 - 26, 335 - 26, 615 + 26, 335 + 26), KURO["belly"], w=LW - 2)
-    # 頭 (かしげる)
-    paste_head(cv, 330, 350, 116, KURO, expr="open", tilt=12, look=(0.02, 0))
+    cv, d = canvas()
+    badge(d, (226, 242, 224, 255), (198, 228, 196, 255))
+    blob_shadow(d, 385, 585, 235)
+    shape(d, fluffy_pts(395, 480, 180, 100, KURO["fluffy"], 15),
+          KURO["body"], KURO["outline"], LW)
+    # 白い前足
+    for x0 in (300, 392):
+        rr(d, (x0, 505, x0 + 80, 568), 26, KURO["belly"], KURO["outline"], LW - 2)
+        toe_slits(d, x0 + 40, 548, 48, (210, 196, 188, 255))
+    # しっぽ (先だけ白)
+    tail(d, [(560, 480), (628, 420), (606, 344)], KURO["body"], KURO["outline"], 36)
+    ell(d, (606 - 24, 344 - 24, 606 + 24, 344 + 24), KURO["belly"],
+        KURO["outline"], LW - 2)
+    paste_head(cv, 330, 355, 120, KURO, expr="open", tilt=10, look=(0.02, 0))
     return cv
 
 
 def pose_duo():
-    cv = Image.new("RGBA", (W2, H2), (0, 0, 0, 0))
-    d = ImageDraw.Draw(cv)
-    blob_shadow(d, 370, 600, 265)
-    # ふわの体 (右・後ろ)
-    ell(d, (390, 420, 620, 600), FUWA["body"])
-    # とらの体 (左・前)
-    ell(d, (130, 430, 360, 605), TORA["body"])
-    body_stripes(d, 245, 520, 100, 85, TORA, 2)
-    # しっぽ (左右にゆれて)
-    tail(d, [(165, 530), (112, 475), (132, 412)], TORA["stripe"], 26)
-    tail(d, [(590, 520), (645, 462), (622, 400)], FUWA["body"], 28)
-    # 頭 (ほっぺすりすり)
-    paste_head(cv, 260, 350, 100, TORA, expr="happy", tilt=-10)
-    paste_head(cv, 470, 340, 100, FUWA, expr="happy", tilt=10)
+    cv, d = canvas()
+    badge(d, (255, 226, 232, 255), (252, 198, 210, 255))
+    blob_shadow(d, 370, 592, 245)
+    # ふわ (右奥)
+    shape(d, fluffy_pts(480, 500, 130, 100, FUWA["fluffy"], 12),
+          FUWA["body"], FUWA["outline"], LW)
+    # とら (左手前)
+    shape(d, fluffy_pts(258, 508, 122, 95, 0.0), TORA["body"], TORA["outline"], LW)
+    ell(d, (210, 470, 306, 596), TORA["belly"])
+    tail(d, [(160, 545), (112, 492), (130, 430)], TORA["stripe"], TORA["outline"], 24)
+    tail(d, [(588, 528), (640, 470), (618, 412)], FUWA["body"], FUWA["outline"], 26)
+    paste_head(cv, 262, 352, 106, TORA, expr="happy", tilt=-9)
+    paste_head(cv, 472, 342, 106, FUWA, expr="happy", tilt=9)
     return cv
 
 
@@ -387,39 +433,40 @@ def heart(d, cx, cy, s, color):
 
 
 def sun(d, sx, sy):
-    d.ellipse((sx - 22, sy - 22, sx + 22, sy + 22), fill=(255, 205, 90, 245),
-              outline=(235, 165, 40, 255), width=3)
+    d.ellipse((sx - 20, sy - 20, sx + 20, sy + 20), fill=(255, 208, 96, 250),
+              outline=(240, 172, 60, 255), width=3)
     for ang in range(0, 360, 45):
         a = math.radians(ang)
-        d.line((sx + 28 * math.cos(a), sy + 28 * math.sin(a),
-                sx + 40 * math.cos(a), sy + 40 * math.sin(a)),
-               fill=(255, 205, 90, 245), width=6)
+        d.line((sx + 26 * math.cos(a), sy + 26 * math.sin(a),
+                sx + 37 * math.cos(a), sy + 37 * math.sin(a)),
+               fill=(255, 208, 96, 250), width=5)
 
 
 def zzz(d):
-    for zx, zy, zs in ((296, 100, 40), (326, 66, 30), (348, 40, 22)):
+    for zx, zy, zs in ((300, 102, 38), (330, 68, 28), (352, 42, 21)):
         f = ImageFont.truetype(FONT, zs)
-        d.text((zx, zy), "z", font=f, anchor="mm", fill=(120, 95, 190),
+        d.text((zx, zy), "z", font=f, anchor="mm", fill=(126, 100, 196),
                stroke_width=6, stroke_fill=(255, 255, 255))
 
 
 STAMPS = [
     dict(name="01_nani",     pose=pose_bowl,   text="なにしてるの?",
-         color=(235, 120, 40)),
+         color=(232, 116, 44)),
     dict(name="02_asobo",    pose=pose_upside, text="あそぼ!",
-         color=(240, 95, 135)),
+         color=(238, 92, 132)),
     dict(name="03_sotto",    pose=pose_boxcurl, text="そっとしといて…",
-         color=(90, 120, 190)),
+         color=(96, 124, 192)),
     dict(name="04_oyasumi",  pose=pose_sleep,  text="おやすみ",
-         color=(120, 95, 190), deco="zzz"),
+         color=(124, 98, 194), deco="zzz"),
     dict(name="05_itera",    pose=lambda: pose_sit(FUWA, wave=True, expr="happy"),
-         text="いってらっしゃい", color=(70, 150, 120)),
-    dict(name="06_ohayo",    pose=lambda: pose_sit(FUWA, wave=False, expr="open"),
-         text="おはよう!", color=(235, 160, 40), deco="sun"),
+         text="いってらっしゃい", color=(66, 148, 116)),
+    dict(name="06_ohayo",    pose=lambda: pose_sit(FUWA, wave=False, expr="open",
+                                                   look=(0, -0.02)),
+         text="おはよう!", color=(230, 156, 36), deco="sun"),
     dict(name="07_yoroshiku", pose=pose_kuro,  text="よろしくね!",
-         color=(90, 160, 80)),
+         color=(88, 158, 78)),
     dict(name="08_daisuki",  pose=pose_duo,    text="だいすき♡",
-         color=(235, 90, 130), deco="hearts"),
+         color=(234, 88, 128), deco="hearts"),
 ]
 
 
@@ -443,11 +490,11 @@ def render(st):
     if deco == "zzz":
         zzz(d)
     elif deco == "sun":
-        sun(d, 52, 96)
+        sun(d, 56, 100)
     elif deco == "hearts":
-        for hx, hy, hs in ((44, 116, 32), (330, 96, 38), (58, 216, 24),
-                           (322, 208, 28)):
-            heart(d, hx, hy, hs, (250, 140, 170, 235))
+        for hx, hy, hs in ((46, 122, 30), (326, 100, 36), (60, 218, 22),
+                           (320, 212, 26)):
+            heart(d, hx, hy, hs, (250, 132, 164, 240))
     draw_text(d, (STAMP_W / 2, 36), st["text"], 52, st["color"])
     return cv
 
@@ -460,23 +507,21 @@ def main():
         previews.append(img)
         print(st["name"], "done")
 
-    # main.png / tab.png
     art = pose_bowl().resize((STAMP_W, STAMP_H), Image.LANCZOS)
     art = white_sticker(art)
     m = Image.new("RGBA", (240, 240), (0, 0, 0, 0))
-    s = min(230 / art.width, 230 / art.height)
+    s = min(235 / art.width, 235 / art.height)
     sp = art.resize((int(art.width * s), int(art.height * s)), Image.LANCZOS)
     m.alpha_composite(sp, ((240 - sp.width) // 2, (240 - sp.height) // 2))
     m.save(os.path.join(OUT, "main.png"))
 
-    tb = Image.new("RGBA", (96 * SS, 74 * SS), (0, 0, 0, 0))
-    hl = head_layer(52, TORA, expr="happy")
-    tb.alpha_composite(hl, (96 * SS // 2 - hl.width // 2,
-                            74 * SS // 2 - hl.height // 2 + 14))
+    tb = Image.new("RGBA", (96 * SS * 2, 74 * SS * 2), (0, 0, 0, 0))
+    hl = head_layer(100, TORA, expr="happy")
+    tb.alpha_composite(hl, (tb.width // 2 - hl.width // 2,
+                            tb.height // 2 - hl.height // 2 + 30))
     tb = tb.resize((96, 74), Image.LANCZOS)
     tb.save(os.path.join(OUT, "tab.png"))
 
-    # プレビュー
     cols, cw, ch = 4, STAMP_W + 20, STAMP_H + 20
     rows = (len(previews) + cols - 1) // cols
     sheet = Image.new("RGB", (cols * cw, rows * ch), (245, 245, 245))
