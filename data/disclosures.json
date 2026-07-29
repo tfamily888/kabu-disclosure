@@ -1,10 +1,492 @@
 {
-  "lastUpdated": "2026-07-29T18:20:03+09:00",
+  "lastUpdated": "2026-07-29T20:12:29+09:00",
   "date": "2026-07-29",
-  "totalRaw": 259,
+  "totalRaw": 287,
   "disclosures": [
     {
       "id": "d0001",
+      "time": "19:00",
+      "code": "4689",
+      "company": "ＬＩＮＥヤフー",
+      "title": "(経過開示)BCPE Blitz Caymanによる株式会社カカクコムに対する公開買付けの開始予定及び当社によるBCPE Blitz Caymanへの間接的な共同出資予定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260716594887.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "ＬＩＮＥヤフー - (経過開示)BCPE Blitz Caymanによる株式会社カカクコムに対する公開買付けの開始予定及び当社によるBCPE Blitz Caymanへの間接的な共同出資予定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
+    },
+    {
+      "id": "d0002",
+      "time": "18:45",
+      "code": "2164",
+      "company": "地域新聞社",
+      "title": "株主（オプションハウス株式会社）による新株予約権無償割当て差止めの仮処分の追加の申立てに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502454.pdf",
+      "market": "東福",
+      "category": "その他",
+      "importance": "中",
+      "summary": "地域新聞社 - 株主（オプションハウス株式会社）による新株予約権無償割当て差止めの仮処分の追加の申立てに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0003",
+      "time": "18:30",
+      "code": "2031",
+      "company": "ハンセンブル",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502478.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ハンセンブル - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0004",
+      "time": "18:30",
+      "code": "2032",
+      "company": "ハンセンベア",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502479.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ハンセンベア - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0005",
+      "time": "18:30",
+      "code": "2033",
+      "company": "ＫＯＳＰＩブル",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502480.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＫＯＳＰＩブル - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0006",
+      "time": "18:30",
+      "code": "2034",
+      "company": "ＫＯＳＰＩベア",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502481.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＫＯＳＰＩベア - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0007",
+      "time": "18:30",
+      "code": "2036",
+      "company": "金先物ダブルブル",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502482.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "金先物ダブルブル - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0008",
+      "time": "18:30",
+      "code": "2037",
+      "company": "金先物ベア",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502483.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "金先物ベア - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0009",
+      "time": "18:30",
+      "code": "2038",
+      "company": "ドバイ原油先物ブル",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502484.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ドバイ原油先物ブル - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0010",
+      "time": "18:30",
+      "code": "2039",
+      "company": "ドバイ原油先物ベア",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502485.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ドバイ原油先物ベア - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0011",
+      "time": "18:30",
+      "code": "2040",
+      "company": "ＮＹダウブルＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502486.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＮＹダウブルＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0012",
+      "time": "18:30",
+      "code": "2041",
+      "company": "ＮＹダウベアＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502487.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＮＹダウベアＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0013",
+      "time": "18:30",
+      "code": "2042",
+      "company": "グロース２５０ＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502488.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "グロース２５０ＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0014",
+      "time": "18:30",
+      "code": "2043",
+      "company": "アセアン５０ＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502489.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "アセアン５０ＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0015",
+      "time": "18:30",
+      "code": "2044",
+      "company": "米国配当貴族ＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502490.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "米国配当貴族ＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0016",
+      "time": "18:30",
+      "code": "2045",
+      "company": "シンガポールリート",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502491.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "シンガポールリート - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0017",
+      "time": "18:30",
+      "code": "2046",
+      "company": "インドブルＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502492.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "インドブルＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0018",
+      "time": "18:30",
+      "code": "2047",
+      "company": "インドベアＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502493.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "インドベアＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0019",
+      "time": "18:30",
+      "code": "2048",
+      "company": "高配株＄ヘッジＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502494.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "高配株＄ヘッジＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0020",
+      "time": "18:30",
+      "code": "2050",
+      "company": "ニッチトップ中小型",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502495.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ニッチトップ中小型 - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0021",
+      "time": "18:30",
+      "code": "2065",
+      "company": "日本株配当貴族ＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502496.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日本株配当貴族ＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0022",
+      "time": "18:30",
+      "code": "2066",
+      "company": "東証リートＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502497.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東証リートＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0023",
+      "time": "18:30",
+      "code": "2067",
+      "company": "野村ＡＩ７０ＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502498.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "野村ＡＩ７０ＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0024",
+      "time": "18:30",
+      "code": "2068",
+      "company": "高ベータ３０ＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502499.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "高ベータ３０ＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0025",
+      "time": "18:30",
+      "code": "2069",
+      "company": "低ベータ５０ＥＴＮ",
+      "title": "2027年３月期　第１四半期決算短信",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502500.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "低ベータ５０ＥＴＮ - 2027年３月期　第１四半期決算短信",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0026",
+      "time": "18:30",
+      "code": "8141",
+      "company": "新光商",
+      "title": "加賀電子株式会社による当社株式に対する公開買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502506.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "新光商 - 加賀電子株式会社による当社株式に対する公開買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
+    },
+    {
+      "id": "d0027",
       "time": "18:00",
       "code": "5594",
       "company": "Ｐ－エム・デー・ビー",
@@ -19,7 +501,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0002",
+      "id": "d0028",
       "time": "18:00",
       "code": "9439",
       "company": "ＭＨグループ",
@@ -34,7 +516,7 @@
       "analysis": "新規事業への参入は中長期的な成長期待を高める。初期投資の規模と黒字化までの見通しがポイント。"
     },
     {
-      "id": "d0003",
+      "id": "d0029",
       "time": "17:30",
       "code": "4262",
       "company": "Ｇ－ニフティライフ",
@@ -49,7 +531,7 @@
       "analysis": ""
     },
     {
-      "id": "d0004",
+      "id": "d0030",
       "time": "17:30",
       "code": "4262",
       "company": "Ｇ－ニフティライフ",
@@ -64,7 +546,7 @@
       "analysis": ""
     },
     {
-      "id": "d0005",
+      "id": "d0031",
       "time": "17:30",
       "code": "4722",
       "company": "フューチャー",
@@ -79,7 +561,7 @@
       "analysis": "無配への転落は財務状況の厳しさを示す。復配の見通しと業績回復のシナリオを確認すべき。"
     },
     {
-      "id": "d0006",
+      "id": "d0032",
       "time": "17:30",
       "code": "4722",
       "company": "フューチャー",
@@ -94,7 +576,7 @@
       "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
     },
     {
-      "id": "d0007",
+      "id": "d0033",
       "time": "17:30",
       "code": "4722",
       "company": "フューチャー",
@@ -113,7 +595,7 @@
       "analysis": ""
     },
     {
-      "id": "d0008",
+      "id": "d0034",
       "time": "17:00",
       "code": "2721",
       "company": "ＪＨＤ",
@@ -128,7 +610,7 @@
       "analysis": ""
     },
     {
-      "id": "d0009",
+      "id": "d0035",
       "time": "17:00",
       "code": "3905",
       "company": "Ｇ－データセクション",
@@ -143,7 +625,7 @@
       "analysis": ""
     },
     {
-      "id": "d0010",
+      "id": "d0036",
       "time": "17:00",
       "code": "6928",
       "company": "エノモト",
@@ -158,7 +640,7 @@
       "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
     },
     {
-      "id": "d0011",
+      "id": "d0037",
       "time": "17:00",
       "code": "7176",
       "company": "Ｐ－シンプレクスＦＨ",
@@ -173,7 +655,7 @@
       "analysis": ""
     },
     {
-      "id": "d0012",
+      "id": "d0038",
       "time": "17:00",
       "code": "9731",
       "company": "白洋舎",
@@ -188,7 +670,7 @@
       "analysis": ""
     },
     {
-      "id": "d0013",
+      "id": "d0039",
       "time": "16:30",
       "code": "3401",
       "company": "帝人",
@@ -203,7 +685,7 @@
       "analysis": ""
     },
     {
-      "id": "d0014",
+      "id": "d0040",
       "time": "16:30",
       "code": "3798",
       "company": "ＵＬＳグループ",
@@ -218,7 +700,7 @@
       "analysis": ""
     },
     {
-      "id": "d0015",
+      "id": "d0041",
       "time": "16:30",
       "code": "4362",
       "company": "日本精化",
@@ -237,7 +719,7 @@
       "analysis": ""
     },
     {
-      "id": "d0016",
+      "id": "d0042",
       "time": "16:30",
       "code": "6524",
       "company": "湖北工業",
@@ -252,7 +734,7 @@
       "analysis": ""
     },
     {
-      "id": "d0017",
+      "id": "d0043",
       "time": "16:30",
       "code": "7551",
       "company": "ウェッズ",
@@ -271,7 +753,7 @@
       "analysis": "営業利益が前年同期比 +79.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0018",
+      "id": "d0044",
       "time": "16:30",
       "code": "9501",
       "company": "東電力ＨＤ",
@@ -286,7 +768,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0019",
+      "id": "d0045",
       "time": "16:30",
       "code": "9501",
       "company": "東電力ＨＤ",
@@ -305,7 +787,7 @@
       "analysis": "経常利益が前年同期比 -88.7% の大幅減益。要警戒。"
     },
     {
-      "id": "d0020",
+      "id": "d0046",
       "time": "16:30",
       "code": "9501",
       "company": "東電力ＨＤ",
@@ -320,7 +802,7 @@
       "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
     },
     {
-      "id": "d0021",
+      "id": "d0047",
       "time": "16:00",
       "code": "1766",
       "company": "東建コーポ",
@@ -335,7 +817,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0022",
+      "id": "d0048",
       "time": "16:00",
       "code": "2491",
       "company": "Ｖコマース",
@@ -354,7 +836,7 @@
       "analysis": ""
     },
     {
-      "id": "d0023",
+      "id": "d0049",
       "time": "16:00",
       "code": "2491",
       "company": "Ｖコマース",
@@ -369,7 +851,7 @@
       "analysis": ""
     },
     {
-      "id": "d0024",
+      "id": "d0050",
       "time": "16:00",
       "code": "3636",
       "company": "三菱総研",
@@ -388,7 +870,7 @@
       "analysis": ""
     },
     {
-      "id": "d0025",
+      "id": "d0051",
       "time": "16:00",
       "code": "3726",
       "company": "フォーシーズＨＤ",
@@ -403,7 +885,7 @@
       "analysis": ""
     },
     {
-      "id": "d0026",
+      "id": "d0052",
       "time": "16:00",
       "code": "4461",
       "company": "第一工業",
@@ -422,7 +904,7 @@
       "analysis": "営業利益が前年同期比 +196.9% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0027",
+      "id": "d0053",
       "time": "16:00",
       "code": "4461",
       "company": "第一工業",
@@ -437,7 +919,7 @@
       "analysis": ""
     },
     {
-      "id": "d0028",
+      "id": "d0054",
       "time": "16:00",
       "code": "5617",
       "company": "Ｐ－ウィル・ドゥ",
@@ -452,7 +934,7 @@
       "analysis": "上場廃止は株式の流動性が失われる重大事象。整理銘柄指定後の売却機会は限られるため注意が必要。"
     },
     {
-      "id": "d0029",
+      "id": "d0055",
       "time": "16:00",
       "code": "6955",
       "company": "ＦＤＫ",
@@ -471,7 +953,7 @@
       "analysis": ""
     },
     {
-      "id": "d0030",
+      "id": "d0056",
       "time": "16:00",
       "code": "6955",
       "company": "ＦＤＫ",
@@ -486,7 +968,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0031",
+      "id": "d0057",
       "time": "16:00",
       "code": "8421",
       "company": "Ｙ－信中金",
@@ -505,7 +987,7 @@
       "analysis": "営業利益が前年同期比 +27.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0032",
+      "id": "d0058",
       "time": "16:00",
       "code": "8421",
       "company": "Ｙ－信中金",
@@ -520,7 +1002,7 @@
       "analysis": ""
     },
     {
-      "id": "d0033",
+      "id": "d0059",
       "time": "16:00",
       "code": "9474",
       "company": "ゼンリン",
@@ -539,7 +1021,7 @@
       "analysis": ""
     },
     {
-      "id": "d0034",
+      "id": "d0060",
       "time": "16:00",
       "code": "9502",
       "company": "中部電力",
@@ -558,7 +1040,7 @@
       "analysis": "経常利益が前年同期比 -74.1% の大幅減益。要警戒。"
     },
     {
-      "id": "d0035",
+      "id": "d0061",
       "time": "16:00",
       "code": "9502",
       "company": "中部電力",
@@ -573,7 +1055,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0036",
+      "id": "d0062",
       "time": "16:00",
       "code": "9991",
       "company": "ジェコス",
@@ -588,7 +1070,7 @@
       "analysis": ""
     },
     {
-      "id": "d0037",
+      "id": "d0063",
       "time": "15:40",
       "code": "3839",
       "company": "ＯＤＫ",
@@ -607,7 +1089,7 @@
       "analysis": ""
     },
     {
-      "id": "d0038",
+      "id": "d0064",
       "time": "15:30",
       "code": "1944",
       "company": "きんでん",
@@ -626,7 +1108,7 @@
       "analysis": "営業利益が前年同期比 +89.0% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0039",
+      "id": "d0065",
       "time": "15:30",
       "code": "1946",
       "company": "トーエネック",
@@ -645,7 +1127,7 @@
       "analysis": "営業利益が前年同期比 +47.6% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0040",
+      "id": "d0066",
       "time": "15:30",
       "code": "2175",
       "company": "ＳＭＳ",
@@ -660,7 +1142,7 @@
       "analysis": ""
     },
     {
-      "id": "d0041",
+      "id": "d0067",
       "time": "15:30",
       "code": "2175",
       "company": "ＳＭＳ",
@@ -679,7 +1161,7 @@
       "analysis": ""
     },
     {
-      "id": "d0042",
+      "id": "d0068",
       "time": "15:30",
       "code": "2315",
       "company": "ＣＡＩＣＡ　Ｄ",
@@ -694,7 +1176,7 @@
       "analysis": "資本業務提携はシナジー効果による成長加速が期待される。提携先の規模と提携内容の具体性が重要。"
     },
     {
-      "id": "d0043",
+      "id": "d0069",
       "time": "15:30",
       "code": "2359",
       "company": "コア",
@@ -713,7 +1195,7 @@
       "analysis": "営業利益が前年同期比 +21.6% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0044",
+      "id": "d0070",
       "time": "15:30",
       "code": "2359",
       "company": "コア",
@@ -728,7 +1210,7 @@
       "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
     },
     {
-      "id": "d0045",
+      "id": "d0071",
       "time": "15:30",
       "code": "2359",
       "company": "コア",
@@ -743,7 +1225,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0046",
+      "id": "d0072",
       "time": "15:30",
       "code": "2502",
       "company": "アサヒ",
@@ -758,7 +1240,7 @@
       "analysis": ""
     },
     {
-      "id": "d0047",
+      "id": "d0073",
       "time": "15:30",
       "code": "2664",
       "company": "カワチ薬品",
@@ -777,7 +1259,7 @@
       "analysis": ""
     },
     {
-      "id": "d0048",
+      "id": "d0074",
       "time": "15:30",
       "code": "2760",
       "company": "東エレデバ",
@@ -796,7 +1278,7 @@
       "analysis": "営業利益が前年同期比 +179.5% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0049",
+      "id": "d0075",
       "time": "15:30",
       "code": "2760",
       "company": "東エレデバ",
@@ -811,7 +1293,7 @@
       "analysis": ""
     },
     {
-      "id": "d0050",
+      "id": "d0076",
       "time": "15:30",
       "code": "2780",
       "company": "コメ兵ＨＤ",
@@ -826,7 +1308,7 @@
       "analysis": ""
     },
     {
-      "id": "d0051",
+      "id": "d0077",
       "time": "15:30",
       "code": "3321",
       "company": "ミタチ",
@@ -841,7 +1323,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0052",
+      "id": "d0078",
       "time": "15:30",
       "code": "3793",
       "company": "Ｇ－ドリコム",
@@ -860,7 +1342,7 @@
       "analysis": ""
     },
     {
-      "id": "d0053",
+      "id": "d0079",
       "time": "15:30",
       "code": "3793",
       "company": "Ｇ－ドリコム",
@@ -875,7 +1357,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0054",
+      "id": "d0080",
       "time": "15:30",
       "code": "3807",
       "company": "Ｇ－フィスコ",
@@ -890,7 +1372,7 @@
       "analysis": "資本業務提携はシナジー効果による成長加速が期待される。提携先の規模と提携内容の具体性が重要。"
     },
     {
-      "id": "d0055",
+      "id": "d0081",
       "time": "15:30",
       "code": "3850",
       "company": "ＮＴＴＤＩＭ",
@@ -909,7 +1391,7 @@
       "analysis": "営業利益が前年同期比 +29.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0056",
+      "id": "d0082",
       "time": "15:30",
       "code": "3911",
       "company": "Ｇ－Ａｉｍｉｎｇ",
@@ -928,7 +1410,7 @@
       "analysis": "営業利益が前年同期比 -71.3% の大幅減益。要警戒。"
     },
     {
-      "id": "d0057",
+      "id": "d0083",
       "time": "15:30",
       "code": "3911",
       "company": "Ｇ－Ａｉｍｉｎｇ",
@@ -943,7 +1425,7 @@
       "analysis": ""
     },
     {
-      "id": "d0058",
+      "id": "d0084",
       "time": "15:30",
       "code": "3969",
       "company": "エイトレッド",
@@ -962,7 +1444,7 @@
       "analysis": ""
     },
     {
-      "id": "d0059",
+      "id": "d0085",
       "time": "15:30",
       "code": "4179",
       "company": "Ｇ－ジーネクスト",
@@ -977,7 +1459,7 @@
       "analysis": ""
     },
     {
-      "id": "d0060",
+      "id": "d0086",
       "time": "15:30",
       "code": "4367",
       "company": "広栄化学",
@@ -992,7 +1474,7 @@
       "analysis": "上場廃止は株式の流動性が失われる重大事象。整理銘柄指定後の売却機会は限られるため注意が必要。"
     },
     {
-      "id": "d0061",
+      "id": "d0087",
       "time": "15:30",
       "code": "4465",
       "company": "ニイタカ",
@@ -1007,7 +1489,7 @@
       "analysis": ""
     },
     {
-      "id": "d0062",
+      "id": "d0088",
       "time": "15:30",
       "code": "4613",
       "company": "関ペイント",
@@ -1022,7 +1504,7 @@
       "analysis": ""
     },
     {
-      "id": "d0063",
+      "id": "d0089",
       "time": "15:30",
       "code": "4812",
       "company": "電通総研",
@@ -1037,7 +1519,7 @@
       "analysis": ""
     },
     {
-      "id": "d0064",
+      "id": "d0090",
       "time": "15:30",
       "code": "4812",
       "company": "電通総研",
@@ -1056,7 +1538,7 @@
       "analysis": ""
     },
     {
-      "id": "d0065",
+      "id": "d0091",
       "time": "15:30",
       "code": "4832",
       "company": "ＪＦＥ－ＳＩ",
@@ -1075,7 +1557,7 @@
       "analysis": "営業利益が前年同期比 -51.5% の大幅減益。要警戒。"
     },
     {
-      "id": "d0066",
+      "id": "d0092",
       "time": "15:30",
       "code": "4832",
       "company": "ＪＦＥ－ＳＩ",
@@ -1090,7 +1572,7 @@
       "analysis": ""
     },
     {
-      "id": "d0067",
+      "id": "d0093",
       "time": "15:30",
       "code": "5609",
       "company": "日鋳造",
@@ -1109,7 +1591,7 @@
       "analysis": ""
     },
     {
-      "id": "d0068",
+      "id": "d0094",
       "time": "15:30",
       "code": "5609",
       "company": "日鋳造",
@@ -1124,7 +1606,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0069",
+      "id": "d0095",
       "time": "15:30",
       "code": "5644",
       "company": "メタルアート",
@@ -1139,7 +1621,7 @@
       "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
     },
     {
-      "id": "d0070",
+      "id": "d0096",
       "time": "15:30",
       "code": "5644",
       "company": "メタルアート",
@@ -1154,7 +1636,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0071",
+      "id": "d0097",
       "time": "15:30",
       "code": "5906",
       "company": "エムケー精工",
@@ -1173,7 +1655,7 @@
       "analysis": "営業利益が前年同期比 -45.7% の大幅減益。要警戒。"
     },
     {
-      "id": "d0072",
+      "id": "d0098",
       "time": "15:30",
       "code": "6042",
       "company": "ニッキ",
@@ -1188,7 +1670,7 @@
       "analysis": ""
     },
     {
-      "id": "d0073",
+      "id": "d0099",
       "time": "15:30",
       "code": "6349",
       "company": "小森",
@@ -1207,7 +1689,7 @@
       "analysis": ""
     },
     {
-      "id": "d0074",
+      "id": "d0100",
       "time": "15:30",
       "code": "6349",
       "company": "小森",
@@ -1222,7 +1704,7 @@
       "analysis": ""
     },
     {
-      "id": "d0075",
+      "id": "d0101",
       "time": "15:30",
       "code": "6349",
       "company": "小森",
@@ -1237,7 +1719,7 @@
       "analysis": "業績の上方修正はポジティブサプライズ。修正幅と修正理由に注目し、一過性か構造的改善かを見極めたい。"
     },
     {
-      "id": "d0076",
+      "id": "d0102",
       "time": "15:30",
       "code": "6370",
       "company": "栗田工",
@@ -1252,7 +1734,7 @@
       "analysis": ""
     },
     {
-      "id": "d0077",
+      "id": "d0103",
       "time": "15:30",
       "code": "6501",
       "company": "日立",
@@ -1271,7 +1753,7 @@
       "analysis": "営業利益が前年同期比 +39.5% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0078",
+      "id": "d0104",
       "time": "15:30",
       "code": "6526",
       "company": "ソシオネクスト",
@@ -1290,7 +1772,7 @@
       "analysis": "営業利益が前年同期比 -86.0% の大幅減益。要警戒。"
     },
     {
-      "id": "d0079",
+      "id": "d0105",
       "time": "15:30",
       "code": "6586",
       "company": "マキタ",
@@ -1309,7 +1791,7 @@
       "analysis": ""
     },
     {
-      "id": "d0080",
+      "id": "d0106",
       "time": "15:30",
       "code": "6634",
       "company": "ＪＮグループ",
@@ -1324,7 +1806,7 @@
       "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
     },
     {
-      "id": "d0081",
+      "id": "d0107",
       "time": "15:30",
       "code": "6663",
       "company": "太洋テクノレックス",
@@ -1339,7 +1821,7 @@
       "analysis": ""
     },
     {
-      "id": "d0082",
+      "id": "d0108",
       "time": "15:30",
       "code": "6701",
       "company": "ＮＥＣ",
@@ -1358,7 +1840,7 @@
       "analysis": "営業利益が前年同期比 +66.1% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0083",
+      "id": "d0109",
       "time": "15:30",
       "code": "6701",
       "company": "ＮＥＣ",
@@ -1373,7 +1855,7 @@
       "analysis": ""
     },
     {
-      "id": "d0084",
+      "id": "d0110",
       "time": "15:30",
       "code": "6807",
       "company": "航空電子",
@@ -1392,7 +1874,7 @@
       "analysis": "営業利益が前年同期比 -77.9% の大幅減益。要警戒。"
     },
     {
-      "id": "d0085",
+      "id": "d0111",
       "time": "15:30",
       "code": "6822",
       "company": "大井電気",
@@ -1411,7 +1893,7 @@
       "analysis": ""
     },
     {
-      "id": "d0086",
+      "id": "d0112",
       "time": "15:30",
       "code": "6822",
       "company": "大井電気",
@@ -1426,7 +1908,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0087",
+      "id": "d0113",
       "time": "15:30",
       "code": "6822",
       "company": "大井電気",
@@ -1441,7 +1923,7 @@
       "analysis": ""
     },
     {
-      "id": "d0088",
+      "id": "d0114",
       "time": "15:30",
       "code": "6857",
       "company": "アドバンテス",
@@ -1460,7 +1942,7 @@
       "analysis": "営業利益が前年同期比 +53.3% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0089",
+      "id": "d0115",
       "time": "15:30",
       "code": "6857",
       "company": "アドバンテス",
@@ -1475,7 +1957,7 @@
       "analysis": ""
     },
     {
-      "id": "d0090",
+      "id": "d0116",
       "time": "15:30",
       "code": "6857",
       "company": "アドバンテス",
@@ -1490,7 +1972,7 @@
       "analysis": ""
     },
     {
-      "id": "d0091",
+      "id": "d0117",
       "time": "15:30",
       "code": "6961",
       "company": "エンプラス",
@@ -1509,7 +1991,7 @@
       "analysis": "営業利益が前年同期比 +157.2% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0092",
+      "id": "d0118",
       "time": "15:30",
       "code": "7150",
       "company": "島根銀行",
@@ -1528,7 +2010,7 @@
       "analysis": ""
     },
     {
-      "id": "d0093",
+      "id": "d0119",
       "time": "15:30",
       "code": "7995",
       "company": "バルカー",
@@ -1547,7 +2029,7 @@
       "analysis": "営業利益が前年同期比 +61.1% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0094",
+      "id": "d0120",
       "time": "15:30",
       "code": "7995",
       "company": "バルカー",
@@ -1562,7 +2044,7 @@
       "analysis": ""
     },
     {
-      "id": "d0095",
+      "id": "d0121",
       "time": "15:30",
       "code": "8137",
       "company": "サンワテクノス",
@@ -1581,7 +2063,7 @@
       "analysis": "営業利益が前年同期比 +393.6% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0096",
+      "id": "d0122",
       "time": "15:30",
       "code": "8572",
       "company": "アコム",
@@ -1600,7 +2082,7 @@
       "analysis": ""
     },
     {
-      "id": "d0097",
+      "id": "d0123",
       "time": "15:30",
       "code": "8604",
       "company": "野村",
@@ -1619,7 +2101,7 @@
       "analysis": "営業利益が前年同期比 +31.2% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0098",
+      "id": "d0124",
       "time": "15:30",
       "code": "8836",
       "company": "ＲＩＳＥ",
@@ -1634,7 +2116,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0099",
+      "id": "d0125",
       "time": "15:30",
       "code": "8836",
       "company": "ＲＩＳＥ",
@@ -1649,7 +2131,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0100",
+      "id": "d0126",
       "time": "15:30",
       "code": "9166",
       "company": "Ｇ－ＧＥＮＤＡ",
@@ -1664,7 +2146,7 @@
       "analysis": "資本業務提携はシナジー効果による成長加速が期待される。提携先の規模と提携内容の具体性が重要。"
     },
     {
-      "id": "d0101",
+      "id": "d0127",
       "time": "15:30",
       "code": "9202",
       "company": "ＡＮＡ",
@@ -1683,7 +2165,7 @@
       "analysis": "営業利益が前年同期比 -43.5% の大幅減益。要警戒。"
     },
     {
-      "id": "d0102",
+      "id": "d0128",
       "time": "15:30",
       "code": "9307",
       "company": "杉村倉庫",
@@ -1702,7 +2184,7 @@
       "analysis": ""
     },
     {
-      "id": "d0103",
+      "id": "d0129",
       "time": "15:30",
       "code": "9505",
       "company": "北陸電力",
@@ -1721,7 +2203,7 @@
       "analysis": "営業利益が前年同期比 -26.7% の大幅減益。要警戒。"
     },
     {
-      "id": "d0104",
+      "id": "d0130",
       "time": "15:30",
       "code": "9551",
       "company": "メタウォーター",
@@ -1740,7 +2222,7 @@
       "analysis": ""
     },
     {
-      "id": "d0105",
+      "id": "d0131",
       "time": "15:30",
       "code": "9551",
       "company": "メタウォーター",
@@ -1755,7 +2237,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0106",
+      "id": "d0132",
       "time": "15:30",
       "code": "9698",
       "company": "クレオ",
@@ -1774,7 +2256,7 @@
       "analysis": "営業利益が前年同期比 +60.7% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0107",
+      "id": "d0133",
       "time": "15:30",
       "code": "9698",
       "company": "クレオ",
@@ -1789,7 +2271,7 @@
       "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
     },
     {
-      "id": "d0108",
+      "id": "d0134",
       "time": "15:15",
       "code": "8154",
       "company": "加賀電子",
@@ -1804,7 +2286,7 @@
       "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
     },
     {
-      "id": "d0109",
+      "id": "d0135",
       "time": "15:00",
       "code": "2763",
       "company": "エフティグループ",
@@ -1819,7 +2301,7 @@
       "analysis": "上場廃止は株式の流動性が失われる重大事象。整理銘柄指定後の売却機会は限られるため注意が必要。"
     },
     {
-      "id": "d0110",
+      "id": "d0136",
       "time": "15:00",
       "code": "4091",
       "company": "日本酸素ＨＤ",
@@ -1838,7 +2320,7 @@
       "analysis": ""
     },
     {
-      "id": "d0111",
+      "id": "d0137",
       "time": "15:00",
       "code": "5189",
       "company": "桜ゴム",
@@ -1853,7 +2335,7 @@
       "analysis": ""
     },
     {
-      "id": "d0112",
+      "id": "d0138",
       "time": "15:00",
       "code": "5189",
       "company": "桜ゴム",
@@ -1868,7 +2350,7 @@
       "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
     },
     {
-      "id": "d0113",
+      "id": "d0139",
       "time": "15:00",
       "code": "6161",
       "company": "エスティック",
@@ -1887,7 +2369,7 @@
       "analysis": "営業利益が前年同期比 +136.3% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0114",
+      "id": "d0140",
       "time": "15:00",
       "code": "6382",
       "company": "トリニ工",
@@ -1906,7 +2388,7 @@
       "analysis": "営業利益が前年同期比 -38.5% の大幅減益。要警戒。"
     },
     {
-      "id": "d0115",
+      "id": "d0141",
       "time": "15:00",
       "code": "7276",
       "company": "小糸製",
@@ -1925,7 +2407,7 @@
       "analysis": "営業利益が前年同期比 +39.1% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0116",
+      "id": "d0142",
       "time": "15:00",
       "code": "7433",
       "company": "伯東",
@@ -1940,7 +2422,7 @@
       "analysis": "業績の上方修正はポジティブサプライズ。修正幅と修正理由に注目し、一過性か構造的改善かを見極めたい。"
     },
     {
-      "id": "d0117",
+      "id": "d0143",
       "time": "15:00",
       "code": "8366",
       "company": "滋賀銀",
@@ -1959,7 +2441,7 @@
       "analysis": "営業利益が前年同期比 +53.3% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0118",
+      "id": "d0144",
       "time": "15:00",
       "code": "9506",
       "company": "東北電力",
@@ -1978,7 +2460,7 @@
       "analysis": ""
     },
     {
-      "id": "d0119",
+      "id": "d0145",
       "time": "15:00",
       "code": "9506",
       "company": "東北電力",
@@ -1993,7 +2475,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0120",
+      "id": "d0146",
       "time": "15:00",
       "code": "9914",
       "company": "植松商会",
@@ -2012,7 +2494,7 @@
       "analysis": ""
     },
     {
-      "id": "d0121",
+      "id": "d0147",
       "time": "15:00",
       "code": "9991",
       "company": "ジェコス",
@@ -2031,7 +2513,7 @@
       "analysis": "営業利益が前年同期比 +30.8% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0122",
+      "id": "d0148",
       "time": "14:30",
       "code": "6301",
       "company": "コマツ",
@@ -2050,7 +2532,7 @@
       "analysis": ""
     },
     {
-      "id": "d0123",
+      "id": "d0149",
       "time": "14:30",
       "code": "6301",
       "company": "コマツ",
@@ -2065,7 +2547,7 @@
       "analysis": ""
     },
     {
-      "id": "d0124",
+      "id": "d0150",
       "time": "14:30",
       "code": "8377",
       "company": "ほくほく",
@@ -2084,7 +2566,7 @@
       "analysis": "営業利益が前年同期比 +59.1% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0125",
+      "id": "d0151",
       "time": "14:00",
       "code": "1850",
       "company": "南海辰村建設",
@@ -2103,7 +2585,7 @@
       "analysis": "営業利益が前年同期比 -22.3% の大幅減益。要警戒。"
     },
     {
-      "id": "d0126",
+      "id": "d0152",
       "time": "14:00",
       "code": "2303",
       "company": "ドーン",
@@ -2118,7 +2600,7 @@
       "analysis": ""
     },
     {
-      "id": "d0127",
+      "id": "d0153",
       "time": "14:00",
       "code": "8708",
       "company": "アイザワ証Ｇ",
@@ -2137,7 +2619,7 @@
       "analysis": "営業利益が前年同期比 +42.1% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0128",
+      "id": "d0154",
       "time": "14:00",
       "code": "8708",
       "company": "アイザワ証Ｇ",
@@ -2152,7 +2634,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0129",
+      "id": "d0155",
       "time": "13:05",
       "code": "8254",
       "company": "さいか屋",
@@ -2167,7 +2649,7 @@
       "analysis": ""
     },
     {
-      "id": "d0130",
+      "id": "d0156",
       "time": "13:00",
       "code": "9115",
       "company": "明海グループ",
@@ -2186,7 +2668,7 @@
       "analysis": "営業利益が前年同期比 -49.9% の大幅減益。要警戒。"
     },
     {
-      "id": "d0131",
+      "id": "d0157",
       "time": "12:00",
       "code": "5248",
       "company": "Ｇ－テクノロジーズ",
@@ -2201,7 +2683,7 @@
       "analysis": ""
     },
     {
-      "id": "d0132",
+      "id": "d0158",
       "time": "12:00",
       "code": "8914",
       "company": "エリアリンク",
@@ -2216,7 +2698,7 @@
       "analysis": ""
     },
     {
-      "id": "d0133",
+      "id": "d0159",
       "time": "12:00",
       "code": "8914",
       "company": "エリアリンク",
@@ -2231,7 +2713,7 @@
       "analysis": ""
     },
     {
-      "id": "d0134",
+      "id": "d0160",
       "time": "12:00",
       "code": "8914",
       "company": "エリアリンク",
@@ -2250,7 +2732,7 @@
       "analysis": ""
     },
     {
-      "id": "d0135",
+      "id": "d0161",
       "time": "12:00",
       "code": "8914",
       "company": "エリアリンク",
@@ -2265,7 +2747,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0136",
+      "id": "d0162",
       "time": "11:30",
       "code": "4205",
       "company": "日ゼオン",
@@ -2284,7 +2766,7 @@
       "analysis": "営業利益が前年同期比 +34.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0137",
+      "id": "d0163",
       "time": "11:30",
       "code": "5834",
       "company": "Ｇ－ＳＢＩリーシング",
@@ -2303,7 +2785,7 @@
       "analysis": "営業利益が前年同期比 +54.1% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0138",
+      "id": "d0164",
       "time": "11:30",
       "code": "5834",
       "company": "Ｇ－ＳＢＩリーシング",
@@ -2318,7 +2800,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0139",
+      "id": "d0165",
       "time": "11:25",
       "code": "8706",
       "company": "極東証券",
@@ -2337,7 +2819,7 @@
       "analysis": "営業利益が前年同期比 +65.9% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0140",
+      "id": "d0166",
       "time": "11:00",
       "code": "9932",
       "company": "杉本商事",
@@ -2356,7 +2838,7 @@
       "analysis": "営業利益が前年同期比 +75.8% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0141",
+      "id": "d0167",
       "time": "10:05",
       "code": "3733",
       "company": "ソフトウェアＳ",
@@ -2371,7 +2853,7 @@
       "analysis": ""
     },
     {
-      "id": "d0142",
+      "id": "d0168",
       "time": "10:00",
       "code": "3733",
       "company": "ソフトウェアＳ",
@@ -2386,7 +2868,7 @@
       "analysis": ""
     },
     {
-      "id": "d0143",
+      "id": "d0169",
       "time": "10:00",
       "code": "5344",
       "company": "ＭＡＲＵＷＡ",
@@ -2405,7 +2887,7 @@
       "analysis": ""
     },
     {
-      "id": "d0144",
+      "id": "d0170",
       "time": "10:00",
       "code": "5344",
       "company": "ＭＡＲＵＷＡ",
@@ -2420,7 +2902,7 @@
       "analysis": ""
     },
     {
-      "id": "d0145",
+      "id": "d0171",
       "time": "10:00",
       "code": "5905",
       "company": "日缶",
@@ -2435,7 +2917,7 @@
       "analysis": ""
     },
     {
-      "id": "d0146",
+      "id": "d0172",
       "time": "09:37",
       "code": "5845",
       "company": "全保連",
@@ -2450,7 +2932,7 @@
       "analysis": "業績の上方修正はポジティブサプライズ。修正幅と修正理由に注目し、一過性か構造的改善かを見極めたい。"
     },
     {
-      "id": "d0147",
+      "id": "d0173",
       "time": "09:00",
       "code": "4043",
       "company": "トクヤマ",
@@ -2469,7 +2951,7 @@
       "analysis": "営業利益が前年同期比 -22.9% の大幅減益。要警戒。"
     },
     {
-      "id": "d0148",
+      "id": "d0174",
       "time": "09:00",
       "code": "4043",
       "company": "トクヤマ",
