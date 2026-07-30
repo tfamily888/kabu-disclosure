@@ -1,10 +1,3313 @@
 {
-  "lastUpdated": "2026-07-30T14:36:44+09:00",
+  "lastUpdated": "2026-07-30T18:11:27+09:00",
   "date": "2026-07-30",
-  "totalRaw": 113,
+  "totalRaw": 411,
   "disclosures": [
     {
       "id": "d0001",
+      "time": "18:00",
+      "code": "6946",
+      "company": "日アビオ",
+      "title": "２０２７年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728500716.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日アビオ - ２０２７年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 8,304 64.9 1,727 196.7 1,684 198.7 1,148 195.9",
+        "operatingProfitYoYPct": 196.7,
+        "ordinaryProfitYoYPct": 198.7
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +196.7% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0002",
+      "time": "17:40",
+      "code": "6379",
+      "company": "レイズネクスト",
+      "title": "株主優待制度の変更(拡充)に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503791.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "レイズネクスト - 株主優待制度の変更(拡充)に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0003",
+      "time": "17:30",
+      "code": "2162",
+      "company": "ｎｍｓ　ＨＤ",
+      "title": "株式会社ワールドホールディングスによる当社株式に係る株式等売渡請求を行うことの決定、当該株式等売渡請求に係る承認及び当社株式の上場廃止に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260727599733.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "高",
+      "summary": "ｎｍｓ　ＨＤ - 株式会社ワールドホールディングスによる当社株式に係る株式等売渡請求を行うことの決定、当該株式等売渡請求に係る承認及び当社株式の上場廃止に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "上場廃止は株式の流動性が失われる重大事象。整理銘柄指定後の売却機会は限られるため注意が必要。"
+    },
+    {
+      "id": "d0004",
+      "time": "17:30",
+      "code": "5449",
+      "company": "大阪製鉄",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502781.pdf",
+      "market": "東福",
+      "category": "決算",
+      "importance": "高",
+      "summary": "大阪製鉄 - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 23,121 △10.3 △182 ― 177 ― △9 ―",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0005",
+      "time": "17:30",
+      "code": "5449",
+      "company": "大阪製鉄",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502791.pdf",
+      "market": "東福",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "大阪製鉄 - 業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0006",
+      "time": "17:30",
+      "code": "5449",
+      "company": "大阪製鉄",
+      "title": "2027年３月期 配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502833.pdf",
+      "market": "東福",
+      "category": "配当",
+      "importance": "高",
+      "summary": "大阪製鉄 - 2027年３月期 配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0007",
+      "time": "17:00",
+      "code": "2721",
+      "company": "ＪＨＤ",
+      "title": "（開示事項の経過）株主による臨時株主総会招集のための基準日設定公告について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503599.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＪＨＤ - （開示事項の経過）株主による臨時株主総会招集のための基準日設定公告について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0008",
+      "time": "17:00",
+      "code": "6141",
+      "company": "ＤＭＧ森精機",
+      "title": "2026年度株主優待の要件決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502993.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＤＭＧ森精機 - 2026年度株主優待の要件決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0009",
+      "time": "17:00",
+      "code": "7908",
+      "company": "ＫＩＭＯＴＯ",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503644.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＫＩＭＯＴＯ - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 2,854 4.4 335 6.4 352 11.2 235 3.5",
+        "operatingProfitYoYPct": 6.4,
+        "ordinaryProfitYoYPct": 11.2
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0010",
+      "time": "16:50",
+      "code": "9046",
+      "company": "神戸電鉄",
+      "title": "2027年3月期　第1四半期決算短信［日本基準］（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502989.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "神戸電鉄 - 2027年3月期　第1四半期決算短信［日本基準］（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 5,862 1.4 843 △13.4 749 △8.8 500 △13.5",
+        "operatingProfitYoYPct": -13.4,
+        "ordinaryProfitYoYPct": -8.8
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0011",
+      "time": "16:50",
+      "code": "9046",
+      "company": "神戸電鉄",
+      "title": "2027年3月期　第1四半期決算補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503025.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "神戸電鉄 - 2027年3月期　第1四半期決算補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0012",
+      "time": "16:30",
+      "code": "6912",
+      "company": "菊水ＨＤ",
+      "title": "第２四半期（中間期）及び通期業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260724599389.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "菊水ＨＤ - 第２四半期（中間期）及び通期業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0013",
+      "time": "16:30",
+      "code": "6912",
+      "company": "菊水ＨＤ",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502327.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "菊水ＨＤ - 2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 3,815 24.9 708 155.1 766 110.8 527 105.1",
+        "operatingProfitYoYPct": 155.1,
+        "ordinaryProfitYoYPct": 110.8
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +155.1% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0014",
+      "time": "16:30",
+      "code": "7148",
+      "company": "ＦＰＧ",
+      "title": "2026年9月期 第3四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728501218.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＦＰＧ - 2026年9月期 第3四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年９月期第３四半期 51,417 △43.3 17,619 △8.6 17,648 △12.6 12,102 △",
+        "operatingProfitYoYPct": -8.6,
+        "ordinaryProfitYoYPct": -12.6
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0015",
+      "time": "16:30",
+      "code": "7148",
+      "company": "ＦＰＧ",
+      "title": "2026年9月期 第3四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728501061.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "ＦＰＧ - 2026年9月期 第3四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0016",
+      "time": "16:30",
+      "code": "7185",
+      "company": "ヒロセ通商",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502397.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ヒロセ通商 - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 3,123 21.8 3,096 21.6 1,242 53.8 1,240 52.6 80",
+        "operatingProfitYoYPct": 21.6,
+        "ordinaryProfitYoYPct": 53.8
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +21.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0017",
+      "time": "16:20",
+      "code": "3799",
+      "company": "キーウェア",
+      "title": "株主優待の一部内容変更（優待品目の変更）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501715.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "キーウェア - 株主優待の一部内容変更（優待品目の変更）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0018",
+      "time": "16:20",
+      "code": "7241",
+      "company": "フタバ産",
+      "title": "株主優待制度の導入に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503526.pdf",
+      "market": "東名",
+      "category": "その他",
+      "importance": "中",
+      "summary": "フタバ産 - 株主優待制度の導入に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0019",
+      "time": "16:20",
+      "code": "7241",
+      "company": "フタバ産",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503146.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "フタバ産 - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 175,614 7.1 3,649 △12.9 4,102 3.4 2,474 △5.4",
+        "operatingProfitYoYPct": -12.9,
+        "ordinaryProfitYoYPct": 3.4
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0020",
+      "time": "16:00",
+      "code": "2317",
+      "company": "システナ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502267.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "システナ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 23,799 5.5 4,131 14.2 3,834 9.0 3,984 6.3 2,66",
+        "operatingProfitYoYPct": 14.2,
+        "ordinaryProfitYoYPct": 9.0
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0021",
+      "time": "16:00",
+      "code": "3648",
+      "company": "ＡＧＳ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502932.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＡＧＳ - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 6,353 5.7 279 △41.4 328 △35.7 218 △36.5",
+        "operatingProfitYoYPct": -41.4,
+        "ordinaryProfitYoYPct": -35.7
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -41.4% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0022",
+      "time": "16:00",
+      "code": "4069",
+      "company": "Ｇ－ＢｌｕｅＭｅｍｅ",
+      "title": "2027年3月期第１四半期決算短信の開示が四半期末後45日を超えることに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503446.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｇ－ＢｌｕｅＭｅｍｅ - 2027年3月期第１四半期決算短信の開示が四半期末後45日を超えることに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0023",
+      "time": "16:00",
+      "code": "4092",
+      "company": "日本化",
+      "title": "配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503303.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "日本化 - 配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0024",
+      "time": "16:00",
+      "code": "4092",
+      "company": "日本化",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503368.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "日本化 - 自己株式取得に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0025",
+      "time": "16:00",
+      "code": "4212",
+      "company": "積水樹脂",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502994.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "積水樹脂 - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 18,301 10.6 989 64.2 1,229 61.5 1,029 292.2",
+        "operatingProfitYoYPct": 64.2,
+        "ordinaryProfitYoYPct": 61.5
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +64.2% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0026",
+      "time": "16:00",
+      "code": "4212",
+      "company": "積水樹脂",
+      "title": "2027年３月期 第２四半期(中間期)及び通期連結業績予想の修正、並びに中間及び期末配当予想の修正(増配)に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728501070.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "積水樹脂 - 2027年３月期 第２四半期(中間期)及び通期連結業績予想の修正、並びに中間及び期末配当予想の修正(増配)に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
+    },
+    {
+      "id": "d0027",
+      "time": "16:00",
+      "code": "4212",
+      "company": "積水樹脂",
+      "title": "自己株式取得に係る事項の一部変更(取得枠の拡大)に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503494.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "積水樹脂 - 自己株式取得に係る事項の一部変更(取得枠の拡大)に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0028",
+      "time": "16:00",
+      "code": "4492",
+      "company": "ゼネテック",
+      "title": "株式会社クラステクノロジーの株式の取得（子会社化）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728500470.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "ゼネテック - 株式会社クラステクノロジーの株式の取得（子会社化）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0029",
+      "time": "16:00",
+      "code": "4661",
+      "company": "ＯＬＣ",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501736.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＯＬＣ - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 180,734 10.4 47,716 23.1 58,309 48.6 41,297 50",
+        "operatingProfitYoYPct": 23.1,
+        "ordinaryProfitYoYPct": 48.6
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +23.1% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0030",
+      "time": "16:00",
+      "code": "4661",
+      "company": "ＯＬＣ",
+      "title": "2027年3月期　第1四半期決算　補足資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503122.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "ＯＬＣ - 2027年3月期　第1四半期決算　補足資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0031",
+      "time": "16:00",
+      "code": "4661",
+      "company": "ＯＬＣ",
+      "title": "2027年3月期　第1四半期決算説明会",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503137.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "ＯＬＣ - 2027年3月期　第1四半期決算説明会",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0032",
+      "time": "16:00",
+      "code": "4923",
+      "company": "ＣＯＴＡ",
+      "title": "2026年３月期　決算短信〔日本基準〕(非連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503133.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＣＯＴＡ - 2026年３月期　決算短信〔日本基準〕(非連結)",
+      "earnings": {
+        "period": "2026年３月期 9,604 2.4 1,995 8.9 2,065 12.6 1,435 10.1",
+        "operatingProfitYoYPct": 8.9,
+        "ordinaryProfitYoYPct": 12.6
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0033",
+      "time": "16:00",
+      "code": "4923",
+      "company": "ＣＯＴＡ",
+      "title": "第47回定時株主総会の継続会の開催日等に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503192.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＣＯＴＡ - 第47回定時株主総会の継続会の開催日等に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0034",
+      "time": "16:00",
+      "code": "5241",
+      "company": "日本オーエー研究所",
+      "title": "特別利益（保険解約返戻金）及び特別損失（役員退職慰労金）の計上に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503310.pdf",
+      "market": "名",
+      "category": "特別損失",
+      "importance": "高",
+      "summary": "日本オーエー研究所 - 特別利益（保険解約返戻金）及び特別損失（役員退職慰労金）の計上に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
+    },
+    {
+      "id": "d0035",
+      "time": "16:00",
+      "code": "5484",
+      "company": "東北鋼",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502739.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東北鋼 - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 5,871 15.4 490 27.9 546 30.2 382 25.8",
+        "operatingProfitYoYPct": 27.9,
+        "ordinaryProfitYoYPct": 30.2
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +27.9% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0036",
+      "time": "16:00",
+      "code": "5698",
+      "company": "エンビプロＨＤ",
+      "title": "業績予想及び配当予想の修正（増配）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260702586978.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "エンビプロＨＤ - 業績予想及び配当予想の修正（増配）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
+    },
+    {
+      "id": "d0037",
+      "time": "16:00",
+      "code": "5819",
+      "company": "カナレ電気",
+      "title": "2026年12月期第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260717596179.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "カナレ電気 - 2026年12月期第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年12月期中間期 6,638 2.9 889 △0.4 929 △0.5 635 △1.8",
+        "operatingProfitYoYPct": -0.4,
+        "ordinaryProfitYoYPct": -0.5
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0038",
+      "time": "16:00",
+      "code": "5936",
+      "company": "洋シヤター",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501899.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "洋シヤター - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 4,293 △6.6 △199 － △223 － △165 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0039",
+      "time": "16:00",
+      "code": "5936",
+      "company": "洋シヤター",
+      "title": "執行役員人事について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501946.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "洋シヤター - 執行役員人事について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0040",
+      "time": "16:00",
+      "code": "5994",
+      "company": "ファインシンター",
+      "title": "特別損失（事業構造改善費用）の計上に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502610.pdf",
+      "market": "東名",
+      "category": "特別損失",
+      "importance": "高",
+      "summary": "ファインシンター - 特別損失（事業構造改善費用）の計上に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
+    },
+    {
+      "id": "d0041",
+      "time": "16:00",
+      "code": "5994",
+      "company": "ファインシンター",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502608.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ファインシンター - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 11,401 3.9 7 △96.8 △77 － 110 △52.9",
+        "operatingProfitYoYPct": -96.8,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -96.8% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0042",
+      "time": "16:00",
+      "code": "5994",
+      "company": "ファインシンター",
+      "title": "2027年３月期 第１四半期決算補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503431.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "低",
+      "summary": "ファインシンター - 2027年３月期 第１四半期決算補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0043",
+      "time": "16:00",
+      "code": "6111",
+      "company": "旭精機",
+      "title": "2027年３月期  第１四半期決算短信〔日本基準〕（非連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501414.pdf",
+      "market": "名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "旭精機 - 2027年３月期  第１四半期決算短信〔日本基準〕（非連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 2,563 5.4 △123 － △100 － △71 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0044",
+      "time": "16:00",
+      "code": "6419",
+      "company": "マースグループＨＤ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260723598585.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "マースグループＨＤ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 6,794 △21.7 1,529 △36.9 1,825 △36.2 1,266 △35.",
+        "operatingProfitYoYPct": -36.9,
+        "ordinaryProfitYoYPct": -36.2
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -36.9% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0045",
+      "time": "16:00",
+      "code": "6864",
+      "company": "エヌエフＨＤ",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503614.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "エヌエフＨＤ - 2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 1,951 △5.9 165 13.5 176 15.4 183 81.5",
+        "operatingProfitYoYPct": 13.5,
+        "ordinaryProfitYoYPct": 15.4
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0046",
+      "time": "16:00",
+      "code": "6908",
+      "company": "イリソ電子工業",
+      "title": "2027年３月期第１四半期決算短信の開示が四半期末後45日を超えることに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502821.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "イリソ電子工業 - 2027年３月期第１四半期決算短信の開示が四半期末後45日を超えることに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0047",
+      "time": "16:00",
+      "code": "7050",
+      "company": "Ｇ－フロンティアＩ",
+      "title": "支配株主等に関する事項について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503606.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－フロンティアＩ - 支配株主等に関する事項について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
+    },
+    {
+      "id": "d0048",
+      "time": "16:00",
+      "code": "7068",
+      "company": "Ｇ－ＦフォースＧ",
+      "title": "代表取締役の異動及び取締役の異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503196.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－ＦフォースＧ - 代表取締役の異動及び取締役の異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "代表取締役の交代は経営方針の変化につながる可能性がある。後任の経歴と経営ビジョンに注目。"
+    },
+    {
+      "id": "d0049",
+      "time": "16:00",
+      "code": "7278",
+      "company": "エクセディ",
+      "title": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260724599602.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "エクセディ - 2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 75,136 4.5 4,950 0.8 5,538 33.3 3,803 22.4 3,3",
+        "operatingProfitYoYPct": 0.8,
+        "ordinaryProfitYoYPct": 33.3
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0050",
+      "time": "16:00",
+      "code": "7278",
+      "company": "エクセディ",
+      "title": "2027年3月期　第１四半期決算 補足資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260727599818.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "エクセディ - 2027年3月期　第１四半期決算 補足資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0051",
+      "time": "16:00",
+      "code": "7687",
+      "company": "Ｇ－ミクリード",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(非連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502099.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｇ－ミクリード - 2027年３月期第１四半期決算短信〔日本基準〕(非連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 2,037 12.7 99 △14.8 100 △14.4 68 △10.5",
+        "operatingProfitYoYPct": -14.8,
+        "ordinaryProfitYoYPct": -14.4
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0052",
+      "time": "16:00",
+      "code": "7687",
+      "company": "Ｇ－ミクリード",
+      "title": "2027年３月期 第１四半期決算補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502123.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "Ｇ－ミクリード - 2027年３月期 第１四半期決算補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0053",
+      "time": "16:00",
+      "code": "7962",
+      "company": "キングジム",
+      "title": "2026年６月期　決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503307.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "キングジム - 2026年６月期　決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年６月期 39,134 △1.3 1,128 109.9 1,510 80.7 1,000 135.4",
+        "operatingProfitYoYPct": 109.9,
+        "ordinaryProfitYoYPct": 80.7
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +109.9% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0054",
+      "time": "16:00",
+      "code": "8030",
+      "company": "中央魚",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260724599317.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "中央魚 - 2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 40,729 5.6 800 △16.9 1,082 △10.7 601 △0.6",
+        "operatingProfitYoYPct": -16.9,
+        "ordinaryProfitYoYPct": -10.7
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0055",
+      "time": "16:00",
+      "code": "8035",
+      "company": "東エレク",
+      "title": "2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260630584086.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東エレク - 2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 732,388 33.3 211,407 46.1 215,626 46.3 164,341",
+        "operatingProfitYoYPct": 46.1,
+        "ordinaryProfitYoYPct": 46.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +46.1% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0056",
+      "time": "16:00",
+      "code": "8309",
+      "company": "三井住友トラストＧ",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728501203.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "三井住友トラストＧ - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 786,388 20.5 173,469 108.5 142,223 56.6",
+        "operatingProfitYoYPct": 108.5,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +108.5% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0057",
+      "time": "16:00",
+      "code": "8424",
+      "company": "芙蓉リース",
+      "title": "2027年３月期  第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502159.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "芙蓉リース - 2027年３月期  第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 201,158 16.6 19,721 29.3 20,728 11.2 14,025 5.",
+        "operatingProfitYoYPct": 29.3,
+        "ordinaryProfitYoYPct": 11.2
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +29.3% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0058",
+      "time": "16:00",
+      "code": "8424",
+      "company": "芙蓉リース",
+      "title": "2027年３月期 第１四半期決算概要資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502560.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "芙蓉リース - 2027年３月期 第１四半期決算概要資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0059",
+      "time": "16:00",
+      "code": "8614",
+      "company": "東洋証",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503489.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東洋証 - 2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 4,375 55.3 4,245 55.3 1,548 979.4 1,660 518.7 ",
+        "operatingProfitYoYPct": 55.3,
+        "ordinaryProfitYoYPct": 979.4
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +55.3% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0060",
+      "time": "16:00",
+      "code": "8699",
+      "company": "ＨＳＨＤ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503632.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＨＳＨＤ - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 16,941 76.1 137 － 4,750 8.6 3,155 △13.8",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": 8.6
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0061",
+      "time": "16:00",
+      "code": "9037",
+      "company": "ハマキョウ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503067.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ハマキョウ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 41,428 10.8 4,332 20.6 4,861 23.3 2,964 19.1",
+        "operatingProfitYoYPct": 20.6,
+        "ordinaryProfitYoYPct": 23.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +20.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0062",
+      "time": "16:00",
+      "code": "9362",
+      "company": "兵機海運",
+      "title": "2027年３月期　第１四半期決算短信[日本基準](非連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503450.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "兵機海運 - 2027年３月期　第１四半期決算短信[日本基準](非連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 3,396 △0.2 45 △66.8 87 △50.3 108 △11.5",
+        "operatingProfitYoYPct": -66.8,
+        "ordinaryProfitYoYPct": -50.3
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -66.8% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0063",
+      "time": "16:00",
+      "code": "9413",
+      "company": "テレ東ＨＤ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260722597459.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "テレ東ＨＤ - 2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 37,625 △4.8 1,535 △53.1 1,906 △44.7 1,343 △42.",
+        "operatingProfitYoYPct": -53.1,
+        "ordinaryProfitYoYPct": -44.7
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -53.1% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0064",
+      "time": "16:00",
+      "code": "9679",
+      "company": "ホウライ",
+      "title": "2026年9月期 第3四半期決算短信〔日本基準〕（非連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502804.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ホウライ - 2026年9月期 第3四半期決算短信〔日本基準〕（非連結）",
+      "earnings": {
+        "period": "2026年９月期第３四半期 4,757 12.3 487 26.0 571 14.9 379 22.2",
+        "operatingProfitYoYPct": 26.0,
+        "ordinaryProfitYoYPct": 14.9
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +26.0% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0065",
+      "time": "16:00",
+      "code": "9709",
+      "company": "ＮＣＳ＆Ａ",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501644.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＮＣＳ＆Ａ - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 5,315 5.9 697 16.0 732 15.2 478 11.5",
+        "operatingProfitYoYPct": 16.0,
+        "ordinaryProfitYoYPct": 15.2
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0066",
+      "time": "16:00",
+      "code": "9828",
+      "company": "ゲンキＧＤＣ",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502052.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ゲンキＧＤＣ - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 42,597 28.3 23,699 37.4 1,639 10.5 1,630 2.5 1",
+        "operatingProfitYoYPct": 37.4,
+        "ordinaryProfitYoYPct": 10.5
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +37.4% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0067",
+      "time": "15:40",
+      "code": "2811",
+      "company": "カゴメ",
+      "title": "2026年12月期 第2四半期（中間期）決算短信[IFRS]（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501971.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "カゴメ - 2026年12月期 第2四半期（中間期）決算短信[IFRS]（連結）",
+      "earnings": {
+        "period": "2026年12月期中間期 143,785 3.7 8,436 △18.6 9,089 △14.5 4,683 △24.2",
+        "operatingProfitYoYPct": -18.6,
+        "ordinaryProfitYoYPct": -14.5
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0068",
+      "time": "15:40",
+      "code": "2811",
+      "company": "カゴメ",
+      "title": "2026年12月期 上期（中間期）決算説明会資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501993.pdf",
+      "market": "東名",
+      "category": "その他",
+      "importance": "中",
+      "summary": "カゴメ - 2026年12月期 上期（中間期）決算説明会資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0069",
+      "time": "15:40",
+      "code": "5333",
+      "company": "ＮＧＫ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502528.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＮＧＫ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 184,147 10.6 32,631 37.2 33,724 38.3 29,374 64",
+        "operatingProfitYoYPct": 37.2,
+        "ordinaryProfitYoYPct": 38.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +37.2% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0070",
+      "time": "15:40",
+      "code": "6345",
+      "company": "アイチ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501890.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "アイチ - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 9,892 7.4 324 10.0 680 25.9 624 102.2",
+        "operatingProfitYoYPct": 10.0,
+        "ordinaryProfitYoYPct": 25.9
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0071",
+      "time": "15:40",
+      "code": "7575",
+      "company": "日本ライフライン",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502870.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日本ライフライン - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 15,904 8.8 2,965 △9.4 3,281 1.8 2,309 0.3",
+        "operatingProfitYoYPct": -9.4,
+        "ordinaryProfitYoYPct": 1.8
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0072",
+      "time": "15:40",
+      "code": "7575",
+      "company": "日本ライフライン",
+      "title": "配当予想の修正（中間記念配当）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503028.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "日本ライフライン - 配当予想の修正（中間記念配当）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "記念配当は一時的な増配だが、株主還元姿勢の積極性を示す材料として好感されやすい。"
+    },
+    {
+      "id": "d0073",
+      "time": "15:30",
+      "code": "1417",
+      "company": "ミライト・ワン",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502326.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ミライト・ワン - 自己株式の取得状況及び取得終了に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0074",
+      "time": "15:30",
+      "code": "1873",
+      "company": "日本ハウスＨＤ",
+      "title": "固定資産の譲渡に伴う特別利益及び固定資産の除却に伴う特別損失の計上並びに業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502748.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "日本ハウスＨＤ - 固定資産の譲渡に伴う特別利益及び固定資産の除却に伴う特別損失の計上並びに業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
+    },
+    {
+      "id": "d0075",
+      "time": "15:30",
+      "code": "2002",
+      "company": "日清粉Ｇ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502339.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日清粉Ｇ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 217,681 1.1 11,197 △0.9 12,517 △3.2 9,349 △19.",
+        "operatingProfitYoYPct": -0.9,
+        "ordinaryProfitYoYPct": -3.2
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0076",
+      "time": "15:30",
+      "code": "2002",
+      "company": "日清粉Ｇ",
+      "title": "2027年３月期 第１四半期決算 補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502435.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "日清粉Ｇ - 2027年３月期 第１四半期決算 補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0077",
+      "time": "15:30",
+      "code": "2060",
+      "company": "フィード・ワン",
+      "title": "2027年３月期 第１四半期決算短信［日本基準］（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260715594637.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "フィード・ワン - 2027年３月期 第１四半期決算短信［日本基準］（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 78,443 9.0 2,140 45.0 2,360 26.7 1,761 7.6",
+        "operatingProfitYoYPct": 45.0,
+        "ordinaryProfitYoYPct": 26.7
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +45.0% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0078",
+      "time": "15:30",
+      "code": "2060",
+      "company": "フィード・ワン",
+      "title": "2027年３月期 第１四半期決算補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260715594669.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "フィード・ワン - 2027年３月期 第１四半期決算補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0079",
+      "time": "15:30",
+      "code": "2127",
+      "company": "日本Ｍ＆Ａ",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502118.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日本Ｍ＆Ａ - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 9,104 0.9 2,349 △6.4 2,252 △11.1 2,027 33.8",
+        "operatingProfitYoYPct": -6.4,
+        "ordinaryProfitYoYPct": -11.1
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0080",
+      "time": "15:30",
+      "code": "2217",
+      "company": "モロゾフ",
+      "title": "業績予想および配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502369.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "モロゾフ - 業績予想および配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0081",
+      "time": "15:30",
+      "code": "2327",
+      "company": "ＮＳＳＯＬ",
+      "title": "2027年３月期　第１四半期決算短信〔ＩＦＲＳ〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501876.pdf",
+      "market": "東名福",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＮＳＳＯＬ - 2027年３月期　第１四半期決算短信〔ＩＦＲＳ〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 93,660 13.3 9,228 8.8 9,522 8.0 5,207 1.9 5,71",
+        "operatingProfitYoYPct": 8.8,
+        "ordinaryProfitYoYPct": 8.0
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0082",
+      "time": "15:30",
+      "code": "2327",
+      "company": "ＮＳＳＯＬ",
+      "title": "2027年３月期　第１四半期決算　参考資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501916.pdf",
+      "market": "東名福",
+      "category": "決算",
+      "importance": "低",
+      "summary": "ＮＳＳＯＬ - 2027年３月期　第１四半期決算　参考資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0083",
+      "time": "15:30",
+      "code": "2393",
+      "company": "日本ケア",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502351.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日本ケア - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 9,193 8.2 814 18.3 827 18.3 545 17.3",
+        "operatingProfitYoYPct": 18.3,
+        "ordinaryProfitYoYPct": 18.3
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0084",
+      "time": "15:30",
+      "code": "2393",
+      "company": "日本ケア",
+      "title": "2027年3月期 第1四半期決算補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502336.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "日本ケア - 2027年3月期 第1四半期決算補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0085",
+      "time": "15:30",
+      "code": "2579",
+      "company": "コカ・コーラＢＪＨ",
+      "title": "2026年12月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502577.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "コカ・コーラＢＪＨ - 2026年12月期 第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2026年12月期中間期 423,191 1.3 8,137 430.1 9,098 － 4,827 － 4,778 －",
+        "operatingProfitYoYPct": 430.1,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +430.1% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0086",
+      "time": "15:30",
+      "code": "2579",
+      "company": "コカ・コーラＢＪＨ",
+      "title": "2026年　第２四半期　決算説明会",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502898.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "コカ・コーラＢＪＨ - 2026年　第２四半期　決算説明会",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0087",
+      "time": "15:30",
+      "code": "2914",
+      "company": "ＪＴ",
+      "title": "2026年12月期 第2四半期（中間期）決算短信〔IFRS〕（連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502851.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＪＴ - 2026年12月期 第2四半期（中間期）決算短信〔IFRS〕（連結)",
+      "earnings": {
+        "period": "2026年12月期中間期 1,986,070 17.7 644,940 29.0 605,999 32.4 433,18",
+        "operatingProfitYoYPct": 29.0,
+        "ordinaryProfitYoYPct": 32.4
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +29.0% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0088",
+      "time": "15:30",
+      "code": "2914",
+      "company": "ＪＴ",
+      "title": "2026年度 第2四半期 決算説明会資料（CFOプレゼンテーション）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502884.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＪＴ - 2026年度 第2四半期 決算説明会資料（CFOプレゼンテーション）",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0089",
+      "time": "15:30",
+      "code": "2914",
+      "company": "ＪＴ",
+      "title": "剰余金の配当（増配）および配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502923.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "ＪＴ - 剰余金の配当（増配）および配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
+    },
+    {
+      "id": "d0090",
+      "time": "15:30",
+      "code": "3231",
+      "company": "野村不ＨＤ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503171.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "野村不ＨＤ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 191,064 △13.7 25,540 △30.6 27,161 △29.8 21,648",
+        "operatingProfitYoYPct": -30.6,
+        "ordinaryProfitYoYPct": -29.8
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -30.6% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0091",
+      "time": "15:30",
+      "code": "3350",
+      "company": "メタプラネット",
+      "title": "臨時株主総会等招集のための基準日設定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503543.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "メタプラネット - 臨時株主総会等招集のための基準日設定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0092",
+      "time": "15:30",
+      "code": "3401",
+      "company": "帝人",
+      "title": "（開示事項の経過）帝人フロンティア株式会社及び旭化成アドバンス株式会社の経営統合に係る吸収合併契約の締結等に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502356.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "帝人 - （開示事項の経過）帝人フロンティア株式会社及び旭化成アドバンス株式会社の経営統合に係る吸収合併契約の締結等に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0093",
+      "time": "15:30",
+      "code": "3496",
+      "company": "アズーム",
+      "title": "2026年９月期第３四半期決算短信［日本基準］（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503259.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "アズーム - 2026年９月期第３四半期決算短信［日本基準］（連結）",
+      "earnings": {
+        "period": "2026年９月期第３四半期 12,265 26.4 2,151 26.6 2,144 26.7 1,529 26.8",
+        "operatingProfitYoYPct": 26.6,
+        "ordinaryProfitYoYPct": 26.7
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +26.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0094",
+      "time": "15:30",
+      "code": "3496",
+      "company": "アズーム",
+      "title": "2026年９月期第３四半期　決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503283.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "アズーム - 2026年９月期第３四半期　決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0095",
+      "time": "15:30",
+      "code": "3626",
+      "company": "ＴＩＳＩ",
+      "title": "2027年3月期第1四半期 決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503024.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＴＩＳＩ - 2027年3月期第1四半期 決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0096",
+      "time": "15:30",
+      "code": "3626",
+      "company": "ＴＩＳＩ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502990.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＴＩＳＩ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 150,111 7.0 18,347 12.2 18,424 8.0 14,409 15.1",
+        "operatingProfitYoYPct": 12.2,
+        "ordinaryProfitYoYPct": 8.0
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0097",
+      "time": "15:30",
+      "code": "3672",
+      "company": "オルトプラス",
+      "title": "臨時株主総会招集のための基準日設定、臨時株主総会の開催日程及び付議議案の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503286.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "オルトプラス - 臨時株主総会招集のための基準日設定、臨時株主総会の開催日程及び付議議案の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0098",
+      "time": "15:30",
+      "code": "4107",
+      "company": "伊勢化",
+      "title": "2026年12月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260722597866.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "伊勢化 - 2026年12月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年12月期中間期 19,237 △0.2 4,136 △14.4 4,050 △14.2 2,823 △14.9",
+        "operatingProfitYoYPct": -14.4,
+        "ordinaryProfitYoYPct": -14.2
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0099",
+      "time": "15:30",
+      "code": "4107",
+      "company": "伊勢化",
+      "title": "2026年12月期 第2四半期決算補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260722597877.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "伊勢化 - 2026年12月期 第2四半期決算補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0100",
+      "time": "15:30",
+      "code": "4307",
+      "company": "ＮＲＩ",
+      "title": "2027年3月期 第1四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501398.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＮＲＩ - 2027年3月期 第1四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 210,455 7.5 41,711 12.0 42,914 13.0 29,317 12.",
+        "operatingProfitYoYPct": 12.0,
+        "ordinaryProfitYoYPct": 13.0
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0101",
+      "time": "15:30",
+      "code": "4308",
+      "company": "Ｇ－Ｊストリーム",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503173.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｇ－Ｊストリーム - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 3,092 9.7 252 53.1 262 49.3 150 63.4",
+        "operatingProfitYoYPct": 53.1,
+        "ordinaryProfitYoYPct": 49.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +53.1% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0102",
+      "time": "15:30",
+      "code": "4347",
+      "company": "ブロードメディア",
+      "title": "2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260716595484.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ブロードメディア - 2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 3,501 △10.8 262 7.3 280 10.2 212 59.4",
+        "operatingProfitYoYPct": 7.3,
+        "ordinaryProfitYoYPct": 10.2
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0103",
+      "time": "15:30",
+      "code": "4498",
+      "company": "Ｇ－サイバートラスト",
+      "title": "2027年３月期 第１四半期 決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502596.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－サイバートラスト - 2027年３月期 第１四半期 決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0104",
+      "time": "15:30",
+      "code": "4498",
+      "company": "Ｇ－サイバートラスト",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502595.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｇ－サイバートラスト - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 2,132 12.0 406 31.4 408 30.5 269 116.1",
+        "operatingProfitYoYPct": 31.4,
+        "ordinaryProfitYoYPct": 30.5
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +31.4% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0105",
+      "time": "15:30",
+      "code": "4502",
+      "company": "武田薬",
+      "title": "2027年3月期　第1四半期決算短信〔IFRS〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502934.pdf",
+      "market": "東名札福",
+      "category": "決算",
+      "importance": "高",
+      "summary": "武田薬 - 2027年3月期　第1四半期決算短信〔IFRS〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 1,219,900 10.2 201,417 9.1 162,718 8.0113,256 ",
+        "operatingProfitYoYPct": 9.1,
+        "ordinaryProfitYoYPct": 8.0113
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0106",
+      "time": "15:30",
+      "code": "4549",
+      "company": "栄研化",
+      "title": "2027年3月期第1四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503042.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "栄研化 - 2027年3月期第1四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 10,728 5.2 667 △16.7 640 △21.3 445 △25.8",
+        "operatingProfitYoYPct": -16.7,
+        "ordinaryProfitYoYPct": -21.3
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0107",
+      "time": "15:30",
+      "code": "4549",
+      "company": "栄研化",
+      "title": "株主優待制度等の導入に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503184.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "栄研化 - 株主優待制度等の導入に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0108",
+      "time": "15:30",
+      "code": "4549",
+      "company": "栄研化",
+      "title": "2027年3月期 第1四半期決算補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503378.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "栄研化 - 2027年3月期 第1四半期決算補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0109",
+      "time": "15:30",
+      "code": "4552",
+      "company": "ＪＣＲファーマ",
+      "title": "2027年3月期 第1四半期 決算説明会 プレゼンテーション資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503123.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＪＣＲファーマ - 2027年3月期 第1四半期 決算説明会 プレゼンテーション資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0110",
+      "time": "15:30",
+      "code": "4552",
+      "company": "ＪＣＲファーマ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503105.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＪＣＲファーマ - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 9,700 13.2 △2,103 － △2,084 － △1,907 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0111",
+      "time": "15:30",
+      "code": "4569",
+      "company": "杏林製薬",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728500978.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "杏林製薬 - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 29,654 △1.9 964 △59.3 1,241 △52.7 824 △60.8",
+        "operatingProfitYoYPct": -59.3,
+        "ordinaryProfitYoYPct": -52.7
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -59.3% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0112",
+      "time": "15:30",
+      "code": "4763",
+      "company": "Ｃ＆Ｒ社",
+      "title": "株式会社リンクテックの株式取得（子会社化）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502948.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "Ｃ＆Ｒ社 - 株式会社リンクテックの株式取得（子会社化）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0113",
+      "time": "15:30",
+      "code": "4902",
+      "company": "コニカミノルタ",
+      "title": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503185.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "コニカミノルタ - 2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 258,517 2.9 11,566 25.8 9,620 △4.4 7,608 △14.4",
+        "operatingProfitYoYPct": 25.8,
+        "ordinaryProfitYoYPct": -4.4
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +25.8% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0114",
+      "time": "15:30",
+      "code": "5909",
+      "company": "コロナ",
+      "title": "2027年3月期　第1四半期決算短信［日本基準］(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502840.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "コロナ - 2027年3月期　第1四半期決算短信［日本基準］(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 18,942 0.2 △776 ― △623 ― △449 ―",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0115",
+      "time": "15:30",
+      "code": "6080",
+      "company": "Ｍ＆Ａキャピタル",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501714.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "Ｍ＆Ａキャピタル - 業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0116",
+      "time": "15:30",
+      "code": "6080",
+      "company": "Ｍ＆Ａキャピタル",
+      "title": "2026年９月期　配当予想の修正に関するお知らせ（増配）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501756.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "Ｍ＆Ａキャピタル - 2026年９月期　配当予想の修正に関するお知らせ（増配）",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
+    },
+    {
+      "id": "d0117",
+      "time": "15:30",
+      "code": "6080",
+      "company": "Ｍ＆Ａキャピタル",
+      "title": "2026年９月期　第３四半期決算短信〔ＩＦＲＳ〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501783.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｍ＆Ａキャピタル - 2026年９月期　第３四半期決算短信〔ＩＦＲＳ〕(連結)",
+      "earnings": {
+        "period": "2026年９月期第３四半期 20,641 26.9 8,109 39.9 8,257 42.1 6,208 43.7 6",
+        "operatingProfitYoYPct": 39.9,
+        "ordinaryProfitYoYPct": 42.1
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +39.9% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0118",
+      "time": "15:30",
+      "code": "6080",
+      "company": "Ｍ＆Ａキャピタル",
+      "title": "2026年９月期　第３四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501791.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "Ｍ＆Ａキャピタル - 2026年９月期　第３四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0119",
+      "time": "15:30",
+      "code": "6196",
+      "company": "ストライクＧ",
+      "title": "2026年９月期 第３四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502731.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ストライクＧ - 2026年９月期 第３四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2026年９月期第３四半期 16,003 ― 5,125 ― 5,110 ― 3,406 ―",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0120",
+      "time": "15:30",
+      "code": "6196",
+      "company": "ストライクＧ",
+      "title": "2026年９月期 第３四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502695.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "ストライクＧ - 2026年９月期 第３四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0121",
+      "time": "15:30",
+      "code": "6305",
+      "company": "日立建機",
+      "title": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501476.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日立建機 - 2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 329,130 7.5 34,439 55.7 43,968 123.3 30,301 12",
+        "operatingProfitYoYPct": 55.7,
+        "ordinaryProfitYoYPct": 123.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +55.7% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0122",
+      "time": "15:30",
+      "code": "6371",
+      "company": "椿本チエイン",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502256.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "椿本チエイン - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 85,050 30.2 5,163 57.4 6,965 60.0 4,356 △3.1",
+        "operatingProfitYoYPct": 57.4,
+        "ordinaryProfitYoYPct": 60.0
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +57.4% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0123",
+      "time": "15:30",
+      "code": "6454",
+      "company": "マックス",
+      "title": "第2四半期（中間期）及び通期連結業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502192.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "マックス - 第2四半期（中間期）及び通期連結業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0124",
+      "time": "15:30",
+      "code": "6454",
+      "company": "マックス",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502110.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "マックス - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 28,334 16.9 5,879 20.1 6,015 21.1 4,323 20.2",
+        "operatingProfitYoYPct": 20.1,
+        "ordinaryProfitYoYPct": 21.1
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +20.1% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0125",
+      "time": "15:30",
+      "code": "6454",
+      "company": "マックス",
+      "title": "2027年3月期 第1四半期決算補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502189.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "マックス - 2027年3月期 第1四半期決算補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0126",
+      "time": "15:30",
+      "code": "6454",
+      "company": "マックス",
+      "title": "2027年3月期 第1四半期決算説明会資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502190.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "マックス - 2027年3月期 第1四半期決算説明会資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0127",
+      "time": "15:30",
+      "code": "6471",
+      "company": "日本精工",
+      "title": "連結業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502729.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "日本精工 - 連結業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0128",
+      "time": "15:30",
+      "code": "6471",
+      "company": "日本精工",
+      "title": "2027年3月期第1四半期決算短信〔IFRS〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502697.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日本精工 - 2027年3月期第1四半期決算短信〔IFRS〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 255,638 30.6 14,961 212.3 14,653 199.4 10,274 ",
+        "operatingProfitYoYPct": 212.3,
+        "ordinaryProfitYoYPct": 199.4
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +212.3% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0129",
+      "time": "15:30",
+      "code": "6504",
+      "company": "富士電機",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260629583242.pdf",
+      "market": "東名福",
+      "category": "決算",
+      "importance": "高",
+      "summary": "富士電機 - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 273,259 10.2 25,019 38.3 25,606 47.8 20,696 89",
+        "operatingProfitYoYPct": 38.3,
+        "ordinaryProfitYoYPct": 47.8
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +38.3% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0130",
+      "time": "15:30",
+      "code": "6504",
+      "company": "富士電機",
+      "title": "2027年３月期 連結業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502016.pdf",
+      "market": "東名福",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "富士電機 - 2027年３月期 連結業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0131",
+      "time": "15:30",
+      "code": "6659",
+      "company": "メディアリンクス",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503059.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "メディアリンクス - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 675 20.8 △118 － △120 － △118 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0132",
+      "time": "15:30",
+      "code": "6663",
+      "company": "太洋テクノレックス",
+      "title": "2026年12月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260713592535.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "太洋テクノレックス - 2026年12月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年12月期中間期 1,782 10.9 83 ― 79 ― 39 ―",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0133",
+      "time": "15:30",
+      "code": "6702",
+      "company": "富士通",
+      "title": "2027年3月期　第1四半期決算短信〔ＩＦＲＳ〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502924.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "富士通 - 2027年3月期　第1四半期決算短信〔ＩＦＲＳ〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 779,377 3.9 52,534 56.9 59,445 60.4 40,720 △76",
+        "operatingProfitYoYPct": 56.9,
+        "ordinaryProfitYoYPct": 60.4
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +56.9% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0134",
+      "time": "15:30",
+      "code": "6702",
+      "company": "富士通",
+      "title": "2026年度第1四半期決算概要",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502928.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "低",
+      "summary": "富士通 - 2026年度第1四半期決算概要",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0135",
+      "time": "15:30",
+      "code": "6727",
+      "company": "ワコム",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260710591609.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ワコム - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 22,659 △7.5 2,717 △0.2 2,815 18.5 2,046 24.9",
+        "operatingProfitYoYPct": -0.2,
+        "ordinaryProfitYoYPct": 18.5
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0136",
+      "time": "15:30",
+      "code": "6752",
+      "company": "パナソニックＨＤ",
+      "title": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502815.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "パナソニックＨＤ - 2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0137",
+      "time": "15:30",
+      "code": "6754",
+      "company": "アンリツ",
+      "title": "2027年3月期第1四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501632.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "アンリツ - 2027年3月期第1四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 32,584 38.0 4,278 219.5 4,635 242.9 3,286 463.",
+        "operatingProfitYoYPct": 219.5,
+        "ordinaryProfitYoYPct": 242.9
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +219.5% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0138",
+      "time": "15:30",
+      "code": "6754",
+      "company": "アンリツ",
+      "title": "2027年3月期第1四半期業績概要（決算説明会資料）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502021.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "アンリツ - 2027年3月期第1四半期業績概要（決算説明会資料）",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0139",
+      "time": "15:30",
+      "code": "6823",
+      "company": "リオン",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503425.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "リオン - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0140",
+      "time": "15:30",
+      "code": "6971",
+      "company": "京セラ",
+      "title": "2027年3月期 第1四半期決算短信〔IFRS〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502709.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "京セラ - 2027年3月期 第1四半期決算短信〔IFRS〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 525,383 9.9 49,101 164.7 74,891 68.1 60,576 63",
+        "operatingProfitYoYPct": 164.7,
+        "ordinaryProfitYoYPct": 68.1
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +164.7% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0141",
+      "time": "15:30",
+      "code": "6971",
+      "company": "京セラ",
+      "title": "2027年3月期 通期連結業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502705.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "京セラ - 2027年3月期 通期連結業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0142",
+      "time": "15:30",
+      "code": "6971",
+      "company": "京セラ",
+      "title": "2027年3月期 第1四半期 決算説明会資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502702.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "京セラ - 2027年3月期 第1四半期 決算説明会資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0143",
+      "time": "15:30",
+      "code": "7022",
+      "company": "サノヤスＨＤ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501418.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "サノヤスＨＤ - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 5,551 16.3 △242 － △191 － △114 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0144",
+      "time": "15:30",
+      "code": "7022",
+      "company": "サノヤスＨＤ",
+      "title": "2027年３月期 第１四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501446.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "サノヤスＨＤ - 2027年３月期 第１四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0145",
+      "time": "15:30",
+      "code": "7198",
+      "company": "ＳＢＩアルヒ",
+      "title": "2027年３月期  第１四半期決算速報〔ＩＦＲＳ〕（連結）のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503070.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "ＳＢＩアルヒ - 2027年３月期  第１四半期決算速報〔ＩＦＲＳ〕（連結）のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0146",
+      "time": "15:30",
+      "code": "7600",
+      "company": "ＭＤＭ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501827.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＭＤＭ - 2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 5,325 △10.0 △526 － △540 － △417 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0147",
+      "time": "15:30",
+      "code": "7976",
+      "company": "三菱鉛筆",
+      "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502581.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "三菱鉛筆 - 2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年12月期中間期 47,757 10.4 6,170 28.6 6,650 34.2 4,259 35.5",
+        "operatingProfitYoYPct": 28.6,
+        "ordinaryProfitYoYPct": 34.2
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +28.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0148",
+      "time": "15:30",
+      "code": "7976",
+      "company": "三菱鉛筆",
+      "title": "連結業績予想の修正並びに中間配当の決定及び期末配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728501277.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "三菱鉛筆 - 連結業績予想の修正並びに中間配当の決定及び期末配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0149",
+      "time": "15:30",
+      "code": "7976",
+      "company": "三菱鉛筆",
+      "title": "（開示事項の経過）特別株主優待の内容決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728501287.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "三菱鉛筆 - （開示事項の経過）特別株主優待の内容決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0150",
+      "time": "15:30",
+      "code": "7976",
+      "company": "三菱鉛筆",
+      "title": "株主優待制度導入に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728501290.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "三菱鉛筆 - 株主優待制度導入に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0151",
+      "time": "15:30",
+      "code": "8013",
+      "company": "ナイガイ",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502302.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ナイガイ - 主要株主の異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0152",
+      "time": "15:30",
+      "code": "8136",
+      "company": "サンリオ",
+      "title": "当社元常務取締役に対する訴訟の提起に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503266.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "高",
+      "summary": "サンリオ - 当社元常務取締役に対する訴訟の提起に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "訴訟の提起・被提訴は損害賠償リスクや評判リスクを伴う。請求金額と勝訴の可能性を確認したい。"
+    },
+    {
+      "id": "d0153",
+      "time": "15:30",
+      "code": "8174",
+      "company": "日瓦斯",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502599.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日瓦斯 - 2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 49,910 8.8 3,836 5.0 3,819 4.2 2,593 △1.4",
+        "operatingProfitYoYPct": 5.0,
+        "ordinaryProfitYoYPct": 4.2
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0154",
+      "time": "15:30",
+      "code": "8174",
+      "company": "日瓦斯",
+      "title": "2027年３月期　第１四半期　決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502623.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "日瓦斯 - 2027年３月期　第１四半期　決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0155",
+      "time": "15:30",
+      "code": "8411",
+      "company": "みずほ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501468.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "みずほ - 2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 2,520,855 18.3 598,973 62.5 422,909 45.5",
+        "operatingProfitYoYPct": 62.5,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +62.5% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0156",
+      "time": "15:30",
+      "code": "8411",
+      "company": "みずほ",
+      "title": "「自己株式取得に係る事項の決定および自己株式消却に係る事項の決定に関するお知らせ」 の一部変更に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502092.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "みずほ - 「自己株式取得に係る事項の決定および自己株式消却に係る事項の決定に関するお知らせ」 の一部変更に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0157",
+      "time": "15:30",
+      "code": "8425",
+      "company": "みずほリース",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501649.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "みずほリース - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 209,946 △4.4 16,183 39.0 29,087 57.5 23,255 52",
+        "operatingProfitYoYPct": 39.0,
+        "ordinaryProfitYoYPct": 57.5
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +39.0% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0158",
+      "time": "15:30",
+      "code": "9101",
+      "company": "郵船",
+      "title": "2027年3月期 業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501699.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "郵船 - 2027年3月期 業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0159",
+      "time": "15:30",
+      "code": "9101",
+      "company": "郵船",
+      "title": "会社分割（簡易吸収分割）による木材チップ船事業の移管に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503269.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "低",
+      "summary": "郵船 - 会社分割（簡易吸収分割）による木材チップ船事業の移管に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0160",
+      "time": "15:30",
+      "code": "9101",
+      "company": "郵船",
+      "title": "第三者割当増資引受による子会社の異動（特定子会社化）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503301.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "郵船 - 第三者割当増資引受による子会社の異動（特定子会社化）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "第三者割当増資は既存株主の希薄化を招く。割当先の信頼性と発行価額のディスカウント率に注目。"
+    },
+    {
+      "id": "d0161",
+      "time": "15:30",
+      "code": "9158",
+      "company": "Ｇ－シーユーシー",
+      "title": "2027年3月期 第1四半期決算短信〔IFRS〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503154.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｇ－シーユーシー - 2027年3月期 第1四半期決算短信〔IFRS〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 14,159 9.0 32 △95.7 △192 － △359 － △281 － △115 ",
+        "operatingProfitYoYPct": -95.7,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -95.7% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0162",
+      "time": "15:30",
+      "code": "9158",
+      "company": "Ｇ－シーユーシー",
+      "title": "2027年3月期第1四半期 決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503199.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－シーユーシー - 2027年3月期第1四半期 決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0163",
+      "time": "15:30",
+      "code": "9165",
+      "company": "Ｇ－クオルテック",
+      "title": "Patentix株式会社との資本・業務提携の解消に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502968.pdf",
+      "market": "東",
+      "category": "業務提携・新製品",
+      "importance": "中",
+      "summary": "Ｇ－クオルテック - Patentix株式会社との資本・業務提携の解消に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "業務提携により新たな収益機会の創出が見込まれる。提携先との補完関係と市場へのインパクトに注目。"
+    },
+    {
+      "id": "d0164",
+      "time": "15:30",
+      "code": "9436",
+      "company": "沖縄セルラー",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502773.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "沖縄セルラー - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 22,007 6.8 5,830 25.6 5,939 26.7 4,059 24.1",
+        "operatingProfitYoYPct": 25.6,
+        "ordinaryProfitYoYPct": 26.7
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +25.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0165",
+      "time": "15:30",
+      "code": "9436",
+      "company": "沖縄セルラー",
+      "title": "2027年３月期 第１四半期決算資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502867.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "沖縄セルラー - 2027年３月期 第１四半期決算資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0166",
+      "time": "15:30",
+      "code": "9509",
+      "company": "北海電力",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728500499.pdf",
+      "market": "東札",
+      "category": "決算",
+      "importance": "高",
+      "summary": "北海電力 - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 214,481 5.9 24,449 △44.3 18,764 △55.0 14,777 △",
+        "operatingProfitYoYPct": -44.3,
+        "ordinaryProfitYoYPct": -55.0
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -44.3% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0167",
+      "time": "15:30",
+      "code": "9621",
+      "company": "建設技研",
+      "title": "配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503428.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "建設技研 - 配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0168",
+      "time": "15:30",
+      "code": "9621",
+      "company": "建設技研",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503030.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "建設技研 - 自己株式取得に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0169",
+      "time": "15:30",
+      "code": "9640",
+      "company": "セゾンテクノロジー",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502824.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "セゾンテクノロジー - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 5,048 △8.0 204 △55.8 199 △58.7 126 △60.3",
+        "operatingProfitYoYPct": -55.8,
+        "ordinaryProfitYoYPct": -58.7
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -55.8% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0170",
+      "time": "15:30",
+      "code": "9759",
+      "company": "ＮＳＤ",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502725.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＮＳＤ - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 29,930 9.6 4,175 17.4 4,263 17.3 2,514 15.2",
+        "operatingProfitYoYPct": 17.4,
+        "ordinaryProfitYoYPct": 17.3
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0171",
+      "time": "15:30",
+      "code": "9766",
+      "company": "コナミグループ",
+      "title": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503096.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "コナミグループ - 2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 129,524 33.6 44,699 61.7 45,285 63.3 46,453 66",
+        "operatingProfitYoYPct": 61.7,
+        "ordinaryProfitYoYPct": 63.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +61.7% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0172",
+      "time": "15:30",
+      "code": "9795",
+      "company": "ステップ",
+      "title": "2026年９月期 第３四半期決算短信〔日本基準〕(非連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502225.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ステップ - 2026年９月期 第３四半期決算短信〔日本基準〕(非連結)",
+      "earnings": {
+        "period": "2026年９月期第３四半期 12,220 3.6 3,026 6.3 3,089 6.7 2,152 8.2",
+        "operatingProfitYoYPct": 6.3,
+        "ordinaryProfitYoYPct": 6.7
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0173",
+      "time": "15:30",
+      "code": "9969",
+      "company": "ショクブン",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(非連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502151.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ショクブン - 2027年３月期第１四半期決算短信〔日本基準〕(非連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 1,391 － △18 － △18 － △25 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0174",
+      "time": "15:30",
+      "code": "9991",
+      "company": "ジェコス",
+      "title": "JS Tan Consultants Pte. Ltd.（シンガポール）の株式取得（子会社化）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503013.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "ジェコス - JS Tan Consultants Pte. Ltd.（シンガポール）の株式取得（子会社化）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0175",
+      "time": "15:00",
+      "code": "1959",
+      "company": "クラフティア",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503321.pdf",
+      "market": "東福",
+      "category": "決算",
+      "importance": "高",
+      "summary": "クラフティア - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 98,696 △1.9 10,731 △3.3 12,212 4.0 8,415 9.0",
+        "operatingProfitYoYPct": -3.3,
+        "ordinaryProfitYoYPct": 4.0
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0176",
+      "time": "15:00",
+      "code": "4229",
+      "company": "群栄化",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728500993.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "群栄化 - 2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 8,435 9.2 1,033 58.6 1,138 56.5 379 △18.0",
+        "operatingProfitYoYPct": 58.6,
+        "ordinaryProfitYoYPct": 56.5
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +58.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0177",
+      "time": "15:00",
+      "code": "5658",
+      "company": "日亜鋼",
+      "title": "2027年３月期　第１四半期　決算短信（日本基準）（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502391.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日亜鋼 - 2027年３月期　第１四半期　決算短信（日本基準）（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 8,524 3.6 355 62.5 623 26.7 545 86.9",
+        "operatingProfitYoYPct": 62.5,
+        "ordinaryProfitYoYPct": 26.7
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +62.5% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0178",
+      "time": "15:00",
+      "code": "6463",
+      "company": "ＴＰＲ",
+      "title": "業績予想の修正及び配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503432.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "ＴＰＲ - 業績予想の修正及び配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0179",
+      "time": "15:00",
+      "code": "6703",
+      "company": "ＯＫＩ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503220.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＯＫＩ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 86,138 1.2 △1,867 － △1,525 － 2,453 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0180",
+      "time": "15:00",
+      "code": "6923",
+      "company": "スタンレー電",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260617572880.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "スタンレー電 - 2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0181",
+      "time": "15:00",
+      "code": "7283",
+      "company": "愛三工",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728500605.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "愛三工 - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 83,927 5.0 5,604 59.0 6,246 84.6 4,353 22.5",
+        "operatingProfitYoYPct": 59.0,
+        "ordinaryProfitYoYPct": 84.6
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +59.0% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0182",
+      "time": "15:00",
+      "code": "7283",
+      "company": "愛三工",
+      "title": "通期業績予想及び配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502688.pdf",
+      "market": "東名",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "愛三工 - 通期業績予想及び配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0183",
+      "time": "15:00",
+      "code": "7919",
+      "company": "野崎印",
+      "title": "2027年3月期　第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260724598893.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "野崎印 - 2027年3月期　第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 3,658 2.5 238 71.5 247 61.0 184 120.8",
+        "operatingProfitYoYPct": 71.5,
+        "ordinaryProfitYoYPct": 61.0
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +71.5% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0184",
+      "time": "15:00",
+      "code": "8014",
+      "company": "蝶理",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502915.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "蝶理 - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 75,853 6.0 3,654 11.2 4,098 25.0 3,095 23.5",
+        "operatingProfitYoYPct": 11.2,
+        "ordinaryProfitYoYPct": 25.0
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0185",
+      "time": "15:00",
+      "code": "8014",
+      "company": "蝶理",
+      "title": "2027年３月期第１四半期決算説明資料（ハイライト情報）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502957.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "蝶理 - 2027年３月期第１四半期決算説明資料（ハイライト情報）",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0186",
+      "time": "15:00",
+      "code": "8071",
+      "company": "東海エレ",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260717596209.pdf",
+      "market": "名",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "東海エレ - 業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0187",
+      "time": "15:00",
+      "code": "8071",
+      "company": "東海エレ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260721596437.pdf",
+      "market": "名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東海エレ - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 9,845 △4.3 134 △71.4 196 △57.4 180 △49.3",
+        "operatingProfitYoYPct": -71.4,
+        "ordinaryProfitYoYPct": -57.4
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -71.4% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0188",
+      "time": "15:00",
+      "code": "8550",
+      "company": "栃木銀",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502514.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "栃木銀 - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 15,075 26.9 3,035 21.6 2,116 22.5",
+        "operatingProfitYoYPct": 21.6,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +21.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0189",
+      "time": "15:00",
+      "code": "8550",
+      "company": "栃木銀",
+      "title": "2027年3月期第1四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502565.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "栃木銀 - 2027年3月期第1四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0190",
+      "time": "15:00",
+      "code": "8818",
+      "company": "京阪神ビ",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502062.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "京阪神ビ - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 5,099 1.7 1,629 10.2 1,739 12.6 1,207 12.5",
+        "operatingProfitYoYPct": 10.2,
+        "ordinaryProfitYoYPct": 12.6
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0191",
+      "time": "15:00",
+      "code": "8818",
+      "company": "京阪神ビ",
+      "title": "固定資産の譲渡に伴う特別利益の計上及び連結業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729501953.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "京阪神ビ - 固定資産の譲渡に伴う特別利益の計上及び連結業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0192",
+      "time": "15:00",
+      "code": "8864",
+      "company": "空港施設",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503008.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "空港施設 - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 7,006 △25.8 1,296 △40.9 1,325 △42.5 876 △42.9",
+        "operatingProfitYoYPct": -40.9,
+        "ordinaryProfitYoYPct": -42.5
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -40.9% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0193",
+      "time": "14:40",
+      "code": "6995",
+      "company": "東海理電",
+      "title": "2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502211.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東海理電 - 2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 165,278 8.2 7,675 △2.0 8,875 △5.9 4,526 △12.6",
+        "operatingProfitYoYPct": -2.0,
+        "ordinaryProfitYoYPct": -5.9
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0194",
       "time": "14:30",
       "code": "6617",
       "company": "東光高岳",
@@ -23,7 +3326,7 @@
       "analysis": "営業利益が前年同期比 +44.5% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0002",
+      "id": "d0195",
       "time": "14:20",
       "code": "5992",
       "company": "中央発条",
@@ -42,7 +3345,7 @@
       "analysis": "営業利益が前年同期比 -96.1% の大幅減益。要警戒。"
     },
     {
-      "id": "d0003",
+      "id": "d0196",
       "time": "14:15",
       "code": "9531",
       "company": "東瓦斯",
@@ -61,7 +3364,7 @@
       "analysis": ""
     },
     {
-      "id": "d0004",
+      "id": "d0197",
       "time": "14:00",
       "code": "4186",
       "company": "東応化",
@@ -76,7 +3379,7 @@
       "analysis": ""
     },
     {
-      "id": "d0005",
+      "id": "d0198",
       "time": "14:00",
       "code": "5832",
       "company": "ちゅうぎんＦＧ",
@@ -95,7 +3398,7 @@
       "analysis": "営業利益が前年同期比 +35.2% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0006",
+      "id": "d0199",
       "time": "14:00",
       "code": "6470",
       "company": "大豊工業",
@@ -114,7 +3417,7 @@
       "analysis": "営業利益が前年同期比 +84.3% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0007",
+      "id": "d0200",
       "time": "14:00",
       "code": "6470",
       "company": "大豊工業",
@@ -129,7 +3432,7 @@
       "analysis": ""
     },
     {
-      "id": "d0008",
+      "id": "d0201",
       "time": "14:00",
       "code": "7971",
       "company": "東リ",
@@ -148,7 +3451,7 @@
       "analysis": "営業利益が前年同期比 +49.5% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0009",
+      "id": "d0202",
       "time": "14:00",
       "code": "7971",
       "company": "東リ",
@@ -163,7 +3466,7 @@
       "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
     },
     {
-      "id": "d0010",
+      "id": "d0203",
       "time": "14:00",
       "code": "8343",
       "company": "秋田銀",
@@ -182,7 +3485,7 @@
       "analysis": "営業利益が前年同期比 +44.5% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0011",
+      "id": "d0204",
       "time": "14:00",
       "code": "8345",
       "company": "岩手銀",
@@ -201,7 +3504,7 @@
       "analysis": "営業利益が前年同期比 +59.6% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0012",
+      "id": "d0205",
       "time": "14:00",
       "code": "9003",
       "company": "相鉄ＨＤ",
@@ -220,7 +3523,7 @@
       "analysis": ""
     },
     {
-      "id": "d0013",
+      "id": "d0206",
       "time": "14:00",
       "code": "9003",
       "company": "相鉄ＨＤ",
@@ -235,7 +3538,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0014",
+      "id": "d0207",
       "time": "14:00",
       "code": "9044",
       "company": "ＮＡＮＫＡＩ",
@@ -254,7 +3557,7 @@
       "analysis": ""
     },
     {
-      "id": "d0015",
+      "id": "d0208",
       "time": "14:00",
       "code": "9532",
       "company": "大瓦斯",
@@ -273,7 +3576,7 @@
       "analysis": "営業利益が前年同期比 -34.3% の大幅減益。要警戒。"
     },
     {
-      "id": "d0016",
+      "id": "d0209",
       "time": "14:00",
       "code": "9532",
       "company": "大瓦斯",
@@ -288,7 +3591,7 @@
       "analysis": ""
     },
     {
-      "id": "d0017",
+      "id": "d0210",
       "time": "14:00",
       "code": "9534",
       "company": "北海瓦斯",
@@ -307,7 +3610,7 @@
       "analysis": "営業利益が前年同期比 -41.1% の大幅減益。要警戒。"
     },
     {
-      "id": "d0018",
+      "id": "d0211",
       "time": "14:00",
       "code": "9534",
       "company": "北海瓦斯",
@@ -322,7 +3625,7 @@
       "analysis": ""
     },
     {
-      "id": "d0019",
+      "id": "d0212",
       "time": "14:00",
       "code": "9708",
       "company": "帝国ホテル",
@@ -341,7 +3644,7 @@
       "analysis": ""
     },
     {
-      "id": "d0020",
+      "id": "d0213",
       "time": "14:00",
       "code": "9818",
       "company": "大丸エナ",
@@ -360,7 +3663,7 @@
       "analysis": "営業利益が前年同期比 +59.9% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0021",
+      "id": "d0214",
       "time": "13:20",
       "code": "8622",
       "company": "水戸証",
@@ -379,7 +3682,7 @@
       "analysis": "営業利益が前年同期比 +71.7% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0022",
+      "id": "d0215",
       "time": "13:00",
       "code": "1803",
       "company": "清水建",
@@ -398,7 +3701,7 @@
       "analysis": ""
     },
     {
-      "id": "d0023",
+      "id": "d0216",
       "time": "13:00",
       "code": "1803",
       "company": "清水建",
@@ -413,7 +3716,7 @@
       "analysis": ""
     },
     {
-      "id": "d0024",
+      "id": "d0217",
       "time": "13:00",
       "code": "1803",
       "company": "清水建",
@@ -428,7 +3731,7 @@
       "analysis": ""
     },
     {
-      "id": "d0025",
+      "id": "d0218",
       "time": "13:00",
       "code": "2737",
       "company": "トーメンデバ",
@@ -447,7 +3750,7 @@
       "analysis": ""
     },
     {
-      "id": "d0026",
+      "id": "d0219",
       "time": "13:00",
       "code": "2737",
       "company": "トーメンデバ",
@@ -462,7 +3765,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0027",
+      "id": "d0220",
       "time": "13:00",
       "code": "4345",
       "company": "シーティーエス",
@@ -481,7 +3784,7 @@
       "analysis": ""
     },
     {
-      "id": "d0028",
+      "id": "d0221",
       "time": "13:00",
       "code": "4345",
       "company": "シーティーエス",
@@ -496,7 +3799,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0029",
+      "id": "d0222",
       "time": "13:00",
       "code": "6101",
       "company": "ツガミ",
@@ -515,7 +3818,7 @@
       "analysis": "営業利益が前年同期比 +55.2% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0030",
+      "id": "d0223",
       "time": "13:00",
       "code": "6364",
       "company": "ＡＩＲＭＡＮ",
@@ -534,7 +3837,7 @@
       "analysis": "営業利益が前年同期比 +50.9% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0031",
+      "id": "d0224",
       "time": "13:00",
       "code": "6364",
       "company": "ＡＩＲＭＡＮ",
@@ -549,7 +3852,7 @@
       "analysis": ""
     },
     {
-      "id": "d0032",
+      "id": "d0225",
       "time": "13:00",
       "code": "6364",
       "company": "ＡＩＲＭＡＮ",
@@ -564,7 +3867,7 @@
       "analysis": ""
     },
     {
-      "id": "d0033",
+      "id": "d0226",
       "time": "13:00",
       "code": "7381",
       "company": "ＣＣＩグループ",
@@ -583,7 +3886,7 @@
       "analysis": ""
     },
     {
-      "id": "d0034",
+      "id": "d0227",
       "time": "13:00",
       "code": "8349",
       "company": "東北銀",
@@ -602,7 +3905,7 @@
       "analysis": ""
     },
     {
-      "id": "d0035",
+      "id": "d0228",
       "time": "13:00",
       "code": "9304",
       "company": "渋沢倉",
@@ -617,7 +3920,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0036",
+      "id": "d0229",
       "time": "12:45",
       "code": "8624",
       "company": "いちよし",
@@ -636,7 +3939,7 @@
       "analysis": "営業利益が前年同期比 +64.3% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0037",
+      "id": "d0230",
       "time": "12:45",
       "code": "8624",
       "company": "いちよし",
@@ -651,7 +3954,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0038",
+      "id": "d0231",
       "time": "12:30",
       "code": "4221",
       "company": "大倉工",
@@ -670,7 +3973,7 @@
       "analysis": "営業利益が前年同期比 +50.8% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0039",
+      "id": "d0232",
       "time": "12:30",
       "code": "4221",
       "company": "大倉工",
@@ -685,7 +3988,7 @@
       "analysis": ""
     },
     {
-      "id": "d0040",
+      "id": "d0233",
       "time": "12:30",
       "code": "8285",
       "company": "三谷産業",
@@ -704,7 +4007,7 @@
       "analysis": "営業利益が前年同期比 +147.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0041",
+      "id": "d0234",
       "time": "12:30",
       "code": "8285",
       "company": "三谷産業",
@@ -719,7 +4022,7 @@
       "analysis": ""
     },
     {
-      "id": "d0042",
+      "id": "d0235",
       "time": "12:20",
       "code": "8336",
       "company": "武蔵野銀",
@@ -738,7 +4041,7 @@
       "analysis": "営業利益が前年同期比 +47.1% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0043",
+      "id": "d0236",
       "time": "12:00",
       "code": "2229",
       "company": "カルビー",
@@ -757,7 +4060,7 @@
       "analysis": "営業利益が前年同期比 +24.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0044",
+      "id": "d0237",
       "time": "12:00",
       "code": "3696",
       "company": "セレス",
@@ -772,7 +4075,7 @@
       "analysis": ""
     },
     {
-      "id": "d0045",
+      "id": "d0238",
       "time": "12:00",
       "code": "7570",
       "company": "橋本総業ＨＤ",
@@ -791,7 +4094,7 @@
       "analysis": "営業利益が前年同期比 +78.7% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0046",
+      "id": "d0239",
       "time": "12:00",
       "code": "7981",
       "company": "タカラスタン",
@@ -810,7 +4113,7 @@
       "analysis": ""
     },
     {
-      "id": "d0047",
+      "id": "d0240",
       "time": "12:00",
       "code": "7981",
       "company": "タカラスタン",
@@ -825,7 +4128,7 @@
       "analysis": ""
     },
     {
-      "id": "d0048",
+      "id": "d0241",
       "time": "12:00",
       "code": "7981",
       "company": "タカラスタン",
@@ -840,7 +4143,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0049",
+      "id": "d0242",
       "time": "12:00",
       "code": "8613",
       "company": "丸三証",
@@ -859,7 +4162,7 @@
       "analysis": "営業利益が前年同期比 +43.3% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0050",
+      "id": "d0243",
       "time": "12:00",
       "code": "8613",
       "company": "丸三証",
@@ -874,7 +4177,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0051",
+      "id": "d0244",
       "time": "12:00",
       "code": "8613",
       "company": "丸三証",
@@ -889,7 +4192,7 @@
       "analysis": ""
     },
     {
-      "id": "d0052",
+      "id": "d0245",
       "time": "11:35",
       "code": "3195",
       "company": "ジェネパ",
@@ -904,7 +4207,7 @@
       "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
     },
     {
-      "id": "d0053",
+      "id": "d0246",
       "time": "11:35",
       "code": "9235",
       "company": "Ｇ－売れるネットＧ",
@@ -919,7 +4222,7 @@
       "analysis": ""
     },
     {
-      "id": "d0054",
+      "id": "d0247",
       "time": "11:30",
       "code": "4063",
       "company": "信越化",
@@ -934,7 +4237,7 @@
       "analysis": ""
     },
     {
-      "id": "d0055",
+      "id": "d0248",
       "time": "11:30",
       "code": "8609",
       "company": "岡三",
@@ -953,7 +4256,7 @@
       "analysis": "営業利益が前年同期比 +66.6% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0056",
+      "id": "d0249",
       "time": "11:30",
       "code": "9235",
       "company": "Ｇ－売れるネットＧ",
@@ -968,7 +4271,7 @@
       "analysis": ""
     },
     {
-      "id": "d0057",
+      "id": "d0250",
       "time": "11:30",
       "code": "9324",
       "company": "安田倉",
@@ -983,7 +4286,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0058",
+      "id": "d0251",
       "time": "11:30",
       "code": "9368",
       "company": "キムラユニティー",
@@ -1002,7 +4305,7 @@
       "analysis": "営業利益が前年同期比 +21.8% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0059",
+      "id": "d0252",
       "time": "11:30",
       "code": "9744",
       "company": "メイテックＧＨＤ",
@@ -1021,7 +4324,7 @@
       "analysis": ""
     },
     {
-      "id": "d0060",
+      "id": "d0253",
       "time": "11:30",
       "code": "9744",
       "company": "メイテックＧＨＤ",
@@ -1036,7 +4339,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0061",
+      "id": "d0254",
       "time": "11:00",
       "code": "6516",
       "company": "山洋電気",
@@ -1055,7 +4358,7 @@
       "analysis": "営業利益が前年同期比 +138.1% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0062",
+      "id": "d0255",
       "time": "10:30",
       "code": "7276",
       "company": "小糸製",
@@ -1070,7 +4373,7 @@
       "analysis": ""
     },
     {
-      "id": "d0063",
+      "id": "d0256",
       "time": "10:30",
       "code": "7774",
       "company": "Ｇ－Ｊ・ＴＥＣ",
@@ -1089,7 +4392,7 @@
       "analysis": ""
     },
     {
-      "id": "d0064",
+      "id": "d0257",
       "time": "10:30",
       "code": "7774",
       "company": "Ｇ－Ｊ・ＴＥＣ",
@@ -1104,7 +4407,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0065",
+      "id": "d0258",
       "time": "10:00",
       "code": "7176",
       "company": "Ｐ－シンプレクスＦＨ",
@@ -1119,7 +4422,7 @@
       "analysis": ""
     },
     {
-      "id": "d0066",
+      "id": "d0259",
       "time": "08:30",
       "code": "2371",
       "company": "カカクコム",
@@ -1134,7 +4437,7 @@
       "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
     },
     {
-      "id": "d0067",
+      "id": "d0260",
       "time": "08:30",
       "code": "4262",
       "company": "Ｇ－ニフティライフ",
@@ -1153,7 +4456,7 @@
       "analysis": ""
     },
     {
-      "id": "d0068",
+      "id": "d0261",
       "time": "08:30",
       "code": "4262",
       "company": "Ｇ－ニフティライフ",
@@ -1168,7 +4471,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0069",
+      "id": "d0262",
       "time": "08:30",
       "code": "7419",
       "company": "ノジマ",
@@ -1187,7 +4490,7 @@
       "analysis": ""
     },
     {
-      "id": "d0070",
+      "id": "d0263",
       "time": "08:30",
       "code": "7419",
       "company": "ノジマ",
@@ -1202,7 +4505,7 @@
       "analysis": ""
     },
     {
-      "id": "d0071",
+      "id": "d0264",
       "time": "08:30",
       "code": "7740",
       "company": "タムロン",
