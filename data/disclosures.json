@@ -1,10 +1,3723 @@
 {
-  "lastUpdated": "2026-08-03T15:18:52+09:00",
+  "lastUpdated": "2026-08-03T19:11:22+09:00",
   "date": "2026-08-03",
-  "totalRaw": 191,
+  "totalRaw": 535,
   "disclosures": [
     {
       "id": "d0001",
+      "time": "19:00",
+      "code": "1447",
+      "company": "Ｇ－ＳＡＡＦＨＤ",
+      "title": "買収への対応方針に基づく共同協調行為の追加認定並びに新株予約権の無償割当て及び臨時株主総会における意思確認に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507567.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－ＳＡＡＦＨＤ - 買収への対応方針に基づく共同協調行為の追加認定並びに新株予約権の無償割当て及び臨時株主総会における意思確認に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0002",
+      "time": "18:40",
+      "code": "7699",
+      "company": "Ｇ－ＯＰＳ",
+      "title": "（訂正・数値データ訂正）「2026年３月期 決算短信〔SFRS〕（連結）」 の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505587.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｇ－ＯＰＳ - （訂正・数値データ訂正）「2026年３月期 決算短信〔SFRS〕（連結）」 の一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0003",
+      "time": "18:15",
+      "code": "6457",
+      "company": "グローリー",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507529.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "グローリー - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0004",
+      "time": "18:00",
+      "code": "3276",
+      "company": "ＪＰＭＣ",
+      "title": "株式会社Amsterdam1及び株式会社Amsterdam2による株式会社ＪＰＭＣ（証券コード：3276）の普通株式に対する公開買付けの開始に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507167.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "ＪＰＭＣ - 株式会社Amsterdam1及び株式会社Amsterdam2による株式会社ＪＰＭＣ（証券コード：3276）の普通株式に対する公開買付けの開始に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
+    },
+    {
+      "id": "d0005",
+      "time": "18:00",
+      "code": "3276",
+      "company": "ＪＰＭＣ",
+      "title": "2026年12月期の中間配当及び期末配当予想の修正（無配）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507218.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "ＪＰＭＣ - 2026年12月期の中間配当及び期末配当予想の修正（無配）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "無配への転落は財務状況の厳しさを示す。復配の見通しと業績回復のシナリオを確認すべき。"
+    },
+    {
+      "id": "d0006",
+      "time": "17:30",
+      "code": "4445",
+      "company": "Ｇ－リビンＴ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507502.pdf",
+      "market": "東名",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－リビンＴ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0007",
+      "time": "17:25",
+      "code": "7201",
+      "company": "日産自",
+      "title": "2027年3月期 第1四半期 決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260724599464.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日産自 - 2027年3月期 第1四半期 決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 2,964,203 9.5 77,889 ― 49,094 ― 3,761 ―",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0008",
+      "time": "17:25",
+      "code": "7201",
+      "company": "日産自",
+      "title": "日産自動車、2026年度第1四半期決算を発表",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507330.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "日産自 - 日産自動車、2026年度第1四半期決算を発表",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0009",
+      "time": "17:00",
+      "code": "8316",
+      "company": "三井住友",
+      "title": "自己株式の取得状況および取得終了ならびに自己株式の消却に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505406.pdf",
+      "market": "東名",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "三井住友 - 自己株式の取得状況および取得終了ならびに自己株式の消却に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0010",
+      "time": "17:00",
+      "code": "8316",
+      "company": "三井住友",
+      "title": "（開示事項の変更）株式分割により増加する株式数の変更に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506574.pdf",
+      "market": "東名",
+      "category": "株式分割",
+      "importance": "高",
+      "summary": "三井住友 - （開示事項の変更）株式分割により増加する株式数の変更に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "株式分割により投資単位が引き下げられ、個人投資家の買いやすさが向上。流動性改善に期待。"
+    },
+    {
+      "id": "d0011",
+      "time": "16:30",
+      "code": "1787",
+      "company": "ナカボーテック",
+      "title": "2027年3月期　第1四半期決算短信〔日本基準〕（非連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503690.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ナカボーテック - 2027年3月期　第1四半期決算短信〔日本基準〕（非連結）",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0012",
+      "time": "16:30",
+      "code": "1787",
+      "company": "ナカボーテック",
+      "title": "資本業務提携契約の締結、資本技術提携の解消、自己株式の取得並びに主要株主、主要株主である筆頭株主及びその他の関係会社の異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503629.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ナカボーテック - 資本業務提携契約の締結、資本技術提携の解消、自己株式の取得並びに主要株主、主要株主である筆頭株主及びその他の関係会社の異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "資本業務提携はシナジー効果による成長加速が期待される。提携先の規模と提携内容の具体性が重要。"
+    },
+    {
+      "id": "d0013",
+      "time": "16:30",
+      "code": "1787",
+      "company": "ナカボーテック",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503634.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "ナカボーテック - 自己株式の取得及び自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0014",
+      "time": "16:30",
+      "code": "4074",
+      "company": "Ｇ－ラキール",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507236.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－ラキール - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0015",
+      "time": "16:30",
+      "code": "4771",
+      "company": "エフアンドエム",
+      "title": "2027年3月期第1四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506228.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "エフアンドエム - 2027年3月期第1四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0016",
+      "time": "16:30",
+      "code": "9401",
+      "company": "ＴＢＳＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506833.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＴＢＳＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0017",
+      "time": "16:05",
+      "code": "7211",
+      "company": "三菱自",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506421.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "三菱自 - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 619,863 1.8 10,082 78.8 9,740 101.3 1,411 91.2",
+        "operatingProfitYoYPct": 78.8,
+        "ordinaryProfitYoYPct": 101.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +78.8% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0018",
+      "time": "16:00",
+      "code": "2170",
+      "company": "ＬＩＮＫ＆Ｍ",
+      "title": "自己株式の取得状況（途中経過）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507007.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＬＩＮＫ＆Ｍ - 自己株式の取得状況（途中経過）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0019",
+      "time": "16:00",
+      "code": "2326",
+      "company": "デジアーツ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507269.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "デジアーツ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0020",
+      "time": "16:00",
+      "code": "2551",
+      "company": "マルサンアイ",
+      "title": "2026年９月期第３四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506449.pdf",
+      "market": "名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "マルサンアイ - 2026年９月期第３四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2026年９月期第３四半期 24,532 0.2 763 13.8 812 23.6 692 40.5",
+        "operatingProfitYoYPct": 13.8,
+        "ordinaryProfitYoYPct": 23.6
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0021",
+      "time": "16:00",
+      "code": "3121",
+      "company": "マーチャント",
+      "title": "自己株式取得に係る事項の進捗状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506799.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "マーチャント - 自己株式取得に係る事項の進捗状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0022",
+      "time": "16:00",
+      "code": "3443",
+      "company": "川田ＴＥＣＨ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506544.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "川田ＴＥＣＨ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0023",
+      "time": "16:00",
+      "code": "3775",
+      "company": "ガイアックス",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506780.pdf",
+      "market": "名",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ガイアックス - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0024",
+      "time": "16:00",
+      "code": "3914",
+      "company": "Ｇ－ＪＩＧ－ＳＡＷ",
+      "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504585.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｇ－ＪＩＧ－ＳＡＷ - 2026年12月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2026年12月期中間期 2,099 18.6 437 59.7 440 58.3 287 54.2",
+        "operatingProfitYoYPct": 59.7,
+        "ordinaryProfitYoYPct": 58.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +59.7% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0025",
+      "time": "16:00",
+      "code": "3979",
+      "company": "Ｇ－うるる",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506643.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－うるる - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0026",
+      "time": "16:00",
+      "code": "4046",
+      "company": "大阪ソーダ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505660.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "大阪ソーダ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0027",
+      "time": "16:00",
+      "code": "4272",
+      "company": "日化薬",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502368.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日化薬 - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 67,402 23.1 6,740 54.3 7,390 81.7 6,081 41.7",
+        "operatingProfitYoYPct": 54.3,
+        "ordinaryProfitYoYPct": 81.7
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +54.3% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0028",
+      "time": "16:00",
+      "code": "4272",
+      "company": "日化薬",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502372.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "日化薬 - 業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0029",
+      "time": "16:00",
+      "code": "4323",
+      "company": "日本システム技術",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506522.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "日本システム技術 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0030",
+      "time": "16:00",
+      "code": "4526",
+      "company": "理研ビタミン",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505750.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "理研ビタミン - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0031",
+      "time": "16:00",
+      "code": "4958",
+      "company": "長谷川香",
+      "title": "2026年9月期　第3四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506745.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "長谷川香 - 2026年9月期　第3四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年９月期第３四半期 59,355 8.8 7,838 8.1 8,455 8.7 6,331 17.7",
+        "operatingProfitYoYPct": 8.1,
+        "ordinaryProfitYoYPct": 8.7
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0032",
+      "time": "16:00",
+      "code": "6200",
+      "company": "インソース",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506961.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "インソース - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0033",
+      "time": "16:00",
+      "code": "6200",
+      "company": "インソース",
+      "title": "2026年９月期 第３四半期決算短信〔日本基準〕（連結）（公認会計士等による期中レビューの完了）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506966.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "インソース - 2026年９月期 第３四半期決算短信〔日本基準〕（連結）（公認会計士等による期中レビューの完了）",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0034",
+      "time": "16:00",
+      "code": "6366",
+      "company": "千代化建",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕(連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260727599910.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "千代化建 - 2027年3月期 第1四半期決算短信〔日本基準〕(連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 86,763 △4.1 4,716 △7.7 6,290 △10.6 5,508 △13.6",
+        "operatingProfitYoYPct": -7.7,
+        "ordinaryProfitYoYPct": -10.6
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0035",
+      "time": "16:00",
+      "code": "6419",
+      "company": "マースグループＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503504.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "マースグループＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0036",
+      "time": "16:00",
+      "code": "6493",
+      "company": "ＮＩＴＴＡＮ",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505101.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＮＩＴＴＡＮ - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 13,074 5.2 1,123 21.5 1,285 29.2 848 16.5",
+        "operatingProfitYoYPct": 21.5,
+        "ordinaryProfitYoYPct": 29.2
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +21.5% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0037",
+      "time": "16:00",
+      "code": "6493",
+      "company": "ＮＩＴＴＡＮ",
+      "title": "2027年3月期第1四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505726.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "ＮＩＴＴＡＮ - 2027年3月期第1四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0038",
+      "time": "16:00",
+      "code": "7222",
+      "company": "日産車体",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504973.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日産車体 - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 111,962 27.4 5,422 143.5 5,669 132.7 3,839 122",
+        "operatingProfitYoYPct": 143.5,
+        "ordinaryProfitYoYPct": 132.7
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +143.5% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0039",
+      "time": "16:00",
+      "code": "7236",
+      "company": "ティラド",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260723598492.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ティラド - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 39,733 1.6 2,733 △8.4 3,011 0.4 2,138 0.1",
+        "operatingProfitYoYPct": -8.4,
+        "ordinaryProfitYoYPct": 0.4
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0040",
+      "time": "16:00",
+      "code": "7236",
+      "company": "ティラド",
+      "title": "通期業績予想（連結）の修正並びに配当予想の修正(増配)に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507249.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "ティラド - 通期業績予想（連結）の修正並びに配当予想の修正(増配)に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
+    },
+    {
+      "id": "d0041",
+      "time": "16:00",
+      "code": "7255",
+      "company": "桜井製作",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507237.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "桜井製作 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0042",
+      "time": "16:00",
+      "code": "7278",
+      "company": "エクセディ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502906.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "エクセディ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0043",
+      "time": "16:00",
+      "code": "7460",
+      "company": "ヤギ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260717595989.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ヤギ - 2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 20,367 3.3 500 △34.3 748 △25.4 553 △13.5",
+        "operatingProfitYoYPct": -34.3,
+        "ordinaryProfitYoYPct": -25.4
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -34.3% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0044",
+      "time": "16:00",
+      "code": "7460",
+      "company": "ヤギ",
+      "title": "2027年3月期 第1四半期決算補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505452.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "ヤギ - 2027年3月期 第1四半期決算補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0045",
+      "time": "16:00",
+      "code": "7460",
+      "company": "ヤギ",
+      "title": "株式分割に伴う配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506965.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "ヤギ - 株式分割に伴う配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "株式分割により投資単位が引き下げられ、個人投資家の買いやすさが向上。流動性改善に期待。"
+    },
+    {
+      "id": "d0046",
+      "time": "16:00",
+      "code": "7609",
+      "company": "ダイトロン",
+      "title": "2026年12月期　第２四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507098.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ダイトロン - 2026年12月期　第２四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年12月期中間期 59,702 22.2 5,045 35.5 5,198 42.3 3,556 39.2",
+        "operatingProfitYoYPct": 35.5,
+        "ordinaryProfitYoYPct": 42.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +35.5% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0047",
+      "time": "16:00",
+      "code": "7609",
+      "company": "ダイトロン",
+      "title": "2026年12月期　第２四半期連結業績予想及び通期連結業績予想の修正並びに剰余金の配当及び期末配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507148.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "ダイトロン - 2026年12月期　第２四半期連結業績予想及び通期連結業績予想の修正並びに剰余金の配当及び期末配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0048",
+      "time": "16:00",
+      "code": "7609",
+      "company": "ダイトロン",
+      "title": "自己株式取得に係る事項の決定及び自己株式の消却に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504494.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "ダイトロン - 自己株式取得に係る事項の決定及び自己株式の消却に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0049",
+      "time": "16:00",
+      "code": "7946",
+      "company": "光陽社",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506601.pdf",
+      "market": "東名",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "光陽社 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0050",
+      "time": "16:00",
+      "code": "8029",
+      "company": "ルックＨＤ",
+      "title": "2026年12月期第２四半期(中間期)連結業績予想及び通期連結業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506729.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "ルックＨＤ - 2026年12月期第２四半期(中間期)連結業績予想及び通期連結業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0051",
+      "time": "16:00",
+      "code": "8035",
+      "company": "東エレク",
+      "title": "自己株式の取得状況および取得終了に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506440.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "東エレク - 自己株式の取得状況および取得終了に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0052",
+      "time": "16:00",
+      "code": "8059",
+      "company": "第一実業",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506423.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "第一実業 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0053",
+      "time": "16:00",
+      "code": "8101",
+      "company": "ＧＳＩクレオス",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507252.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＧＳＩクレオス - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0054",
+      "time": "16:00",
+      "code": "8306",
+      "company": "三菱ＵＦＪ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505851.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "三菱ＵＦＪ - 2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 3,907,543 20.1 1,117,934 57.8 809,427 48.2",
+        "operatingProfitYoYPct": 57.8,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +57.8% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0055",
+      "time": "16:00",
+      "code": "8308",
+      "company": "りそなＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506803.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "りそなＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0056",
+      "time": "16:00",
+      "code": "8411",
+      "company": "みずほ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505185.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "みずほ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0057",
+      "time": "16:00",
+      "code": "9246",
+      "company": "Ｇ－プロジェクトＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506595.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－プロジェクトＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0058",
+      "time": "16:00",
+      "code": "9272",
+      "company": "Ｇ－ブティックス",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506903.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－ブティックス - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0059",
+      "time": "16:00",
+      "code": "9471",
+      "company": "文渓堂",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507138.pdf",
+      "market": "名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "文渓堂 - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 4,956 △3.2 1,053 △8.5 1,083 △7.7 755 △8.9",
+        "operatingProfitYoYPct": -8.5,
+        "ordinaryProfitYoYPct": -7.7
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0060",
+      "time": "16:00",
+      "code": "9625",
+      "company": "セレスポ",
+      "title": "当社に対する訴訟の提起に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507059.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "高",
+      "summary": "セレスポ - 当社に対する訴訟の提起に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "訴訟の提起・被提訴は損害賠償リスクや評判リスクを伴う。請求金額と勝訴の可能性を確認したい。"
+    },
+    {
+      "id": "d0061",
+      "time": "16:00",
+      "code": "9628",
+      "company": "燦ＨＤ",
+      "title": "自己株式の取得状況および取得終了に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506444.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "燦ＨＤ - 自己株式の取得状況および取得終了に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0062",
+      "time": "16:00",
+      "code": "9765",
+      "company": "オオバ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505849.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "オオバ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0063",
+      "time": "16:00",
+      "code": "9768",
+      "company": "いであ",
+      "title": "2026年12月期　第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505012.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "いであ - 2026年12月期　第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年12月期中間期 12,876 4.4 2,217 8.5 2,303 7.6 1,561 7.5",
+        "operatingProfitYoYPct": 8.5,
+        "ordinaryProfitYoYPct": 7.6
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0064",
+      "time": "16:00",
+      "code": "9845",
+      "company": "パーカー",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506653.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "パーカー - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 19,355 11.7 1,550 △3.8 1,721 △5.0 1,153 △7.9",
+        "operatingProfitYoYPct": -3.8,
+        "ordinaryProfitYoYPct": -5.0
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0065",
+      "time": "15:45",
+      "code": "6632",
+      "company": "ＪＶＣＫＷ",
+      "title": "2027年３月期 第１四半期決算短信〔IFRS〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503633.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＪＶＣＫＷ - 2027年３月期 第１四半期決算短信〔IFRS〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 88,799 10.7 2,007 △34.2 1,526 △65.0 1,823 △62.",
+        "operatingProfitYoYPct": -34.2,
+        "ordinaryProfitYoYPct": -65.0
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -34.2% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0066",
+      "time": "15:45",
+      "code": "6632",
+      "company": "ＪＶＣＫＷ",
+      "title": "ＪＶＣケンウッド　決算説明資料　2027年３月期　第１四半期",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503661.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＪＶＣＫＷ - ＪＶＣケンウッド　決算説明資料　2027年３月期　第１四半期",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0067",
+      "time": "15:45",
+      "code": "6632",
+      "company": "ＪＶＣＫＷ",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503667.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "ＪＶＣＫＷ - 自己株式取得に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0068",
+      "time": "15:40",
+      "code": "2282",
+      "company": "日ハム",
+      "title": "2027年３月期第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260802506003.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日ハム - 2027年３月期第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 384,946 8.7 19,415 19.5 18,523 0.6 12,210 △2.7",
+        "operatingProfitYoYPct": 19.5,
+        "ordinaryProfitYoYPct": 0.6
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0069",
+      "time": "15:40",
+      "code": "2282",
+      "company": "日ハム",
+      "title": "決算説明会資料～2027年3月期 第1四半期～",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260802506005.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "日ハム - 決算説明会資料～2027年3月期 第1四半期～",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0070",
+      "time": "15:40",
+      "code": "2282",
+      "company": "日ハム",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260802506026.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "日ハム - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0071",
+      "time": "15:40",
+      "code": "2440",
+      "company": "ぐるなび",
+      "title": "2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505757.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ぐるなび - 2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 3,378 9.6 △12 － △23 － 24 △51.6",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0072",
+      "time": "15:40",
+      "code": "2440",
+      "company": "ぐるなび",
+      "title": "2027年3月期　第1四半期決算説明会資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506322.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "ぐるなび - 2027年3月期　第1四半期決算説明会資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0073",
+      "time": "15:40",
+      "code": "2902",
+      "company": "太陽化",
+      "title": "2027年3月期 第1四半期決算短信[日本基準](連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260722597223.pdf",
+      "market": "名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "太陽化 - 2027年3月期 第1四半期決算短信[日本基準](連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 13,618 6.6 1,922 15.9 2,118 20.3 1,436 38.3",
+        "operatingProfitYoYPct": 15.9,
+        "ordinaryProfitYoYPct": 20.3
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0074",
+      "time": "15:40",
+      "code": "6676",
+      "company": "ＢＵＦＦＡＬＯ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506189.pdf",
+      "market": "東名",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＢＵＦＦＡＬＯ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0075",
+      "time": "15:40",
+      "code": "7435",
+      "company": "ナ・デックス",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506141.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ナ・デックス - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0076",
+      "time": "15:35",
+      "code": "6644",
+      "company": "大崎電",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507222.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "大崎電 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0077",
+      "time": "15:30",
+      "code": "2148",
+      "company": "ＩＴＭ",
+      "title": "2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504885.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＩＴＭ - 2027年３月期 第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 2,240 17.5 563 48.0 535 49.8 532 47.8 348 43.8",
+        "operatingProfitYoYPct": 48.0,
+        "ordinaryProfitYoYPct": 49.8
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +48.0% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0078",
+      "time": "15:30",
+      "code": "2222",
+      "company": "寿スピリッツ",
+      "title": "配当方針の一部変更（中間配当の実施）及び配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503280.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "寿スピリッツ - 配当方針の一部変更（中間配当の実施）及び配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0079",
+      "time": "15:30",
+      "code": "2222",
+      "company": "寿スピリッツ",
+      "title": "2027年3月期第1四半期決算説明補足資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504517.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "寿スピリッツ - 2027年3月期第1四半期決算説明補足資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0080",
+      "time": "15:30",
+      "code": "2222",
+      "company": "寿スピリッツ",
+      "title": "2027年３月期 第1四半期決算短信補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503265.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "寿スピリッツ - 2027年３月期 第1四半期決算短信補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0081",
+      "time": "15:30",
+      "code": "2222",
+      "company": "寿スピリッツ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728500771.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "寿スピリッツ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 18,668 10.0 4,152 20.7 4,178 20.3 2,731 18.6",
+        "operatingProfitYoYPct": 20.7,
+        "ordinaryProfitYoYPct": 20.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +20.7% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0082",
+      "time": "15:30",
+      "code": "2222",
+      "company": "寿スピリッツ",
+      "title": "2027年3月期 第1四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504489.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "寿スピリッツ - 2027年3月期 第1四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0083",
+      "time": "15:30",
+      "code": "2281",
+      "company": "プリマハム",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505650.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "プリマハム - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 122,416 5.7 2,478 △2.0 2,691 △2.2 1,731 △3.3",
+        "operatingProfitYoYPct": -2.0,
+        "ordinaryProfitYoYPct": -2.2
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0084",
+      "time": "15:30",
+      "code": "2331",
+      "company": "ＡＬＳＯＫ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506732.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＡＬＳＯＫ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0085",
+      "time": "15:30",
+      "code": "2353",
+      "company": "日駐",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506804.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "日駐 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0086",
+      "time": "15:30",
+      "code": "2477",
+      "company": "手間いらず",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506611.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "手間いらず - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0087",
+      "time": "15:30",
+      "code": "2497",
+      "company": "Ｇ－ＵＮＩＴＥＤ",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503176.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｇ－ＵＮＩＴＥＤ - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 2,049 4.6 66 ― 57 ― 216 ―",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0088",
+      "time": "15:30",
+      "code": "2497",
+      "company": "Ｇ－ＵＮＩＴＥＤ",
+      "title": "2027年３月期第１四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503177.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "Ｇ－ＵＮＩＴＥＤ - 2027年３月期第１四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0089",
+      "time": "15:30",
+      "code": "2612",
+      "company": "かどや製油",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503330.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "かどや製油 - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 10,203 △3.4 1,397 10.1 1,450 17.0 983 17.8",
+        "operatingProfitYoYPct": 10.1,
+        "ordinaryProfitYoYPct": 17.0
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0090",
+      "time": "15:30",
+      "code": "2612",
+      "company": "かどや製油",
+      "title": "2027年３月期　第１四半期決算補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503367.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "かどや製油 - 2027年３月期　第１四半期決算補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
+    },
+    {
+      "id": "d0091",
+      "time": "15:30",
+      "code": "2664",
+      "company": "カワチ薬品",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506246.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "カワチ薬品 - 自己株式取得に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0092",
+      "time": "15:30",
+      "code": "2875",
+      "company": "東洋水産",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506120.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "東洋水産 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0093",
+      "time": "15:30",
+      "code": "2907",
+      "company": "あじかん",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506227.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "あじかん - 業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0094",
+      "time": "15:30",
+      "code": "2907",
+      "company": "あじかん",
+      "title": "2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506408.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "あじかん - 2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 12,540 3.6 291 － 388 － 259 －",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0095",
+      "time": "15:30",
+      "code": "2924",
+      "company": "イフジ産業",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260724599536.pdf",
+      "market": "東福",
+      "category": "決算",
+      "importance": "高",
+      "summary": "イフジ産業 - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 7,880 △4.2 555 △37.9 556 △38.2 379 △39.8",
+        "operatingProfitYoYPct": -37.9,
+        "ordinaryProfitYoYPct": -38.2
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -37.9% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0096",
+      "time": "15:30",
+      "code": "3099",
+      "company": "ミツコシイセタン",
+      "title": "自己株式の取得状況（途中経過）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505842.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ミツコシイセタン - 自己株式の取得状況（途中経過）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0097",
+      "time": "15:30",
+      "code": "3107",
+      "company": "ダイワボＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506299.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ダイワボＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0098",
+      "time": "15:30",
+      "code": "3157",
+      "company": "ジオリーブグループ",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506378.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ジオリーブグループ - 2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 61,822 37.5 383 △11.3 756 15.3 904 57.2",
+        "operatingProfitYoYPct": -11.3,
+        "ordinaryProfitYoYPct": 15.3
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0099",
+      "time": "15:30",
+      "code": "3288",
+      "company": "オープンハウスＧ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506480.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "オープンハウスＧ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0100",
+      "time": "15:30",
+      "code": "3349",
+      "company": "コスモス薬品",
+      "title": "役員人事に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260802506023.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "コスモス薬品 - 役員人事に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
+    },
+    {
+      "id": "d0101",
+      "time": "15:30",
+      "code": "3350",
+      "company": "メタプラネット",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506633.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "メタプラネット - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0102",
+      "time": "15:30",
+      "code": "3371",
+      "company": "ソフトクリエＨＤ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502002.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ソフトクリエＨＤ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 8,583 8.8 1,194 7.7 1,316 △1.1 854 1.4",
+        "operatingProfitYoYPct": 7.7,
+        "ordinaryProfitYoYPct": -1.1
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0103",
+      "time": "15:30",
+      "code": "3479",
+      "company": "Ｇ－ＴＫＰ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506311.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－ＴＫＰ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0104",
+      "time": "15:30",
+      "code": "3641",
+      "company": "パピレス",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503891.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "パピレス - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0105",
+      "time": "15:30",
+      "code": "3758",
+      "company": "アエリア",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506914.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "アエリア - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0106",
+      "time": "15:30",
+      "code": "3773",
+      "company": "Ｇ－ＡＭＩ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506777.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－ＡＭＩ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0107",
+      "time": "15:30",
+      "code": "3908",
+      "company": "コラボス",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（非連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506865.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "コラボス - 2027年３月期 第１四半期決算短信〔日本基準〕（非連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 380 △13.8 9 △51.7 11 △42.3 7 △45.6",
+        "operatingProfitYoYPct": -51.7,
+        "ordinaryProfitYoYPct": -42.3
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -51.7% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0108",
+      "time": "15:30",
+      "code": "3935",
+      "company": "エディア",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506992.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "エディア - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0109",
+      "time": "15:30",
+      "code": "4005",
+      "company": "住友化",
+      "title": "株式交換により増加する「資本準備金」の額の減少および 「その他資本剰余金」への振替の額の確定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506365.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "住友化 - 株式交換により増加する「資本準備金」の額の減少および 「その他資本剰余金」への振替の額の確定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0110",
+      "time": "15:30",
+      "code": "4118",
+      "company": "カネカ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503271.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "カネカ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0111",
+      "time": "15:30",
+      "code": "4151",
+      "company": "協和キリン",
+      "title": "2026年12月期 第２四半期（中間期）決算短信〔IFRS〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260710591300.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "協和キリン - 2026年12月期 第２四半期（中間期）決算短信〔IFRS〕（連結）",
+      "earnings": {
+        "period": "2026年12月期中間期 263,629 14.3 66,149 79.6 37,465 70.5 30,618 87.",
+        "operatingProfitYoYPct": 79.6,
+        "ordinaryProfitYoYPct": 70.5
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +79.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0112",
+      "time": "15:30",
+      "code": "4151",
+      "company": "協和キリン",
+      "title": "決算短信補足資料 -2026年12月期 第2四半期（中間期）決算-",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260710591645.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "協和キリン - 決算短信補足資料 -2026年12月期 第2四半期（中間期）決算-",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0113",
+      "time": "15:30",
+      "code": "4287",
+      "company": "ジャストプラ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506450.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ジャストプラ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0114",
+      "time": "15:30",
+      "code": "4507",
+      "company": "塩野義薬",
+      "title": "2027年３月期第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506986.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "塩野義薬 - 2027年３月期第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 163,310 63.7 66,911 90.6 73,736 59.2 97,718 14",
+        "operatingProfitYoYPct": 90.6,
+        "ordinaryProfitYoYPct": 59.2
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +90.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0115",
+      "time": "15:30",
+      "code": "4507",
+      "company": "塩野義薬",
+      "title": "2027年3月期 第1四半期決算 補足資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507029.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "塩野義薬 - 2027年3月期 第1四半期決算 補足資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0116",
+      "time": "15:30",
+      "code": "4507",
+      "company": "塩野義薬",
+      "title": "2026年度第1四半期決算および HIV事業に関するアップデート説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507038.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "塩野義薬 - 2026年度第1四半期決算および HIV事業に関するアップデート説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0117",
+      "time": "15:30",
+      "code": "4523",
+      "company": "エーザイ",
+      "title": "2027年3月期 第1四半期決算短信〔IFRS〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505565.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "エーザイ - 2027年3月期 第1四半期決算短信〔IFRS〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 234,330 15.6 24,728 19.2 25,283 12.8 19,151 24",
+        "operatingProfitYoYPct": 19.2,
+        "ordinaryProfitYoYPct": 12.8
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0118",
+      "time": "15:30",
+      "code": "4523",
+      "company": "エーザイ",
+      "title": "2026年度（2027年3月期）第1四半期決算　参考資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505595.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "エーザイ - 2026年度（2027年3月期）第1四半期決算　参考資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0119",
+      "time": "15:30",
+      "code": "4523",
+      "company": "エーザイ",
+      "title": "2026年度第1四半期 決算説明会",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505649.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "エーザイ - 2026年度第1四半期 決算説明会",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0120",
+      "time": "15:30",
+      "code": "4544",
+      "company": "ＨＵグループＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504568.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＨＵグループＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0121",
+      "time": "15:30",
+      "code": "4578",
+      "company": "大塚ＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506880.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "大塚ＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0122",
+      "time": "15:30",
+      "code": "4689",
+      "company": "ＬＩＮＥヤフー",
+      "title": "2027年3月期第1四半期決算短信〔IFRS〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260724598934.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＬＩＮＥヤフー - 2027年3月期第1四半期決算短信〔IFRS〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 553,987 13.1 101,175 6.4 99,117 13.8 75,387 24",
+        "operatingProfitYoYPct": 6.4,
+        "ordinaryProfitYoYPct": 13.8
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0123",
+      "time": "15:30",
+      "code": "4736",
+      "company": "日本ラッド",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260713592372.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日本ラッド - 2027年３月期 第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 886 ― △51 ― 18 ― 7 ―",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0124",
+      "time": "15:30",
+      "code": "4746",
+      "company": "東計電算",
+      "title": "令和8年12月期第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260727500356.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東計電算 - 令和8年12月期第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0125",
+      "time": "15:30",
+      "code": "4746",
+      "company": "東計電算",
+      "title": "剰余金の配当（中間配当）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260727500168.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "低",
+      "summary": "東計電算 - 剰余金の配当（中間配当）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0126",
+      "time": "15:30",
+      "code": "4746",
+      "company": "東計電算",
+      "title": "投資有価証券売却に伴う特別利益計上見込み及び通期業績予想の修正及び配当予想の修正（増配）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260722597842.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "東計電算 - 投資有価証券売却に伴う特別利益計上見込み及び通期業績予想の修正及び配当予想の修正（増配）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
+    },
+    {
+      "id": "d0127",
+      "time": "15:30",
+      "code": "4768",
+      "company": "大塚商会",
+      "title": "2026年12月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505654.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "大塚商会 - 2026年12月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年12月期中間期 757,498 9.0 53,088 8.0 54,824 9.4 36,982 8.4",
+        "operatingProfitYoYPct": 8.0,
+        "ordinaryProfitYoYPct": 9.4
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0128",
+      "time": "15:30",
+      "code": "4768",
+      "company": "大塚商会",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505926.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "大塚商会 - 業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0129",
+      "time": "15:30",
+      "code": "4768",
+      "company": "大塚商会",
+      "title": "剰余金の配当（中間配当）及び配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505929.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "大塚商会 - 剰余金の配当（中間配当）及び配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0130",
+      "time": "15:30",
+      "code": "4768",
+      "company": "大塚商会",
+      "title": "2026年12月期 第2四半期決算概要",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505930.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "大塚商会 - 2026年12月期 第2四半期決算概要",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0131",
+      "time": "15:30",
+      "code": "4768",
+      "company": "大塚商会",
+      "title": "2026年12月期 第2四半期決算説明補足資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505934.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "大塚商会 - 2026年12月期 第2四半期決算説明補足資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0132",
+      "time": "15:30",
+      "code": "4928",
+      "company": "ノエビアＨＤ",
+      "title": "2026年9月期 第3四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505372.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ノエビアＨＤ - 2026年9月期 第3四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2026年9月期第3四半期 46,075 △2.6 6,895 △13.9 7,290 △13.4 4,089 △0.8",
+        "operatingProfitYoYPct": -13.9,
+        "ordinaryProfitYoYPct": -13.4
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0133",
+      "time": "15:30",
+      "code": "5020",
+      "company": "ＥＮＥＯＳ",
+      "title": "自己株式の取得状況（途中経過）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506552.pdf",
+      "market": "東名",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＥＮＥＯＳ - 自己株式の取得状況（途中経過）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0134",
+      "time": "15:30",
+      "code": "5027",
+      "company": "Ｇ－ＡｎｙＭｉｎｄ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506734.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－ＡｎｙＭｉｎｄ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0135",
+      "time": "15:30",
+      "code": "5133",
+      "company": "テリロジーＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260724599512.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "テリロジーＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0136",
+      "time": "15:30",
+      "code": "5187",
+      "company": "クリエート",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506236.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "クリエート - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0137",
+      "time": "15:30",
+      "code": "5214",
+      "company": "日電硝",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730502780.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "日電硝 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0138",
+      "time": "15:30",
+      "code": "5257",
+      "company": "ノバシステム",
+      "title": "（訂正）「自己株式取得に係る事項の決定に関するお知らせ」の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505858.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "ノバシステム - （訂正）「自己株式取得に係る事項の決定に関するお知らせ」の一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0139",
+      "time": "15:30",
+      "code": "5367",
+      "company": "ニッカトー",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（非連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505510.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ニッカトー - 2027年3月期 第1四半期決算短信〔日本基準〕（非連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 3,175 30.2 441 136.4 478 120.6 331 171.2",
+        "operatingProfitYoYPct": 136.4,
+        "ordinaryProfitYoYPct": 120.6
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +136.4% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0140",
+      "time": "15:30",
+      "code": "5367",
+      "company": "ニッカトー",
+      "title": "2027年３月期（第１Ｑ） 決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506173.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ニッカトー - 2027年３月期（第１Ｑ） 決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0141",
+      "time": "15:30",
+      "code": "5393",
+      "company": "ニチアス",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506636.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ニチアス - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0142",
+      "time": "15:30",
+      "code": "5463",
+      "company": "丸一鋼管",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506433.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "丸一鋼管 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0143",
+      "time": "15:30",
+      "code": "5631",
+      "company": "日製鋼所",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502415.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "日製鋼所 - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 58,172 △13.9 5,865 11.2 6,114 8.8 5,932 35.4",
+        "operatingProfitYoYPct": 11.2,
+        "ordinaryProfitYoYPct": 8.8
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0144",
+      "time": "15:30",
+      "code": "5929",
+      "company": "三和ＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506108.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "三和ＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0145",
+      "time": "15:30",
+      "code": "5943",
+      "company": "ノーリツ",
+      "title": "自己株式の取得状況（途中経過）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506762.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ノーリツ - 自己株式の取得状況（途中経過）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0146",
+      "time": "15:30",
+      "code": "6018",
+      "company": "阪神内燃機工業",
+      "title": "2027年３月期  第１四半期決算短信〔日本基準〕（非連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503381.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "阪神内燃機工業 - 2027年３月期  第１四半期決算短信〔日本基準〕（非連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 3,721 △1.9 230 120.8 241 101.7 161 80.8",
+        "operatingProfitYoYPct": 120.8,
+        "ordinaryProfitYoYPct": 101.7
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +120.8% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0147",
+      "time": "15:30",
+      "code": "6031",
+      "company": "Ｇ－ＺＥＴＡ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506823.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－ＺＥＴＡ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0148",
+      "time": "15:30",
+      "code": "6050",
+      "company": "Ｅガーディアン",
+      "title": "2026年９月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506663.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｅガーディアン - 2026年９月期 第３四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年９月期第３四半期 8,300 △3.6 843 △30.1 883 △27.2 570 △27.0",
+        "operatingProfitYoYPct": -30.1,
+        "ordinaryProfitYoYPct": -27.2
+      },
+      "sentiment": "negative",
+      "analysis": "営業利益が前年同期比 -30.1% の大幅減益。要警戒。"
+    },
+    {
+      "id": "d0149",
+      "time": "15:30",
+      "code": "6050",
+      "company": "Ｅガーディアン",
+      "title": "2026年９月期 第３四半期 決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506671.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｅガーディアン - 2026年９月期 第３四半期 決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0150",
+      "time": "15:30",
+      "code": "6098",
+      "company": "リクルートＨＤ",
+      "title": "自己株式の取得状況について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506760.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "リクルートＨＤ - 自己株式の取得状況について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0151",
+      "time": "15:30",
+      "code": "6134",
+      "company": "ＦＵＪＩ",
+      "title": "2027年3月期　第1四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506270.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＦＵＪＩ - 2027年3月期　第1四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年3月期第1四半期 60,597 45.9 15,212 192.6 15,883 182.0 12,622 1",
+        "operatingProfitYoYPct": 192.6,
+        "ordinaryProfitYoYPct": 182.0
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +192.6% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0152",
+      "time": "15:30",
+      "code": "6134",
+      "company": "ＦＵＪＩ",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260727599832.pdf",
+      "market": "東名",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "ＦＵＪＩ - 業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0153",
+      "time": "15:30",
+      "code": "6134",
+      "company": "ＦＵＪＩ",
+      "title": "2027年3月期第1四半期 決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506203.pdf",
+      "market": "東名",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＦＵＪＩ - 2027年3月期第1四半期 決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0154",
+      "time": "15:30",
+      "code": "6191",
+      "company": "エアトリ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507176.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "エアトリ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0155",
+      "time": "15:30",
+      "code": "6199",
+      "company": "セラク",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506250.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "セラク - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0156",
+      "time": "15:30",
+      "code": "6316",
+      "company": "丸山製",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507012.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "丸山製 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0157",
+      "time": "15:30",
+      "code": "6323",
+      "company": "ローツェ",
+      "title": "訴訟の和解成立に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507043.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "高",
+      "summary": "ローツェ - 訴訟の和解成立に関するお知らせ",
+      "earnings": null,
+      "sentiment": "negative",
+      "analysis": "訴訟の提起・被提訴は損害賠償リスクや評判リスクを伴う。請求金額と勝訴の可能性を確認したい。"
+    },
+    {
+      "id": "d0158",
+      "time": "15:30",
+      "code": "6361",
+      "company": "荏原製",
+      "title": "自己株式の取得状況および取得終了に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260728501107.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "荏原製 - 自己株式の取得状況および取得終了に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0159",
+      "time": "15:30",
+      "code": "6368",
+      "company": "オルガノ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505590.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "オルガノ - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 42,183 10.7 6,612 △4.9 6,762 4.5 3,436 △5.7",
+        "operatingProfitYoYPct": -4.9,
+        "ordinaryProfitYoYPct": 4.5
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0160",
+      "time": "15:30",
+      "code": "6368",
+      "company": "オルガノ",
+      "title": "2027年3月期 第1四半期決算補足資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505592.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "オルガノ - 2027年3月期 第1四半期決算補足資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0161",
+      "time": "15:30",
+      "code": "6369",
+      "company": "トーヨーカネツ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504620.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "トーヨーカネツ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0162",
+      "time": "15:30",
+      "code": "6370",
+      "company": "栗田工",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506614.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "栗田工 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0163",
+      "time": "15:30",
+      "code": "6371",
+      "company": "椿本チエイン",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506458.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "椿本チエイン - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0164",
+      "time": "15:30",
+      "code": "6454",
+      "company": "マックス",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506157.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "マックス - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0165",
+      "time": "15:30",
+      "code": "6845",
+      "company": "アズビル",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503976.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "アズビル - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0166",
+      "time": "15:30",
+      "code": "6853",
+      "company": "共和電",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507004.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "共和電 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0167",
+      "time": "15:30",
+      "code": "6857",
+      "company": "アドバンテス",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506221.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "アドバンテス - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0168",
+      "time": "15:30",
+      "code": "6862",
+      "company": "ミナトＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506657.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ミナトＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0169",
+      "time": "15:30",
+      "code": "6866",
+      "company": "日置電",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506984.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "日置電 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0170",
+      "time": "15:30",
+      "code": "6965",
+      "company": "浜松ホトニク",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505880.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "浜松ホトニク - 自己株式の取得状況及び取得終了に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0171",
+      "time": "15:30",
+      "code": "7085",
+      "company": "カーブスＨＤ",
+      "title": "自己株式の取得状況（途中経過）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506553.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "カーブスＨＤ - 自己株式の取得状況（途中経過）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0172",
+      "time": "15:30",
+      "code": "7134",
+      "company": "アップガレージＧ",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505859.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "アップガレージＧ - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 3,969 17.5 263 55.1 274 71.7 181 91.2",
+        "operatingProfitYoYPct": 55.1,
+        "ordinaryProfitYoYPct": 71.7
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +55.1% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0173",
+      "time": "15:30",
+      "code": "7134",
+      "company": "アップガレージＧ",
+      "title": "2027年３月期 第１四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505860.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "アップガレージＧ - 2027年３月期 第１四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0174",
+      "time": "15:30",
+      "code": "7173",
+      "company": "東京きらぼしＦＧ",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505104.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東京きらぼしＦＧ - 2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 51,098 31.5 12,061 44.7 8,121 40.8",
+        "operatingProfitYoYPct": 44.7,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +44.7% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0175",
+      "time": "15:30",
+      "code": "7189",
+      "company": "西日本ＦＨ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506184.pdf",
+      "market": "東福",
+      "category": "決算",
+      "importance": "高",
+      "summary": "西日本ＦＨ - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 70,278 34.2 21,871 75.7 15,559 83.2",
+        "operatingProfitYoYPct": 75.7,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +75.7% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0176",
+      "time": "15:30",
+      "code": "7199",
+      "company": "プレミアグループ",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507263.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "プレミアグループ - 自己株式の取得状況及び取得終了に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0177",
+      "time": "15:30",
+      "code": "7213",
+      "company": "レシップＨＤ",
+      "title": "自己株式の取得状況（途中経過）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506231.pdf",
+      "market": "東名",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "レシップＨＤ - 自己株式の取得状況（途中経過）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0178",
+      "time": "15:30",
+      "code": "7245",
+      "company": "大同メタル",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505805.pdf",
+      "market": "東名",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "大同メタル - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0179",
+      "time": "15:30",
+      "code": "7270",
+      "company": "ＳＵＢＡＲＵ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506749.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＳＵＢＡＲＵ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0180",
+      "time": "15:30",
+      "code": "7309",
+      "company": "シマノ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505815.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "シマノ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0181",
+      "time": "15:30",
+      "code": "7366",
+      "company": "ＬＩＴＡＬＩＣＯ",
+      "title": "2027年３月期第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506604.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＬＩＴＡＬＩＣＯ - 2027年３月期第１四半期決算短信〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 10,844 20.3 1,434 52.7 1,316 55.1 892 58.0 892",
+        "operatingProfitYoYPct": 52.7,
+        "ordinaryProfitYoYPct": 55.1
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +52.7% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0182",
+      "time": "15:30",
+      "code": "7366",
+      "company": "ＬＩＴＡＬＩＣＯ",
+      "title": "2027年3月期第1四半期決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506615.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "ＬＩＴＡＬＩＣＯ - 2027年3月期第1四半期決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0183",
+      "time": "15:30",
+      "code": "7370",
+      "company": "Ｇ－Ｅｎｊｉｎ",
+      "title": "自己株式の取得状況および取得終了に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506717.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－Ｅｎｊｉｎ - 自己株式の取得状況および取得終了に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0184",
+      "time": "15:30",
+      "code": "7447",
+      "company": "ナガイレーベ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506853.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ナガイレーベ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0185",
+      "time": "15:30",
+      "code": "7480",
+      "company": "スズデン",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506496.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "スズデン - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 15,197 47.7 971 154.5 1,067 135.3 715 135.8",
+        "operatingProfitYoYPct": 154.5,
+        "ordinaryProfitYoYPct": 135.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +154.5% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0186",
+      "time": "15:30",
+      "code": "7480",
+      "company": "スズデン",
+      "title": "業績予想および配当予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260727500221.pdf",
+      "market": "東",
+      "category": "配当",
+      "importance": "高",
+      "summary": "スズデン - 業績予想および配当予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0187",
+      "time": "15:30",
+      "code": "7564",
+      "company": "ワークマン",
+      "title": "2027年３月期　第１四半期決算説明会資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504895.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "ワークマン - 2027年３月期　第１四半期決算説明会資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0188",
+      "time": "15:30",
+      "code": "7564",
+      "company": "ワークマン",
+      "title": "2027年３月期　第１四半期決算補足資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504915.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "ワークマン - 2027年３月期　第１四半期決算補足資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0189",
+      "time": "15:30",
+      "code": "7564",
+      "company": "ワークマン",
+      "title": "2027年３月期　第１四半期決算短信[日本基準](非連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504866.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ワークマン - 2027年３月期　第１四半期決算短信[日本基準](非連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 51,812 24.7 12,031 33.3 12,431 34.6 7,792 34.0",
+        "operatingProfitYoYPct": 33.3,
+        "ordinaryProfitYoYPct": 34.6
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +33.3% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0190",
+      "time": "15:30",
+      "code": "7613",
+      "company": "シークス",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504760.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "シークス - 業績予想の修正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0191",
+      "time": "15:30",
+      "code": "7752",
+      "company": "リコー",
+      "title": "2027年３月期　第１四半期決算短信　〔ＩＦＲＳ〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503725.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "リコー - 2027年３月期　第１四半期決算短信　〔ＩＦＲＳ〕（連結）",
+      "earnings": {
+        "period": null,
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0192",
+      "time": "15:30",
+      "code": "7803",
+      "company": "Ｇ－ブシロード",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506926.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－ブシロード - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0193",
+      "time": "15:30",
+      "code": "7804",
+      "company": "ビーアンドピー",
+      "title": "株式会社新和の株式取得（子会社化）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506742.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "ビーアンドピー - 株式会社新和の株式取得（子会社化）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0194",
+      "time": "15:30",
+      "code": "7867",
+      "company": "タカラトミー",
+      "title": "自己株式の取得状況および取得終了に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506949.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "タカラトミー - 自己株式の取得状況および取得終了に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0195",
+      "time": "15:30",
+      "code": "7911",
+      "company": "ＴＯＰＰＡＮ　ＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506871.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＴＯＰＰＡＮ　ＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0196",
+      "time": "15:30",
+      "code": "7912",
+      "company": "大日印",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505801.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "大日印 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0197",
+      "time": "15:30",
+      "code": "7981",
+      "company": "タカラスタン",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506934.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "タカラスタン - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0198",
+      "time": "15:30",
+      "code": "8001",
+      "company": "伊藤忠",
+      "title": "2027年3月期 第1四半期決算短信〔IFRS〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506309.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "伊藤忠 - 2027年3月期 第1四半期決算短信〔IFRS〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 3,875,861 8.9 205,455 20.3 369,999 △1.3 303,65",
+        "operatingProfitYoYPct": 20.3,
+        "ordinaryProfitYoYPct": -1.3
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +20.3% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0199",
+      "time": "15:30",
+      "code": "8001",
+      "company": "伊藤忠",
+      "title": "自己株式の取得並びに自己株式の公開買付け及び市場買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506676.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "高",
+      "summary": "伊藤忠 - 自己株式の取得並びに自己株式の公開買付け及び市場買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
+    },
+    {
+      "id": "d0200",
+      "time": "15:30",
+      "code": "8174",
+      "company": "日瓦斯",
+      "title": "自己株式の取得状況（途中経過）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507238.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "日瓦斯 - 自己株式の取得状況（途中経過）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0201",
+      "time": "15:30",
+      "code": "8218",
+      "company": "コメリ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506936.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "コメリ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0202",
+      "time": "15:30",
+      "code": "8283",
+      "company": "ＰＡＬＴＡＣ",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（非連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260623577014.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＰＡＬＴＡＣ - 2027年３月期　第１四半期決算短信〔日本基準〕（非連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 326,927 3.4 6,134 △19.5 7,158 △16.0 4,784 △23.",
+        "operatingProfitYoYPct": -19.5,
+        "ordinaryProfitYoYPct": -16.0
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0203",
+      "time": "15:30",
+      "code": "8344",
+      "company": "山形銀",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731504595.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "山形銀 - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 20,753 47.4 3,600 66.2 2,652 65.3",
+        "operatingProfitYoYPct": 66.2,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +66.2% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0204",
+      "time": "15:30",
+      "code": "8364",
+      "company": "清水銀",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503626.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "清水銀 - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 9,899 19.9 2,252 45.8 1,582 31.1",
+        "operatingProfitYoYPct": 45.8,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +45.8% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0205",
+      "time": "15:30",
+      "code": "8377",
+      "company": "ほくほく",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506351.pdf",
+      "market": "東札",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ほくほく - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0206",
+      "time": "15:30",
+      "code": "8439",
+      "company": "東京センチュリー",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505912.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東京センチュリー - 2027年3月期 第1四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 388,407 11.7 46,303 31.1 51,057 36.9 35,129 59",
+        "operatingProfitYoYPct": 31.1,
+        "ordinaryProfitYoYPct": 36.9
+      },
+      "sentiment": "positive",
+      "analysis": "営業利益が前年同期比 +31.1% の大幅増益。決算はポジティブサプライズ。"
+    },
+    {
+      "id": "d0207",
+      "time": "15:30",
+      "code": "8439",
+      "company": "東京センチュリー",
+      "title": "2027年3月期 第1四半期決算 IR資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506602.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "低",
+      "summary": "東京センチュリー - 2027年3月期 第1四半期決算 IR資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0208",
+      "time": "15:30",
+      "code": "8604",
+      "company": "野村",
+      "title": "2027年3月期第1四半期 決算説明資料 米国会計基準 (US GAAP)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506916.pdf",
+      "market": "東名",
+      "category": "その他",
+      "importance": "中",
+      "summary": "野村 - 2027年3月期第1四半期 決算説明資料 米国会計基準 (US GAAP)",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0209",
+      "time": "15:30",
+      "code": "8742",
+      "company": "小林洋行",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506200.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "小林洋行 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0210",
+      "time": "15:30",
+      "code": "8802",
+      "company": "三菱地所",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506229.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "三菱地所 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0211",
+      "time": "15:30",
+      "code": "8887",
+      "company": "シーラＨＤ",
+      "title": "自己株式の取得状況（途中経過）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506886.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "シーラＨＤ - 自己株式の取得状況（途中経過）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0212",
+      "time": "15:30",
+      "code": "8920",
+      "company": "東祥",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507152.pdf",
+      "market": "東名",
+      "category": "決算",
+      "importance": "高",
+      "summary": "東祥 - 2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年３月期第１四半期 6,491 △10.4 1,698 △8.5 1,688 △8.9 748 △14.8",
+        "operatingProfitYoYPct": -8.5,
+        "ordinaryProfitYoYPct": -8.9
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0213",
+      "time": "15:30",
+      "code": "8920",
+      "company": "東祥",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505770.pdf",
+      "market": "東名",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "東祥 - 自己株式の取得状況及び取得終了に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0214",
+      "time": "15:30",
+      "code": "9007",
+      "company": "小田急",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505922.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "小田急 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0215",
+      "time": "15:30",
+      "code": "9064",
+      "company": "ヤマトＨＤ",
+      "title": "2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260617572329.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ヤマトＨＤ - 2027年3月期 第1四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2027年3月期第1四半期 443,332 1.4 △4,871 ― △4,938 ― △5,887 ―",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0216",
+      "time": "15:30",
+      "code": "9107",
+      "company": "川崎船",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260729502060.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "川崎船 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0217",
+      "time": "15:30",
+      "code": "9399",
+      "company": "ビート",
+      "title": "株主提案の取下げに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507120.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ビート - 株主提案の取下げに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0218",
+      "time": "15:30",
+      "code": "9404",
+      "company": "日テレＨＤ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506460.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "日テレＨＤ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0219",
+      "time": "15:30",
+      "code": "9432",
+      "company": "ＮＴＴ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507008.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＮＴＴ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0220",
+      "time": "15:30",
+      "code": "9435",
+      "company": "光通信",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506659.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "光通信 - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0221",
+      "time": "15:30",
+      "code": "9436",
+      "company": "沖縄セルラー",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506129.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "沖縄セルラー - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0222",
+      "time": "15:30",
+      "code": "9444",
+      "company": "トーシンＨＤ",
+      "title": "（開示事項の経過） 会社更生手続開始決定に対する株主による即時抗告の棄却決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507241.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "トーシンＨＤ - （開示事項の経過） 会社更生手続開始決定に対する株主による即時抗告の棄却決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0223",
+      "time": "15:30",
+      "code": "9556",
+      "company": "Ｇ－ＩＮＴＬＯＯＰ",
+      "title": "アンダーワークス株式会社の株式の取得（子会社化）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507030.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "Ｇ－ＩＮＴＬＯＯＰ - アンダーワークス株式会社の株式の取得（子会社化）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0224",
+      "time": "15:30",
+      "code": "9556",
+      "company": "Ｇ－ＩＮＴＬＯＯＰ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803507073.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "Ｇ－ＩＮＴＬＯＯＰ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0225",
+      "time": "15:30",
+      "code": "9678",
+      "company": "カナモト",
+      "title": "自己株式の取得状況（途中経過）に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506540.pdf",
+      "market": "東札",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "カナモト - 自己株式の取得状況（途中経過）に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0226",
+      "time": "15:30",
+      "code": "9682",
+      "company": "ＤＴＳ",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506403.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ＤＴＳ - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0227",
+      "time": "15:30",
+      "code": "9699",
+      "company": "ニシオＨＤ",
+      "title": "2026年９月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505329.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ニシオＨＤ - 2026年９月期 第３四半期決算短信〔日本基準〕（連結）",
+      "earnings": {
+        "period": "2026年９月期第３四半期 157,805 △3.2 13,332 △9.8 12,922 △8.9 8,179 △12",
+        "operatingProfitYoYPct": -9.8,
+        "ordinaryProfitYoYPct": -8.9
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0228",
+      "time": "15:30",
+      "code": "9699",
+      "company": "ニシオＨＤ",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260731505491.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "ニシオＨＤ - 自己株式取得に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0229",
+      "time": "15:30",
+      "code": "9735",
+      "company": "セコム",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260803506781.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "セコム - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0230",
+      "time": "15:30",
+      "code": "9739",
+      "company": "ＮＳＷ",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260730503590.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "ＮＳＷ - 2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "earnings": {
+        "period": "2027年３月期第１四半期 11,951 4.4 850 △1.6 869 △3.1 577 △4.5",
+        "operatingProfitYoYPct": -1.6,
+        "ordinaryProfitYoYPct": -3.1
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0231",
+      "time": "15:30",
+      "code": "9780",
+      "company": "ハリマビステム",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260727500246.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "中",
+      "summary": "ハリマビステム - 自己株式の取得状況に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
+    },
+    {
+      "id": "d0232",
       "time": "15:00",
       "code": "1515",
       "company": "日鉄鉱",
@@ -19,7 +3732,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0002",
+      "id": "d0233",
       "time": "15:00",
       "code": "1882",
       "company": "東亜道",
@@ -38,7 +3751,7 @@
       "analysis": ""
     },
     {
-      "id": "d0003",
+      "id": "d0234",
       "time": "15:00",
       "code": "1967",
       "company": "ヤマト",
@@ -53,7 +3766,7 @@
       "analysis": ""
     },
     {
-      "id": "d0004",
+      "id": "d0235",
       "time": "15:00",
       "code": "1967",
       "company": "ヤマト",
@@ -72,7 +3785,7 @@
       "analysis": ""
     },
     {
-      "id": "d0005",
+      "id": "d0236",
       "time": "15:00",
       "code": "1967",
       "company": "ヤマト",
@@ -87,7 +3800,7 @@
       "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
     },
     {
-      "id": "d0006",
+      "id": "d0237",
       "time": "15:00",
       "code": "2659",
       "company": "サンエー",
@@ -102,7 +3815,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0007",
+      "id": "d0238",
       "time": "15:00",
       "code": "2809",
       "company": "キユーピー",
@@ -117,7 +3830,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0008",
+      "id": "d0239",
       "time": "15:00",
       "code": "2816",
       "company": "ダイショー",
@@ -136,7 +3849,7 @@
       "analysis": ""
     },
     {
-      "id": "d0009",
+      "id": "d0240",
       "time": "15:00",
       "code": "3106",
       "company": "クラボウ",
@@ -151,7 +3864,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0010",
+      "id": "d0241",
       "time": "15:00",
       "code": "3191",
       "company": "ジョイフル本田",
@@ -166,7 +3879,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0011",
+      "id": "d0242",
       "time": "15:00",
       "code": "3191",
       "company": "ジョイフル本田",
@@ -181,7 +3894,7 @@
       "analysis": ""
     },
     {
-      "id": "d0012",
+      "id": "d0243",
       "time": "15:00",
       "code": "3191",
       "company": "ジョイフル本田",
@@ -200,7 +3913,7 @@
       "analysis": ""
     },
     {
-      "id": "d0013",
+      "id": "d0244",
       "time": "15:00",
       "code": "3569",
       "company": "セーレン",
@@ -219,7 +3932,7 @@
       "analysis": "営業利益が前年同期比 +23.5% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0014",
+      "id": "d0245",
       "time": "15:00",
       "code": "4642",
       "company": "オリジナル設",
@@ -238,7 +3951,7 @@
       "analysis": ""
     },
     {
-      "id": "d0015",
+      "id": "d0246",
       "time": "15:00",
       "code": "5273",
       "company": "三谷セキサン",
@@ -253,7 +3966,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0016",
+      "id": "d0247",
       "time": "15:00",
       "code": "5423",
       "company": "東製鉄",
@@ -268,7 +3981,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0017",
+      "id": "d0248",
       "time": "15:00",
       "code": "6273",
       "company": "ＳＭＣ",
@@ -283,7 +3996,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0018",
+      "id": "d0249",
       "time": "15:00",
       "code": "6282",
       "company": "オイレス工",
@@ -298,7 +4011,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0019",
+      "id": "d0250",
       "time": "15:00",
       "code": "6351",
       "company": "鶴見製",
@@ -313,7 +4026,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0020",
+      "id": "d0251",
       "time": "15:00",
       "code": "6463",
       "company": "ＴＰＲ",
@@ -328,7 +4041,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0021",
+      "id": "d0252",
       "time": "15:00",
       "code": "6467",
       "company": "ニチダイ",
@@ -347,7 +4060,7 @@
       "analysis": ""
     },
     {
-      "id": "d0022",
+      "id": "d0253",
       "time": "15:00",
       "code": "6480",
       "company": "日トムソン",
@@ -362,7 +4075,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0023",
+      "id": "d0254",
       "time": "15:00",
       "code": "7184",
       "company": "富山第一銀行",
@@ -381,7 +4094,7 @@
       "analysis": "営業利益が前年同期比 +62.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0024",
+      "id": "d0255",
       "time": "15:00",
       "code": "7276",
       "company": "小糸製",
@@ -396,7 +4109,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0025",
+      "id": "d0256",
       "time": "15:00",
       "code": "7419",
       "company": "ノジマ",
@@ -411,7 +4124,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0026",
+      "id": "d0257",
       "time": "15:00",
       "code": "7520",
       "company": "エコス",
@@ -426,7 +4139,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0027",
+      "id": "d0258",
       "time": "15:00",
       "code": "8370",
       "company": "紀陽銀行",
@@ -445,7 +4158,7 @@
       "analysis": "営業利益が前年同期比 +22.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0028",
+      "id": "d0259",
       "time": "15:00",
       "code": "9962",
       "company": "ミスミＧ",
@@ -460,7 +4173,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0029",
+      "id": "d0260",
       "time": "14:50",
       "code": "7883",
       "company": "サンメッセ",
@@ -479,7 +4192,7 @@
       "analysis": "営業利益が前年同期比 -21.7% の大幅減益。要警戒。"
     },
     {
-      "id": "d0030",
+      "id": "d0261",
       "time": "14:30",
       "code": "3529",
       "company": "アツギ",
@@ -494,7 +4207,7 @@
       "analysis": "特別損失の発生により最終利益が大きく毀損する可能性。損失の内容と一過性かどうかの判断がカギ。"
     },
     {
-      "id": "d0031",
+      "id": "d0262",
       "time": "14:30",
       "code": "3911",
       "company": "Ｇ－Ａｉｍｉｎｇ",
@@ -509,7 +4222,7 @@
       "analysis": ""
     },
     {
-      "id": "d0032",
+      "id": "d0263",
       "time": "14:30",
       "code": "7003",
       "company": "三井Ｅ＆Ｓ",
@@ -528,7 +4241,7 @@
       "analysis": ""
     },
     {
-      "id": "d0033",
+      "id": "d0264",
       "time": "14:30",
       "code": "7003",
       "company": "三井Ｅ＆Ｓ",
@@ -543,7 +4256,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0034",
+      "id": "d0265",
       "time": "14:30",
       "code": "7003",
       "company": "三井Ｅ＆Ｓ",
@@ -558,7 +4271,7 @@
       "analysis": ""
     },
     {
-      "id": "d0035",
+      "id": "d0266",
       "time": "14:30",
       "code": "7337",
       "company": "ひろぎんＨＤ",
@@ -573,7 +4286,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0036",
+      "id": "d0267",
       "time": "14:20",
       "code": "8158",
       "company": "ソーダニッカ",
@@ -592,7 +4305,7 @@
       "analysis": "営業利益が前年同期比 +92.8% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0037",
+      "id": "d0268",
       "time": "14:20",
       "code": "8158",
       "company": "ソーダニッカ",
@@ -607,7 +4320,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0038",
+      "id": "d0269",
       "time": "14:00",
       "code": "2301",
       "company": "学情",
@@ -622,7 +4335,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0039",
+      "id": "d0270",
       "time": "14:00",
       "code": "3151",
       "company": "バイタルＫＳＫ",
@@ -637,7 +4350,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0040",
+      "id": "d0271",
       "time": "14:00",
       "code": "3176",
       "company": "三洋貿易",
@@ -652,7 +4365,7 @@
       "analysis": ""
     },
     {
-      "id": "d0041",
+      "id": "d0272",
       "time": "14:00",
       "code": "3176",
       "company": "三洋貿易",
@@ -667,7 +4380,7 @@
       "analysis": "記念配当は一時的な増配だが、株主還元姿勢の積極性を示す材料として好感されやすい。"
     },
     {
-      "id": "d0042",
+      "id": "d0273",
       "time": "14:00",
       "code": "3176",
       "company": "三洋貿易",
@@ -682,7 +4395,7 @@
       "analysis": ""
     },
     {
-      "id": "d0043",
+      "id": "d0274",
       "time": "14:00",
       "code": "3202",
       "company": "ダイトウボウ",
@@ -701,7 +4414,7 @@
       "analysis": "営業利益が前年同期比 -23.5% の大幅減益。要警戒。"
     },
     {
-      "id": "d0044",
+      "id": "d0275",
       "time": "14:00",
       "code": "4246",
       "company": "ＤＮＣ",
@@ -716,7 +4429,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0045",
+      "id": "d0276",
       "time": "14:00",
       "code": "4534",
       "company": "持田薬",
@@ -735,7 +4448,7 @@
       "analysis": "営業利益が前年同期比 +38.5% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0046",
+      "id": "d0277",
       "time": "14:00",
       "code": "4534",
       "company": "持田薬",
@@ -750,7 +4463,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0047",
+      "id": "d0278",
       "time": "14:00",
       "code": "5262",
       "company": "日ヒューム",
@@ -765,7 +4478,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0048",
+      "id": "d0279",
       "time": "14:00",
       "code": "5537",
       "company": "Ｇ－ＡｌｂａＬｉｎｋ",
@@ -780,7 +4493,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0049",
+      "id": "d0280",
       "time": "14:00",
       "code": "5703",
       "company": "日軽金ＨＤ",
@@ -799,7 +4512,7 @@
       "analysis": "営業利益が前年同期比 +102.8% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0050",
+      "id": "d0281",
       "time": "14:00",
       "code": "5703",
       "company": "日軽金ＨＤ",
@@ -814,7 +4527,7 @@
       "analysis": ""
     },
     {
-      "id": "d0051",
+      "id": "d0282",
       "time": "14:00",
       "code": "5703",
       "company": "日軽金ＨＤ",
@@ -829,7 +4542,7 @@
       "analysis": ""
     },
     {
-      "id": "d0052",
+      "id": "d0283",
       "time": "14:00",
       "code": "7202",
       "company": "いすゞ自",
@@ -848,7 +4561,7 @@
       "analysis": "営業利益が前年同期比 +30.7% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0053",
+      "id": "d0284",
       "time": "14:00",
       "code": "7716",
       "company": "ナカニシ",
@@ -863,7 +4576,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0054",
+      "id": "d0285",
       "time": "14:00",
       "code": "8051",
       "company": "山善",
@@ -878,7 +4591,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0055",
+      "id": "d0286",
       "time": "14:00",
       "code": "8058",
       "company": "三菱商事",
@@ -897,7 +4610,7 @@
       "analysis": "営業利益が前年同期比 +53.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0056",
+      "id": "d0287",
       "time": "14:00",
       "code": "8061",
       "company": "西華産",
@@ -912,7 +4625,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0057",
+      "id": "d0288",
       "time": "14:00",
       "code": "8360",
       "company": "山梨中銀",
@@ -931,7 +4644,7 @@
       "analysis": "営業利益が前年同期比 +45.4% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0058",
+      "id": "d0289",
       "time": "14:00",
       "code": "8544",
       "company": "京葉銀",
@@ -946,7 +4659,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0059",
+      "id": "d0290",
       "time": "14:00",
       "code": "9558",
       "company": "Ｇ－ジャパニアス",
@@ -961,7 +4674,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0060",
+      "id": "d0291",
       "time": "13:30",
       "code": "3355",
       "company": "クリヤマＨＤ",
@@ -976,7 +4689,7 @@
       "analysis": ""
     },
     {
-      "id": "d0061",
+      "id": "d0292",
       "time": "13:15",
       "code": "3905",
       "company": "Ｇ－データセクション",
@@ -991,7 +4704,7 @@
       "analysis": "訴訟の提起・被提訴は損害賠償リスクや評判リスクを伴う。請求金額と勝訴の可能性を確認したい。"
     },
     {
-      "id": "d0062",
+      "id": "d0293",
       "time": "13:00",
       "code": "1951",
       "company": "エクシオグループ",
@@ -1006,7 +4719,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0063",
+      "id": "d0294",
       "time": "13:00",
       "code": "2003",
       "company": "日東富士",
@@ -1025,7 +4738,7 @@
       "analysis": ""
     },
     {
-      "id": "d0064",
+      "id": "d0295",
       "time": "13:00",
       "code": "4396",
       "company": "システムサポートＨＤ",
@@ -1040,7 +4753,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0065",
+      "id": "d0296",
       "time": "13:00",
       "code": "5290",
       "company": "ベルテクス",
@@ -1055,7 +4768,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0066",
+      "id": "d0297",
       "time": "13:00",
       "code": "6301",
       "company": "コマツ",
@@ -1070,7 +4783,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0067",
+      "id": "d0298",
       "time": "13:00",
       "code": "8078",
       "company": "阪和興",
@@ -1085,7 +4798,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0068",
+      "id": "d0299",
       "time": "13:00",
       "code": "8081",
       "company": "カナデン",
@@ -1104,7 +4817,7 @@
       "analysis": ""
     },
     {
-      "id": "d0069",
+      "id": "d0300",
       "time": "13:00",
       "code": "8362",
       "company": "福井銀",
@@ -1123,7 +4836,7 @@
       "analysis": "営業利益が前年同期比 -43.8% の大幅減益。要警戒。"
     },
     {
-      "id": "d0070",
+      "id": "d0301",
       "time": "13:00",
       "code": "8381",
       "company": "山陰合銀",
@@ -1138,7 +4851,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0071",
+      "id": "d0302",
       "time": "13:00",
       "code": "8541",
       "company": "愛媛銀",
@@ -1157,7 +4870,7 @@
       "analysis": ""
     },
     {
-      "id": "d0072",
+      "id": "d0303",
       "time": "13:00",
       "code": "9303",
       "company": "住友倉",
@@ -1172,7 +4885,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0073",
+      "id": "d0304",
       "time": "13:00",
       "code": "9709",
       "company": "ＮＣＳ＆Ａ",
@@ -1187,7 +4900,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0074",
+      "id": "d0305",
       "time": "12:30",
       "code": "4966",
       "company": "上村工業",
@@ -1202,7 +4915,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0075",
+      "id": "d0306",
       "time": "12:30",
       "code": "6592",
       "company": "マブチモーター",
@@ -1217,7 +4930,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0076",
+      "id": "d0307",
       "time": "12:30",
       "code": "7606",
       "company": "Ｕアローズ",
@@ -1232,7 +4945,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0077",
+      "id": "d0308",
       "time": "12:30",
       "code": "7938",
       "company": "リーガル",
@@ -1247,7 +4960,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0078",
+      "id": "d0309",
       "time": "12:30",
       "code": "9036",
       "company": "東部ネット",
@@ -1262,7 +4975,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0079",
+      "id": "d0310",
       "time": "12:00",
       "code": "2296",
       "company": "伊藤ハム米久ＨＤ",
@@ -1281,7 +4994,7 @@
       "analysis": ""
     },
     {
-      "id": "d0080",
+      "id": "d0311",
       "time": "12:00",
       "code": "2296",
       "company": "伊藤ハム米久ＨＤ",
@@ -1296,7 +5009,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0081",
+      "id": "d0312",
       "time": "12:00",
       "code": "2726",
       "company": "パルグループＨＤ",
@@ -1311,7 +5024,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0082",
+      "id": "d0313",
       "time": "12:00",
       "code": "3182",
       "company": "オイシックス",
@@ -1326,7 +5039,7 @@
       "analysis": "増配は株主還元の強化を意味し、経営陣の業績への自信の表れ。配当性向と今後の継続性がポイント。"
     },
     {
-      "id": "d0083",
+      "id": "d0314",
       "time": "12:00",
       "code": "3673",
       "company": "ブロドリーフ",
@@ -1341,7 +5054,7 @@
       "analysis": ""
     },
     {
-      "id": "d0084",
+      "id": "d0315",
       "time": "12:00",
       "code": "5248",
       "company": "Ｇ－テクノロジーズ",
@@ -1356,7 +5069,7 @@
       "analysis": ""
     },
     {
-      "id": "d0085",
+      "id": "d0316",
       "time": "12:00",
       "code": "6250",
       "company": "やまびこ",
@@ -1371,7 +5084,7 @@
       "analysis": ""
     },
     {
-      "id": "d0086",
+      "id": "d0317",
       "time": "12:00",
       "code": "6929",
       "company": "日セラミック",
@@ -1386,7 +5099,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0087",
+      "id": "d0318",
       "time": "12:00",
       "code": "9201",
       "company": "ＪＡＬ",
@@ -1405,7 +5118,7 @@
       "analysis": "営業利益が前年同期比 -72.1% の大幅減益。要警戒。"
     },
     {
-      "id": "d0088",
+      "id": "d0319",
       "time": "11:30",
       "code": "4203",
       "company": "住友ベーク",
@@ -1424,7 +5137,7 @@
       "analysis": "営業利益が前年同期比 +51.2% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0089",
+      "id": "d0320",
       "time": "11:30",
       "code": "4203",
       "company": "住友ベーク",
@@ -1439,7 +5152,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0090",
+      "id": "d0321",
       "time": "11:30",
       "code": "5578",
       "company": "Ｇ－ＡＲアドバンスト",
@@ -1454,7 +5167,7 @@
       "analysis": ""
     },
     {
-      "id": "d0091",
+      "id": "d0322",
       "time": "11:30",
       "code": "8334",
       "company": "群馬銀",
@@ -1473,7 +5186,7 @@
       "analysis": "営業利益が前年同期比 +25.8% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0092",
+      "id": "d0323",
       "time": "11:30",
       "code": "8601",
       "company": "大和証Ｇ",
@@ -1488,7 +5201,7 @@
       "analysis": ""
     },
     {
-      "id": "d0093",
+      "id": "d0324",
       "time": "11:30",
       "code": "8601",
       "company": "大和証Ｇ",
@@ -1507,7 +5220,7 @@
       "analysis": "営業利益が前年同期比 +42.0% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0094",
+      "id": "d0325",
       "time": "11:30",
       "code": "8601",
       "company": "大和証Ｇ",
@@ -1522,7 +5235,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0095",
+      "id": "d0326",
       "time": "11:30",
       "code": "8783",
       "company": "ａｂｃ",
@@ -1537,7 +5250,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0096",
+      "id": "d0327",
       "time": "11:00",
       "code": "3407",
       "company": "旭化成",
@@ -1552,7 +5265,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0097",
+      "id": "d0328",
       "time": "11:00",
       "code": "5195",
       "company": "バンドー化",
@@ -1567,7 +5280,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0098",
+      "id": "d0329",
       "time": "11:00",
       "code": "6517",
       "company": "デンヨー",
@@ -1582,7 +5295,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0099",
+      "id": "d0330",
       "time": "11:00",
       "code": "6737",
       "company": "ＥＩＺＯ",
@@ -1597,7 +5310,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0100",
+      "id": "d0331",
       "time": "11:00",
       "code": "6737",
       "company": "ＥＩＺＯ",
@@ -1612,7 +5325,7 @@
       "analysis": ""
     },
     {
-      "id": "d0101",
+      "id": "d0332",
       "time": "11:00",
       "code": "7943",
       "company": "ニチハ",
@@ -1627,7 +5340,7 @@
       "analysis": ""
     },
     {
-      "id": "d0102",
+      "id": "d0333",
       "time": "11:00",
       "code": "8002",
       "company": "丸紅",
@@ -1646,7 +5359,7 @@
       "analysis": "営業利益が前年同期比 +54.7% の大幅増益。決算はポジティブサプライズ。"
     },
     {
-      "id": "d0103",
+      "id": "d0334",
       "time": "11:00",
       "code": "8002",
       "company": "丸紅",
@@ -1661,7 +5374,7 @@
       "analysis": "自社株買いは1株当たり価値の向上につながる。取得規模と発行済株式数に対する比率を確認。"
     },
     {
-      "id": "d0104",
+      "id": "d0335",
       "time": "11:00",
       "code": "8011",
       "company": "三陽商",
@@ -1676,7 +5389,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0105",
+      "id": "d0336",
       "time": "11:00",
       "code": "8551",
       "company": "北日本銀",
@@ -1691,7 +5404,7 @@
       "analysis": ""
     },
     {
-      "id": "d0106",
+      "id": "d0337",
       "time": "11:00",
       "code": "9351",
       "company": "東洋埠頭",
@@ -1706,7 +5419,7 @@
       "analysis": ""
     },
     {
-      "id": "d0107",
+      "id": "d0338",
       "time": "11:00",
       "code": "9902",
       "company": "日伝",
@@ -1721,7 +5434,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0108",
+      "id": "d0339",
       "time": "10:50",
       "code": "3382",
       "company": "７＆ｉＨＤ",
@@ -1736,7 +5449,7 @@
       "analysis": ""
     },
     {
-      "id": "d0109",
+      "id": "d0340",
       "time": "10:45",
       "code": "2371",
       "company": "カカクコム",
@@ -1751,7 +5464,7 @@
       "analysis": "公開買付けの発表は株価にプレミアムが乗る材料。買付価格と条件を確認すべき。"
     },
     {
-      "id": "d0110",
+      "id": "d0341",
       "time": "10:40",
       "code": "4088",
       "company": "エア・ウォーター",
@@ -1766,7 +5479,7 @@
       "analysis": "有価証券報告書は法定開示書類。リスク情報や関連当事者取引など決算短信にない情報を確認。"
     },
     {
-      "id": "d0111",
+      "id": "d0342",
       "time": "10:30",
       "code": "1950",
       "company": "日本電設",
@@ -1781,7 +5494,7 @@
       "analysis": ""
     },
     {
-      "id": "d0112",
+      "id": "d0343",
       "time": "10:30",
       "code": "2411",
       "company": "ゲンダイＡＧ",
@@ -1796,7 +5509,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0113",
+      "id": "d0344",
       "time": "10:30",
       "code": "9364",
       "company": "上組",
@@ -1811,7 +5524,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0114",
+      "id": "d0345",
       "time": "10:00",
       "code": "1514",
       "company": "住石ＨＤ",
@@ -1826,7 +5539,7 @@
       "analysis": ""
     },
     {
-      "id": "d0115",
+      "id": "d0346",
       "time": "10:00",
       "code": "2216",
       "company": "カンロ",
@@ -1841,7 +5554,7 @@
       "analysis": ""
     },
     {
-      "id": "d0116",
+      "id": "d0347",
       "time": "10:00",
       "code": "3551",
       "company": "ダイニック",
@@ -1856,7 +5569,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0117",
+      "id": "d0348",
       "time": "10:00",
       "code": "3580",
       "company": "小松マテーレ",
@@ -1871,7 +5584,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0118",
+      "id": "d0349",
       "time": "10:00",
       "code": "3951",
       "company": "朝日印刷",
@@ -1886,7 +5599,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0119",
+      "id": "d0350",
       "time": "10:00",
       "code": "4718",
       "company": "早稲アカ",
@@ -1901,7 +5614,7 @@
       "analysis": ""
     },
     {
-      "id": "d0120",
+      "id": "d0351",
       "time": "10:00",
       "code": "5214",
       "company": "日電硝",
@@ -1916,7 +5629,7 @@
       "analysis": ""
     },
     {
-      "id": "d0121",
+      "id": "d0352",
       "time": "10:00",
       "code": "7844",
       "company": "マーベラス",
@@ -1931,7 +5644,7 @@
       "analysis": ""
     },
     {
-      "id": "d0122",
+      "id": "d0353",
       "time": "10:00",
       "code": "8700",
       "company": "丸八証券",
@@ -1946,7 +5659,7 @@
       "analysis": ""
     },
     {
-      "id": "d0123",
+      "id": "d0354",
       "time": "10:00",
       "code": "9759",
       "company": "ＮＳＤ",
@@ -1961,7 +5674,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0124",
+      "id": "d0355",
       "time": "09:40",
       "code": "9274",
       "company": "ＫＰＰグループＨＤ",
@@ -1976,7 +5689,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0125",
+      "id": "d0356",
       "time": "09:30",
       "code": "8255",
       "company": "アクシアル",
@@ -1991,7 +5704,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0126",
+      "id": "d0357",
       "time": "09:15",
       "code": "2934",
       "company": "Ｇ－Ｊフロンティア",
@@ -2006,7 +5719,7 @@
       "analysis": "業務提携により新たな収益機会の創出が見込まれる。提携先との補完関係と市場へのインパクトに注目。"
     },
     {
-      "id": "d0127",
+      "id": "d0358",
       "time": "08:50",
       "code": "8053",
       "company": "住友商",
@@ -2021,7 +5734,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0128",
+      "id": "d0359",
       "time": "08:30",
       "code": "4684",
       "company": "オービック",
@@ -2036,7 +5749,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0129",
+      "id": "d0360",
       "time": "08:30",
       "code": "7279",
       "company": "ハイレックス",
@@ -2051,7 +5764,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0130",
+      "id": "d0361",
       "time": "08:30",
       "code": "8001",
       "company": "伊藤忠",
@@ -2066,7 +5779,7 @@
       "analysis": "報道内容に対する会社側の公式見解。決定事実の有無と今後の方針を確認すべき。"
     },
     {
-      "id": "d0131",
+      "id": "d0362",
       "time": "08:30",
       "code": "8439",
       "company": "東京センチュリー",
