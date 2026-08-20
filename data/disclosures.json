@@ -1,10 +1,224 @@
 {
-  "lastUpdated": "2026-08-20T16:22:23+09:00",
+  "lastUpdated": "2026-08-20T18:22:28+09:00",
   "date": "2026-08-20",
-  "totalRaw": 124,
+  "totalRaw": 151,
   "disclosures": [
     {
       "id": "d0001",
+      "time": "17:30",
+      "code": "9219",
+      "company": "Ｇ－ギックス",
+      "title": "（訂正）「2026年６月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523759.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｇ－ギックス - （訂正）「2026年６月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0002",
+      "time": "17:00",
+      "code": "2323",
+      "company": "ｆｏｎｆｕｎ",
+      "title": "2027年3月期第1四半期決算説明会アーカイブ動画およびQ&amp;A書き起こし記事公開のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523658.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "ｆｏｎｆｕｎ - 2027年3月期第1四半期決算説明会アーカイブ動画およびQ&amp;A書き起こし記事公開のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0003",
+      "time": "17:00",
+      "code": "2721",
+      "company": "ＪＨＤ",
+      "title": "臨時株主総会の開催場所に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523715.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＪＨＤ - 臨時株主総会の開催場所に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0004",
+      "time": "17:00",
+      "code": "4168",
+      "company": "Ｇ－ヤプリ",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-３）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523534.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "Ｇ－ヤプリ - 自己株式の取得及び自己株式立会外買付取引（ToSTNeT-３）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0005",
+      "time": "17:00",
+      "code": "5038",
+      "company": "Ｇ－ｅＷｅＬＬ",
+      "title": "2026年12月期第２四半期決算説明会 書き起こし記事及び動画の公開のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523731.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "中",
+      "summary": "Ｇ－ｅＷｅＬＬ - 2026年12月期第２四半期決算説明会 書き起こし記事及び動画の公開のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0006",
+      "time": "17:00",
+      "code": "5534",
+      "company": "Ｐ－エンゼルグループ",
+      "title": "（訂正）「通期連結業績予想の修正に関するお知らせ」の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523911.pdf",
+      "market": "東",
+      "category": "業績修正",
+      "importance": "高",
+      "summary": "Ｐ－エンゼルグループ - （訂正）「通期連結業績予想の修正に関するお知らせ」の一部訂正について",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0007",
+      "time": "17:00",
+      "code": "9027",
+      "company": "ロジネットＪ",
+      "title": "自己株式の取得及び立会外自己株式取得取引による自己株式の買付け 並びに自己株式の消却に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523921.pdf",
+      "market": "札",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "ロジネットＪ - 自己株式の取得及び立会外自己株式取得取引による自己株式の買付け 並びに自己株式の消却に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0008",
+      "time": "17:00",
+      "code": "9342",
+      "company": "Ｇ－スマサポ",
+      "title": "（訂正）「事業譲受及び業務提携に関するお知らせ」の一部訂正について",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523450.pdf",
+      "market": "東",
+      "category": "業務提携・新製品",
+      "importance": "中",
+      "summary": "Ｇ－スマサポ - （訂正）「事業譲受及び業務提携に関するお知らせ」の一部訂正について",
+      "earnings": null,
+      "sentiment": "positive",
+      "analysis": "業務提携により新たな収益機会の創出が見込まれる。提携先との補完関係と市場へのインパクトに注目。"
+    },
+    {
+      "id": "d0009",
+      "time": "17:00",
+      "code": "9342",
+      "company": "Ｇ－スマサポ",
+      "title": "株式取得（子会社化）資金の借入に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523454.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "Ｇ－スマサポ - 株式取得（子会社化）資金の借入に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0010",
+      "time": "16:40",
+      "code": "3296",
+      "company": "Ｒ－日本リート",
+      "title": "2026年6月期決算短信(ＲＥＩＴ)",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523868.pdf",
+      "market": "東",
+      "category": "決算",
+      "importance": "高",
+      "summary": "Ｒ－日本リート - 2026年6月期決算短信(ＲＥＩＴ)",
+      "earnings": {
+        "period": "１．2026年6月期の運用、資産の状況（2026年1月1日～2026年6月30日）",
+        "operatingProfitYoYPct": null,
+        "ordinaryProfitYoYPct": null
+      },
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0011",
+      "time": "16:30",
+      "code": "2669",
+      "company": "カネ美食品",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523829.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "カネ美食品 - 自己株式の取得及び自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0012",
+      "time": "16:30",
+      "code": "3066",
+      "company": "ＪＢイレブン",
+      "title": "自己株式の取得及び自己株式立会外買付取引（Ｎ－ＮＥＴ３）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523568.pdf",
+      "market": "名",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "ＪＢイレブン - 自己株式の取得及び自己株式立会外買付取引（Ｎ－ＮＥＴ３）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0013",
+      "time": "16:30",
+      "code": "4951",
+      "company": "エステー",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260820523780.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "エステー - 自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0014",
+      "time": "16:30",
+      "code": "6090",
+      "company": "ＨＭＴ",
+      "title": "2026年6月期 決算説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260819522874.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＨＭＴ - 2026年6月期 決算説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0015",
       "time": "16:15",
       "code": "4011",
       "company": "Ｇ－ヘッドウォーター",
@@ -19,7 +233,7 @@
       "analysis": ""
     },
     {
-      "id": "d0002",
+      "id": "d0016",
       "time": "16:00",
       "code": "1671",
       "company": "ＷＴＩ原油ＥＴＦ",
@@ -38,7 +252,7 @@
       "analysis": ""
     },
     {
-      "id": "d0003",
+      "id": "d0017",
       "time": "16:00",
       "code": "7966",
       "company": "リンテック",
@@ -53,7 +267,7 @@
       "analysis": ""
     },
     {
-      "id": "d0004",
+      "id": "d0018",
       "time": "16:00",
       "code": "7966",
       "company": "リンテック",
@@ -68,7 +282,7 @@
       "analysis": ""
     },
     {
-      "id": "d0005",
+      "id": "d0019",
       "time": "16:00",
       "code": "7966",
       "company": "リンテック",
@@ -87,7 +301,7 @@
       "analysis": ""
     },
     {
-      "id": "d0006",
+      "id": "d0020",
       "time": "16:00",
       "code": "8921",
       "company": "Ｐ－シーズクリエイト",
@@ -102,7 +316,7 @@
       "analysis": ""
     },
     {
-      "id": "d0007",
+      "id": "d0021",
       "time": "16:00",
       "code": "9444",
       "company": "トーシンＨＤ",
@@ -117,7 +331,7 @@
       "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
     },
     {
-      "id": "d0008",
+      "id": "d0022",
       "time": "16:00",
       "code": "9450",
       "company": "ファイバーゲート",
@@ -132,7 +346,7 @@
       "analysis": ""
     },
     {
-      "id": "d0009",
+      "id": "d0023",
       "time": "15:30",
       "code": "2678",
       "company": "アスクル",
@@ -147,7 +361,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0010",
+      "id": "d0024",
       "time": "15:30",
       "code": "3252",
       "company": "地主",
@@ -162,7 +376,7 @@
       "analysis": ""
     },
     {
-      "id": "d0011",
+      "id": "d0025",
       "time": "15:30",
       "code": "3474",
       "company": "Ｇ－Ｇ－ＦＡＣ",
@@ -177,7 +391,7 @@
       "analysis": ""
     },
     {
-      "id": "d0012",
+      "id": "d0026",
       "time": "15:30",
       "code": "3747",
       "company": "インタートレード",
@@ -192,7 +406,7 @@
       "analysis": "子会社の異動はグループ戦略の見直しを示唆。連結への影響と事業ポートフォリオの変化を確認。"
     },
     {
-      "id": "d0013",
+      "id": "d0027",
       "time": "15:30",
       "code": "3976",
       "company": "Ｇ－シャノン",
@@ -207,7 +421,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0014",
+      "id": "d0028",
       "time": "15:30",
       "code": "3976",
       "company": "Ｇ－シャノン",
@@ -222,7 +436,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0015",
+      "id": "d0029",
       "time": "15:30",
       "code": "4444",
       "company": "Ｇ－インフォネット",
@@ -237,7 +451,7 @@
       "analysis": ""
     },
     {
-      "id": "d0016",
+      "id": "d0030",
       "time": "15:30",
       "code": "5621",
       "company": "Ｇ－ヒューマンＴ",
@@ -252,7 +466,7 @@
       "analysis": ""
     },
     {
-      "id": "d0017",
+      "id": "d0031",
       "time": "15:30",
       "code": "6503",
       "company": "三菱電",
@@ -267,7 +481,7 @@
       "analysis": ""
     },
     {
-      "id": "d0018",
+      "id": "d0032",
       "time": "15:30",
       "code": "6503",
       "company": "三菱電",
@@ -282,7 +496,7 @@
       "analysis": ""
     },
     {
-      "id": "d0019",
+      "id": "d0033",
       "time": "15:30",
       "code": "6543",
       "company": "日宣",
@@ -297,7 +511,7 @@
       "analysis": ""
     },
     {
-      "id": "d0020",
+      "id": "d0034",
       "time": "15:30",
       "code": "6857",
       "company": "アドバンテス",
@@ -312,7 +526,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0021",
+      "id": "d0035",
       "time": "15:30",
       "code": "7058",
       "company": "共栄セキュリティ",
@@ -327,7 +541,7 @@
       "analysis": ""
     },
     {
-      "id": "d0022",
+      "id": "d0036",
       "time": "15:30",
       "code": "7067",
       "company": "Ｇ－ブランディング",
@@ -342,7 +556,7 @@
       "analysis": ""
     },
     {
-      "id": "d0023",
+      "id": "d0037",
       "time": "15:30",
       "code": "7318",
       "company": "Ｇ－セレンディップ",
@@ -357,7 +571,7 @@
       "analysis": ""
     },
     {
-      "id": "d0024",
+      "id": "d0038",
       "time": "15:30",
       "code": "7603",
       "company": "ジーイエット",
@@ -372,7 +586,7 @@
       "analysis": ""
     },
     {
-      "id": "d0025",
+      "id": "d0039",
       "time": "15:30",
       "code": "8337",
       "company": "千葉興銀",
@@ -387,7 +601,7 @@
       "analysis": ""
     },
     {
-      "id": "d0026",
+      "id": "d0040",
       "time": "15:30",
       "code": "8928",
       "company": "穴吹興産",
@@ -402,7 +616,7 @@
       "analysis": ""
     },
     {
-      "id": "d0027",
+      "id": "d0041",
       "time": "15:30",
       "code": "9257",
       "company": "Ｇ－ＹＣＰ",
@@ -417,7 +631,7 @@
       "analysis": ""
     },
     {
-      "id": "d0028",
+      "id": "d0042",
       "time": "15:00",
       "code": "4248",
       "company": "竹本容器",
@@ -432,7 +646,7 @@
       "analysis": ""
     },
     {
-      "id": "d0029",
+      "id": "d0043",
       "time": "15:00",
       "code": "6627",
       "company": "テラプローブ",
@@ -447,7 +661,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0030",
+      "id": "d0044",
       "time": "15:00",
       "code": "7409",
       "company": "Ｇ－ＡｅｒｏＥｄｇｅ",
@@ -462,7 +676,7 @@
       "analysis": ""
     },
     {
-      "id": "d0031",
+      "id": "d0045",
       "time": "13:30",
       "code": "8912",
       "company": "エリアクエスト",
@@ -477,7 +691,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0032",
+      "id": "d0046",
       "time": "13:00",
       "code": "9902",
       "company": "日伝",
@@ -492,7 +706,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0033",
+      "id": "d0047",
       "time": "12:00",
       "code": "2477",
       "company": "手間いらず",
@@ -507,7 +721,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0034",
+      "id": "d0048",
       "time": "12:00",
       "code": "2553",
       "company": "Ｏｎｅ・ＣＳＩ５００",
@@ -526,7 +740,7 @@
       "analysis": ""
     },
     {
-      "id": "d0035",
+      "id": "d0049",
       "time": "12:00",
       "code": "2556",
       "company": "Ｏｎｅ・Ｊリート",
@@ -545,7 +759,7 @@
       "analysis": ""
     },
     {
-      "id": "d0036",
+      "id": "d0050",
       "time": "11:30",
       "code": "1474",
       "company": "Ｏｎｅ・ＪＰＸ４００",
@@ -564,7 +778,7 @@
       "analysis": ""
     },
     {
-      "id": "d0037",
+      "id": "d0051",
       "time": "11:30",
       "code": "1484",
       "company": "Ｏｎｅ・設備人材投資",
@@ -583,7 +797,7 @@
       "analysis": ""
     },
     {
-      "id": "d0038",
+      "id": "d0052",
       "time": "11:30",
       "code": "1493",
       "company": "Ｏｎｅ・中小型",
@@ -602,7 +816,7 @@
       "analysis": ""
     },
     {
-      "id": "d0039",
+      "id": "d0053",
       "time": "11:30",
       "code": "1498",
       "company": "Ｏｎｅ・ＥＳＧ",
@@ -621,7 +835,7 @@
       "analysis": ""
     },
     {
-      "id": "d0040",
+      "id": "d0054",
       "time": "11:15",
       "code": "4178",
       "company": "Ｇ－Ｓイノベーション",
@@ -636,7 +850,7 @@
       "analysis": ""
     },
     {
-      "id": "d0041",
+      "id": "d0055",
       "time": "11:00",
       "code": "1369",
       "company": "Ｏｎｅ・日経２２５",
@@ -655,7 +869,7 @@
       "analysis": ""
     },
     {
-      "id": "d0042",
+      "id": "d0056",
       "time": "11:00",
       "code": "1473",
       "company": "Ｏｎｅ・トピックス",
@@ -674,7 +888,7 @@
       "analysis": ""
     },
     {
-      "id": "d0043",
+      "id": "d0057",
       "time": "11:00",
       "code": "7751",
       "company": "キヤノン",
@@ -689,7 +903,7 @@
       "analysis": ""
     },
     {
-      "id": "d0044",
+      "id": "d0058",
       "time": "09:30",
       "code": "5973",
       "company": "トーアミ",
@@ -704,7 +918,7 @@
       "analysis": ""
     },
     {
-      "id": "d0045",
+      "id": "d0059",
       "time": "09:30",
       "code": "7851",
       "company": "カワセコンピュ",
@@ -719,7 +933,7 @@
       "analysis": ""
     },
     {
-      "id": "d0046",
+      "id": "d0060",
       "time": "09:00",
       "code": "5310",
       "company": "東洋炭素",
