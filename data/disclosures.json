@@ -1,10 +1,220 @@
 {
-  "lastUpdated": "2026-08-25T16:24:09+09:00",
+  "lastUpdated": "2026-08-25T18:23:18+09:00",
   "date": "2026-08-25",
-  "totalRaw": 130,
+  "totalRaw": 159,
   "disclosures": [
     {
       "id": "d0001",
+      "time": "17:30",
+      "code": "4891",
+      "company": "Ｇ－ティムス",
+      "title": "（訂正）「2026年12月期第２四半期（中間期）決算説明資料」の一部訂正に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525933.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－ティムス - （訂正）「2026年12月期第２四半期（中間期）決算説明資料」の一部訂正に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
+    },
+    {
+      "id": "d0002",
+      "time": "17:00",
+      "code": "3133",
+      "company": "Ｇ－海帆",
+      "title": "簡易株式交換によるスペーム株式会社の完全子会社化完了に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525776.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "Ｇ－海帆 - 簡易株式交換によるスペーム株式会社の完全子会社化完了に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0003",
+      "time": "17:00",
+      "code": "3750",
+      "company": "ＡＤＲバイオメディカ",
+      "title": "株主優待制度の継続に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525656.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "ＡＤＲバイオメディカ - 株主優待制度の継続に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0004",
+      "time": "17:00",
+      "code": "3997",
+      "company": "トレードワークス",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-３）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525964.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "トレードワークス - 自己株式の取得及び自己株式立会外買付取引（ToSTNeT-３）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0005",
+      "time": "17:00",
+      "code": "4178",
+      "company": "Ｇ－Ｓイノベーション",
+      "title": "株式会社Orchestra Holdingsによる株式会社Sharing Innovationsの完全子会社化に関する株式交換契約締結（簡易株式交換）のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260824525231.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "Ｇ－Ｓイノベーション - 株式会社Orchestra Holdingsによる株式会社Sharing Innovationsの完全子会社化に関する株式交換契約締結（簡易株式交換）のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0006",
+      "time": "17:00",
+      "code": "4178",
+      "company": "Ｇ－Ｓイノベーション",
+      "title": "臨時株主総会招集のための基準日設定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260824525379.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－Ｓイノベーション - 臨時株主総会招集のための基準日設定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": "株主総会の招集は定例的な手続き。議案の内容と株主提案の有無を確認。"
+    },
+    {
+      "id": "d0007",
+      "time": "17:00",
+      "code": "4381",
+      "company": "Ｇ－ビープラッツ",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525888.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "Ｇ－ビープラッツ - 主要株主の異動に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0008",
+      "time": "17:00",
+      "code": "5244",
+      "company": "Ｇ－ｊｉｇ．ｊｐ",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525954.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "Ｇ－ｊｉｇ．ｊｐ - 自己株式取得に係る事項の決定に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0009",
+      "time": "17:00",
+      "code": "6533",
+      "company": "オーケストラＨＤ",
+      "title": "株式会社Orchestra Holdingsによる株式会社Sharing Innovationsの完全子会社化に関する株式交換契約締結（簡易株式交換）のお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525597.pdf",
+      "market": "東",
+      "category": "M&A・組織再編",
+      "importance": "高",
+      "summary": "オーケストラＨＤ - 株式会社Orchestra Holdingsによる株式会社Sharing Innovationsの完全子会社化に関する株式交換契約締結（簡易株式交換）のお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0010",
+      "time": "16:40",
+      "code": "7472",
+      "company": "鳥羽洋行",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付に関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525958.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "鳥羽洋行 - 自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付に関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0011",
+      "time": "16:30",
+      "code": "2264",
+      "company": "森永乳",
+      "title": "株主優待制度および株主優待基準日の変更に関する補足説明資料",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525979.pdf",
+      "market": "東",
+      "category": "その他",
+      "importance": "中",
+      "summary": "森永乳 - 株主優待制度および株主優待基準日の変更に関する補足説明資料",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0012",
+      "time": "16:30",
+      "code": "6231",
+      "company": "木村工機",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525949.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "木村工機 - 自己株式の取得及び自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0013",
+      "time": "16:30",
+      "code": "7875",
+      "company": "竹田ｉＰ",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260824524893.pdf",
+      "market": "東名",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "竹田ｉＰ - 自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0014",
+      "time": "16:30",
+      "code": "8537",
+      "company": "大光銀",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "pdfUrl": "https://www.release.tdnet.info/inbs/140120260825525538.pdf",
+      "market": "東",
+      "category": "自社株買い",
+      "importance": "低",
+      "summary": "大光銀 - 自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "earnings": null,
+      "sentiment": "neutral",
+      "analysis": ""
+    },
+    {
+      "id": "d0015",
       "time": "16:00",
       "code": "4326",
       "company": "インテージＨＤ",
@@ -19,7 +229,7 @@
       "analysis": ""
     },
     {
-      "id": "d0002",
+      "id": "d0016",
       "time": "16:00",
       "code": "4326",
       "company": "インテージＨＤ",
@@ -34,7 +244,7 @@
       "analysis": ""
     },
     {
-      "id": "d0003",
+      "id": "d0017",
       "time": "16:00",
       "code": "4393",
       "company": "Ｇ－バンクオブイノベ",
@@ -49,7 +259,7 @@
       "analysis": "代表取締役の交代は経営方針の変化につながる可能性がある。後任の経歴と経営ビジョンに注目。"
     },
     {
-      "id": "d0004",
+      "id": "d0018",
       "time": "16:00",
       "code": "5726",
       "company": "大阪チタ",
@@ -68,7 +278,7 @@
       "analysis": ""
     },
     {
-      "id": "d0005",
+      "id": "d0019",
       "time": "16:00",
       "code": "6013",
       "company": "タクマ",
@@ -83,7 +293,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0006",
+      "id": "d0020",
       "time": "16:00",
       "code": "6087",
       "company": "アビスト",
@@ -98,7 +308,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0007",
+      "id": "d0021",
       "time": "16:00",
       "code": "8151",
       "company": "東陽テクニカ",
@@ -113,7 +323,7 @@
       "analysis": ""
     },
     {
-      "id": "d0008",
+      "id": "d0022",
       "time": "16:00",
       "code": "9425",
       "company": "ＲｅＹｕｕＪａｐａｎ",
@@ -128,7 +338,7 @@
       "analysis": ""
     },
     {
-      "id": "d0009",
+      "id": "d0023",
       "time": "16:00",
       "code": "9629",
       "company": "ピーシーエー",
@@ -143,7 +353,7 @@
       "analysis": ""
     },
     {
-      "id": "d0010",
+      "id": "d0024",
       "time": "15:30",
       "code": "1724",
       "company": "シンクレイヤ",
@@ -158,7 +368,7 @@
       "analysis": "補足説明資料で業績の背景や事業環境の分析を確認。中期経営計画との整合性をチェック。"
     },
     {
-      "id": "d0011",
+      "id": "d0025",
       "time": "15:30",
       "code": "2264",
       "company": "森永乳",
@@ -173,7 +383,7 @@
       "analysis": ""
     },
     {
-      "id": "d0012",
+      "id": "d0026",
       "time": "15:30",
       "code": "3697",
       "company": "ＳＨＩＦＴ",
@@ -188,7 +398,7 @@
       "analysis": ""
     },
     {
-      "id": "d0013",
+      "id": "d0027",
       "time": "15:30",
       "code": "3927",
       "company": "フーバーブレイン",
@@ -203,7 +413,7 @@
       "analysis": ""
     },
     {
-      "id": "d0014",
+      "id": "d0028",
       "time": "15:30",
       "code": "3958",
       "company": "笹徳印刷",
@@ -218,7 +428,7 @@
       "analysis": ""
     },
     {
-      "id": "d0015",
+      "id": "d0029",
       "time": "15:30",
       "code": "4040",
       "company": "南海化学",
@@ -233,7 +443,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0016",
+      "id": "d0030",
       "time": "15:30",
       "code": "4424",
       "company": "Ｇ－Ａｍａｚｉａ",
@@ -248,7 +458,7 @@
       "analysis": ""
     },
     {
-      "id": "d0017",
+      "id": "d0031",
       "time": "15:30",
       "code": "4424",
       "company": "Ｇ－Ａｍａｚｉａ",
@@ -263,7 +473,7 @@
       "analysis": "子会社の異動はグループ戦略の見直しを示唆。連結への影響と事業ポートフォリオの変化を確認。"
     },
     {
-      "id": "d0018",
+      "id": "d0032",
       "time": "15:30",
       "code": "4716",
       "company": "日本オラクル",
@@ -278,7 +488,7 @@
       "analysis": "支配株主に関する開示は少数株主保護の観点から重要。利益相反の有無を確認すべき。"
     },
     {
-      "id": "d0019",
+      "id": "d0033",
       "time": "15:30",
       "code": "5187",
       "company": "クリエート",
@@ -293,7 +503,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0020",
+      "id": "d0034",
       "time": "15:30",
       "code": "5271",
       "company": "トーヨーアサノ",
@@ -308,7 +518,7 @@
       "analysis": ""
     },
     {
-      "id": "d0021",
+      "id": "d0035",
       "time": "15:30",
       "code": "6728",
       "company": "アルバック",
@@ -323,7 +533,7 @@
       "analysis": ""
     },
     {
-      "id": "d0022",
+      "id": "d0036",
       "time": "15:30",
       "code": "7085",
       "company": "カーブスＨＤ",
@@ -338,7 +548,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0023",
+      "id": "d0037",
       "time": "15:30",
       "code": "7513",
       "company": "コジマ",
@@ -353,7 +563,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0024",
+      "id": "d0038",
       "time": "15:30",
       "code": "7590",
       "company": "タカショー",
@@ -372,7 +582,7 @@
       "analysis": ""
     },
     {
-      "id": "d0025",
+      "id": "d0039",
       "time": "15:30",
       "code": "7640",
       "company": "トップカルチャ",
@@ -387,7 +597,7 @@
       "analysis": ""
     },
     {
-      "id": "d0026",
+      "id": "d0040",
       "time": "15:30",
       "code": "7983",
       "company": "ミロク",
@@ -402,7 +612,7 @@
       "analysis": ""
     },
     {
-      "id": "d0027",
+      "id": "d0041",
       "time": "15:30",
       "code": "8101",
       "company": "ＧＳＩクレオス",
@@ -417,7 +627,7 @@
       "analysis": ""
     },
     {
-      "id": "d0028",
+      "id": "d0042",
       "time": "15:30",
       "code": "8963",
       "company": "Ｒ－ＩＮＶ",
@@ -436,7 +646,7 @@
       "analysis": ""
     },
     {
-      "id": "d0029",
+      "id": "d0043",
       "time": "15:30",
       "code": "8963",
       "company": "Ｒ－ＩＮＶ",
@@ -451,7 +661,7 @@
       "analysis": "決算説明資料には業績の詳細分析や今後の見通しが含まれる。セグメント別の動向と経営計画の進捗に注目。"
     },
     {
-      "id": "d0030",
+      "id": "d0044",
       "time": "15:30",
       "code": "9414",
       "company": "日本ＢＳ放送",
@@ -466,7 +676,7 @@
       "analysis": "定期的な役員人事は中立的な材料。社外取締役の比率変化などガバナンス面の変化を確認。"
     },
     {
-      "id": "d0031",
+      "id": "d0045",
       "time": "15:00",
       "code": "3106",
       "company": "クラボウ",
@@ -481,7 +691,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0032",
+      "id": "d0046",
       "time": "15:00",
       "code": "3946",
       "company": "トーモク",
@@ -496,7 +706,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0033",
+      "id": "d0047",
       "time": "15:00",
       "code": "5074",
       "company": "テスホールディングス",
@@ -511,7 +721,7 @@
       "analysis": ""
     },
     {
-      "id": "d0034",
+      "id": "d0048",
       "time": "15:00",
       "code": "7539",
       "company": "アイナボＨＤ",
@@ -526,7 +736,7 @@
       "analysis": ""
     },
     {
-      "id": "d0035",
+      "id": "d0049",
       "time": "15:00",
       "code": "7921",
       "company": "ＴＡＫＡＲＡ＆ＣＯ",
@@ -541,7 +751,7 @@
       "analysis": ""
     },
     {
-      "id": "d0036",
+      "id": "d0050",
       "time": "14:30",
       "code": "2388",
       "company": "Ｇ－ウェッジＨＤ",
@@ -556,7 +766,7 @@
       "analysis": ""
     },
     {
-      "id": "d0037",
+      "id": "d0051",
       "time": "14:30",
       "code": "5302",
       "company": "日カーボン",
@@ -571,7 +781,7 @@
       "analysis": ""
     },
     {
-      "id": "d0038",
+      "id": "d0052",
       "time": "14:00",
       "code": "7743",
       "company": "シード",
@@ -586,7 +796,7 @@
       "analysis": ""
     },
     {
-      "id": "d0039",
+      "id": "d0053",
       "time": "13:30",
       "code": "6228",
       "company": "ジェイ・イー・ティ",
@@ -601,7 +811,7 @@
       "analysis": ""
     },
     {
-      "id": "d0040",
+      "id": "d0054",
       "time": "13:00",
       "code": "2117",
       "company": "ウェルネオシュガー",
@@ -616,7 +826,7 @@
       "analysis": ""
     },
     {
-      "id": "d0041",
+      "id": "d0055",
       "time": "13:00",
       "code": "8011",
       "company": "三陽商",
@@ -631,7 +841,7 @@
       "analysis": ""
     },
     {
-      "id": "d0042",
+      "id": "d0056",
       "time": "11:30",
       "code": "1822",
       "company": "大豊建",
@@ -646,7 +856,7 @@
       "analysis": "資本業務提携はシナジー効果による成長加速が期待される。提携先の規模と提携内容の具体性が重要。"
     },
     {
-      "id": "d0043",
+      "id": "d0057",
       "time": "11:30",
       "code": "4385",
       "company": "メルカリ",
@@ -661,7 +871,7 @@
       "analysis": ""
     },
     {
-      "id": "d0044",
+      "id": "d0058",
       "time": "11:00",
       "code": "8012",
       "company": "長瀬産",
@@ -676,7 +886,7 @@
       "analysis": "毎月の自己株式取得状況の定期開示（金商法に基づく開示義務）。新規買付計画ではなく、既決定枠の進捗報告。取得実績数量と残枠の消化ペースを確認。"
     },
     {
-      "id": "d0045",
+      "id": "d0059",
       "time": "10:15",
       "code": "5983",
       "company": "イワブチ",
@@ -691,7 +901,7 @@
       "analysis": ""
     },
     {
-      "id": "d0046",
+      "id": "d0060",
       "time": "09:50",
       "code": "8252",
       "company": "丸井Ｇ",
